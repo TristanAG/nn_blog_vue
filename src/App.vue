@@ -32,8 +32,9 @@ export default {
 }
 h1{
   display: inline;
+
   margin-left: 15px;
-  margin-top: -15px;
+  
 }
 
 img{
