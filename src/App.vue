@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
+    <img src="./assets/logo.png"><h1>posts</h1>
     <test></test>
 
   </div>
@@ -28,6 +28,12 @@ export default {
   color: #2c3e50;
   margin-top: 60px;
   margin-left: 40px;
+  margin-right: 40px;
+}
+h1{
+  display: inline;
+  margin-left: 15px;
+  margin-top: -15px;
 }
 
 img{
