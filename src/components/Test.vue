@@ -3,6 +3,7 @@
     <ul v-for="post in posts">
       <li>
         <h2>{{post.title}}</h2>
+
         <div class="post-content" v-html="post.body"></div>
         <hr />
       </li>
@@ -28,8 +29,9 @@ export default {
 
   },
   created: function(){
-    this.$http.get('https://jsonplaceholder.typicode.com/posts')
+    this.$http.get('https://rawgit.com/TristanAG/test-posts/master/newposts.json')
       .then(function(response){
+        console.log(response.data);
         this.posts = response.data;
       });
   }
@@ -45,6 +47,7 @@ h1, h2 {
   font-weight: normal;
   margin-bottom: 4px;
   margin-top: -8px;
+
 }
 hr{
   margin-top: 32px;
