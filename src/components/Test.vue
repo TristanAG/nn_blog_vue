@@ -2,9 +2,10 @@
   <div class="test">
     <ul v-for="post in posts">
       <li>
-        <h2>{{post.title}}</h2>
+        <!-- <h2>{{post.title}}</h2> -->
+        <h2 v-html="post.title"></h2>
 
-        <div class="post-content" v-html="post.body"></div>
+        <div class="post-content" v-html="post.content"></div>
         <hr />
       </li>
     </ul>
@@ -29,7 +30,7 @@ export default {
 
   },
   created: function(){
-    this.$http.get('https://rawgit.com/TristanAG/test-posts/master/newposts.json')
+    this.$http.get('http://localhost:3000/posts?category=pokemon')
       .then(function(response){
         console.log(response.data);
         this.posts = response.data;
@@ -40,9 +41,7 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-.post{
 
-}
 h1, h2 {
   font-weight: normal;
   margin-bottom: 4px;
@@ -50,7 +49,7 @@ h1, h2 {
 
 }
 hr{
-  margin-top: 32px;
+  margin-top: 12px;
 
 }
 ul {

@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png"><h1>posts</h1>
+    <img src="./assets/logo.png" class="logo"><h1>posts</h1>
     <test></test>
 
   </div>
@@ -34,10 +34,14 @@ h1{
   display: inline;
 
   margin-left: 15px;
-  
+
 }
 
-img{
+.logo{
   width: 33px;
+}
+
+.pokemon-image{
+  width: 120px;
 }
 </style>
