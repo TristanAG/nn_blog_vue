@@ -1,5 +1,5 @@
 <template>
-  <div class="test">
+  <div class="big-picture">
     <ul v-for="post in posts">
       <li>
         <p><b>{{post.category}}</b></p>
@@ -18,7 +18,7 @@
 
 <script>
 export default {
-  name: 'test',
+  name: 'big-picture',
   data () {
     return {
       posts: [
@@ -30,7 +30,7 @@ export default {
 
   },
   created: function(){
-    this.$http.get('http://localhost:3000/posts?category=all-about-science')
+    this.$http.get('http://localhost:3000/posts?category=big-picture')
       .then(function(response){
         console.log(response.data);
         this.posts = response.data;

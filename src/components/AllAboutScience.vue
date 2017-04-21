@@ -1,5 +1,5 @@
 <template>
-  <div class="test">
+  <div class="all-about-science">
     <ul v-for="post in posts">
       <li>
         <p><b>{{post.category}}</b></p>
@@ -18,7 +18,7 @@
 
 <script>
 export default {
-  name: 'test',
+  name: 'all-about-science',
   data () {
     return {
       posts: [

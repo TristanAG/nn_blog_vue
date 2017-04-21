@@ -1,20 +1,32 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png" class="logo"><h1>posts</h1>
-    <test></test>
-
+    <img src="./assets/nn-logo.png" class="logo">
+    <big-picture></big-picture>
+    <all-about-science></all-about-science>
+    <kultur></kultur>
   </div>
 </template>
 
 <script>
+
+
 import Hello from './components/Hello'
-import Test from './components/Test'
+import BigPicture from './components/BigPicture'
+import AllAboutScience from './components/AllAboutScience'
+import Kultur from './components/Kultur'
+
+// import '../static/css/normalize.css'
+// import '../static/css/skeleton.css'
+
+
 
 export default {
   name: 'app',
   components: {
     Hello,
-    Test
+    BigPicture,
+    AllAboutScience,
+    Kultur
   }
 }
 </script>
@@ -38,7 +50,8 @@ h1{
 }
 
 .logo{
-  width: 33px;
+  width: 88px;
+  margin-bottom: 0px;
 }
 
 .pokemon-image{
