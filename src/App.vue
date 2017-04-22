@@ -42,6 +42,20 @@ export default {
   margin-left: 40px;
   margin-right: 40px;
 }
+a{
+  font-size: .9em;
+  color: #064880;
+  margin-right: 4px;
+  margin-left: 4px;
+}
+a:visited{
+  color: #064880;
+}
+a:hover{
+  background-color: #064880;
+  color: #fff;
+}
+
 h1{
   display: inline;
 
