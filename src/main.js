@@ -17,10 +17,10 @@ const router = new VueRouter({
   mode: 'history',
   base: __dirname,
   routes: [
-    {path: '/', component: LatestPosts},
-    {path: '/all-about-science', component: AllAboutScience},
-    {path: '/big-picture', component: BigPicture},
-    {path: '/kultur', component: Kultur}
+    {path: '/dev', component: LatestPosts},
+    {path: '/dev/all-about-science', component: AllAboutScience},
+    {path: '/dev/big-picture', component: BigPicture},
+    {path: '/dev/kultur', component: Kultur}
   ]
 });
 
@@ -36,11 +36,11 @@ new Vue({
     <img src="../../assets/nn-logo.png" class="logo">
     </span>
     <center>
-      <router-link to='/'>Home</router-link>
+      <router-link to='/dev'>Home</router-link>
       <br>
-      <router-link to='/kultur'>Kultur</router-link>
-      <router-link to='/big-picture'>Big Picture</router-link>
-      <router-link to='/all-about-science'>All About Science</router-link>
+      <router-link to='/dev/kultur'>Kultur</router-link>
+      <router-link to='/dev/big-picture'>Big Picture</router-link>
+      <router-link to='/dev/all-about-science'>All About Science</router-link>
     </center>
       <router-view></router-view>
     </div>
