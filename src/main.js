@@ -10,6 +10,7 @@ import AllAboutScience from './components/AllAboutScience'
 import BigPicture from './components/BigPicture'
 import Kultur from './components/Kultur'
 import Post from './components/Post'
+import Category from './components/Category'
 
 Vue.use(VueResource)
 Vue.use(VueRouter)
@@ -19,10 +20,14 @@ const router = new VueRouter({
   base: __dirname,
   routes: [
     {path: '/dev', component: LatestPosts},
-    {path: '/dev/all-about-science', component: AllAboutScience},
-    {path: '/dev/big-picture', component: BigPicture},
-    {path: '/dev/kultur', component: Kultur},
-    {path: '/dev/post', component: Post, props: { postId: 1 }}
+    // {path: '/dev/all-about-science', component: AllAboutScience},
+    // {path: '/dev/big-picture', component: BigPicture},
+    // {path: '/dev/kultur', component: Kultur},
+
+    {path: '/dev/post', component: Post, props: { postId: 1 }},
+    {path: '/dev/all-about-science', component: Category, props: { categoryName: 'all-about-science' }},
+    {path: '/dev/big-picture', component: Category, props: { categoryName: 'big-picture' }},
+    {path: '/dev/kultur', component: Category, props: { categoryName: 'kultur' }}
   ]
 });
 
