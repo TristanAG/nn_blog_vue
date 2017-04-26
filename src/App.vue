@@ -1,9 +1,16 @@
 <template>
   <div id="app">
-    <img src="./assets/nn-logo.png" class="logo">
-    <big-picture></big-picture>
-    <all-about-science></all-about-science>
-    <kultur></kultur>
+    <span style="float:left">
+      <img src="./assets/nn-logo.png" class="logo">
+    </span>
+    <center>
+      <router-link to='/dev'>Home</router-link>
+      <br>
+      <router-link to='/dev/kultur'>Kultur</router-link>
+      <router-link to='/dev/big-picture'>Big Picture</router-link>
+      <router-link to='/dev/all-about-science'>All About Science</router-link>
+    </center>
+    <router-view></router-view>
   </div>
 </template>
 
@@ -14,6 +21,7 @@ import Hello from './components/Hello'
 import BigPicture from './components/BigPicture'
 import AllAboutScience from './components/AllAboutScience'
 import Kultur from './components/Kultur'
+import Post from './components/Post'
 
 // import '../static/css/normalize.css'
 // import '../static/css/skeleton.css'
@@ -26,7 +34,8 @@ export default {
     Hello,
     BigPicture,
     AllAboutScience,
-    Kultur
+    Kultur,
+    Post
   }
 }
 </script>
