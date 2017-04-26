@@ -9,10 +9,6 @@
         <hr />
       </li>
     </ul>
-    <!-- <h1>Post(s)</h1>
-      <hr />
-    <h2>{{ post.title }}</h2>
-    <div v-html="post.body"></div> -->
   </div>
 </template>
 
@@ -21,15 +17,13 @@ export default {
   name: 'category',
   data () {
     return {
-      posts: [
-
-      ]
+      posts: []
     }
   },
   props: {
     categoryName: {
       type: String,
-      default: 'test'
+      default: null
     }
   },
   methods: {

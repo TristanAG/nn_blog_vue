@@ -10,33 +10,18 @@
       <router-link to='/dev/big-picture'>Big Picture</router-link>
       <router-link to='/dev/all-about-science'>All About Science</router-link>
     </center>
+    <hr />
     <router-view></router-view>
   </div>
 </template>
 
 <script>
 
-
-import Hello from './components/Hello'
-import BigPicture from './components/BigPicture'
-import AllAboutScience from './components/AllAboutScience'
-import Kultur from './components/Kultur'
-import Post from './components/Post'
-
 // import '../static/css/normalize.css'
 // import '../static/css/skeleton.css'
 
-
-
 export default {
-  name: 'app',
-  components: {
-    Hello,
-    BigPicture,
-    AllAboutScience,
-    Kultur,
-    Post
-  }
+  name: 'app'
 }
 </script>
 
