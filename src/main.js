@@ -18,11 +18,15 @@ const router = new VueRouter({
   base: __dirname,
   routes: [
     {path: '/dev', component: LatestPosts},
-    {path: '/dev/big-picture/:postId', component: Post}, /* <-this works */
+
+    {path: '/dev/big-picture', component: Category, props: { categoryName: 'big-picture' }},
+    {path: '/dev/big-picture/:postUrl', component: Post}, /* <-this works */
 
     {path: '/dev/all-about-science', component: Category, props: { categoryName: 'all-about-science' }},
-    {path: '/dev/big-picture', component: Category, props: { categoryName: 'big-picture' }},
-    {path: '/dev/kultur', component: Category, props: { categoryName: 'kultur' }}
+    {path: '/dev/all-about-science/:postUrl', component: Post},
+
+    {path: '/dev/kultur', component: Category, props: { categoryName: 'kultur' }},
+    {path: '/dev/kultur/:postUrl', component: Post}
   ]
 });
 

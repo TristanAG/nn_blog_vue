@@ -1,6 +1,5 @@
 <template>
-  <div class="post">
-    <h1>{{$route.params.postId}}</h1>
+  <div class="post">    
     <p><b>{{post.category}}</b></p>
     <h2>{{post.title}}</h2>
     <p>By: {{post.author}}</p>
@@ -21,15 +20,20 @@ export default {
     postId: {
       type: Number,
       default: 1
+    },
+    postUrl: {
+      type: String,
+      default: 'test'
     }
   },
   methods: {
     fetchData(){
-      var id = this.$route.params.postId
-      this.$http.get('http://localhost:3000/posts/' + id)
+      var url = this.$route.params.postUrl
+      this.$http.get('http://localhost:3000/posts?url=' + url)
         .then(function(response){
           console.log(response.data);
-          this.post = response.data;
+
+          this.post = response.data[0];
         });
     }
   },
