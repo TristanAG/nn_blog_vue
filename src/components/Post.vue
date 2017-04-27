@@ -23,32 +23,22 @@ export default {
       default: 1
     }
   },
-  // methods: {
-  //   fetchData(){
-  //     var id = this.$route.params.postId
-  //     this.$http.get('http://localhost:3000/posts/' + id)
-  //       .then(function(response){
-  //         console.log(response.data);
-  //         this.posts = response.data;
-  //       });
-  //   }
-  // },
-
+  methods: {
+    fetchData(){
+      var id = this.$route.params.postId
+      this.$http.get('http://localhost:3000/posts/' + id)
+        .then(function(response){
+          console.log(response.data);
+          this.post = response.data;
+        });
+    }
+  },
+  watch: {
+    '$route': 'fetchData'
+  },
   created: function(){
-    var id = this.$route.params.postId
-
-    this.$http.get('http://localhost:3000/posts/' + id)
-      .then(function(response){
-        console.log(response.data);
-        this.post = response.data;
-      });
+    this.fetchData()
   }
-  // watch: {
-  //   '$route': 'fetchData'
-  // },
-  // created: function(){
-  //   this.fetchData()
-  // }
 }
 </script>
 
