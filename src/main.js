@@ -18,7 +18,8 @@ const router = new VueRouter({
   base: __dirname,
   routes: [
     {path: '/dev', component: LatestPosts},
-    {path: '/dev/post', component: Post, props: { postId: 1 }}, /* <-this works */
+    {path: '/dev/big-picture/:postId', component: Post}, /* <-this works */
+
     {path: '/dev/all-about-science', component: Category, props: { categoryName: 'all-about-science' }},
     {path: '/dev/big-picture', component: Category, props: { categoryName: 'big-picture' }},
     {path: '/dev/kultur', component: Category, props: { categoryName: 'kultur' }}

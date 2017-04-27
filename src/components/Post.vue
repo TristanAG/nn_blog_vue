@@ -1,6 +1,6 @@
 <template>
   <div class="post">
-    <h1>{{postId}}</h1>
+    <h1>{{$route.params.postId}}</h1>
     <p><b>{{post.category}}</b></p>
     <h2>{{post.title}}</h2>
     <p>By: {{post.author}}</p>
@@ -23,17 +23,32 @@ export default {
       default: 1
     }
   },
-  methods: {
+  // methods: {
+  //   fetchData(){
+  //     var id = this.$route.params.postId
+  //     this.$http.get('http://localhost:3000/posts/' + id)
+  //       .then(function(response){
+  //         console.log(response.data);
+  //         this.posts = response.data;
+  //       });
+  //   }
+  // },
 
-  },
   created: function(){
-    var id = this.postId
+    var id = this.$route.params.postId
+
     this.$http.get('http://localhost:3000/posts/' + id)
       .then(function(response){
         console.log(response.data);
         this.post = response.data;
       });
   }
+  // watch: {
+  //   '$route': 'fetchData'
+  // },
+  // created: function(){
+  //   this.fetchData()
+  // }
 }
 </script>
 
