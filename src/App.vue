@@ -2,7 +2,7 @@
 
 <template>
   <div id="app">
-    
+
     <header-menu></header-menu>
     <hr />
     <router-view></router-view>
@@ -15,8 +15,9 @@
 import '../static/css/normalize.css'
 import '../static/css/skeleton.css'
 import '../static/css/style.css'
-window.$ = window.jQuery = require("jquery");
+import '../node_modules/font-awesome/css/font-awesome.css';
 
+window.$ = window.jQuery = require("jquery");
 
 export default {
   name: 'app'

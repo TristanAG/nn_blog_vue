@@ -26,10 +26,6 @@ var webpackConfig = merge(baseWebpackConfig, {
     chunkFilename: utils.assetsPath('js/[id].[chunkhash].js')
   },
   plugins: [
-    new webpack.ProvidePlugin({
-            $: "jquery",
-            jQuery: "jquery"
-        }),
     new PrerenderSpaPlugin(
       // Path to compiled app
       path.join(__dirname, '../dist'),
