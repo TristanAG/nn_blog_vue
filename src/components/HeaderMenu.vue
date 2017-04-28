@@ -82,10 +82,20 @@ $( document ).ready( function() {
   $( '#menu-display' ).click(function () {
     if( !visible ){
       visible = true
-      $( '#mobile-menu' ).slideDown( 'fast' )
+      $( '#mobile-menu' ).slideDown( '.4' )
+      $( '.columns' ).fadeTo( "slow", 0.2 )
     } else {
       visible = false
       $( '#mobile-menu' ).slideUp( 'fast' )
+      $( '.columns' ).fadeTo( "slow", 1 )
+    }
+  })
+
+  $( '#mobile-menu' ).click(function () {
+    if( visible ){
+      visible = false
+      $( '#mobile-menu' ).slideUp( '.4' )
+      $( '.columns' ).fadeTo( "slow", 1 )
     }
   })
 })
