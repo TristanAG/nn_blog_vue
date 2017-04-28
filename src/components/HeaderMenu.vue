@@ -44,22 +44,25 @@
             <a href="https://twitter.com/nordicnaturals" target="_none"><i class="fa fa-twitter" aria-hidden="true"></i></a>
             <a href="https://www.instagram.com/nordicnaturals/" target="_none"><i class="fa fa-instagram" aria-hidden="true" style="margin-right: 0px"></i></a>
           </h5>
+          <br>
+          $ $ $ T E M P $ $ $
+          <router-link to='/dev'>Home</router-link>
+          <br>
+          categories:
+          <router-link to='/dev/kultur'>Kultur</router-link>
+          <router-link to='/dev/big-picture'>Big Picture</router-link>
+          <router-link to='/dev/all-about-science'>All About Science</router-link>
+          <br>
+          posts:
+          <router-link to='/dev/big-picture/refuse-reduce-reuse-10-things-to-clean-up-our-oceans'>Big Picture post 1</router-link>
+          <router-link to='/dev/all-about-science/why-natural-form-fish-oils-are-better-for-your-body-and-your-wallet'>All about science post 1</router-link>
         </div>
         </div>
       </div>
     </div>
   </div>
 
-    <router-link to='/dev'>Home</router-link>
-    <br>
-    categories:
-    <router-link to='/dev/kultur'>Kultur</router-link>
-    <router-link to='/dev/big-picture'>Big Picture</router-link>
-    <router-link to='/dev/all-about-science'>All About Science</router-link>
-    <br>
-    posts:
-    <router-link to='/dev/big-picture/refuse-reduce-reuse-10-things-to-clean-up-our-oceans'>Big Picture post 1</router-link>
-    <router-link to='/dev/all-about-science/why-natural-form-fish-oils-are-better-for-your-body-and-your-wallet'>All about science post 1</router-link>
+
   </div>
 </template>
 

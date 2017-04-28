@@ -4,9 +4,25 @@
   <div id="app">
 
     <header-menu></header-menu>
-    <hr />
-    <router-view></router-view>
-    <sidebar></sidebar>
+
+    <div class="hero-image" v-if="$route.path === '/dev'">
+      <img src="./assets/nn-hp-1A-compressor.jpg" id="hero-image" >
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="eight columns">
+
+          <router-view></router-view>
+
+        </div>
+        <div class="four columns">
+          <sidebar></sidebar>
+        </div>
+      </div>
+    </div>
+
+
   </div>
 </template>
 
