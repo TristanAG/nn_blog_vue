@@ -1,28 +1,22 @@
+
+
 <template>
   <div id="app">
-    <span style="float:left">
-      <img src="./assets/nn-logo.png" class="logo">
-    </span>
-    <center>
-      <router-link to='/dev'>Home</router-link>
-      <br>
-      <router-link to='/dev/kultur'>Kultur</router-link>
-      <router-link to='/dev/big-picture'>Big Picture</router-link>
-      <router-link to='/dev/all-about-science'>All About Science</router-link>
-      <br>
-      <router-link to='/dev/big-picture/refuse-reduce-reuse-10-things-to-clean-up-our-oceans'>Big Picture post 1</router-link>
-      <router-link to='/dev/all-about-science/why-natural-form-fish-oils-are-better-for-your-body-and-your-wallet'>All about science post 1</router-link>
-
-    </center>
+    
+    <header-menu></header-menu>
     <hr />
     <router-view></router-view>
+    <sidebar></sidebar>
   </div>
 </template>
 
 <script>
 
-// import '../static/css/normalize.css'
-// import '../static/css/skeleton.css'
+import '../static/css/normalize.css'
+import '../static/css/skeleton.css'
+import '../static/css/style.css'
+window.$ = window.jQuery = require("jquery");
+
 
 export default {
   name: 'app'
@@ -30,43 +24,5 @@ export default {
 </script>
 
 <style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  /*text-align: center;*/
-  color: #2c3e50;
-  margin-top: 60px;
-  margin-left: 40px;
-  margin-right: 40px;
-}
-a{
-  font-size: .9em;
-  color: #064880;
-  margin-right: 4px;
-  margin-left: 4px;
-}
-a:visited{
-  color: #064880;
-}
-a:hover{
-  background-color: #064880;
-  color: #fff;
-}
 
-h1{
-  display: inline;
-
-  margin-left: 15px;
-
-}
-
-.logo{
-  width: 88px;
-  margin-bottom: 0px;
-}
-
-.pokemon-image{
-  width: 120px;
-}
 </style>

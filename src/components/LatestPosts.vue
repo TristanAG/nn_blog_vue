@@ -9,10 +9,6 @@
         <hr />
       </li>
     </ul>
-    <!-- <h1>Post(s)</h1>
-      <hr />
-    <h2>{{ post.title }}</h2>
-    <div v-html="post.body"></div> -->
   </div>
 </template>
 
@@ -21,13 +17,8 @@ export default {
   name: 'latest-posts',
   data () {
     return {
-      posts: [
-
-      ]
+      posts: []
     }
-  },
-  methods: {
-
   },
   created: function(){
     this.$http.get('http://localhost:3000/posts')
@@ -41,7 +32,7 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-
+/*
 h1, h2 {
   font-weight: normal;
   margin-bottom: 4px;
@@ -67,5 +58,5 @@ li {
 }
 a {
   color: #42b983;
-}
+}*/
 </style>

@@ -1,5 +1,7 @@
 // The Vue build version to load with the `import` command
 // (runtime-only or standalone) has been set in webpack.base.conf with an alias.
+var $ = require ('jquery');
+
 import Vue from 'vue'
 import VueResource from 'vue-resource'
 import VueRouter from 'vue-router'
@@ -9,6 +11,12 @@ import App from './App'
 import LatestPosts from './components/LatestPosts'
 import Post from './components/Post'
 import Category from './components/Category'
+
+import Sidebar from './components/Sidebar'
+Vue.component('sidebar', Sidebar)
+
+import HeaderMenu from './components/HeaderMenu'
+Vue.component('header-menu', HeaderMenu)
 
 Vue.use(VueResource)
 Vue.use(VueRouter)
