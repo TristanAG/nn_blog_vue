@@ -8,7 +8,7 @@
       <li v-if="index === 0">
         <div class="post-preview">
           <router-link :to="'/dev/' + post.category + '/' + post.url">
-            <div class="category">{{post.category}}</div>
+            <div class="category">{{post.categoryText}}</div>
             <div class="title" style="font-size: 1.33em;">{{post.title}}</div>
             <img :src="post.imageUrl" >
             <p>{{post.contentPreview}}</p>

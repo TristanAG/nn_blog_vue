@@ -2,9 +2,9 @@
   <div class="header-menu">
     <div id="post-header">
       <div class="container">
-        <div class="row" id="menu-display">
+        <div class="row">
           <div id="header-left">
-            <a href="index.html"><h5>nn_blog</h5></a>
+            <router-link to="/dev"><img src="../assets/nn-naturallyspeaking_horizontal.png" id="logo"></router-link>
           </div>
 
           <div id="header-right">
