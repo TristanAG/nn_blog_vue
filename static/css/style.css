@@ -19,6 +19,8 @@ a:hover{
   text-decoration: underline;
 }
 
+
+
 h5{
   font-family: 'Montserrat', sans-serif;
   color: #000;
@@ -88,12 +90,12 @@ h5 i:hover{
   cursor: pointer;
 }
 
-.social-icons{ text-align: right }
+.social-icons{ text-align: right}
 .social-icons i{
   margin-left: 10px;
-  margin-right: 10px;
-  margin-top: 4px;
-  margin-bottom: 4px;
+  margin-right: 0px;
+  margin-top: 14px;
+  margin-bottom: 14px;
 }
 
 .social-sharing{
