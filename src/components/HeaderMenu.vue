@@ -32,7 +32,7 @@
               </li>
             </ul>
             <router-link to="/dev/contributors"><h5>CONTRIBUTORS</h5></router-link>
-            
+
             <div class="social-icons">
               <h5>
                 <a href="https://www.facebook.com/nordicnaturals/" target="_none"><i class="fa fa-facebook" aria-hidden="true"></i></a>
@@ -80,8 +80,3 @@ $( document ).ready( function() {
 })
 
 </script>
-
-<style scoped>
-
-</style>
-<!-- Add "scoped" attribute to limit CSS to this component only -->
