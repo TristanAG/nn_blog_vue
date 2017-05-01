@@ -17,23 +17,20 @@
     <div id="mobile-menu">
     <div class="container">
       <div class="row">
-          <a href="index.html"><h5>LATEST POSTS</h5></a>
+          <router-link to="/dev"><h5>LATEST POSTS</h5></router-link>
           <ul>
             <li class="category-sidebar">
-              <a href="big-picture/refuse-reduce-reuse.html" >Refuse, Reduce, Reuse: 10 Things We Can All Do to Clean Up Our Oceans</a>
+              <router-link to='/dev/big-picture/refuse-reduce-reuse-10-things-to-clean-up-our-oceans'>Refuse, Reduce, Reuse: 10 Things We Can All Do to Clean Up Our Oceans</router-link>
             </li>
 
             <li class="category-sidebar">
-              <a href="all-about-science/why-natural-form-fish-oils-are-better.html">Why Natural-Form Fish Oils are Better for Your
-                Body—and Your Wallet</a>
+              <router-link to='/dev/all-about-science/why-natural-form-fish-oils-are-better-for-your-body-and-your-wallet'>Why Natural-Form Fish Oils are Better for Your
+                Body—and Your Wallet</router-link>
             </li>
 
             <li class="category-sidebar">
-              <a href="the-nordic-way/meet-jonna.html">Inside Nordic Naturals: Meet Jonna, Customer Service Rep
-                Extraordinaire</a>
+              <router-link to="/dev/kultur/inside-nordic-naturals-meet-jonna-customer-service-rep-extraordinaire">Inside Nordic Naturals: Meet Jonna, Customer Service Rep Extraordinaire</router-link>
             </li>
-
-
           </ul>
           <a href="contributors.html"><h5>CONTRIBUTORS</h5></a>
           <br>

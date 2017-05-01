@@ -9,6 +9,7 @@ import App from './App'
 import LatestPosts from './components/LatestPosts'
 import Post from './components/Post'
 import Category from './components/Category'
+import Contributors from './components/Contributors'
 
 import Sidebar from './components/Sidebar'
 Vue.component('sidebar', Sidebar)
@@ -24,7 +25,7 @@ const router = new VueRouter({
   base: __dirname,
   routes: [
     {path: '/dev', component: LatestPosts},
-
+    {path: '/dev/contributors', component: Contributors},
     {path: '/dev/big-picture', component: Category, props: { categoryName: 'big-picture' }},
     {path: '/dev/big-picture/:postUrl', component: Post}, /* <-this works */
 

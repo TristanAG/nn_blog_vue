@@ -1,5 +1,3 @@
-
-
 <template>
   <div id="app">
 
@@ -39,7 +37,3 @@ export default {
   name: 'app'
 }
 </script>
-
-<style>
-
-</style>
