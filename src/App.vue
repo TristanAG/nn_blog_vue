@@ -7,7 +7,7 @@
       <img src="./assets/nn-hp-1A-compressor.jpg" id="hero-image" >
     </div>
 
-    <div class="container">
+    <div class="container" id="main-container">
       <div class="row">
         <div class="eight columns">
 

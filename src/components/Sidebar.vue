@@ -1,15 +1,13 @@
 <template>
   <div class="sidebar">
-    <router-link to='/dev'>Home</router-link>
-    <br>
-    categories:
-    <router-link to='/dev/kultur'>Kultur</router-link>
-    <router-link to='/dev/big-picture'>Big Picture</router-link>
-    <router-link to='/dev/all-about-science'>All About Science</router-link>
-    <br>
-    posts:
-    <router-link to='/dev/big-picture/refuse-reduce-reuse-10-things-to-clean-up-our-oceans'>Big Picture post 1</router-link>
-    <router-link to='/dev/all-about-science/why-natural-form-fish-oils-are-better-for-your-body-and-your-wallet'>All about science post 1</router-link>
+    <h5>ARCHIVES</h5>
+    <hr />
+    <ul>
+      <li v-for="post in posts" class="category-sidebar">
+        <router-link :to="'/dev/' + post.category + '/' + post.url">{{post.title}}</router-link>
+        <hr class="hr-category" />
+      </li>
+    </ul>
   </div>
 </template>
 
@@ -20,6 +18,12 @@ export default {
     return {
       posts: []
     }
+  },
+  created: function(){
+    this.$http.get('http://localhost:3000/posts')
+      .then(function(response){
+        this.posts = response.data;
+      });
   }
 }
 </script>

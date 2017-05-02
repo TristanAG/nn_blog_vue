@@ -4,8 +4,6 @@
     <h5>LATEST POSTS</h5>
     <hr />
 
-    <p v-for="post in recentPosts">{{post.title}}</p>
-
     <!-- main post -->
     <div class="post-preview">
       <router-link :to="'/dev/' + mainPost.category + '/' + mainPost.url">
@@ -59,11 +57,11 @@
         <div class="post-preview">
           <div class="category">{{post.category}}</div>
           <div class="title">{{post.title}}</div>
-          <a href="all-about-science/why-natural-form-fish-oils-are-better.html">
+          <router-link :to="'/dev/' + post.category + '/' + post.url">
             <img :src="post.imageUrl" >
             <p>{{post.contentPreview}}</p>
             <div class="read-more"><p>read more</p></div>
-          </a>
+          </router-link>
         </div>
       </div>
     </div>
