@@ -4,26 +4,71 @@
     <h5>LATEST POSTS</h5>
     <hr />
 
-    <ul v-for="(post, index) in posts">
-      <li v-if="index === 0">
+    <p v-for="post in recentPosts">{{post.title}}</p>
+
+    <!-- main post -->
+    <div class="post-preview">
+      <router-link :to="'/dev/' + mainPost.category + '/' + mainPost.url">
+        <div class="category">{{mainPost.categoryText}}</div>
+        <div class="title" style="font-size: 1.33em;">{{mainPost.title}}</div>
+        <img :src="mainPost.imageUrl" >
+        <p>{{mainPost.contentPreview}}</p>
+        <div class="read-more"><p>read more</p></div>
+      </router-link>
+    </div>
+
+    <!--full view post previews -->
+    <div id="full-view-mini-post">
+      <!-- version 1 has margin-right -->
+      <div
+        v-for="(post, index) in posts"
+        v-if="index > 0 && index % 2 === 1"
+        class="mini-post-preview"
+        style="margin-right: 5.8%">
         <div class="post-preview">
           <router-link :to="'/dev/' + post.category + '/' + post.url">
-            <div class="category">{{post.categoryText}}</div>
-            <div class="title" style="font-size: 1.33em;">{{post.title}}</div>
+            <div class="category">{{post.category}}</div>
+            <div class="title">{{post.title}}</div>
             <img :src="post.imageUrl" >
             <p>{{post.contentPreview}}</p>
             <div class="read-more"><p>read more</p></div>
           </router-link>
         </div>
-      </li>
-      <li v-else="index > 0">
-        <p><b>{{post.category}}</b></p>
-        <h2>{{post.title}}</h2>
-        <p>By: {{post.author}}</p>
-        <div class="post-content" v-html="post.content"></div>
-        <hr />
-      </li>
-    </ul>
+      </div>
+      <!-- version 2 has no margin-right -->
+      <div
+        v-else-if="index > 0 && index % 2 === 0"
+        class="mini-post-preview">
+        <div class="post-preview">
+          <router-link :to="'/dev/' + post.category + '/' + post.url">
+            <div class="category">{{post.category}}</div>
+            <div class="title">{{post.title}}</div>
+            <img :src="post.imageUrl" >
+            <p>{{post.contentPreview}}</p>
+            <div class="read-more"><p>read more</p></div>
+          </router-link>
+        </div>
+      </div>
+    </div>
+
+    <!--small view post previews (only appear in mobile view) -->
+    <div id="small-view-mini-posts">
+      <div
+        v-for="(post, index) in posts"
+        v-if="index > 0"
+        class="past-post-preview">
+        <div class="post-preview">
+          <div class="category">{{post.category}}</div>
+          <div class="title">{{post.title}}</div>
+          <a href="all-about-science/why-natural-form-fish-oils-are-better.html">
+            <img :src="post.imageUrl" >
+            <p>{{post.contentPreview}}</p>
+            <div class="read-more"><p>read more</p></div>
+          </a>
+        </div>
+      </div>
+    </div>
+
   </div>
 </template>
 
@@ -32,7 +77,10 @@ export default {
   name: 'latest-posts',
   data () {
     return {
-      posts: []
+      posts: [],
+      mainPost: {},
+      recentPosts: []
+      /* consider creating recentPosts[] for the two special cases */
     }
   },
   created: function(){
@@ -40,6 +88,8 @@ export default {
       .then(function(response){
         console.log(response.data);
         this.posts = response.data;
+        this.mainPost = this.posts[0];
+        this.recentPosts = this.posts.slice(1,3);
       });
   }
 }
