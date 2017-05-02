@@ -20,6 +20,8 @@
       </div>
     </div>
 
+    <footer-block></footer-block>
+
 
   </div>
 </template>

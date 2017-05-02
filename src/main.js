@@ -17,6 +17,9 @@ Vue.component('sidebar', Sidebar)
 import HeaderMenu from './components/HeaderMenu'
 Vue.component('header-menu', HeaderMenu)
 
+import FooterBlock from './components/FooterBlock'
+Vue.component('footer-block', FooterBlock)
+
 Vue.use(VueResource)
 Vue.use(VueRouter)
 
