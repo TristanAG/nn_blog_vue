@@ -21,8 +21,8 @@
     <div id="full-view-mini-post">
       <!-- version 1 has margin-right -->
       <div
-        v-for="(post, index) in posts"
-        v-if="index > 0 && index % 2 === 1"
+        v-for="(post, index) in recentPosts"
+        v-if="index % 2 === 0"
         class="mini-post-preview"
         style="margin-right: 5.8%">
         <div class="post-preview">
@@ -37,7 +37,7 @@
       </div>
       <!-- version 2 has no margin-right -->
       <div
-        v-else-if="index > 0 && index % 2 === 0"
+        v-else-if="index % 2 === 1"
         class="mini-post-preview">
         <div class="post-preview">
           <router-link :to="'/dev/' + post.category + '/' + post.url">
@@ -54,8 +54,7 @@
     <!--small view post previews (only appear in mobile view) -->
     <div id="small-view-mini-posts">
       <div
-        v-for="(post, index) in posts"
-        v-if="index > 0"
+        v-for="(post, index) in recentPosts"
         class="past-post-preview">
         <div class="post-preview">
           <div class="category">{{post.category}}</div>
