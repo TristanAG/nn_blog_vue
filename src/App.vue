@@ -7,21 +7,14 @@
       <img src="./assets/nn-hp-1A-compressor.jpg" id="hero-image" >
     </div>
 
-    <div class="container" id="main-container">
-      <div class="row">
-        <div class="eight columns">
+
+
 
           <router-view></router-view>
 
-        </div>
-        <div class="four columns">
-          <sidebar></sidebar>
-        </div>
-      </div>
-    </div>
+        
 
     <footer-block></footer-block>
-
 
   </div>
 </template>
