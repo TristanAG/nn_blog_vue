@@ -1,15 +1,14 @@
 <template>
   <div class="post">
-
     <div class="desktop-image-mod">
       <h5>{{post.categoryText}}</h5>
       <hr />
       <h1>{{post.title}}</h1>
       <img :src="post.imageUrl">
-      <p class="author-link">By <a href="../contributors.html">{{post.author}}</a></p>
+      <p class="author-link">By <router-link to="/dev/contributors">{{post.author}}</router-link></p>
     </div>
-    <div class="post-content" v-html="post.content"></div>
 
+    <div class="post-content" v-html="post.content"></div>
 
     <div class="social-sharing">
       <b>Share this post</b>
@@ -18,11 +17,36 @@
       <a href="mailto:?subject=post.title&body=body"><i class="fa fa-envelope" aria-hidden="true"></i></a>
     </div>
 
-    <!-- <p><b>{{post.category}}</b></p>
-    <h2>{{post.title}}</h2>
-    <p>By: {{post.author}}</p>
-    <div class="post-content" v-html="post.content"></div>
-    <hr /> -->
+    <h5 style="margin-top: 62px;">YOU MAY ALSO LIKE</h5>
+    <hr />
+
+    <div id="mini-posts-full">
+      <div class="mini-mini-post-preview" style="margin-right: 5.8%">
+        <router-link :to="'/dev/' + post.ref1category + '/' + post.ref1url">
+          <div class="title">{{post.ref1title}}</div>
+          <img :src="post.ref1img">
+        </router-link>
+      </div>
+      <div class="mini-mini-post-preview">
+        <router-link :to="'/dev/' + post.ref2category + '/' + post.ref2url">
+          <div class="title">{{post.ref2title}}</div>
+          <img :src="post.ref2img">
+        </router-link>
+      </div>
+    </div>
+
+    <div id="mini-posts-mobile">
+      <router-link :to="'/dev/' + post.ref1category + '/' + post.ref1url">
+        <div class="title">{{post.ref1title}}</div>
+        <img :src="post.ref1img">
+      </router-link>
+
+      <router-link :to="'/dev/' + post.ref2category + '/' + post.ref2url">
+        <div class="title">{{post.ref2title}}</div>
+        <img :src="post.ref2img">
+      </router-link>
+    </div>
+
   </div>
 </template>
 
@@ -49,15 +73,16 @@ export default {
       var url = this.$route.params.postUrl
       this.$http.get('http://localhost:3000/posts?url=' + url)
         .then(function(response){
-          this.post = response.data[0];
-        });
+          console.log(response.data)
+          this.post = response.data[0]
+      });
     }
   },
   watch: {
-    '$route': 'fetchData'
+    '$route': 'fetchData',
   },
   created: function(){
-    this.fetchData()
+    this.fetchData();
   }
 }
 </script>

@@ -37,7 +37,10 @@ const router = new VueRouter({
 
     {path: '/dev/kultur', component: Category, props: { categoryName: 'kultur' }},
     {path: '/dev/kultur/:postUrl', component: Post}
-  ]
+  ],
+  scrollBehavior (to, from, savedPosition) {
+    return { x: 0, y: 0 }
+  }
 });
 
 Vue.config.productionTip = false
