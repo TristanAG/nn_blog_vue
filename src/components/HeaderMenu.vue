@@ -59,13 +59,11 @@ $( document ).ready( function() {
     if( !visible ){
       visible = true
       $( '#mobile-menu' ).slideDown( '.4' )
-      $( '.columns' ).fadeTo( "slow", 0.4 )
-      $( '.hero-image' ).fadeTo( "slow", 0.4 )
+      $( '#fader' ).fadeTo( "slow", 0.4)
     } else {
       visible = false
       $( '#mobile-menu' ).slideUp( 'fast' )
-      $( '.columns' ).fadeTo( "slow", 1 )
-      $( '.hero-image' ).fadeTo( "slow", 1 )
+      $( '#fader' ).fadeTo( "slow", 1 )
     }
   })
 
@@ -73,8 +71,7 @@ $( document ).ready( function() {
     if( visible ){
       visible = false
       $( '#mobile-menu' ).slideUp( '.4' )
-      $( '.columns' ).fadeTo( "slow", 1 )
-      $( '.hero-image' ).fadeTo( "slow", 1 )
+      $( '#fader' ).fadeTo( "slow", 1 )
     }
   })
 })

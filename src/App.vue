@@ -2,7 +2,7 @@
   <div id="app">
 
     <header-menu></header-menu>
-
+    <div id="fader">
     <div class="hero-image" v-if="$route.path === '/dev'">
       <img src="./assets/nn-hp-1A-compressor.jpg" id="hero-image" >
     </div>
@@ -12,10 +12,10 @@
 
           <router-view></router-view>
 
-        
+
 
     <footer-block></footer-block>
-
+  </div>
   </div>
 </template>
 

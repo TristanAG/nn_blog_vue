@@ -1,8 +1,7 @@
 <template>
   <div class="post">
-
+    <!-- [mobile only code for full-width image] -->
     <div class="buffer"></div>
-
     <div class="mobile-image-mod">
       <div class="container" >
         <h5>BIG PICTURE</h5>
@@ -12,7 +11,7 @@
       <img :src="post.imageUrl">
       <p class="author-link">By <router-link to="/dev/contributors">{{post.author}}</router-link></p>
     </div>
-
+    <!-- [/mobile only code for full-width image] -->
 
     <div class="container" id="main-container">
       <div class="row">
@@ -24,7 +23,6 @@
             <img :src="post.imageUrl">
             <p class="author-link">By <router-link to="/dev/contributors">{{post.author}}</router-link></p>
           </div>
-
           <div class="post-content" v-html="post.content"></div>
 
           <div class="social-sharing">

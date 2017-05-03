@@ -1,0 +1,61 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "category": "big-picture",
+      "categoryText": "BIG PICTURE",
+      "author": "CLAUDIA BURGIN",
+      "url": "refuse-reduce-reuse-10-things-to-clean-up-our-oceans",
+      "title": "Refuse, Reduce, Reuse: 10 Things We Can All Do to Clean Up Our Oceans",
+      "imageUrl": "http://www.nordicnaturals.com/dev/blog-images/refuse-reduce-reuse-compressor.jpg",
+      "contentPreview": "Ocean \"smog\" created from the disposable plastics we all throw away has become a huge concern. Right now, there are some 270,000 tons of trash swirling around the world's oceans in giant, tangled heaps.",
+      "content": "<p>Ocean 'smog' created from the disposable plastics we all throw away has become a huge concern. Right now, there are some 270,000 tons of trash swirling around the world's oceans in giant, tangled heaps. Ocean waves break these plastics down into smaller and smaller pieces, endangering the surrounding marine life as fish and birds either digest the plastic debris, mistaking it for food, or become entangled in it. Some of the plastic toxins they digest even make it up the food chain into the fish many of us eat. That’s right—we’re eating the plastic trash, too. One study found that one-quarter of all fish sold in California markets had microplastics and fibers in their guts.</p><p>Ocean 'smog' created from the disposable plastics we all throw away has become a huge concern. Right now, there are some 270,000 tons of trash swirling around the world's oceans in giant, tangled heaps. Ocean waves break these plastics down into smaller and smaller pieces, endangering the surrounding marine life as fish and birds either digest the plastic debris, mistaking it for food, or become entangled in it. Some of the plastic toxins they digest even make it up the food chain into the fish many of us eat. That’s right—we’re eating the plastic trash, too. One study found that one-quarter of all fish sold in California markets had microplastics and fibers in their guts.</p>",
+      "ref1title": "Why Natural-Form Fish Oils are Better for Your Body—and Your Wallet",
+      "ref1category": "all-about-science",
+      "ref1url": "why-natural-form-fish-oils-are-better-for-your-body-and-your-wallet",
+      "ref1img": "http://www.nordicnaturals.com/dev/blog-images/capsules-and-fish.jpg",
+      "ref2title": "Inside Nordic Naturals: Meet Jonna, Customer Service Rep Extraordinaire",
+      "ref2category": "kultur",
+      "ref2url": "inside-nordic-naturals-meet-jonna-customer-service-rep-extraordinaire",
+      "ref2img": "http://www.nordicnaturals.com/dev/blog-images/jonna-compressor.jpg"
+    },
+    {
+      "id": 2,
+      "category": "all-about-science",
+      "categoryText": "ALL ABOUT SCIENCE",
+      "author": "NICHOLAS NOLOBOFF",
+      "url": "why-natural-form-fish-oils-are-better-for-your-body-and-your-wallet",
+      "title": "Why Natural-Form Fish Oils are Better for Your Body—and Your Wallet",
+      "imageUrl": "http://www.nordicnaturals.com/dev/blog-images/capsules-and-fish.jpg",
+      "contentPreview": "“Triglycerides” may sound intimidating, but all you really need to know is that they’re the form of omega-3 fats that your body ...",
+      "content": "<p>“Triglycerides” are something we talk about a lot at Nordic Naturals. They sound intimidating, but all you really need to know is that they’re the form of omega-3 fats that your body prefers. And, many fish oils on the market today are not triglyceride form. Let me explain.</p>",
+      "ref1title": "Why Natural-Form Fish Oils are Better for Your Body—and Your Wallet",
+      "ref1category": "all-about-science",
+      "ref1url": "why-natural-form-fish-oils-are-better-for-your-body-and-your-wallet",
+      "ref1img": "http://www.nordicnaturals.com/dev/blog-images/capsules-and-fish.jpg",
+      "ref2title": "Inside Nordic Naturals: Meet Jonna, Customer Service Rep Extraordinaire",
+      "ref2category": "kultur",
+      "ref2url": "inside-nordic-naturals-meet-jonna-customer-service-rep-extraordinaire",
+      "ref2img": "http://www.nordicnaturals.com/dev/blog-images/jonna-compressor.jpg"
+    },
+    {
+      "id": 3,
+      "category": "kultur",
+      "categoryText": "KULTUR",
+      "author": "NORDIC NATURALS STAFF",
+      "url": "inside-nordic-naturals-meet-jonna-customer-service-rep-extraordinaire",
+      "title": "Inside Nordic Naturals: Meet Jonna, Customer Service Rep Extraordinaire",
+      "imageUrl": "http://www.nordicnaturals.com/dev/blog-images/jonna-compressor.jpg",
+      "contentPreview": "“Triglycerides” may sound intimidating, but all you really need to know is that they’re the form of omega-3 fats that your body ...",
+      "content": "<p>If you happen to call Nordic Naturals to place an order or ask a product question, there’s a good chance you’ll find yourself chatting with the unforgettable Jonna Paiss. We asked Jonna to be the subject of our first employee spotlight, and she graciously accepted.</p>",
+      "ref1title": "Why Natural-Form Fish Oils are Better for Your Body—and Your Wallet",
+      "ref1category": "all-about-science",
+      "ref1url": "why-natural-form-fish-oils-are-better-for-your-body-and-your-wallet",
+      "ref1img": "http://www.nordicnaturals.com/dev/blog-images/capsules-and-fish.jpg",
+      "ref2title": "Inside Nordic Naturals: Meet Jonna, Customer Service Rep Extraordinaire",
+      "ref2category": "kultur",
+      "ref2url": "inside-nordic-naturals-meet-jonna-customer-service-rep-extraordinaire",
+      "ref2img": "http://www.nordicnaturals.com/dev/blog-images/jonna-compressor.jpg"
+    }
+  ]
+}
