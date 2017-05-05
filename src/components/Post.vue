@@ -91,11 +91,12 @@ export default {
   },
   methods: {
     fetchData(){
-      var url = this.$route.params.postUrl
-      this.$http.get('http://localhost:3000/posts?url=' + url)
+      var postUrl = this.$route.params.postUrl
+      console.log(this.$route.path)
+      this.$http.get('https://blog-post-data-74d5d.firebaseio.com/category/all-about-science/first-post.json')
         .then(function(response){
           console.log(response.data)
-          this.post = response.data[0]
+          this.post = response.data
       });
     }
   },

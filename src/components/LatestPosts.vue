@@ -93,7 +93,9 @@ export default {
     }
   },
   created: function(){
-    this.$http.get('http://localhost:3000/posts')
+    // this.$http.get('https://blog-post-data-74d5d.firebaseio.com/posts.json')
+
+    this.$http.get('http://localhost:3000/')
       .then(function(response){
         console.log(response.data);
         this.posts = response.data;
