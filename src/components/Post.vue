@@ -87,13 +87,20 @@ export default {
     postUrl: {
       type: String,
       default: 'test'
+    },
+    postCategory: {
+      type: String,
+      default: 'test'
     }
   },
   methods: {
     fetchData(){
-      var postUrl = this.$route.params.postUrl
+      var url = this.$route.params.postUrl
+      var category = this.postCategory
+      console.log("url:" + url )
+      console.log("category:" + category )
       console.log(this.$route.path)
-      this.$http.get('https://blog-post-data-74d5d.firebaseio.com/category/all-about-science/first-post.json')
+      this.$http.get('https://blog-post-data-74d5d.firebaseio.com/category/' + category + '/' + url + '.json')
         .then(function(response){
           console.log(response.data)
           this.post = response.data

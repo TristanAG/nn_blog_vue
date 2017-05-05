@@ -30,13 +30,13 @@ const router = new VueRouter({
     {path: '/dev', component: LatestPosts},
     {path: '/dev/contributors', component: Contributors},
     {path: '/dev/big-picture', component: Category, props: { categoryName: 'big-picture' }},
-    {path: '/dev/big-picture/:postUrl', component: Post}, /* <-this works */
+    {path: '/dev/big-picture/:postUrl', component: Post, props: { postCategory: 'big-picture'}}, /* <-this works */
 
     {path: '/dev/all-about-science', component: Category, props: { categoryName: 'all-about-science' }},
-    {path: '/dev/all-about-science/:postUrl', component: Post},
+    {path: '/dev/all-about-science/:postUrl', component: Post, props: { postCategory: 'all-about-science'}},
 
     {path: '/dev/kultur', component: Category, props: { categoryName: 'kultur' }},
-    {path: '/dev/kultur/:postUrl', component: Post}
+    {path: '/dev/kultur/:postUrl', component: Post, props: { postCategory: 'kultur'}}
   ],
   scrollBehavior (to, from, savedPosition) {
     return { x: 0, y: 0 }
