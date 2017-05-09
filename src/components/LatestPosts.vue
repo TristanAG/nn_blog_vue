@@ -11,7 +11,7 @@
 
           <!-- main post -->
           <div class="post-preview">
-            <router-link :to="'/dev/' + mainPost.category + '/' + mainPost.url">
+            <router-link :to="'/dev/' + mainPost.category + '/' + mainPost.postUrl">
               <div class="category">{{mainPost.categoryText}}</div>
               <div class="title" style="font-size: 1.33em;">{{mainPost.title}}</div>
               <img :src="mainPost.imageUrl" >
@@ -29,7 +29,7 @@
               class="mini-post-preview"
               style="margin-right: 5.8%">
               <div class="post-preview">
-                <router-link :to="'/dev/' + post.category + '/' + post.url">
+                <router-link :to="'/dev/' + post.category + '/' + post.postUrl">
                   <div class="category">{{post.category}}</div>
                   <div class="title">{{post.title}}</div>
                   <img :src="post.imageUrl" >
@@ -43,7 +43,7 @@
               v-else-if="index % 2 === 1"
               class="mini-post-preview">
               <div class="post-preview">
-                <router-link :to="'/dev/' + post.category + '/' + post.url">
+                <router-link :to="'/dev/' + post.category + '/' + post.postUrl">
                   <div class="category">{{post.category}}</div>
                   <div class="title">{{post.title}}</div>
                   <img :src="post.imageUrl" >
@@ -62,7 +62,7 @@
               <div class="post-preview">
                 <div class="category">{{post.category}}</div>
                 <div class="title">{{post.title}}</div>
-                <router-link :to="'/dev/' + post.category + '/' + post.url">
+                <router-link :to="'/dev/' + post.category + '/' + post.postUrl">
                   <img :src="post.imageUrl" >
                   <p>{{post.contentPreview}}</p>
                   <div class="read-more"><p>read more</p></div>
@@ -84,24 +84,45 @@
 <script>
 export default {
   name: 'latest-posts',
-  data () {
-    return {
-      posts: [],
-      mainPost: {},
-      recentPosts: []
-      /* consider creating recentPosts[] for the two special cases */
-    }
-  },
-  created: function(){
-    // this.$http.get('https://blog-post-data-74d5d.firebaseio.com/posts.json')
+  // data () {
+  //   return {
+  //     posts: [],
+  //     mainPost: {},
+  //     recentPosts: []
+  //     /* consider creating recentPosts[] for the two special cases */
+  //   }
+  // },
+  // created: function(){
+  //   // this.$http.get('https://blog-post-data-74d5d.firebaseio.com/posts.json')
+  //
+  //   this.$http.get('https://blog-post-data-74d5d.firebaseio.com/category.json')
+  //     .then(function(response){
+  //       console.log(response.data);
+  //       this.posts = response.data;
+  //       // this.mainPost = this.posts[0];
+  //       // this.recentPosts = this.posts.slice(1,3);
+  //     });
+  // }
+  computed: {
+    mainPost: function () {
+      return this.$store.state.posts[0]
+    },
+  	recentPosts: function () {
+      // return this.$store.state.posts[0]
+      // console.log(this.$route.params.postUrl)
 
-    this.$http.get('https://blog-post-data-74d5d.firebaseio.com/category.json')
-      .then(function(response){
-        console.log(response.data);
-        this.posts = response.data;
-        // this.mainPost = this.posts[0];
-        // this.recentPosts = this.posts.slice(1,3);
-      });
+    	return this.$store.state.posts.slice(1)
+      // .find((post) => {
+        //this is basically saying to return true of the object has been found
+
+        // if (post.postUrl == this.$route.params.postUrl){
+        //   return post.postUrl
+        // }
+
+
+      	// return post.postUrl === this.$route.params.postUrl
+      // })
+    }
   }
 }
 </script>
