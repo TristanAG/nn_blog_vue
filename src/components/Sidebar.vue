@@ -4,7 +4,7 @@
     <hr />
     <ul>
       <li v-for="post in posts" class="category-sidebar">
-        <router-link :to="'/dev/' + post.category + '/' + post.url">{{post.title}}</router-link>
+        <router-link :to="'/dev/' + post.category + '/' + post.postUrl">{{post.title}}</router-link>
         <hr class="hr-category" />
       </li>
     </ul>
@@ -14,16 +14,22 @@
 <script>
 export default {
   name: 'sidebar',
-  data () {
-    return {
-      posts: []
+  computed: {
+  	posts: function () {
+      // return this.$store.state.posts[0]
+      // console.log(this.$route.params.postUrl)
+    	return this.$store.state.posts
+      // .find((post) => {
+        //this is basically saying to return true of the object has been found
+
+        // if (post.postUrl == this.$route.params.postUrl){
+        //   return post.postUrl
+        // }
+
+
+      	// return post.postUrl === this.$route.params.postUrl
+      // })
     }
-  },
-  created: function(){
-    this.$http.get('http://localhost:3000/posts')
-      .then(function(response){
-        this.posts = response.data;
-      });
   }
 }
 </script>

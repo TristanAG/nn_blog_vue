@@ -15,31 +15,31 @@
 <script>
 export default {
   name: 'category',
-  data () {
-    return {
-      posts: []
-    }
-  },
-  props: {
-    categoryName: {
-      type: String,
-      default: null
-    }
-  },
-  methods: {
-    fetchData(){
-      var category = this.categoryName
-      this.$http.get('http://localhost:3000/posts?category=' + category)
-        .then(function(response){
-          this.posts = response.data;
-        });
-    }
-  },
-  watch: {
-    '$route': 'fetchData'
-  },
-  created: function(){
-    this.fetchData()
-  }
+  // data () {
+  //   return {
+  //     posts: []
+  //   }
+  // },
+  // props: {
+  //   categoryName: {
+  //     type: String,
+  //     default: null
+  //   }
+  // },
+  // methods: {
+  //   fetchData(){
+  //     var category = this.categoryName
+  //     this.$http.get('http://localhost:3000/posts?category=' + category)
+  //       .then(function(response){
+  //         this.posts = response.data;
+  //       });
+  //   }
+  // },
+  // watch: {
+  //   '$route': 'fetchData'
+  // },
+  // created: function(){
+  //   this.fetchData()
+  // }
 }
 </script>
