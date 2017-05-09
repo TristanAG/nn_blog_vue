@@ -1,40 +1,40 @@
 <template>
   <div class="test">
-    <ul v-for="post in posts">
-      <li>
-        <p><b>{{post.category}}</b></p>
-        <h2>{{post.title}}</h2>
-        <p>By: {{post.author}}</p>
-        <div class="post-content" v-html="post.content"></div>
-        <hr />
-      </li>
-    </ul>
-    <!-- <h1>Post(s)</h1>
-      <hr />
-    <h2>{{ post.title }}</h2>
-    <div v-html="post.body"></div> -->
+    <!-- {{post.title}} | {{post.content}} -->
+    <h1>fill in</h1>
+    <h1>fill in</h1>
+
+
+
+    count: {{count}}
   </div>
 </template>
 
 <script>
+
 export default {
   name: 'test',
-  data () {
-    return {
-      posts: [
-
-      ]
-    }
-  },
-  methods: {
-
-  },
-  created: function(){
-    this.$http.get('http://localhost:3000/posts?category=all-about-science')
-      .then(function(response){
-        console.log(response.data);
-        this.posts = response.data;
-      });
+  computed: {
+    count () {
+      return this.$store.getters.getPostCount
+    },
   }
+
+
+
+  // computed: {
+  //   post() {
+  //     console.log(this.$route.path)
+  //     return this.post = this.$store.state.posts[2]
+  //   },
+  //   getPostByRoute() {
+  //     return this.post = this.$store.state.posts[1]
+  //   }
+  // },
+  // methods: {
+  //   getPostByRoute() {
+  //     // return this.post = this.$store.state.posts[1]
+  //   }
+  // }
 }
 </script>

@@ -5,11 +5,15 @@ import VueResource from 'vue-resource'
 import VueRouter from 'vue-router'
 import App from './App'
 
+import { store } from './store'
+
 //components
 import LatestPosts from './components/LatestPosts'
 import Post from './components/Post'
 import Category from './components/Category'
 import Contributors from './components/Contributors'
+import Test from './components/Test'
+
 
 import Sidebar from './components/Sidebar'
 Vue.component('sidebar', Sidebar)
@@ -27,6 +31,8 @@ const router = new VueRouter({
   mode: 'history',
   base: __dirname,
   routes: [
+
+    {path: '/', component: Test},
     {path: '/dev', component: LatestPosts},
     {path: '/dev/contributors', component: Contributors},
     {path: '/dev/big-picture', component: Category, props: { categoryName: 'big-picture' }},
@@ -47,7 +53,8 @@ Vue.config.productionTip = false
 
 new Vue({
   el: '#app',
+  store,
   router,
   template: '<App/>',
-  components: { App }
+  components: { App },
 })
