@@ -2,21 +2,14 @@
   <div id="app">
     <header-menu></header-menu>
     <div id="fader">
-    <div class="hero-image" v-if="$route.path === '/dev'">
-      <!-- <img src="./assets/nn-hp-1A-compressor.jpg" id="hero-image" > -->
+      <div class="hero-image" v-if="$route.path === '/dev'">
+        <img src="./assets/images/nn-hp-no-text-compressor.jpg" id="hero-image-mobile">
+        <img src="./assets/images/nn-hp-compressor.jpg" id="hero-image-full">
+      </div>
 
-
-
-      <img src="./assets/images/nn-hp-no-text-compressor.jpg" id="hero-image-mobile">
-      <img src="./assets/images/nn-hp-compressor.jpg" id="hero-image-full">
+      <router-view></router-view>
+      <footer-block></footer-block>
     </div>
-
-
-
-    </div>
-    <router-view></router-view>
-    <footer-block></footer-block>
-  </div>
   </div>
 </template>
 

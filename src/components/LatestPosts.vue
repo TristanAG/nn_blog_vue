@@ -30,7 +30,7 @@
               style="margin-right: 5.8%">
               <div class="post-preview">
                 <router-link :to="'/dev/' + post.category + '/' + post.postUrl">
-                  <div class="category">{{post.category}}</div>
+                  <div class="category">{{post.categoryText}}</div>
                   <div class="title">{{post.title}}</div>
                   <img :src="post.imageUrl" >
                   <p>{{post.contentPreview}}</p>
@@ -44,7 +44,7 @@
               class="mini-post-preview">
               <div class="post-preview">
                 <router-link :to="'/dev/' + post.category + '/' + post.postUrl">
-                  <div class="category">{{post.category}}</div>
+                  <div class="category">{{post.categoryText}}</div>
                   <div class="title">{{post.title}}</div>
                   <img :src="post.imageUrl" >
                   <p>{{post.contentPreview}}</p>
@@ -60,7 +60,7 @@
               v-for="(post, index) in recentPosts"
               class="past-post-preview">
               <div class="post-preview">
-                <div class="category">{{post.category}}</div>
+                <div class="category">{{post.categoryText}}</div>
                 <div class="title">{{post.title}}</div>
                 <router-link :to="'/dev/' + post.category + '/' + post.postUrl">
                   <img :src="post.imageUrl" >
