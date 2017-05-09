@@ -74,60 +74,14 @@
 <script>
 export default {
   name: 'post',
-  // data () {
-  //   return {
-  //     post: []
-  //   }
-  // },
-  // props: {
-  //   postId: {
-  //     type: Number,
-  //     default: 1
-  //   },
-  //   postUrl: {
-  //     type: String,
-  //     default: 'test'
-  //   },
-  //   postCategory: {
-  //     type: String,
-  //     default: 'test'
-  //   }
-  // },
   computed: {
   	post: function () {
-      // return this.$store.state.posts[0]
-      console.log(this.$route.params.postUrl)
     	return this.$store.state.posts.find((post) => {
-        //this is basically saying to return true of the object has been found
-
         if (post.postUrl == this.$route.params.postUrl){
           return post.postUrl
         }
-
-
-      	// return post.postUrl === this.$route.params.postUrl
       })
     }
   }
-  // methods: {
-  //   fetchData(){
-  //     var url = this.$route.params.postUrl
-  //     var category = this.postCategory
-  //     console.log("url:" + url )
-  //     console.log("category:" + category )
-  //     console.log(this.$route.path)
-  //     this.$http.get('https://blog-post-data-74d5d.firebaseio.com/category/' + category + '/' + url + '.json')
-  //       .then(function(response){
-  //         console.log(response.data)
-  //         this.post = response.data
-  //     });
-  //   }
-  // },
-  // watch: {
-  //   '$route': 'fetchData',
-  // },
-  // created: function(){
-  //   this.fetchData();
-  // }
 }
 </script>

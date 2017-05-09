@@ -1,7 +1,7 @@
 <template>
   <div class="footer-block">
     <footer>
-      <a href="http://www.nordicnaturals.com/consumers.php"><img src="../assets/nn-logo-omega-3-blue.png" target="_none"/></a>
+      <a href="http://www.nordicnaturals.com/consumers.php"><img src="../assets/images/nn-logo-omega-3-blue.png" target="_none"/></a>
 
       <div class="social-icons-footer">
         <h5>
