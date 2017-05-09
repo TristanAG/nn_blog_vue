@@ -32,11 +32,12 @@ const router = new VueRouter({
   base: __dirname,
   routes: [
 
-    {path: '/', component: Test},
+    {name: 'post', path: '/test/:postUrl', component: Test},
     {path: '/dev', component: LatestPosts},
     {path: '/dev/contributors', component: Contributors},
+    //so i think i was using categoryName as a param to pass in the actual route to make the correct REST call for the category list
     {path: '/dev/big-picture', component: Category, props: { categoryName: 'big-picture' }},
-    {path: '/dev/big-picture/:postUrl', component: Post, props: { postCategory: 'big-picture'}}, /* <-this works */
+    {path: '/dev/big-picture/:postUrl', component: Post, props: { postCategory: 'big-picture'}}, //same with this one down here, this is to query the individual post with REST
 
     {path: '/dev/all-about-science', component: Category, props: { categoryName: 'all-about-science' }},
     {path: '/dev/all-about-science/:postUrl', component: Post, props: { postCategory: 'all-about-science'}},

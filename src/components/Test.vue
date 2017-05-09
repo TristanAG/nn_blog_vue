@@ -4,9 +4,9 @@
     <h1>fill in</h1>
     <h1>fill in</h1>
 
+    <h2>{{post.title}} | {{post.content}}</h2>
 
 
-    count: {{count}}
   </div>
 </template>
 
@@ -15,26 +15,20 @@
 export default {
   name: 'test',
   computed: {
-    count () {
-      return this.$store.getters.getPostCount
-    },
+  	post: function () {
+      // return this.$store.state.posts[0]
+      console.log(this.$route.params.postUrl)
+    	return this.$store.state.posts.find((post) => {
+        //this is basically saying to return true of the object has been found
+
+        if (post.postUrl == this.$route.params.postUrl){
+          return post.postUrl
+        }
+
+
+      	// return post.postUrl === this.$route.params.postUrl
+      })
+    }
   }
-
-
-
-  // computed: {
-  //   post() {
-  //     console.log(this.$route.path)
-  //     return this.post = this.$store.state.posts[2]
-  //   },
-  //   getPostByRoute() {
-  //     return this.post = this.$store.state.posts[1]
-  //   }
-  // },
-  // methods: {
-  //   getPostByRoute() {
-  //     // return this.post = this.$store.state.posts[1]
-  //   }
-  // }
 }
 </script>
