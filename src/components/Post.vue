@@ -27,9 +27,9 @@
 
           <div class="social-sharing">
             <b>Share this post</b>
-            <a href="https://www.facebook.com/sharer/sharer.php?u=http://nordicnaturals.com/dev/"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
-            <a href="https://twitter.com/intent/tweet?text=http://nordicnaturals.com"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
-            <a href="mailto:?subject=post.title&body=body"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+            <a v-bind:href="facebookShare"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+            <a v-bind:href="twitterShare"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+            <a v-bind:href="mailShare"><i class="fa fa-envelope" aria-hidden="true"></i></a>
           </div>
 
           <h5 style="margin-top: 62px;">YOU MAY ALSO LIKE</h5>
@@ -74,13 +74,29 @@
 <script>
 export default {
   name: 'post',
+  data: function () {
+    return {
+      postRef: {}
+    }
+  },
   computed: {
   	post: function () {
     	return this.$store.state.posts.find((post) => {
         if (post.postUrl == this.$route.params.postUrl){
+          console.log(post)
+          this.postRef = post
           return post.postUrl
         }
       })
+    },
+    facebookShare: function () {
+      return 'https://www.facebook.com/sharer/sharer.php?u=http://nordicnaturals.com/dev/' + this.postRef.category + '/' + this.postRef.postUrl
+    },
+    twitterShare: function () {
+      return 'https://twitter.com/intent/tweet?text=http://nordicnaturals.com/dev/' + this.postRef.category + '/' + this.postRef.postUrl
+    },
+    mailShare: function () {
+      return 'mailto:?subject=' + this.postRef.title + '&body=http://www.nordicnaturals.com/dev/' + this.postRef.category + '/' + this.postRef.postUrl
     }
   }
 }
