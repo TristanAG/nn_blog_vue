@@ -34,6 +34,7 @@ const router = new VueRouter({
   routes: [
 
     // {name: 'post', path: '/test/:postUrl', component: Test},
+
     {path: '/dev', component: LatestPosts},
     {path: '/dev/contributors', component: Contributors},
     //so i think i was using categoryName as a param to pass in the actual route to make the correct REST call for the category list

@@ -31,7 +31,7 @@ var webpackConfig = merge(baseWebpackConfig, {
       path.join(__dirname, '../dist'),
       // List of endpoints you wish to prerender
       [
-        '/',
+        '/'
         // '/contributors',
         // '/dev/all-about-science',
         // '/dev/all-about-science/why-natural-form-fish-oils-are-better-for-your-body-and-your-wallet',
