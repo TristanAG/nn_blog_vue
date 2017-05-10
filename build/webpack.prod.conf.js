@@ -30,7 +30,16 @@ var webpackConfig = merge(baseWebpackConfig, {
       // Path to compiled app
       path.join(__dirname, '../dist'),
       // List of endpoints you wish to prerender
-      [ '/', '/all-about-science' ]
+      [
+        '/',
+        // '/contributors',
+        // '/dev/all-about-science',
+        // '/dev/all-about-science/why-natural-form-fish-oils-are-better-for-your-body-and-your-wallet',
+        // '/dev/big-picture',
+        // '/dev/big-picture/refuse-reduce-reuse-10-things-to-clean-up-our-oceans',
+        // '/dev/kultur',
+        // '/dev/kultur/inside-nordic-naturals-meet-jonna-customer-service-rep-extraordinaire'
+      ]
     ),
     // http://vuejs.github.io/vue-loader/en/workflow/production.html
     new webpack.DefinePlugin({

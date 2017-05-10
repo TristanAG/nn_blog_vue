@@ -81,13 +81,13 @@ export default {
   },
   computed: {
   	post: function () {
-    	return this.$store.state.posts.find((post) => {
-        if (post.postUrl == this.$route.params.postUrl){
-          console.log(post)
-          this.postRef = post
-          return post.postUrl
-        }
-      })
+      //method grabs post based on the current active url in $route
+      var activePostUrl = this.$route.path.split('/')[3]
+      for (var i = 0; i<this.$store.state.posts.length; i++){
+        var post = this.$store.state.posts[i]
+        if(activePostUrl === post.postUrl)
+          return post
+      }
     },
     facebookShare: function () {
       return 'https://www.facebook.com/sharer/sharer.php?u=http://nordicnaturals.com/dev/' + this.postRef.category + '/' + this.postRef.postUrl
