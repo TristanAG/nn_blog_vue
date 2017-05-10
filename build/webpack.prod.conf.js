@@ -32,7 +32,7 @@ var webpackConfig = merge(baseWebpackConfig, {
       // List of endpoints you wish to prerender
       [
         '/'
-        // '/contributors',
+        // '/contributors'
         // '/dev/all-about-science',
         // '/dev/all-about-science/why-natural-form-fish-oils-are-better-for-your-body-and-your-wallet',
         // '/dev/big-picture',

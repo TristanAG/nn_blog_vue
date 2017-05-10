@@ -4,7 +4,7 @@
       <div class="container">
         <div class="row">
           <div id="header-left">
-            <router-link to="/dev"><img src="static/nn-naturallyspeaking_horizontal.png" id="logo"></router-link>
+            <router-link to="/dev"><img src="http://nordicnaturals.com/dev/blog-assets/images/nn-naturallyspeaking_horizontal.png" id="logo"></router-link>
           </div>
 
           <div id="header-right">
