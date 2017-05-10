@@ -82,10 +82,12 @@ export default {
   computed: {
   	post: function () {
       //method grabs post based on the current active url in $route
+
       var activePostUrl = this.$route.path.split('/')[3]
       for (var i = 0; i<this.$store.state.posts.length; i++){
         var post = this.$store.state.posts[i]
         if(activePostUrl === post.postUrl)
+          console.log(post.postUrl)
           return post
       }
     },

@@ -1,6 +1,11 @@
 <template>
   <div class="latest-posts">
 
+    <div class="hero-image">
+      <img src="static/nn-hp-no-text-compressor.jpg" id="hero-image-mobile">
+      <img src="static/nn-hp-compressor.jpg" id="hero-image-full">
+    </div>
+
     <div class="container" id="main-container">
       <div class="row">
         <div class="eight columns">
