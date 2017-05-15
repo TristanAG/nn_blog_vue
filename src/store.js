@@ -68,7 +68,28 @@ export const store = new Vuex.Store({
         ref2category: "big-picture",
         ref2url: "refuse-reduce-reuse-10-things-to-clean-up-our-oceans",
         ref2img: "http://www.nordicnaturals.com/dev/blog-assets/post-images/refuse-reduce-reuse-compressor.jpg"
-      }
+      },
+      {
+        id: 4,
+        category: "new-category",
+        categoryText: "New Category",
+        author: "SOME AUTHOR",
+        postUrl: "the-new-post-is-here",
+        title: "New Category and a Newwwww post",
+        imageUrl: "http://travel.home.sndimg.com/content/dam/images/travel/fullset/2014/05/06/c7/top-10-southern-california-beaches-newport-beach.rend.hgtvcom.1280.720.jpeg",
+        contentPreview: "we got a new post here in a new category.",
+        content: `
+          <p>I like turtles</p>
+        `,
+        ref1title: "Why Natural-Form Fish Oils are Better for Your Body—and Your Wallet",
+        ref1category: "all-about-science",
+        ref1url: "why-natural-form-fish-oils-are-better-for-your-body-and-your-wallet",
+        ref1img: "http://www.nordicnaturals.com/dev/blog-assets/post-images/capsules-and-fish.jpg",
+        ref2title: "Inside Nordic Naturals: Meet Jonna, Customer Service Rep Extraordinaire",
+        ref2category: "kultur",
+        ref2url: "inside-nordic-naturals-meet-jonna-customer-service-rep-extraordinaire",
+        ref2img: "http://www.nordicnaturals.com/dev/blog-assets/post-images/jonna-compressor.jpg"
+      },
     ]
   }
 })

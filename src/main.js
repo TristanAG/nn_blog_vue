@@ -45,7 +45,10 @@ const router = new VueRouter({
     {path: '/dev/all-about-science/:postUrl', component: Post, props: { postCategory: 'all-about-science'}},
 
     {path: '/dev/kultur', component: Category, props: { categoryName: 'kultur' }, redirect: '/dev'},
-    {path: '/dev/kultur/:postUrl', component: Post, props: { postCategory: 'kultur'}}
+    {path: '/dev/kultur/:postUrl', component: Post, props: { postCategory: 'kultur'}},
+
+    {path: '/dev/new-category', component: Category, props: { categoryName: 'new-category' }, redirect: '/dev'},
+    {path: '/dev/new-category/:postUrl', component: Post, props: { postCategory: 'new-category'}}
   ],
   scrollBehavior (to, from, savedPosition) {
     return { x: 0, y: 0 }
