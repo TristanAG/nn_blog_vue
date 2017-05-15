@@ -302,7 +302,7 @@ ul{
   margin-top: 20px;
   margin-bottom: 20px;
 }
-.post-preview a{
+.past-post-preview a, .post-preview a{
   text-decoration: none;
   /*color: red;*/
 }
@@ -534,7 +534,7 @@ p{
   }
 }*/
 
-.post-preview a .read-more p{
+.post-preview a .read-more p, .past-post-preview a .read-more p{
   color: #00accd;
 
 
@@ -542,7 +542,7 @@ p{
   text-decoration: none;
   transition: 0s;
 }
-.post-preview a:hover .read-more p{
+.post-preview a:hover .read-more p, .past-post-preview a:hover .read-more p{
   color: #00accd;
   font-weight: bold;
 

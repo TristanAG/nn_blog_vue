@@ -74,6 +74,99 @@
               </div>
             </div>
           </div>
+
+          <h5>PAST POSTS</h5>
+          <hr>
+
+          <!-- ALL PAST POSTS LISTED BELOW -->
+
+          <div v-for="post in pastPosts" class="past-post-preview">
+            <router-link :to="'/dev/' + post.category + '/' + post.postUrl">
+              <img :src="post.imageUrl" class="past-post-image">
+              <!-- <img src="" class="past-post-image"/> -->
+              <!-- <span class="post-preview"> -->
+                <div class="category">{{post.categoryText}}</div>
+                <div class="title">{{post.title}}</div>
+                <!-- <div class="tagline">10 Things We Can All Do to Clean Up Our Oceans</div> -->
+                <p>{{post.contentPreview}}</p>
+                <!-- </span> -->
+                <div class="read-more"><p>read more</p></div>
+            </router-link>
+                <!-- <div class="author-image-wrapper">
+                  <img src="images/author.png" class="author-pic-mini"/>
+                </div>
+                <div class="author-text-wrapper">
+                  <div class="author-by">By</div> <div class="author-name">SARA YORK</div>
+                </div> -->
+              <!-- </span> -->
+          </div>
+
+        <!-- <h5>PAST POSTS</h5>
+        <hr /> -->
+
+        <!-- <div class="past-post-preview">
+          <a href="#">
+            <img src="images/sample2.jpg" class="past-post-image"/>
+            <span class="post-preview">
+              <div class="category">Big Picture</div>
+              <div class="title">REFUSE, REDUCE, REUSE:</div>
+              <div class="tagline">10 Things We Can All Do to Clean Up Our Oceans</div>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris est sem, cursus quis accumsan vitae,
+                finibus tincidunt tellus. Praesent non ...
+              </p>
+          </a>
+              <div class="author-image-wrapper">
+                <img src="images/author.png" class="author-pic-mini"/>
+              </div>
+              <div class="author-text-wrapper">
+                <div class="author-by">By</div> <div class="author-name">SARA YORK</div>
+              </div>
+            </span>
+        </div> -->
+
+        <!-- <div class="past-post-preview">
+          <a href="#">
+            <img src="images/sample2.jpg" class="past-post-image"/>
+            <span class="post-preview">
+              <div class="category">Big Picture</div>
+              <div class="title">REFUSE, REDUCE, REUSE:</div>
+              <div class="tagline">10 Things We Can All Do to Clean Up Our Oceans</div>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris est sem, cursus quis accumsan vitae,
+                finibus tincidunt tellus. Praesent non ...
+              </p>
+          </a>
+              <div class="author-image-wrapper">
+                <img src="images/author.png" class="author-pic-mini"/>
+              </div>
+              <div class="author-text-wrapper">
+                <div class="author-by">By</div> <div class="author-name">SARA YORK</div>
+              </div>
+            </span>
+        </div> -->
+
+        <!-- <div class="past-post-preview">
+          <a href="#">
+            <img src="images/sample2.jpg" class="past-post-image"/>
+            <span class="post-preview">
+              <div class="category">Big Picture</div>
+              <div class="title">REFUSE, REDUCE, REUSE:</div>
+              <div class="tagline">10 Things We Can All Do to Clean Up Our Oceans</div>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris est sem, cursus quis accumsan vitae,
+                finibus tincidunt tellus. Praesent non ...
+              </p>
+          </a>
+              <div class="author-image-wrapper">
+                <img src="images/author.png" class="author-pic-mini"/>
+              </div>
+              <div class="author-text-wrapper">
+                <div class="author-by">By</div> <div class="author-name">SARA YORK</div>
+              </div>
+            </span>
+        </div> -->
+
         </div>
 
         <div class="four columns">
@@ -94,6 +187,9 @@ export default {
     },
   	recentPosts: function () {
     	return this.$store.state.posts.slice(1, 3)
+    },
+    pastPosts: function () {
+      return this.$store.state.posts.slice(3)
     }
   }
 }
