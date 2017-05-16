@@ -38,7 +38,9 @@ var webpackConfig = merge(baseWebpackConfig, {
         '/big-picture',
         '/big-picture/refuse-reduce-reuse-10-things-to-clean-up-our-oceans',
         '/kultur',
-        '/kultur/inside-nordic-naturals-meet-jonna-customer-service-rep-extraordinaire'
+        '/kultur/inside-nordic-naturals-meet-jonna-customer-service-rep-extraordinaire',
+        '/new-category',
+        '/new-category/the-new-post-is-here'
       ]
     ),
     // http://vuejs.github.io/vue-loader/en/workflow/production.html
