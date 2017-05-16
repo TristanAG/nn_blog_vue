@@ -92,13 +92,13 @@ export default {
       }
     },
     facebookShare: function () {
-      return 'https://www.facebook.com/sharer/sharer.php?u=http://nordicnaturals.com/dev/' + this.postRef.category + '/' + this.postRef.postUrl
+      return 'https://www.facebook.com/sharer/sharer.php?u=http://nordicnaturals.com/dev/' + this.post.category + '/' + this.post.postUrl
     },
     twitterShare: function () {
-      return 'https://twitter.com/intent/tweet?text=http://nordicnaturals.com/dev/' + this.postRef.category + '/' + this.postRef.postUrl
+      return 'https://twitter.com/intent/tweet?text=http://nordicnaturals.com/dev/' + this.post.category + '/' + this.post.postUrl
     },
     mailShare: function () {
-      return 'mailto:?subject=' + this.postRef.title + '&body=http://www.nordicnaturals.com/dev/' + this.postRef.category + '/' + this.postRef.postUrl
+      return 'mailto:?subject=' + this.postRef.title + '&body=http://www.nordicnaturals.com/dev/' + this.post.category + '/' + this.post.postUrl
     }
   }
 }

@@ -650,9 +650,10 @@ p{
   width: 46%;
   float: left;
   margin-right: 5%;
-  margin-bottom: 6%;
+  margin-top: 4%;
+  /*margin-bottom: 6%;*/
 }
-@media (max-width: 920px){
+/*@media (max-width: 920px){
   .past-post-preview .past-post-image{
     margin-bottom: 14%;
   }
@@ -686,7 +687,7 @@ p{
   .past-post-preview .past-post-image{
     margin-bottom: 0px;
   }
-}
+}*/
 /***   /post preview   ***/
 
 #mobile-menu{
