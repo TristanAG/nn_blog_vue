@@ -8,15 +8,15 @@ export const store = new Vuex.Store({
     posts: [
       {
         id: 4,
-        category: "new-category",
-        categoryText: "New Category",
-        author: "SOME AUTHOR",
-        postUrl: "the-new-post-is-here",
-        title: "New Category and a Newwwww post",
-        imageUrl: "http://travel.home.sndimg.com/content/dam/images/travel/fullset/2014/05/06/c7/top-10-southern-california-beaches-newport-beach.rend.hgtvcom.1280.720.jpeg",
+        category: "big-picture",
+        categoryText: "BIG PICTURE",
+        author: "TERRA LYNN",
+        postUrl: "cosmo-post",
+        title: "Dear Cosmo: Why You Really Should Take Your Fish Oil",
+        imageUrl: "",
         contentPreview: "we got a new post here in a new category.",
         content: `
-          <p>I like turtles</p>
+          <p>Cosmopolitan magazine recently published an article advising their readers which vitamins and supplements they should keep taking, and which ones they could probably skip.</p><div class=\"embedded-image right\"><img src=\"http://www.nordicnaturals.com/dev/blog-images/cosmo-cover-terra-post2.jpg\" ></div><p>While we were thrilled to see Cosmo raising awareness about the importance of nutritional supplements, we were disheartened to see that omega-3s and fish oil made their “definitely stop taking” list. We of course wanted to respond, and contribute some useful information about fish oil and its well-established safety and health benefits.</p><p>Here’s our response to each of the points the Cosmo article makes:</p><p><b>1. Omega-3 fish oil supplements “act as potentially dangerous blood thinners.”</b></p><p>Omega-3 fish oil has been shown to help inhibit the following: blood platelet clumping, blood vessel constriction, and the production of blood-clotting proteins—all of which can be understood as blood-thinning actions. On the other hand, when we consider that an unhealthy diet and lifestyle promote exactly the opposite effects—i.e., increased blood platelet clumping, constriction of blood vessels, and blood-clotting proteins—we can see that the actions of omega-3 fish oil are more accurately understood as restoring a healthy balance between blood-thinning and blood-clotting.</p><p>So does this make fish oil supplements potentially dangerous? The answer is almost always no. For the overwhelming majority of people, the blood-thinning actions of omega-3 fish oil should be seen as potentially beneficial rather than potentially dangerous. We recommend consulting with your healthcare provider before taking any supplement if you currently use blood-thinner medications, or if you anticipate surgery.</p><p><b>2. Most omega-3 fish oil supplements “are high in vitamins A and D that you can’t eliminate easily, so they could build up and make you sick.”</b></p><p>Are omega-3 fish oil supplements high in vitamins A and D? The answer depends on what type of omega-3 fish oil you are talking about: Fish oil is extracted from the body flesh of fish and doesn’t contain vitamins A and D, while cod liver oil is extracted from the livers of cod fish and does contain some naturally occurring vitamins A and D.</p><p>We’ve always used only 100% Arctic cod livers in our cod liver oil products, which have low, healthy levels of fat-soluble vitamin A—our Arctic Cod Liver Oil  typically averages 650–1,500 IU of vitamin A per serving, which falls in the low range compared to other products. (The recommended daily allowance of vitamin A for adults as established by the US Institute of Medicine of the National Academy of Science is 3,000 IU for men and 2,300 IU for women.)</p><p>When it comes to vitamin D, neither fish oil nor cod liver oil supplements naturally contain high levels. The real concern with vitamin D is not getting enough—there’s an emerging consensus among the medical and scientific community that vitamin D deficiency is an under-recognized epidemic. (It’s why we offer many of our products with the option of added vitamin D.)</p><p>The American Academy of Pediatrics recently doubled its vitamin D recommendations for infants, children, and adolescents, and a whole new generation of vitamin D research continues to show just how critical vitamin D is to every aspect of health. We use vitamin D3 (cholecalciferol) in our products because it’s the most easily absorbed form of vitamin D, and the form our bodies naturally make from sunlight.</p><p><b>3. “Eat fish and use olive oil instead” of taking omega-3 fish oil supplements.</b></p><p>While we wholeheartedly support Cosmo’s advice to get our nutrients from fresh foods instead of supplements whenever possible, we also recognize that often it simply isn’t possible to consume enough of the health-promoting nutrients we need from food alone. Omega-3s are a good example. To get 1,000 mg of the beneficial omega-3s EPA and DHA found in fish oil, you’d have to eat 2/3 of a can of sardines, or a 10-ounce bag of flaxmeal or chia seeds—every day! We don’t know about you, but two soft gels a day of our concentrated Ultimate Omega® omega-3 fish oil sure does seem a lot easier to swallow.</p>
         `,
         ref1title: "Why Natural-Form Fish Oils are Better for Your Body—and Your Wallet",
         ref1category: "all-about-science",
@@ -30,7 +30,7 @@ export const store = new Vuex.Store({
       {
         id: 3,
         category: "big-picture",
-        categoryText: "Big Picture",
+        categoryText: "BIG PICTURE",
         author: "CLAUDIA BURGIN",
         postUrl: "refuse-reduce-reuse-10-things-to-clean-up-our-oceans",
         title: "Refuse, Reduce, Reuse: 10 Things We Can All Do to Clean Up Our Oceans",
@@ -51,7 +51,7 @@ export const store = new Vuex.Store({
       {
         id: 2,
         category: "all-about-science",
-        categoryText: "All About Science",
+        categoryText: "ALL ABOUT SCIENCE",
         author: "NICHOLAS NOLOBOFF",
         postUrl: "why-natural-form-fish-oils-are-better-for-your-body-and-your-wallet",
         title: "Why Natural-Form Fish Oils are Better for Your Body—and Your Wallet",
@@ -72,7 +72,7 @@ export const store = new Vuex.Store({
       {
         id: 1,
         category: "kultur",
-        categoryText: "Kultur",
+        categoryText: "KULTUR",
         author: "NORDIC NATURALS STAFF",
         postUrl: "inside-nordic-naturals-meet-jonna-customer-service-rep-extraordinaire",
         title: "Inside Nordic Naturals: Meet Jonna, Customer Service Rep Extraordinaire",

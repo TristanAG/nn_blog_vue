@@ -1,4 +1,4 @@
-<template>
+<!-- <template>
   <div id="app">
     <header-menu></header-menu>
     <div id="fader">
@@ -7,7 +7,7 @@
       <footer-block></footer-block>
     </div>
   </div>
-</template>
+</template> -->
 
 <script>
 

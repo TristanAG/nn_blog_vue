@@ -35,6 +35,7 @@ const router = new VueRouter({
 
     // {name: 'post', path: '/test/:postUrl', component: Test},
 
+    {path: '/', redirect: '/dev'},
     {path: '/dev', component: LatestPosts},
     {path: '/dev/contributors', component: Contributors},
     //so i think i was using categoryName as a param to pass in the actual route to make the correct REST call for the category list
@@ -58,9 +59,20 @@ const router = new VueRouter({
 Vue.config.productionTip = false
 
 new Vue({
-  el: '#app',
+  // el: '#app',
   store,
   router,
-  template: '<App/>',
-  components: { App },
-})
+  template: `
+
+    <div id="app">
+      <header-menu></header-menu>
+      <div id="fader">
+
+        <router-view></router-view>
+        <footer-block></footer-block>
+      </div>
+    </div>
+
+  `,
+  // components: { App },
+}).$mount('#app')
