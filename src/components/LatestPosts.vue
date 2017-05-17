@@ -19,7 +19,7 @@
               <div class="category">{{mainPost.categoryText}}</div>
               <div class="title" style="font-size: 1.33em;">{{mainPost.title}}</div>
               <img :src="mainPost.imageUrl" >
-              <p>{{mainPost.contentPreview}}</p>
+              <p v-html="mainPost.contentPreview"></p>
               <div class="read-more"><p>read more</p></div>
             </router-link>
           </div>
@@ -37,7 +37,7 @@
                   <div class="category">{{post.categoryText}}</div>
                   <div class="title">{{post.title}}</div>
                   <img :src="post.imageUrl" >
-                  <p>{{post.contentPreview}}</p>
+                  <p v-html="post.contentPreview"></p>
                   <div class="read-more"><p>read more</p></div>
                 </router-link>
               </div>
@@ -51,7 +51,7 @@
                   <div class="category">{{post.categoryText}}</div>
                   <div class="title">{{post.title}}</div>
                   <img :src="post.imageUrl" >
-                  <p>{{post.contentPreview}}</p>
+                  <p v-html="post.contentPreview"></p>
                   <div class="read-more"><p>read more</p></div>
                 </router-link>
               </div>
@@ -68,7 +68,7 @@
                 <div class="title">{{post.title}}</div>
                 <router-link :to="'/dev/' + post.category + '/' + post.postUrl">
                   <img :src="post.imageUrl" >
-                  <p>{{post.contentPreview}}</p>
+                  <p v-html="post.contentPreview"></p>
                   <div class="read-more"><p>read more</p></div>
                 </router-link>
               </div>
@@ -88,7 +88,7 @@
                 <div class="category">{{post.categoryText}}</div>
                 <div class="title">{{post.title}}</div>
                 <!-- <div class="tagline">10 Things We Can All Do to Clean Up Our Oceans</div> -->
-                <p>{{post.contentPreview}}</p>
+                <p v-html="post.contentPreview"></p>
                 <!-- </span> -->
                 <div class="read-more"><p>read more</p></div>
             </router-link>

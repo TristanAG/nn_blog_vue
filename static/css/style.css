@@ -509,9 +509,11 @@ p{
 }
 .right{
   float: right;
+  padding-left: 8px;
 }
 .left{
   float: left;
+  padding-right: 8px;
 }
 
 .mini-post-preview{
