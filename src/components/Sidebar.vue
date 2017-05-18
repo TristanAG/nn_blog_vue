@@ -4,7 +4,7 @@
     <hr />
     <ul>
       <li v-for="post in posts" class="category-sidebar">
-        <router-link :to="'/dev/' + post.category + '/' + post.postUrl">{{post.title}}</router-link>
+        <router-link :to="'/blog/' + post.category + '/' + post.postUrl">{{post.title}}</router-link>
         <hr class="hr-category" />
       </li>
     </ul>

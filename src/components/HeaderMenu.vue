@@ -4,7 +4,7 @@
       <div class="container">
         <div class="row">
           <div id="header-left">
-            <router-link to="/dev"><img src="http://nordicnaturals.com/dev/blog-assets/images/nn-naturallyspeaking_horizontal.png" id="logo"></router-link>
+            <router-link to="/blog"><img src="http://nordicnaturals.com/dev/blog-assets/images/nn-naturallyspeaking_horizontal.png" id="logo"></router-link>
           </div>
 
           <div id="header-right">
@@ -16,16 +16,16 @@
       <div id="mobile-menu">
         <div class="container">
           <div class="row">
-            <router-link to="/dev"><h5>LATEST POSTS</h5></router-link>
+            <router-link to="/blog"><h5>LATEST POSTS</h5></router-link>
 
             <ul>
               <li v-for="post in archives" class="category-sidebar">
-                <router-link :to="'/dev/' + post.category + '/' + post.postUrl">{{post.title}}</router-link>
+                <router-link :to="'/blog/' + post.category + '/' + post.postUrl">{{post.title}}</router-link>
                 <!-- <hr class="hr-category" /> -->
               </li>
             </ul>
 
-            <router-link to="/dev/contributors"><h5>CONTRIBUTORS</h5></router-link>
+            <router-link to="/blog/contributors"><h5>CONTRIBUTORS</h5></router-link>
 
             <div class="social-icons">
               <h5>

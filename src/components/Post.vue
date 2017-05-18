@@ -9,7 +9,7 @@
         <h1>{{post.title}}</h1>
       </div>
       <img :src="post.imageUrl">
-      <p class="author-link">By <router-link to="/dev/contributors">{{post.author}}</router-link></p>
+      <p class="author-link">By <router-link to="/blog/contributors">{{post.author}}</router-link></p>
     </div>
     <!-- [/mobile only code for full-width image] -->
 
@@ -21,7 +21,7 @@
             <hr />
             <h1>{{post.title}}</h1>
             <img :src="post.imageUrl">
-            <p class="author-link">By <router-link to="/dev/contributors">{{post.author}}</router-link></p>
+            <p class="author-link">By <router-link to="/blog/contributors">{{post.author}}</router-link></p>
           </div>
           <div class="post-content" v-html="post.content"></div>
 
@@ -37,13 +37,13 @@
 
           <div id="mini-posts-full">
             <div class="mini-mini-post-preview" style="margin-right: 5.8%">
-              <router-link :to="'/dev/' + post.ref1category + '/' + post.ref1url">
+              <router-link :to="'/blog/' + post.ref1category + '/' + post.ref1url">
                 <div class="title">{{post.ref1title}}</div>
                 <img :src="post.ref1img">
               </router-link>
             </div>
             <div class="mini-mini-post-preview">
-              <router-link :to="'/dev/' + post.ref2category + '/' + post.ref2url">
+              <router-link :to="'/blog/' + post.ref2category + '/' + post.ref2url">
                 <div class="title">{{post.ref2title}}</div>
                 <img :src="post.ref2img">
               </router-link>
@@ -51,12 +51,12 @@
           </div>
 
           <div id="mini-posts-mobile">
-            <router-link :to="'/dev/' + post.ref1category + '/' + post.ref1url">
+            <router-link :to="'/blog/' + post.ref1category + '/' + post.ref1url">
               <div class="title">{{post.ref1title}}</div>
               <img :src="post.ref1img">
             </router-link>
 
-            <router-link :to="'/dev/' + post.ref2category + '/' + post.ref2url">
+            <router-link :to="'/blog/' + post.ref2category + '/' + post.ref2url">
               <div class="title">{{post.ref2title}}</div>
               <img :src="post.ref2img">
             </router-link>
@@ -92,13 +92,13 @@ export default {
       }
     },
     facebookShare: function () {
-      return 'https://www.facebook.com/sharer/sharer.php?u=http://nordicnaturals.com/dev/' + this.post.category + '/' + this.post.postUrl
+      return 'https://www.facebook.com/sharer/sharer.php?u=http://nordicnaturals.com/blog/' + this.post.category + '/' + this.post.postUrl
     },
     twitterShare: function () {
-      return 'https://twitter.com/intent/tweet?text=http://nordicnaturals.com/dev/' + this.post.category + '/' + this.post.postUrl
+      return 'https://twitter.com/intent/tweet?text=http://nordicnaturals.com/blog/' + this.post.category + '/' + this.post.postUrl
     },
     mailShare: function () {
-      return 'mailto:?subject=' + this.postRef.title + '&body=http://www.nordicnaturals.com/dev/' + this.post.category + '/' + this.post.postUrl
+      return 'mailto:?subject=' + this.postRef.title + '&body=http://www.nordicnaturals.com/blog/' + this.post.category + '/' + this.post.postUrl
     }
   }
 }

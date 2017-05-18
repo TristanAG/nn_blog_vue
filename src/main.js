@@ -32,24 +32,17 @@ const router = new VueRouter({
   mode: 'history',
   base: __dirname,
   routes: [
-
-    // {name: 'post', path: '/test/:postUrl', component: Test},
-
-    {path: '/', redirect: '/dev'},
-    {path: '/dev', component: LatestPosts},
-    {path: '/dev/contributors', component: Contributors},
+    {path: '/blog', component: LatestPosts},
+    {path: '/blog/contributors', component: Contributors},
     //so i think i was using categoryName as a param to pass in the actual route to make the correct REST call for the category list
-    {path: '/dev/big-picture', component: Category, props: { categoryName: 'big-picture' }, redirect: '/dev'},
-    {path: '/dev/big-picture/:postUrl', component: Post, props: { postCategory: 'big-picture'}}, //same with this one down here, this is to query the individual post with REST
+    {path: '/blog/big-picture', component: Category, props: { categoryName: 'big-picture' }, redirect: '/blog'},
+    {path: '/blog/big-picture/:postUrl', component: Post, props: { postCategory: 'big-picture'}}, //same with this one down here, this is to query the individual post with REST
 
-    {path: '/dev/all-about-science', component: Category, props: { categoryName: 'all-about-science' }, redirect: '/dev'},
-    {path: '/dev/all-about-science/:postUrl', component: Post, props: { postCategory: 'all-about-science'}},
+    {path: '/blog/all-about-science', component: Category, props: { categoryName: 'all-about-science' }, redirect: '/blog'},
+    {path: '/blog/all-about-science/:postUrl', component: Post, props: { postCategory: 'all-about-science'}},
 
-    {path: '/dev/kultur', component: Category, props: { categoryName: 'kultur' }, redirect: '/dev'},
-    {path: '/dev/kultur/:postUrl', component: Post, props: { postCategory: 'kultur'}},
-
-    {path: '/dev/new-category', component: Category, props: { categoryName: 'new-category' }, redirect: '/dev'},
-    {path: '/dev/new-category/:postUrl', component: Post, props: { postCategory: 'new-category'}}
+    {path: '/blog/kultur', component: Category, props: { categoryName: 'kultur' }, redirect: '/blog'},
+    {path: '/blog/kultur/:postUrl', component: Post, props: { postCategory: 'kultur'}}
   ],
   scrollBehavior (to, from, savedPosition) {
     return { x: 0, y: 0 }

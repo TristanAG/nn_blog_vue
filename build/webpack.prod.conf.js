@@ -37,10 +37,9 @@ var webpackConfig = merge(baseWebpackConfig, {
         '/all-about-science/why-natural-form-fish-oils-are-better-for-your-body-and-your-wallet',
         '/big-picture',
         '/big-picture/refuse-reduce-reuse-10-things-to-clean-up-our-oceans',
+        '/big-picture/dear-cosmo-why-you-really-should-take-your-fish-oil',
         '/kultur',
-        '/kultur/inside-nordic-naturals-meet-jonna-customer-service-rep-extraordinaire',
-        '/new-category',
-        '/new-category/the-new-post-is-here'
+        '/kultur/inside-nordic-naturals-meet-jonna-customer-service-rep-extraordinaire'
       ]
     ),
     // http://vuejs.github.io/vue-loader/en/workflow/production.html

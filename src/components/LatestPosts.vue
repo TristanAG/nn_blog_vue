@@ -15,7 +15,7 @@
 
           <!-- main post -->
           <div class="post-preview">
-            <router-link :to="'/dev/' + mainPost.category + '/' + mainPost.postUrl">
+            <router-link :to="'/blog/' + mainPost.category + '/' + mainPost.postUrl">
               <div class="category">{{mainPost.categoryText}}</div>
               <div class="title" style="font-size: 1.33em;">{{mainPost.title}}</div>
               <img :src="mainPost.imageUrl" >
@@ -33,7 +33,7 @@
               class="mini-post-preview"
               style="margin-right: 5.8%">
               <div class="post-preview">
-                <router-link :to="'/dev/' + post.category + '/' + post.postUrl">
+                <router-link :to="'/blog/' + post.category + '/' + post.postUrl">
                   <div class="category">{{post.categoryText}}</div>
                   <div class="title">{{post.title}}</div>
                   <img :src="post.imageUrl" >
@@ -47,7 +47,7 @@
               v-else-if="index % 2 === 1"
               class="mini-post-preview">
               <div class="post-preview">
-                <router-link :to="'/dev/' + post.category + '/' + post.postUrl">
+                <router-link :to="'/blog/' + post.category + '/' + post.postUrl">
                   <div class="category">{{post.categoryText}}</div>
                   <div class="title">{{post.title}}</div>
                   <img :src="post.imageUrl" >
@@ -66,7 +66,7 @@
               <div class="post-preview">
                 <div class="category">{{post.categoryText}}</div>
                 <div class="title">{{post.title}}</div>
-                <router-link :to="'/dev/' + post.category + '/' + post.postUrl">
+                <router-link :to="'/blog/' + post.category + '/' + post.postUrl">
                   <img :src="post.imageUrl" >
                   <p v-html="post.contentPreview"></p>
                   <div class="read-more"><p>read more</p></div>
@@ -81,7 +81,7 @@
           <!-- ALL PAST POSTS LISTED BELOW -->
 
           <div v-for="post in pastPosts" class="past-post-preview">
-            <router-link :to="'/dev/' + post.category + '/' + post.postUrl">
+            <router-link :to="'/blog/' + post.category + '/' + post.postUrl">
               <img :src="post.imageUrl" class="past-post-image">
               <!-- <img src="" class="past-post-image"/> -->
               <!-- <span class="post-preview"> -->
