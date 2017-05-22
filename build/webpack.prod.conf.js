@@ -28,18 +28,18 @@ var webpackConfig = merge(baseWebpackConfig, {
   plugins: [
     new PrerenderSpaPlugin(
       // Path to compiled app
-      path.join(__dirname, '../dist'),
+      path.join(__dirname, 'dist'),
       // List of endpoints you wish to prerender
       [
-        '/',
-        '/contributors',
-        '/all-about-science',
-        '/all-about-science/why-natural-form-fish-oils-are-better-for-your-body-and-your-wallet',
-        '/big-picture',
-        '/big-picture/refuse-reduce-reuse-10-things-to-clean-up-our-oceans',
-        '/big-picture/dear-cosmo-why-you-really-should-take-your-fish-oil',
-        '/kultur',
-        '/kultur/inside-nordic-naturals-meet-jonna-customer-service-rep-extraordinaire'
+        '/blog',
+        '/blog/contributors',
+        '/blog/all-about-science',
+        '/blog/all-about-science/why-natural-form-fish-oils-are-better-for-your-body-and-your-wallet',
+        '/blog/big-picture',
+        '/blog/big-picture/refuse-reduce-reuse-10-things-to-clean-up-our-oceans',
+        '/blog/big-picture/dear-cosmo-why-you-really-should-take-your-fish-oil',
+        '/blog/kultur',
+        '/blog/kultur/inside-nordic-naturals-meet-jonna-customer-service-rep-extraordinaire'
       ]
     ),
     // http://vuejs.github.io/vue-loader/en/workflow/production.html
