@@ -28,7 +28,7 @@ var webpackConfig = merge(baseWebpackConfig, {
   plugins: [
     new PrerenderSpaPlugin(
       // Path to compiled app
-      path.join(__dirname, 'dist'),
+      path.join(__dirname, '../dist'),
       // List of endpoints you wish to prerender
       [
         '/blog',
@@ -40,7 +40,10 @@ var webpackConfig = merge(baseWebpackConfig, {
         '/blog/big-picture/dear-cosmo-why-you-really-should-take-your-fish-oil',
         '/blog/kultur',
         '/blog/kultur/inside-nordic-naturals-meet-jonna-customer-service-rep-extraordinaire'
-      ]
+      ],
+      {
+        ignoreJSErrors: true
+      }
     ),
     // http://vuejs.github.io/vue-loader/en/workflow/production.html
     new webpack.DefinePlugin({
