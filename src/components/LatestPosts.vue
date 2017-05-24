@@ -181,6 +181,9 @@
 <script>
 export default {
   name: 'latest-posts',
+  created: function() {
+    window.document.title = "Naturally Speaking"
+  },
   computed: {
     mainPost: function () {
       return this.$store.state.posts[0]

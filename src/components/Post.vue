@@ -79,10 +79,12 @@ export default {
       postRef: {}
     }
   },
+  created: function() {
+    window.document.title = this.post.title + ' | Naturally Speaking'
+  },
   computed: {
   	post: function () {
       //method grabs post based on the current active url in $route
-
       var activePostUrl = this.$route.path.split('/')[3]
       // console.log(activePostUrl)
       for (var i = 0; i<this.$store.state.posts.length; i++){
@@ -99,6 +101,11 @@ export default {
     },
     mailShare: function () {
       return 'mailto:?subject=' + this.postRef.title + '&body=http://www.nordicnaturals.com/blog/' + this.post.category + '/' + this.post.postUrl
+    }
+  },
+  watch: {
+    '$route' () {
+        window.document.title = this.post.title + ' | Naturally Speaking'
     }
   }
 }

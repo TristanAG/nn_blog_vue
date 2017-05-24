@@ -29,6 +29,9 @@
 <script>
 export default {
   name: 'contributors',
+  created: function() {
+    window.document.title = "Contributors | Naturally Speaking"
+  },
   data () {
     return {
       authors: [
