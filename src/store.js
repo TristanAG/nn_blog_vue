@@ -7,6 +7,29 @@ export const store = new Vuex.Store({
   state: {
     posts: [
       {
+        id: 5,
+        category: "home-life",
+        categoryText: "HOME LIFE",
+        author: "Claudia Burgin",
+        postUrl: "getting-little-ones-to-eat-well-8-great-tips",
+        title: "Getting Little Ones to Eat Well: 8 Great Tips ",
+        imageUrl: "http://www.nordicnaturals.com/dev/blog-assets/post-images/little-ones-main-image.jpg",
+        contentPreview: `
+          Few things can be more frustrating than getting a child to eat what we parents consider healthy foods. Years of mealtime anxiety motivated me to come up with a few creative strategies to coax my picky eater to broaden his eating choices. Here’s what worked for me:
+        `,
+        content: `
+          <p>Few things can be more frustrating than getting a child to eat what we parents consider healthy foods. My biggest “mommy fail” moments seem to revolve around the dinner table when I see my 3-year-old refuse to eat anything that doesn’t involve pasta, bread, or rice.</p><p>Yet as our pediatrician often reminds me, it’s actually <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3474391/" target="_none">developmentally appropriate for preschoolers to refuse foods</a> we give them. And it’s wise to look at what kids eat over the course of a week rather than a single day before worrying about their eating habits.</p><p>That said, the food struggles at our house motivated me to come up with a few good tricks for tempting my picky eater to try new foods every now and then. Here’s what has (mostly) worked for me:</p><p><b>1. Have your child help you cook.</b> Stirring, measuring, cracking eggs, sprinkling spices—kids are curious creatures, and are often happy to get involved in meal prep. I’ve found that my preschooler is a whole lot more willing to eat something if he feels he’s had a hand in making.</p><p><b>2. Start the meal with a healthy snack.</b> As a first course, I often give my child a whole baby carrot (I buy them with the tops still on so they look more interesting). I peel it and hand it to him while he’s waiting for me to prep the rest of his meal. Nine times out of ten, he eats it. He’s also been known to nosh on green (pitted) olives and cucumber wedges pre-dinnertime.</p><p><b>3. Disguise your protein.</b> Surprisingly, my child turns his nose up at popular kid favorites like meatballs and chicken strips. But I’ve mixed canned salmon in with mac ‘n cheese with some success. And I’ve learned to love sloppy Joes (my son loves the soft texture), because it’s a good way to get my child to eat grass-fed beef, along with some hidden grated zucchini.</p><p><b>3. Offer rejects regularly.</b> Apparently, kids need to be exposed to new foods repeatedly before they will decide to like them. Some experts say it takes 10 – 15 “tastes” before a kid will accept a new food into his repertoire. The key seems to be not to react if the food you serve gets rejected. Still working on this one…</p><p><b>5. Get creative with it.</b> Kids love food that’s fun to eat. Whether it’s arranging food in colorful rainbows, or dressing up veggies to look like faces, your creative efforts might just pay off. Also, many moms have had success serving proteins and vegetables with healthy dips like hummus, pesto, or marinara sauce. This hasn’t yet worked at my house (unless you count ketchup as a healthy dip), but it hasn’t deterred me from trying.</p><p><b>6. Use peer pressure.</b> It’s true, kids are more likely to eat foods they see other kids eating and enjoying. If you know a mom whose kid loves a wide range of foods, invite that family over to dinner. Chances are your child will pay close attention to what the other kids are eating.</p><p><b>7. Grow with them.</b> Even if you don’t have a yard, you can grow cherry tomatoes, lettuces, and other edibles in a pot. Seeing food grow can help kids make the connection between the food we buy in the grocery store, and where that food actually comes from. And hopefully, seeing some of Mother Nature’s magic will be captivating enough to tempt your child to try a few new veggies.</p><p><b>8. Make supplements part of your daily routine.</b> You might be rolling your eyes (here it comes, the pitch!) at this point. But honestly, I feel much better giving my kid a <a href="http://www.nordicnaturals.com/en/Products/Product_Details/98/?ProdID=1411" target="_none">good daily multivitamin</a> and a dose of <a href="http://www.nordicnaturals.com/en/General_Public/Children's_Omegas/473" target="_none">children’s omega-3s</a> in the morning to fill in the nutritional gaps. We also on occasion add a <a href="https://www.nordicnaturals.com/en/General_Public/Children's_Gummies/475" target="_none">vitamin D or vitamin C gummy</a>, depending on the time of year and whether or not I think he may be coming down with a cold, and a <a href="https://www.nordicnaturals.com/en/Products/Product_Details/514/?ProdID=1747" target="_none">kid’s probiotic</a>. It’s easy to give him these as he’s eating breakfast, and now he actually asks for his vitamins every morning. A good lifelong habit in the making, I say.</p>
+        `,
+        ref1title: "Why Natural-Form Fish Oils are Better for Your Body—and Your Wallet",
+        ref1category: "all-about-science",
+        ref1url: "why-natural-form-fish-oils-are-better-for-your-body-and-your-wallet",
+        ref1img: "http://www.nordicnaturals.com/dev/blog-assets/post-images/capsules-and-fish.jpg",
+        ref2title: "Refuse, Reduce, Reuse: 10 Things We Can All Do to Clean Up Our Oceans",
+        ref2category: "big-picture",
+        ref2url: "refuse-reduce-reuse-10-things-to-clean-up-our-oceans",
+        ref2img: "http://www.nordicnaturals.com/dev/blog-assets/post-images/refuse-reduce-reuse-compressor.jpg"
+      },
+      {
         id: 4,
         category: "big-picture",
         categoryText: "BIG PICTURE",

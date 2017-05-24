@@ -536,6 +536,18 @@ p{
   }
 }*/
 
+.post-content a{
+  color: #00accd;
+  transition: .3s;
+}
+.post-content a:hover{
+  color: #002747;
+}
+#main-container img{
+  /*border: 1px solid #dedfe2;*/
+  border-radius: 2px;
+}
+
 .post-preview a .read-more p, .past-post-preview a .read-more p{
   color: #00accd;
 
