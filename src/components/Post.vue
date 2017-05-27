@@ -3,7 +3,7 @@
     <!-- [mobile only code for full-width image] -->
     <div class="buffer"></div>
     <div class="mobile-image-mod">
-      <div class="container" >
+      <div class="container">
         <h5>{{post.categoryText}}</h5>
         <hr />
         <h1>{{post.title}}</h1>

@@ -30,6 +30,14 @@
               </li>
             </ul>
 
+            <h5>CATEGORIES</h5>
+            <ul>
+              <li class="category-sidebar"><router-link :to="'/blog/all-about-science'">All About Science</router-link></li>
+              <li class="category-sidebar"><router-link :to="'/blog/big-picture'">Big Picture</router-link></li>
+              <li class="category-sidebar"><router-link :to="'/blog/kultur'">Kultur</router-link></li>
+              <li class="category-sidebar"><router-link :to="'/blog/home-life'">Home Life</router-link></li>
+            </ul>
+
             <router-link to="/blog/contributors"><h5>CONTRIBUTORS</h5></router-link>
 
             <div class="social-icons">

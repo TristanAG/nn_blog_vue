@@ -1,6 +1,6 @@
 <template>
   <div class="contributors">
-    <div class="container" id="main-container" style="padding-top: 40px;">
+    <div class="container" style="padding-top: 40px;">
       <div class="row">
         <div class="eight columns">
 
@@ -60,3 +60,8 @@ export default {
   }
 }
 </script>
+<style scoped>
+  .author-component-left-pane > img{
+    border-radius: 50%;
+  }
+</style>

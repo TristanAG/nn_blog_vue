@@ -207,7 +207,10 @@ h5 i:hover{
 }
 
 
-
+#hero-image{
+  margin-top: 35px;
+  max-width: 100%;
+}
 #hero-image-full{
 
   /*z-index: 0;*/
@@ -547,6 +550,7 @@ p{
   /*border: 1px solid #dedfe2;*/
   border-radius: 2px;
 }
+
 
 .post-preview a .read-more p, .past-post-preview a .read-more p{
   color: #00accd;
