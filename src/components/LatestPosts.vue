@@ -15,8 +15,9 @@
 
           <!-- main post -->
           <div class="post-preview">
+            <router-link :to="'/blog/' + mainPost.category" class="latest-link"><div class="category">{{mainPost.categoryText}}</div></router-link>
             <router-link :to="'/blog/' + mainPost.category + '/' + mainPost.postUrl">
-              <div class="category">{{mainPost.categoryText}}</div>
+
               <div class="title" style="font-size: 1.33em;">{{mainPost.title}}</div>
               <img :src="mainPost.imageUrl" >
               <p v-html="mainPost.contentPreview"></p>
@@ -197,3 +198,10 @@ export default {
   }
 }
 </script>
+
+<style scoped>
+  .latest-link{
+    color: inheret;
+    text-decoration: underline;
+  }
+</style>

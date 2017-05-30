@@ -1,11 +1,11 @@
 <template>
   <div class="post">
-  
+
     <!-- [mobile only code for full-width image] -->
     <div class="buffer"></div>
     <div class="mobile-image-mod">
       <div class="container">
-        <h5>{{post.categoryText}}</h5>
+        <h5><router-link :to="'/blog/' + post.category">{{post.categoryText}}</router-link></h5>
         <hr />
         <h1>{{post.title}}</h1>
       </div>
@@ -18,7 +18,7 @@
       <div class="row">
         <div class="eight columns">
           <div class="desktop-image-mod">
-            <h5>{{post.categoryText}}</h5>
+            <h5><router-link :to="'/blog/' + post.category">{{post.categoryText}}</router-link></h5>
             <hr />
             <h1>{{post.title}}</h1>
             <img :src="post.imageUrl">

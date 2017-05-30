@@ -25,6 +25,11 @@ a{
   color: #004680;
 }
 
+h5 a{
+  color: inherit;
+  text-decoration: none;
+}
+
 a:hover{
   color: #002747;
   text-decoration: underline;

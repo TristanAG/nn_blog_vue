@@ -57,15 +57,9 @@ export default {
     }
   },
   methods: {
+
     reLoad: function() {
       this.category = this.$route.path.split('/')[2]
-
-      var words = this.category.split('-')
-      var sanitizedTitle = []
-      for (var i = 0; i < words.length; i++){
-        sanitizedTitle.push(words[i].charAt(0).toUpperCase() + words[i].slice(1))
-      }
-      window.document.title = sanitizedTitle.join(' ') + ' | Naturally Speaking'
 
       if (this.category === "big-picture"){
         this.categoryImage = "http://www.nordicnaturals.com/dev/blog-assets/images/big-picture-compressor.jpg"
@@ -74,8 +68,15 @@ export default {
       }else if (this.category === "home-life"){
         this.categoryImage = "http://www.nordicnaturals.com/dev/blog-assets/images/home-life-1-compressor.jpg"
       }else if (this.category === "kultur"){
-        this.categoryImage = "http://www.nordicnaturals.com/dev/blog-assets/images/nordic-Way-2-compressor.jpg"
+        this.categoryImage = "http://www.nordicnaturals.com/dev/blog-assets/images/nordic-Way-1-compressor.jpg"
       }
+
+      var words = this.category.split('-')
+      var sanitizedTitle = []
+      for (var i = 0; i < words.length; i++){
+        sanitizedTitle.push(words[i].charAt(0).toUpperCase() + words[i].slice(1))
+      }
+      window.document.title = sanitizedTitle.join(' ') + ' | Naturally Speaking'
     }
   }
 }
