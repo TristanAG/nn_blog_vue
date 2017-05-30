@@ -798,3 +798,34 @@ footer .social-icons-footer h5 i{
   }
 
 }
+
+.video-container {
+position: relative;
+padding-bottom: 56.25%;
+padding-top: 30px; height: 0; overflow: hidden;
+}
+
+.video-container iframe,
+.video-container object,
+.video-container embed {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 90%;
+}
+
+.videoWrapper {
+  height:600px;
+  width:600px;
+  position:relative;
+  overflow:hidden;
+}
+
+.videoWrapper iframe {
+	height:90%;
+	width:100%;
+	position:absolute;
+	top:0;
+	bottom:0;
+}

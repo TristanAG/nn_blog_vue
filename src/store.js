@@ -15,12 +15,65 @@ export const store = new Vuex.Store({
     ],
     posts: [
       {
+        id: 6,
+        category: "kultur",
+        categoryText: "KULTUR",
+        author: "Nordic Naturals Staff",
+        postUrl: "inside-nordic-naturals-meet-derek-international-music-maker",
+        title: "Inside Nordic Naturals: Meet Derek, International Music Maker",
+        imageUrl: "http://www.nordicnaturals.com/dev/blog-assets/post-images/derek.png",
+        contentPreview: `
+          If you buy Nordic Naturals products from one of our overseas distributors, you might have indirectly crossed paths with our very own Derek Bodkin. Read our interview with Derek here, and watch him whistling on stage at the 2016 Redwood Ramble music festival.
+        `,
+        content: `
+          <p><b>Name:</b> Derek Bodkin<br>
+<b>Role:</b> International Sales Account Coordinator<br>
+<b>Years with Nordic Naturals:</b> 5.5</p>
+
+<p>
+<b>What do you do at Nordic Naturals, and what do you like best about your job?</b>
+I work with our distributors to get Nordic Naturals products overseas. This is not my first role at Nordic Naturals, and it’s really a different mindset from what I was doing before. What I like about it is seeing how things operate on a global scale, and also seeing things from a different cultural perspective. It’s a job that has strengthened my desire to see more of the world.
+</p>
+<p>
+<b>Where did you grow up, and how has that place influenced you?</b>
+I was born in Boston, but I grew up mostly in southern California. Being a musician and living in close proximity to L.A., I eventually found myself in Hollywood, doing post-production sound editing and music editing. I also did some work as a voice-over actor. But I wasn’t really playing music, which has always been my passion. It was when I moved to Santa Cruz that I started playing dive bars and then that evolved into bigger shows that grew into touring on my days off.
+</p>
+<p>
+<b>What personal accomplishment are you most proud of?</b>
+Recording and producing an entire album. I played most of the instruments myself, wrote most of the songs, and paid my other musicians for their time and their talents. Other friends offered to help me with it here and there, but it was really important to me to do it on my own. The album is called <a href="http://www.cdbaby.com/cd/derekbodkin" target="_none">“True Story.”</a>
+</p>
+<p>
+<b>What is something about you that few people know? Do you have any hidden talents?</b>
+Most people here know that I’m a musician, and that I’m in a band and I have this whole other life outside of work.  But not a lot of people know that I’m a professional whistler (laughs).  And that I’m a multi-instrumentalist.  I have a degree in music composition and conducting, with my major instrument being percussion. I’ve played banjo, guitar, harmonica, and piano since I was a child.
+</p>
+<p>
+<b>What Nordic Naturals products do you take? Any observations you’d like to share?</b>
+I’ve never been a pill guy, mostly because I can never remember to take them. But I always remember to take my <a href="http://www.nordicnaturals.com/en/Products/Product_Details/514/?ProdID=1428" target="_none">Ultimate Omega</a>, everyday. I think it keeps me from feeling dried out on the inside. I also take <a href="http://www.nordicnaturals.com/en/General_Public/Vitamin_D3_formulas/365" target="_none">vitamin D</a> on my doctor’s orders.
+</p>
+<p>
+<b>What does “living healthfully” mean to you?</b>
+Finding balance. It’s hard not to take work home with you, but if you can do that, great. I also think it’s important to govern yourself with integrity. Stay away from gossip. Be honest, even when it’s uncomfortable.
+</p>
+<p>
+<div class="video-container"><iframe width="560" height="315" src="https://www.youtube.com/embed/A85AqiJQdC4" frameborder="0" allowfullscreen></iframe></div>
+</p>
+        `,
+        ref1title: "Dear Cosmo: Why You Really Should Take Your Fish Oil",
+        ref1category: "big-picture",
+        ref1url: "dear-cosmo-why-you-really-should-take-your-fish-oil",
+        ref1img: "http://www.nordicnaturals.com/dev/blog-images/cosmo-post-main-image.jpg",
+        ref2title: "Inside Nordic Naturals: Meet Jonna, Customer Service Rep Extraordinaire",
+        ref2category: "kultur",
+        ref2url: "inside-nordic-naturals-meet-jonna-customer-service-rep-extraordinaire",
+        ref2img: "http://www.nordicnaturals.com/dev/blog-assets/post-images/jonna-compressor.jpg"
+      },
+      {
         id: 5,
         category: "home-life",
         categoryText: "HOME LIFE",
         author: "Claudia Burgin",
         postUrl: "getting-little-ones-to-eat-well-8-great-tips",
-        title: "Getting Little Ones to Eat Well: 8 Great Tips ",
+        title: "Getting Little Ones to Eat Well: 8 Great Tips",
         imageUrl: "http://www.nordicnaturals.com/dev/blog-assets/post-images/little-ones-main-image.jpg",
         contentPreview: `
           Few things can be more frustrating than getting a child to eat what we parents consider healthy foods. Years of mealtime anxiety motivated me to come up with a few creative strategies to coax my picky eater to broaden his eating choices. Here’s what worked for me:

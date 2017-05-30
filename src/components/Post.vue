@@ -1,5 +1,6 @@
 <template>
   <div class="post">
+  
     <!-- [mobile only code for full-width image] -->
     <div class="buffer"></div>
     <div class="mobile-image-mod">
