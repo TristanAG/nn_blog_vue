@@ -2,7 +2,9 @@
   <div class="category-page">
 
     <div class="hero-image">
-      <img v-bind:src="this.categoryImage" id="hero-image">
+
+        <img v-bind:src="this.categoryImage" id="hero-image">
+
     </div>
 
     <div class="container">
@@ -54,29 +56,33 @@ export default {
   watch: {
     '$route' () {
       this.reLoad()
+      this.doSomething()
     }
   },
   methods: {
-
     reLoad: function() {
       this.category = this.$route.path.split('/')[2]
-
-      if (this.category === "big-picture"){
-        this.categoryImage = "http://www.nordicnaturals.com/dev/blog-assets/images/big-picture-compressor.jpg"
-      }else if(this.category === "all-about-science"){
+      if(this.category === "all-about-science"){
         this.categoryImage = "http://www.nordicnaturals.com/dev/blog-assets/images/science-compressor.jpg"
+      }else if (this.category === "big-picture"){
+        this.categoryImage = "http://www.nordicnaturals.com/dev/blog-assets/images/big-picture-compressor.jpg"
       }else if (this.category === "home-life"){
         this.categoryImage = "http://www.nordicnaturals.com/dev/blog-assets/images/home-life-1-compressor.jpg"
       }else if (this.category === "kultur"){
         this.categoryImage = "http://www.nordicnaturals.com/dev/blog-assets/images/nordic-Way-1-compressor.jpg"
       }
 
+      //refresh the title in DOM
       var words = this.category.split('-')
       var sanitizedTitle = []
       for (var i = 0; i < words.length; i++){
         sanitizedTitle.push(words[i].charAt(0).toUpperCase() + words[i].slice(1))
       }
       window.document.title = sanitizedTitle.join(' ') + ' | Naturally Speaking'
+    },
+    doSomething: function() {
+      // $('#hero-image').hide();
+      $('#fader').css('opacity', '0').fadeTo( "fast", 1 );
     }
   }
 }

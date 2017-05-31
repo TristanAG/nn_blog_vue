@@ -52,6 +52,17 @@ const router = new VueRouter({
   }
 });
 
+router.beforeEach(function(to, from, next) {
+
+
+
+
+
+
+    $('#fader').css('opacity', '0').fadeTo( 270, 1 );
+    next();
+})
+
 Vue.config.productionTip = false
 
 new Vue({
@@ -66,6 +77,7 @@ new Vue({
 
         <router-view></router-view>
         <footer-block></footer-block>
+
       </div>
     </div>
 

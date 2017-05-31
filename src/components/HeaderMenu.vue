@@ -71,11 +71,12 @@ $( document ).ready( function() {
     if( !visible ){
       visible = true
       $( '#mobile-menu' ).slideDown( '.4' )
-      $( '#fader' ).fadeTo( "slow", 0.6)
+      $( '#fader' ).fadeTo( 270, 0.6)
+
     } else {
       visible = false
       $( '#mobile-menu' ).slideUp( 'fast' )
-      $( '#fader' ).fadeTo( "slow", 1 )
+      $( '#fader' ).fadeTo( 270, 1 )
     }
   })
 
@@ -83,7 +84,8 @@ $( document ).ready( function() {
     if( visible ){
       visible = false
       $( '#mobile-menu' ).slideUp( '.4' )
-      $( '#fader' ).fadeTo( "slow", 1 )
+      $( '#fader' ).fadeTo( 270, 1 )
+
     }
   })
 })
