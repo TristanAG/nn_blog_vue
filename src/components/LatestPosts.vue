@@ -8,16 +8,12 @@
     <div class="container" id="main-container">
       <div class="row">
         <div class="eight columns">
-
-
           <h5>LATEST POSTS</h5>
           <hr />
-
           <!-- main post -->
           <div class="post-preview">
             <router-link :to="'/blog/' + mainPost.category" class="latest-link"><div class="category">{{mainPost.categoryText}}</div></router-link>
             <router-link :to="'/blog/' + mainPost.category + '/' + mainPost.postUrl">
-
               <div class="title" style="font-size: 1.33em;">{{mainPost.title}}</div>
               <img :src="mainPost.imageUrl" >
               <p v-html="mainPost.contentPreview"></p>
@@ -34,8 +30,8 @@
               class="mini-post-preview"
               style="margin-right: 5.8%">
               <div class="post-preview">
+                <router-link :to="'/blog/' + post.category" class="latest-link"><div class="category">{{post.categoryText}}</div></router-link>
                 <router-link :to="'/blog/' + post.category + '/' + post.postUrl">
-                  <div class="category">{{post.categoryText}}</div>
                   <div class="title">{{post.title}}</div>
                   <img :src="post.imageUrl" >
                   <p v-html="post.contentPreview"></p>
@@ -48,8 +44,8 @@
               v-else-if="index % 2 === 1"
               class="mini-post-preview">
               <div class="post-preview">
+                <router-link :to="'/blog/' + post.category" class="latest-link"><div class="category">{{post.categoryText}}</div></router-link>
                 <router-link :to="'/blog/' + post.category + '/' + post.postUrl">
-                  <div class="category">{{post.categoryText}}</div>
                   <div class="title">{{post.title}}</div>
                   <img :src="post.imageUrl" >
                   <p v-html="post.contentPreview"></p>
@@ -65,7 +61,7 @@
               v-for="(post, index) in recentPosts"
               class="past-post-preview">
               <div class="post-preview">
-                <div class="category">{{post.categoryText}}</div>
+                <router-link :to="'/blog/' + post.category" class="latest-link"><div class="category">{{post.categoryText}}</div></router-link>
                 <div class="title">{{post.title}}</div>
                 <router-link :to="'/blog/' + post.category + '/' + post.postUrl">
                   <img :src="post.imageUrl" >
@@ -84,98 +80,20 @@
           <div v-for="post in pastPosts" class="past-post-preview">
             <router-link :to="'/blog/' + post.category + '/' + post.postUrl">
               <img :src="post.imageUrl" class="past-post-image">
-              <!-- <img src="" class="past-post-image"/> -->
-              <!-- <span class="post-preview"> -->
-                <div class="category">{{post.categoryText}}</div>
+                <router-link :to="'/blog/' + post.category" class="latest-link"><div class="category">{{post.categoryText}}</div></router-link>
                 <div class="title">{{post.title}}</div>
-                <!-- <div class="tagline">10 Things We Can All Do to Clean Up Our Oceans</div> -->
                 <p v-html="post.contentPreview"></p>
-                <!-- </span> -->
                 <div class="read-more"><p>read more</p></div>
             </router-link>
-                <!-- <div class="author-image-wrapper">
-                  <img src="images/author.png" class="author-pic-mini"/>
-                </div>
-                <div class="author-text-wrapper">
-                  <div class="author-by">By</div> <div class="author-name">SARA YORK</div>
-                </div> -->
-              <!-- </span> -->
           </div>
-
-        <!-- <h5>PAST POSTS</h5>
-        <hr /> -->
-
-        <!-- <div class="past-post-preview">
-          <a href="#">
-            <img src="images/sample2.jpg" class="past-post-image"/>
-            <span class="post-preview">
-              <div class="category">Big Picture</div>
-              <div class="title">REFUSE, REDUCE, REUSE:</div>
-              <div class="tagline">10 Things We Can All Do to Clean Up Our Oceans</div>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris est sem, cursus quis accumsan vitae,
-                finibus tincidunt tellus. Praesent non ...
-              </p>
-          </a>
-              <div class="author-image-wrapper">
-                <img src="images/author.png" class="author-pic-mini"/>
-              </div>
-              <div class="author-text-wrapper">
-                <div class="author-by">By</div> <div class="author-name">SARA YORK</div>
-              </div>
-            </span>
-        </div> -->
-
-        <!-- <div class="past-post-preview">
-          <a href="#">
-            <img src="images/sample2.jpg" class="past-post-image"/>
-            <span class="post-preview">
-              <div class="category">Big Picture</div>
-              <div class="title">REFUSE, REDUCE, REUSE:</div>
-              <div class="tagline">10 Things We Can All Do to Clean Up Our Oceans</div>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris est sem, cursus quis accumsan vitae,
-                finibus tincidunt tellus. Praesent non ...
-              </p>
-          </a>
-              <div class="author-image-wrapper">
-                <img src="images/author.png" class="author-pic-mini"/>
-              </div>
-              <div class="author-text-wrapper">
-                <div class="author-by">By</div> <div class="author-name">SARA YORK</div>
-              </div>
-            </span>
-        </div> -->
-
-        <!-- <div class="past-post-preview">
-          <a href="#">
-            <img src="images/sample2.jpg" class="past-post-image"/>
-            <span class="post-preview">
-              <div class="category">Big Picture</div>
-              <div class="title">REFUSE, REDUCE, REUSE:</div>
-              <div class="tagline">10 Things We Can All Do to Clean Up Our Oceans</div>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris est sem, cursus quis accumsan vitae,
-                finibus tincidunt tellus. Praesent non ...
-              </p>
-          </a>
-              <div class="author-image-wrapper">
-                <img src="images/author.png" class="author-pic-mini"/>
-              </div>
-              <div class="author-text-wrapper">
-                <div class="author-by">By</div> <div class="author-name">SARA YORK</div>
-              </div>
-            </span>
-        </div> -->
-
         </div>
 
         <div class="four columns">
           <sidebar></sidebar>
         </div>
+
       </div>
     </div>
-
   </div>
 </template>
 

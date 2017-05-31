@@ -56,7 +56,7 @@ export default {
   watch: {
     '$route' () {
       this.reLoad()
-      this.doSomething()
+      // this.doSomething()
     }
   },
   methods: {
@@ -67,7 +67,7 @@ export default {
       }else if (this.category === "big-picture"){
         this.categoryImage = "http://www.nordicnaturals.com/dev/blog-assets/images/big-picture-compressor.jpg"
       }else if (this.category === "home-life"){
-        this.categoryImage = "http://www.nordicnaturals.com/dev/blog-assets/images/home-life-1-compressor.jpg"
+        this.categoryImage = "http://www.nordicnaturals.com/dev/blog-assets/images/home-life-main-image.jpg"
       }else if (this.category === "kultur"){
         this.categoryImage = "http://www.nordicnaturals.com/dev/blog-assets/images/nordic-Way-1-compressor.jpg"
       }
@@ -79,11 +79,11 @@ export default {
         sanitizedTitle.push(words[i].charAt(0).toUpperCase() + words[i].slice(1))
       }
       window.document.title = sanitizedTitle.join(' ') + ' | Naturally Speaking'
-    },
-    doSomething: function() {
-      // $('#hero-image').hide();
-      $('#fader').css('opacity', '0').fadeTo( "fast", 1 );
     }
+    // doSomething: function() {
+    //   // $('#hero-image').hide();
+    //   $('#fader').css('opacity', '0').fadeTo( "fast", 1 );
+    // }
   }
 }
 </script>
