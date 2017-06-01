@@ -59,7 +59,7 @@ export default {
   name: 'header-menu',
   computed: {
     archives: function () {
-      return this.$store.state.posts
+      return this.$store.state.posts.slice(0,3)
     }
   }
 }
@@ -72,20 +72,17 @@ $( document ).ready( function() {
       visible = true
       $( '#mobile-menu' ).slideDown( '.4' )
       $( '#fader' ).fadeTo( 270, 0.6)
-
     } else {
       visible = false
       $( '#mobile-menu' ).slideUp( 'fast' )
       $( '#fader' ).fadeTo( 270, 1 )
     }
   })
-
   $( '#mobile-menu' ).click(function () {
     if( visible ){
       visible = false
       $( '#mobile-menu' ).slideUp( '.4' )
       $( '#fader' ).fadeTo( 270, 1 )
-
     }
   })
 })

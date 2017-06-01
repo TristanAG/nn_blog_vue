@@ -1,10 +1,7 @@
 <template>
   <div class="category-page">
-
     <div class="hero-image">
-
-        <img v-bind:src="this.categoryImage" id="hero-image">
-
+      <img v-bind:src="this.categoryImage" id="hero-image">
     </div>
 
     <div class="container">
@@ -12,14 +9,16 @@
         <div class="eight columns">
           <h5>{{this.category.split('-').join(' ').toUpperCase()}}</h5>
           <hr>
+
           <div v-for="post in posts" class="past-post-preview">
-            <router-link :to="'/blog/' + post.category + '/' + post.postUrl">
-              <img :src="post.imageUrl" class="past-post-image">
-                <div class="category">{{post.categoryText}}</div>
-                <div class="title">{{post.title}}</div>
+            <div class="post-preview">
+              <div class="title">{{post.title}}</div>
+              <router-link :to="'/blog/' + post.category + '/' + post.postUrl">
+                <img :src="post.imageUrl" >
                 <p v-html="post.contentPreview"></p>
                 <div class="read-more"><p>read more</p></div>
-            </router-link>
+              </router-link>
+            </div>
           </div>
         </div>
         <div class="four columns">

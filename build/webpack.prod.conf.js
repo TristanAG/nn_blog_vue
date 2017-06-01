@@ -40,6 +40,7 @@ var webpackConfig = merge(baseWebpackConfig, {
         '/blog/big-picture/dear-cosmo-why-you-really-should-take-your-fish-oil',
         '/blog/kultur',
         '/blog/kultur/inside-nordic-naturals-meet-jonna-customer-service-rep-extraordinaire',
+        '/blog/kultur/inside-nordic-naturals-meet-derek-international-music-maker',
         '/blog/home-life',
         '/blog/home-life/getting-little-ones-to-eat-well-8-great-tips'
       ],

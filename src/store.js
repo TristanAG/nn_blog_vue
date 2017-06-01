@@ -26,7 +26,8 @@ export const store = new Vuex.Store({
           If you buy Nordic Naturals products from one of our overseas distributors, you might have indirectly crossed paths with our very own Derek Bodkin. Read our interview with Derek here, and watch him whistling on stage at the 2016 Redwood Ramble music festival.
         `,
         content: `
-          <p><b>Name:</b> Derek Bodkin<br>
+        <p><i>If you buy Nordic Naturals products from one of our overseas distributors, you might have indirectly crossed paths with our very own Derek Bodkin. Read our interview with Derek here, and <a href="#vid">watch him whistling on stage at the 2016 Redwood Ramble music festival</a>.</i></p>
+      <p><b>Name:</b> Derek Bodkin<br>
 <b>Role:</b> International Sales Account Coordinator<br>
 <b>Years with Nordic Naturals:</b> 5.5</p>
 
@@ -44,18 +45,18 @@ Recording and producing an entire album. I played most of the instruments myself
 </p>
 <p>
 <b>What is something about you that few people know? Do you have any hidden talents?</b>
-Most people here know that I’m a musician, and that I’m in a band and I have this whole other life outside of work.  But not a lot of people know that I’m a professional whistler (laughs).  And that I’m a multi-instrumentalist.  I have a degree in music composition and conducting, with my major instrument being percussion. I’ve played banjo, guitar, harmonica, and piano since I was a child.
+Most people here know that I’m a musician, and that I’m in a band and I have this whole other life outside of work.  But not a lot of people know that I’m a <a href="#vid">professional whistler</a> (laughs).  And that I’m a multi-instrumentalist.  I have a degree in music composition and conducting, with my major instrument being percussion. I’ve played banjo, guitar, harmonica, and piano since I was a child.
 </p>
 <p>
 <b>What Nordic Naturals products do you take? Any observations you’d like to share?</b>
-I’ve never been a pill guy, mostly because I can never remember to take them. But I always remember to take my <a href="http://www.nordicnaturals.com/en/Products/Product_Details/514/?ProdID=1428" target="_none">Ultimate Omega</a>, everyday. I think it keeps me from feeling dried out on the inside. I also take <a href="http://www.nordicnaturals.com/en/General_Public/Vitamin_D3_formulas/365" target="_none">vitamin D</a> on my doctor’s orders.
+I’ve never been a supplements guy, mostly because I can never remember to take them. But I always remember to take my <a href="http://www.nordicnaturals.com/en/Products/Product_Details/514/?ProdID=1428" target="_none">Ultimate Omega</a>, everyday. I think it keeps me from feeling dried out on the inside. I also take <a href="http://www.nordicnaturals.com/en/General_Public/Vitamin_D3_formulas/365" target="_none">vitamin D</a> on my doctor’s orders.
 </p>
 <p>
 <b>What does “living healthfully” mean to you?</b>
 Finding balance. It’s hard not to take work home with you, but if you can do that, great. I also think it’s important to govern yourself with integrity. Stay away from gossip. Be honest, even when it’s uncomfortable.
 </p>
 <p>
-<div class="video-container"><iframe width="560" height="315" src="https://www.youtube.com/embed/A85AqiJQdC4" frameborder="0" allowfullscreen></iframe></div>
+<div class="video-container" id="vid"><iframe width="560" height="315" src="https://www.youtube.com/embed/A85AqiJQdC4" frameborder="0" allowfullscreen></iframe></div>
 </p>
         `,
         ref1title: "Dear Cosmo: Why You Really Should Take Your Fish Oil",

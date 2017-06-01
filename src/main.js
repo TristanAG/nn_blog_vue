@@ -50,37 +50,25 @@ const router = new VueRouter({
   scrollBehavior (to, from, savedPosition) {
     return { x: 0, y: 0 }
   }
-});
+})
 
 router.beforeEach(function(to, from, next) {
-
-
-
-
-
-
-    $('#fader').css('opacity', '0').fadeTo( 270, 1 );
-    next();
+  $('#fader').css('opacity', '0').fadeTo( 270, 1 );
+  next();
 })
 
 Vue.config.productionTip = false
 
 new Vue({
-  // el: '#app',
   store,
   router,
   template: `
-
     <div id="app">
       <header-menu></header-menu>
       <div id="fader">
-
         <router-view></router-view>
         <footer-block></footer-block>
-
       </div>
     </div>
-
-  `,
-  // components: { App },
+  `
 }).$mount('#app')
