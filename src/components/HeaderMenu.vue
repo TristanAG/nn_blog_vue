@@ -65,8 +65,9 @@ export default {
 }
 //menu toggle script with fade effects
 $( document ).ready( function() {
+  // $( '#mobile-menu' ).hide()
   var visible = false
-  $( '#mobile-menu' ).hide()
+
   $( '#menu-display' ).click(function () {
     if( !visible ){
       visible = true
