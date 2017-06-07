@@ -65,9 +65,7 @@ export default {
 }
 //menu toggle script with fade effects
 $( document ).ready( function() {
-  // $( '#mobile-menu' ).hide()
   var visible = false
-
   $( '#menu-display' ).click(function () {
     if( !visible ){
       visible = true
@@ -75,7 +73,7 @@ $( document ).ready( function() {
       $( '#fader' ).fadeTo( 270, 0.6)
     } else {
       visible = false
-      $( '#mobile-menu' ).slideUp( 'fast' )
+      $( '#mobile-menu' ).slideUp( '.4' )
       $( '#fader' ).fadeTo( 270, 1 )
     }
   })

@@ -36,6 +36,21 @@
           <h5 style="margin-top: 62px;">YOU MAY ALSO LIKE</h5>
           <hr />
 
+          <!-- <div id="mini-posts-full">
+            <div class="mini-mini-post-preview" style="margin-right: 5.8%">
+              <router-link :to="'/blog/' + post.ref1category + '/' + post.ref1url">
+                <div class="title">{{post.ref1title}}</div>
+                <img :src="post.ref1img">
+              </router-link>
+            </div>
+            <div class="mini-mini-post-preview">
+              <router-link :to="'/blog/' + post.ref2category + '/' + post.ref2url">
+                <div class="title">{{post.ref2title}}</div>
+                <img :src="post.ref2img">
+              </router-link>
+            </div>
+          </div> -->
+
           <div id="mini-posts-full">
             <div class="mini-mini-post-preview" style="margin-right: 5.8%">
               <router-link :to="'/blog/' + post.ref1category + '/' + post.ref1url">
@@ -94,6 +109,69 @@ export default {
           return post
       }
     },
+    // // latestPost: function () {
+    // //   var latest = {}
+    // //   //now, if you are currently viewing the latest post, you need to grab [1] instead
+    // //   if (this.$store.state.postRefs[0].title === this.post.title){
+    // //     latest = this.$store.state.postRefs[1]
+    // //   }else{
+    // //     latest = this.$store.state.postRefs[0]
+    // //   }
+    // //   return latest
+    // // },
+    // latestPost: function () {
+    //   var latestPost = this.$store.state.posts[0]
+    //
+    //   if (this.post.title != latestPost.title){
+    //     return latestPost
+    //   }else{
+    //     return this.$store.state.posts[1]
+    //   }
+    // },
+    // latestCategoryPost: function() {
+    //   /*
+    //     high level
+    //       you are on a page that has a category
+    //       return the most recent post within this category that is NOT this actual post
+    //
+    //       so you would need to grab the posts in the category
+    //         and if you are on the latest, return the second most recent
+    //           else
+    //         return most recent
+    //
+    //         #####first goal, return the most recent post within the category
+    //
+    //         1 get active category
+    //         2 get the posts in the category
+    //
+    //   */
+    //
+    //
+    //   //1 get active category
+    //   var category = this.post.category
+    //
+    //   //2 get the posts in the category
+    //   var posts = []
+    //   for (var i = 0; i<this.$store.state.posts.length; i++){
+    //     if (this.$store.state.posts[i].category === category){
+    //       posts.push(this.$store.state.posts[i])
+    //     }
+    //   }
+    //
+    //   //3 return the latest post IF the current post title is different than the first post title
+    //   // var currentPostTitle = this.post.title
+    //
+    //   //we also now have to deal with the possibility of a category not having anything.
+    //   //how do we handle that?
+    //   if (this.post.title === posts[0].title){
+    //     return posts[1]
+    //   } else {
+    //     return posts[0]
+    //   }
+    //
+    //
+    //   // return latest
+    // },
     facebookShare: function () {
       return 'https://www.facebook.com/sharer/sharer.php?u=http://nordicnaturals.com/blog/' + this.post.category + '/' + this.post.postUrl
     },
@@ -106,7 +184,7 @@ export default {
   },
   watch: {
     '$route' () {
-        window.document.title = this.post.title + ' | Naturally Speaking'
+      window.document.title = this.post.title + ' | Naturally Speaking'
     }
   }
 }
