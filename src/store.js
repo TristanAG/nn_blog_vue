@@ -5,21 +5,88 @@ Vue.use(Vuex);
 
 export const store = new Vuex.Store({
   state: {
-    postRefs: [
-      {
-        title: "Inside Nordic Naturals: Meet Derek, International Music Maker",
-        category: "kultur",
-        url: "inside-nordic-naturals-meet-derek-international-music-maker",
-        img: "http://www.nordicnaturals.com/dev/blog-assets/post-images/derek.png"
-      },
-      {
-        title: "Inside Nordic Naturals: Meet Jonna, Customer Service Rep Extraordinaire",
-        category: "kultur",
-        url: "inside-nordic-naturals-meet-jonna-customer-service-rep-extraordinaire",
-        img: "http://www.nordicnaturals.com/dev/blog-assets/post-images/jonna-compressor.jpg"
-      }
-    ],
     posts: [
+      {
+        id: 7,
+        category: 'all-about-science',
+        categoryText: 'ALL ABOUT SCIENCE',
+        author: 'CLAUDIA BURGIN',
+        postUrl: 'vitamins-d3-k2-a-dynamic-bone-building-plaque-fighting-duo',
+        title: 'Vitamins D3+K2: A Dynamic Bone-Building, Plaque-Fighting Duo',
+        imageUrl: 'http://www.nordicnaturals.com/dev/blog-assets/post-images/vitamin-d3-k2.jpg',
+        contentPreview: `
+          While almost everyone has heard of vitamin D3, not many people know about the bone-building and cardiovascular benefits of vitamin K2. We thought we would break it down for you as best we could.
+        `,
+        content: `
+        <p>
+Our new <a href="https://www.nordicnaturals.com/en/Products/Product_Details/514/?ProdID=1775" target="_none">Vitamin D3+K2 Gummies</a> for adults combines two essential nutrients for supporting bone health in a single, tasty gummy.* But while almost everyone has heard of vitamin D3, not many people know about the bone-building and cardiovascular benefits of vitamin K2. So we thought we would break it down as best we could.
+</p>
+<p>
+<b>From doorman to foreman</b>
+</p>
+<p>
+Vitamin D3, among other important functions, helps your body absorb calcium and phosphorous—vital bone-building minerals—from the foods you eat. It “pulls” calcium and phosphorous from your gut and your kidneys into your bloodstream, where it can be ushered to other parts of the body (namely, your bones). Think of vitamin D3 as the doorman for your body’s calcium intake.
+</p>
+<p>
+Vitamin K2, also known as menaquinone-7, helps direct the calcium in your blood away from your arteries (where it can hang out and cause problems) to your bones, where it’s needed for the never-ending work that is constructing new bone tissue. Think of vitamin K2 as the foreman for your body’s building site.
+</p>
+<p>
+It’s how these two nutrients work together that’s so compelling. The doorman lets the calcium in, and the foreman puts it to good use building bones. And, in directing calcium away from your arteries where it can accumulate and contribute to plaque, vitamin K2 can actually support heart health in addition to bone health.*
+</p>
+<p>
+Something you might not know about your bones—they’re constantly being rebuilt over time. This process is called remodeling, and it occurs in response to mechanical and hormonal signals. During childhood, bone metabolism is at peak production; but by the time you hit your early twenties, your bones are no longer actually growing. They are, however, constantly changing. And that’s because bone itself is dynamic, living tissue.
+</p>
+<p>
+<b>About your bones</b>
+</p>
+<p>
+The skeletal system, made up of 206 bones, is literally the foundation of health. Made mostly of collagen and calcium phosphate, bones hold and protect your organs, and serve as attachment points for muscles. Your bones also produce red and white blood cells and act as a reservoir for important minerals.
+</p>
+<div class="embedded-image left" style="width: 68%">
+<img src="http://www.nordicnaturals.com/dev/blog-assets/post-images/bone-graphic.png">
+<span style="padding-left: 28px; padding-right: 28px; display: inline-block">In a healthy body, osteoclasts and osteoblasts work together to maintain the balance between bone loss and bone formation.</span>
+</div>
+<p>
+Bone cells called osteoblasts are responsible for building bones—they secrete the collagen that is needed to form the matrix, or structural frame, for building new bone. Conversely, osteoclasts are bone cells that are responsible for breaking down old or injured bone; they secrete an enzyme that dissolves the collagen matrix that osteoblasts create. The idea is that this constant process of remodeling results in a completely new skeleton for you every 7 to 10 years.
+</p>
+<p>
+The catch is, as we get older our bodies produce fewer osteoblasts—which means we have fewer cells to build new bone. By age 40, we’ve already started <a href="http://orthoinfo.aaos.org/topic.cfm?topic=a00127" target="_none">losing bone mass</a>. This is why fractures may take longer to heal, and why we’re more prone to fractures in the first place. It’s also why eating a healthy diet and getting regular exercise (<a href="https://www.nichd.nih.gov/health/topics/bonehealth/conditioninfo/Pages/activity.aspx" target="_none">weight-bearing exercise causes new bone to form</a>) become particularly important lifestyle choices as we age.
+</p>
+<p>
+<b>Putting calcium to good use</b>
+</p>
+<p>
+Your body needs calcium to build bone, and vitamin D3 helps your body absorb calcium. So even if you’re getting enough calcium in your diet, it might be going to waste if you’re not also getting enough vitamin D. The American Academy of Orthopaedic Surgeons recommends that adults over the age of 50 get at least 1,000 mg calcium daily, and 1000 IU vitamin D daily.
+</p>
+<p>
+Phosphorous, magnesium, and vitamins A, C, and K are also important nutrients for bone health. <a href="https://www.ncbi.nlm.nih.gov/pubmed/11684396" target="_none">Vitamin K</a>, best known for its role in helping blood to clot, has been gaining more attention in the scientific community for its role in binding newly absorbed calcium to the mineral matrix in bone—as well as directing calcium away from our arteries and soft tissues, where it definitely isn’t wanted.
+</p>
+<p>
+
+  <img src="http://www.nordicnaturals.com/dev/blog-assets/post-images/calcium-deposits.jpg">
+</p>
+<p>
+
+
+These <a href="http://www.health.harvard.edu/womens-health/calcium-beyond-the-bones" target="_none">unwanted calcium deposits</a> (shown microscopically in the above image) can damage our hearts by contributing to plaque in the walls of our arteries. This plaque, made up of fat, cholesterol, and calcium, can harden over time and eventually restrict blood flow. Not a healthy scenario by any measure. Best to help this wayward calcium find it’s way out of your bloodstream, and into your bones where it belongs.
+</p>
+<p>
+And that’s where our new <a href="https://www.nordicnaturals.com/en/Products/Product_Details/514/?ProdID=1775" target="_none">Vitamin D3+K2</a> Gummies come in handy. Let’s face it, this dynamic, bone-building, plaque-fighting  vitamin duo is pretty easy to love.
+</p>
+
+ <p>
+<i>*These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure, or prevent any disease.</i>
+</p>
+        `,
+        ref1title: "Inside Nordic Naturals: Meet Derek, International Music Maker",
+        ref1category: "kultur",
+        ref1url: "inside-nordic-naturals-meet-derek-international-music-maker",
+        ref1img: "http://www.nordicnaturals.com/dev/blog-assets/post-images/derek.png",
+        ref2title: "Why Natural-Form Fish Oils are Better for Your Body—and Your Wallet",
+        ref2category: "all-about-science",
+        ref2url: "why-natural-form-fish-oils-are-better-for-your-body-and-your-wallet",
+        ref2img: "http://www.nordicnaturals.com/dev/blog-assets/post-images/capsules-and-fish.jpg"
+      },
       {
         id: 6,
         category: "kultur",
