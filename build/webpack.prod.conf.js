@@ -35,6 +35,7 @@ var webpackConfig = merge(baseWebpackConfig, {
         '/blog/contributors',
         '/blog/all-about-science',
         '/blog/all-about-science/why-natural-form-fish-oils-are-better-for-your-body-and-your-wallet',
+        '/blog/all-about-science/vitamins-d3-k2-a-dynamic-bone-building-plaque-fighting-duo',
         '/blog/big-picture',
         '/blog/big-picture/refuse-reduce-reuse-10-things-to-clean-up-our-oceans',
         '/blog/big-picture/dear-cosmo-why-you-really-should-take-your-fish-oil',
@@ -42,7 +43,8 @@ var webpackConfig = merge(baseWebpackConfig, {
         '/blog/kultur/inside-nordic-naturals-meet-jonna-customer-service-rep-extraordinaire',
         '/blog/kultur/inside-nordic-naturals-meet-derek-international-music-maker',
         '/blog/home-life',
-        '/blog/home-life/getting-little-ones-to-eat-well-8-great-tips'
+        '/blog/home-life/getting-little-ones-to-eat-well-8-great-tips',
+        '/blog/home-life/omega-3s-why-theyre-especially-important-for-mens-health'
       ],
       {
         ignoreJSErrors: true

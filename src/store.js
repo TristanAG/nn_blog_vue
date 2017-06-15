@@ -7,6 +7,70 @@ export const store = new Vuex.Store({
   state: {
     posts: [
       {
+        id: 8,
+        category: 'home-life',
+        categoryText: 'HOME LIFE',
+        author: 'NICHOLAS NOLOBOFF',
+        postUrl: 'omega-3s-why-theyre-especially-important-for-mens-health',
+        title: 'Omega-3s: Why They’re Especially Important for Men’s Health',
+        imageUrl: 'http://www.nordicnaturals.com/dev/blog-assets/post-images/mens-health-main-image.jpg',
+        contentPreview: `
+          No one likes a trip to the doctor—the sniffly, germy waiting rooms, nurses with clipboards, those emasculating gowns. Men especially hate going. Kinda like how your dog hates going to the vet. Here’s my strategy: I try really hard not to go.
+        `,
+        content: `
+        <p>
+  No one likes a trip to the doctor—the sniffly, germy waiting rooms, nurses with clipboards, those emasculating gowns. Men especially hate going. Kinda like how your dog hates going to the vet. Here’s my strategy: I try really hard not to go.
+</p>
+<p>
+  If you also dislike doctor’s visits, you’ve got good reason to start taking omega-3s (a.k.a. essential fatty acids). Rarely do you find a nutrient as broadly beneficial as omega-3s.* Why? Because these essential fats make up the 60-100 trillion cell membranes found throughout your body, from toes to nose. Plus they’ve been shown by countless studies (actually, 8000+ clinical studies) to help maintain many aspects of health, from immune and metabolic health, to cognitive, joint, and even eye health.* But for men, especially, the big one is the heart.
+
+</p>
+<p>
+  As most people know, cardiovascular disease is the leading cause of death among Americans, but men face this health risk earlier in life than women do. According to <a href="http://www.health.harvard.edu/heart-health/heart-attack-and-stroke-men-vs-women" target="_none">Harvard Medical School</a>, men are, on average, seven years younger than women when they suffer their first heart attack.  Which means there’s less time for men to put off heart-healthy lifestyle changes. The time to act is now.
+</p>
+<p>
+  <b>Health Food for Your Heart</b>
+</p>
+<p>
+  Eat well and exercise, right? You’ve heard it before. We all need to be more active and cut way down on the nachos and fried foods—that’s a given. But one valuable, easy-to-follow suggestion on the diet-side is to consume more heart-healthy omega-3 fats.
+</p>
+<p>
+  Here’s a little trade secret to convince you: The FDA is pretty strict about what omega-3 brands can claim about their products. Supplements are not drugs, they tell us. They’re not cures for disease. They’re nutrients—food, essentially. But the one area where the FDA gives us more room to talk about our fish oils is in relation to heart disease. That’s because there’s so much evidence that omega-3s can benefit the heart that it would be a detriment to public health to keep people in the dark.
+</p>
+<img src="http://www.nordicnaturals.com/dev/blog-assets/post-images/salmon.jpg">
+<p>
+
+
+  <a href="http://atvb.ahajournals.org/content/23/2/151" target="_none">The American Heart Association agrees</a>. They recommend 1,000 mg of omega-3 EPA+DHA per day for people with documented coronary heart disease. For folks with high triglycerides they recommend far more: 2,000–4,000 mg per day. What percentage of people do you think actually follow these recommendations? I have no idea either, but given that <a href="https://health.gov/dietaryguidelines/2015-scientific-report/pdfs/scientific-report-of-the-2015-dietary-guidelines-advisory-committee.pdf" target="_none">90% of Americans are deficient in omega-3s</a>, it’s probably pretty small.
+
+</p>
+<p>
+  <b>Easy Insurance</b>
+</p>
+<p>
+  The upshot is this: If men hope to avoid those silly hospital gowns, a good first step is to stay healthy by consuming a lot more omega-3s. We should all eat wild-caught, oily fish like salmon, sardines, cod, mackerel, and anchovies each week. But really, how many of us do this with any regularity? Omega-3s must be constantly replenished because they are always used by cell membranes. For this reason, it’s important to supplement daily with high-quality fish oil to fill in any nutritional gaps and to make sure you’re getting a steady source of omega-3 fats.
+</p>
+<p>
+  There’s no way to completely avoid trips to the doctor, but a daily serving of fish oil is a pretty easy insurance policy.
+
+
+
+</p>
+<p>
+  <small>*These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure, or prevent any disease.</small>
+
+</p>
+        `,
+        ref1title: "Inside Nordic Naturals: Meet Derek, International Music Maker",
+        ref1category: "kultur",
+        ref1url: "inside-nordic-naturals-meet-derek-international-music-maker",
+        ref1img: "http://www.nordicnaturals.com/dev/blog-assets/post-images/derek.png",
+        ref2title: "Why Natural-Form Fish Oils are Better for Your Body—and Your Wallet",
+        ref2category: "all-about-science",
+        ref2url: "why-natural-form-fish-oils-are-better-for-your-body-and-your-wallet",
+        ref2img: "http://www.nordicnaturals.com/dev/blog-assets/post-images/capsules-and-fish.jpg"
+      },
+      {
         id: 7,
         category: 'all-about-science',
         categoryText: 'ALL ABOUT SCIENCE',
