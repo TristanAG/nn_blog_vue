@@ -67,7 +67,7 @@ export default {
         this.categoryImage = "http://www.nordicnaturals.com/dev/blog-assets/images/big-picture-compressor.jpg"
       }else if (this.category === "home-life"){
         this.categoryImage = "http://www.nordicnaturals.com/dev/blog-assets/images/home-life-main-image.jpg"
-      }else if (this.category === "kultur"){
+      }else if (this.category === "the-nordic-way"){
         this.categoryImage = "http://www.nordicnaturals.com/dev/blog-assets/images/nordic-Way-1-compressor.jpg"
       }
 

@@ -41,8 +41,8 @@ const router = new VueRouter({
     {path: '/blog/all-about-science', component: CategoryPage},
     {path: '/blog/all-about-science/:postUrl', component: Post},
 
-    {path: '/blog/kultur', component: CategoryPage},
-    {path: '/blog/kultur/:postUrl', component: Post},
+    {path: '/blog/the-nordic-way', component: CategoryPage},
+    {path: '/blog/the-nordic-way/:postUrl', component: Post},
 
     {path: '/blog/home-life', component: CategoryPage},
     {path: '/blog/home-life/:postUrl', component: Post}

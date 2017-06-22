@@ -39,9 +39,10 @@ var webpackConfig = merge(baseWebpackConfig, {
         '/blog/big-picture',
         '/blog/big-picture/refuse-reduce-reuse-10-things-to-clean-up-our-oceans',
         '/blog/big-picture/dear-cosmo-why-you-really-should-take-your-fish-oil',
-        '/blog/kultur',
-        '/blog/kultur/inside-nordic-naturals-meet-jonna-customer-service-rep-extraordinaire',
-        '/blog/kultur/inside-nordic-naturals-meet-derek-international-music-maker',
+        '/blog/the-nordic-way',
+        '/blog/the-nordic-way/inside-nordic-naturals-meet-jonna-customer-service-rep-extraordinaire',
+        '/blog/the-nordic-way/inside-nordic-naturals-meet-derek-international-music-maker',
+        '/blog/the-nordic-way/midnight-sun-and-white-nights-what-summer-in-arctic-norway-can-teach-us-about-sleep',
         '/blog/home-life',
         '/blog/home-life/getting-little-ones-to-eat-well-8-great-tips',
         '/blog/home-life/omega-3s-why-theyre-especially-important-for-mens-health'

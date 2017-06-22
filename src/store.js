@@ -7,6 +7,81 @@ export const store = new Vuex.Store({
   state: {
     posts: [
       {
+        id: 9,
+        category: 'the-nordic-way',
+        categoryText: 'THE NORDIC WAY',
+        author: 'TERRA LYNN',
+        postUrl: 'midnight-sun-and-white-nights-what-summer-in-arctic-norway-can-teach-us-about-sleep',
+        title: 'Midnight Sun and White Nights: What Summer in Arctic Norway Can Teach Us about Sleep',
+        imageUrl: 'http://www.nordicnaturals.com/dev/blog-assets/post-images/midnight-sun-main.jpg',
+        contentPreview: `
+          The constant light of Arctic summer and the irresistible pull of longer, activity-filled days can make getting enough sleep challenging. Turns out, Norwegians can teach us a thing or two about avoiding sleepless nights here in our corner of the world.
+        `,
+        content: `
+        <p>
+  Some of the best things about summer are the longer, activity-filled days. And nowhere are the days of summer longer than in Arctic Norway—a place near and dear to our hearts here at Nordic Naturals.
+
+</p>
+<p>
+In fact, this time of year the sun never sets at all for many Norwegians. In Nordkapp, one of the northernmost points in Europe, the sun doesn’t set for 75 days each summer. In the endless daylight off the Lofoten Islands, you can watch the sun “set” just above the horizon before watching it start to rise in the sky again—a phenomenon known as “midnight sun.”
+</p>
+<p>
+Even below the Arctic Circle, summer nights in Norway aren’t all that dark.  At the relatively southern latitude of Oslo, twilight is as dark as it gets from May to July. For Oslo residents—and many Norwegians—summer is the season of “white nights.” Although the sun does set below the horizon there, it never gets quite low enough to turn the sky black.
+</p>
+<p>
+<img src="http://www.nordicnaturals.com/dev/blog-assets/post-images/midnight-sun-body-1.jpg" /><br>
+<i style="font-size: .8em">A glimpse of the midnight sun rising at 2:00 AM in Krystad, Lofoten. Photo credit: Joar Opheim</i>
+</p>
+<p>
+The constant light of the Arctic summer certainly inspires increased activity and energy, especially after a long, dark winter in which Norwegians don’t see the sun much, if at all. But it can also make getting sleep and adequate rest more challenging, since light is the strongest external cue that affects our bodies’ internal clocks/circadian rhythms.
+</p>
+<p>
+This can be a health issue, as there are few things more essential to mind/body health than restorative sleep, and few things more essential to sleep than darkness. Without darkness, our sleep-inducing bodily processes simply don’t get signaled.
+</p>
+<p>
+<img src="http://www.nordicnaturals.com/dev/blog-assets/post-images/midnight-sun-body-2.jpg" /><br>
+<i style="font-size: .8em">Night swimming in the West Norwegian fjords in Krystad, Lofoten. In the summertime, bedtime can be as late as 5:00 AM for founder Joar Opheim and his family.  Photo credit: Joar Opheim</i>
+</p>
+<p>
+So how do Norwegians manage to get enough sleep during the summer months near the Arctic Circle? What could we learn from them, even if we don’t live at the top of the world? We increasingly spend more time on gadgets, which means we get less sleep ourselves, and less darkness. Here are a few strategies we can all use to help establish and maintain healthy sleep habits, even if we don’t personally experience the midnight sun and white nights of summer in Arctic Norway.
+</p>
+<p>
+<b>1. Simulate night</b>
+</p>
+<p>
+Since darkness doesn’t naturally occur during the Arctic summer, many Norwegians create it themselves—with eye masks, covered window glass, blackout curtains, and the like. They know that avoiding exposure to evening light is the most important key to being able to sleep well. That’s because the part of our brain that regulates our circadian rhythms (called the suprachiasmatic nucleus or SCN) is located at the intersection of our optic nerves, where light and darkness signal the processes that wake us up and make us sleepy. Without darkness, our brains aren’t signaled to produce the melatonin that makes us sleepy and keeps us asleep. By simulating darkness, we can prompt these natural processes and encourage better sleep.
+</p>
+
+<p>
+<b>2. Keep to a consistent sleep schedule</b>
+</p>
+<p>
+Many Norwegians also make an effort to stay on a consistent sleep schedule despite the constant light during the summer months—especially waking up at, or close to, the same time everyday. When we are forced into a schedule, as anyone with children knows, it's easier to ensure we are getting enough sleep. Waking up at a consistent, relatively early time each morning is especially important, as it will naturally discourage you from staying up too late. As people in Arctic Norway can attest, just because you can go hiking at 1 AM doesn’t necessarily mean you should!
+</p>
+<p>
+<b>3. Ban gadgets from the bedroom</b>
+</p>
+<p>
+Smart phones, laptops, tablets, and TV all emit blue light, which is precisely the kind of light that is most disruptive to our circadian rhythms at night. Since avoiding exposure to evening light (and especially blue light) is the single most important thing we can do to promote better sleep, banning these devices from the bedroom, or at least shutting them off at a scheduled time a couple of hours before bed, can go a long way towards ensuring that we get the restful sleep that’s so essential to health.
+</p>
+<p>
+<b>4. Exercise and eat well</b>
+</p>
+<p>
+Getting regular exercise and eating a healthy diet can also help sleep cycles. Exercising as early in the day as possible can make it easier to unwind in the evening. Minimizing caffeine and sugar intake, especially within several hours of bedtime, can help too. Also try to avoid alcohol; while it may help you fall asleep initially, it can cause you to wake during the night and make it difficult to fall back asleep. Taking supplements (including fish oil) is a good idea, since our bodies require adequate levels of many nutrients in order to produce the melatonin, other hormones, and neurotransmitters that regulate our circadian rhythms. Taking your supplements early in the day can help make sure they don’t disrupt your sleep at night.
+</p>
+<p>
+<b>5. Relax</b>
+</p>
+<p>
+When we’re having a hard time sleeping, it often causes us to worry and spend a lot of time thinking about it, which then increases our stress and makes it even harder to sleep, leading to a seemingly never-ending cycle that can be hard to break. But,  while stress may be inevitable, how we deal with it does not have to be. Work towards learning to deal with stress in more healthy ways to unwind and get a good night’s sleep.
+</p>
+<p>
+Adapting to the circumstances of life near the Arctic circle is nothing unusual in Norway. Whether they face endless daylight in summer, or endless darkness in winter, people living at high latitudes embrace these extremes as opportunities to thrive. We can all learn something from their approach, adapting to the stressors and extremes of our own lives in ways that don’t keep us up at night, no matter where we live.
+</p>
+        `
+      },
+      {
         id: 8,
         category: 'home-life',
         categoryText: 'HOME LIFE',
@@ -153,8 +228,8 @@ And that’s where our new <a href="https://www.nordicnaturals.com/en/Products/P
       },
       {
         id: 6,
-        category: "kultur",
-        categoryText: "KULTUR",
+        category: "the-nordic-way",
+        categoryText: "THE NORDIC WAY",
         author: "Nordic Naturals Staff",
         postUrl: "inside-nordic-naturals-meet-derek-international-music-maker",
         title: "Inside Nordic Naturals: Meet Derek, International Music Maker",
@@ -295,8 +370,8 @@ Finding balance. It’s hard not to take work home with you, but if you can do t
       },
       {
         id: 1,
-        category: "kultur",
-        categoryText: "KULTUR",
+        category: "the-nordic-way",
+        categoryText: "THE NORDIC WAY",
         author: "NORDIC NATURALS STAFF",
         postUrl: "inside-nordic-naturals-meet-jonna-customer-service-rep-extraordinaire",
         title: "Inside Nordic Naturals: Meet Jonna, Customer Service Rep Extraordinaire",

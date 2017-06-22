@@ -34,7 +34,7 @@
             <ul>
               <li class="category-sidebar"><router-link :to="'/blog/all-about-science'">All About Science</router-link></li>
               <li class="category-sidebar"><router-link :to="'/blog/big-picture'">Big Picture</router-link></li>
-              <li class="category-sidebar"><router-link :to="'/blog/kultur'">Kultur</router-link></li>
+              <li class="category-sidebar"><router-link :to="'/blog/the-nordic-way'">The Nordic Way</router-link></li>
               <li class="category-sidebar"><router-link :to="'/blog/home-life'">Home Life</router-link></li>
             </ul>
 
