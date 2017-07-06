@@ -27,8 +27,14 @@ export default {
   name: 'sidebar',
   computed: {
   	posts: function () {
-    	return this.$store.state.posts
+    	return this.$store.state.posts.slice(0,5)
     }
   }
 }
 </script>
+
+<style scoped>
+  li{
+    font-size: 14px;
+  }
+</style>

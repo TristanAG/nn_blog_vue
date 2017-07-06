@@ -2,7 +2,7 @@
   <div class="post">
 
     <!-- [mobile only code for full-width image] -->
-    
+
     <div class="buffer"></div>
     <div class="mobile-image-mod">
       <div class="container">
@@ -113,6 +113,11 @@ export default {
           posts.push(this.$store.state.posts[i])
         }
       }
+
+      if (this.post.title === "Seven Ways We Put Sustainability into Action"){
+        return posts[2]
+      }
+
       //if the current post is the same as the most recent post
       if (this.post.title === posts[0].title){
         //return the second most recent
@@ -139,3 +144,24 @@ export default {
   }
 }
 </script>
+
+<style>
+  .eight.columns ul{
+
+      font-family: 'Lora', serif;
+      font-weight: 400;
+      /*font-size: .84em;*/
+      font-size: 16px;
+      color: #2f2f2f;
+      letter-spacing: .01em;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      list-style-type: disc;
+    }
+    li{
+      margin-left: 20px;
+
+    }
+
+
+</style>

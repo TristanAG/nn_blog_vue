@@ -7,6 +7,116 @@ export const store = new Vuex.Store({
   state: {
     posts: [
       {
+        id: 10,
+        category: 'the-nordic-way',
+        categoryText: 'THE NORDIC WAY',
+        author: 'TERRA LYNN',
+        postUrl: 'seven-ways-we-put-sustainability-into-action',
+        title: 'Seven Ways We Put Sustainability into Action',
+        imageUrl: 'http://www.nordicnaturals.com/dev/blog-assets/post-images/stacked-stones.jpg',
+        contentPreview: `
+          Almost every company these days is talking about sustainability—and that’s a good thing. Here’s how Nordic Naturals makes sure our own business practices reflect our passion for health.
+        `,
+        content: `
+        <p>
+  Almost every company these days is talking about sustainability—and that’s a good thing. Because just as each of us has an impact on the environment and the world around us, so does every company.  The difference is really whether we as individuals and companies care about the impact we have, and as a result, choose to do things a little differently.
+</p>
+<p>
+  We talk a lot about sustainability here at Nordic Naturals, and how we can continue to make the very best products available while also continuing to lessen our environmental impact. So what, exactly, does that look like in action? Here are seven ways we prioritize sustainability, every day.
+
+</p>
+<p>
+<b>1. We use only non-endangered, wild-caught fish</b>
+</p>
+<div class="video-container" id="vid" style="margin-bottom: -26px"><iframe width="560" height="315" src="https://www.youtube.com/embed/Ujc3bLUwqbo" frameborder="0" allowfullscreen></iframe></div>
+<p>
+  Because we source so many of our products from the sea, we’ve always been concerned with protecting the health of our oceans. That’s why we select only those species that are not at risk of being overfished (Arctic cod, anchovies, and sardines), and why we use only wild-caught, as opposed to farm-raised, fish.
+
+</p>
+<p>
+
+<b>2. We source exclusively from certified sustainable fisheries</b>
+</p>
+<center><img src="http://www.nordicnaturals.com/dev/blog-assets/post-images/friend-of-the-sea.jpg" /></center>
+<p>
+  We only work with fisheries that are certified sustainable by <a href="http://www.friendofthesea.org/" target="_none">Friend of the Sea</a>, an internationally recognized, non-profit organization whose mission is to conserve the global marine habitat. This means that all of our fish comes from waters that are certified sustainable, and all of our products are FOS-certified sustainable. And, it means all of the fisheries we work with meet the following requirements:
+</p>
+<p>
+  <ul>
+<li>Fish is sourced from stocks that are not overexploited</li>
+<li>Fishing practices prevent bycatch of endangered species</li>
+<li>Fishing practices prevent seafloor damage and reduce ecosystem impact</li>
+<li>Manufacturing reflects energy efficiencies to conserve resources and minimize
+    pollution</li>
+<li>Company upholds high standards for waste management and social accountability</li>
+</ul>
+</p>
+
+<p>
+
+<b>3. We run our green manufacturing facility in Norway on biofuel</b>
+</p>
+<p>
+  <img src="http://www.nordicnaturals.com/dev/blog-assets/post-images/nordic-pharma-2.jpg" />
+</p>
+<p>
+We built our state-of-the-art manufacturing facility in Norway using recycled materials, incorporating structures from an old shrimp processing plant in our original design to conserve resources and minimize our impact on the immediate environment and community. Located right on the harbor in Tromsø, our 60,000-square-foot manufacturing facility runs completely on biofuel we make ourselves using leftover fats from our fish oil processing. This recycled biofuel not only minimizes our carbon footprint, it helps power other local businesses in Tromsø as well.
+</p>
+<p>
+
+<p>
+<b>4. We built our headquarters to be LEED<sup>®</sup> Gold-certified </b>
+</p>
+<img src="http://www.nordicnaturals.com/dev/blog-assets/post-images/sustainability-main.jpg" />
+</p>
+<p>
+It’s not just our manufacturing facility in Arctic Norway that’s green—our company headquarters in Watsonville, California is, too. It earned Gold certification from the U.S. Green Building Council’s LEED<sup>®</sup> (Leadership in Energy and Environmental Design) Rating System, which promotes a whole-building approach to sustainability, recognizing performance in both human and environmental health. Built in 2011, our 87,000-square-foot headquarters includes skylights, radiant heating, recycled building materials, flexible lighting controls, water purification systems, and water conservation measures that reduce our water use by nearly 50 percent.
+</p>
+<p>
+<b>5. We use only non-GMO verified ingredients</b>
+</p>
+<p>
+<img src="http://www.nordicnaturals.com/dev/blog-assets/post-images/product-shot.jpg" style="width: 100%"/>
+</p>
+<p>
+  We’ve always been committed to using only non-GMO ingredients, and to maintaining full transparency about how the ingredients in our products are made. We work with Eurofins, a globally recognized leader in GMO testing, to rigorously test <i>all</i> ingredients across our entire product line for the absence of GMOs. Eurofins has been a pioneer in the field of molecular biological analyses for more
+than 20 years, and adheres to strict European standards to ensure the absence of GMOs.
+</p>
+<p>
+<b>6. All of our product containers and packaging are recyclable</b>
+</p>
+<p>
+<img src="http://www.nordicnaturals.com/dev/blog-assets/post-images/recycle-bin.jpg" />
+</p>
+<p>
+  We bottle our liquid formulas in glass, and our soft gels in #2 plastic containers—both of which are commonly picked up by most curbside recycling programs. We also use recyclable packaging wherever possible in shipping our products. And, we recently added more box sizes in our warehouse so that we can ship our products in appropriately sized boxes with minimal packaging.
+</p>
+<p>
+We know that this is a big area where we can improve our sustainability, so we’re looking into ways to incorporate biodegradable plastics and post-consumer waste into our bottling and shipping. We’ve also made the switch to offering more eco-friendly promotional items, like our branded lip balms packaged in cardboard, bamboo utensils, and reusable cloth sandwich bags.
+</p>
+<p>
+<b>7. We support organizations that do good</b>
+</p>
+<p>
+<img src="http://www.nordicnaturals.com/dev/blog-assets/post-images/nordic-group-shot.jpg" />
+
+</p>
+<p>
+  As a company that makes  omega-3 fish oil, among other nutrients essential to health, we know that our presence is felt in the oceans where we source our fish, and in the communities where we make and distribute our products. We see it as our responsibility to do right by the people and the places that are part of our success, and one of the ways we do that is by supporting nonprofits that practice good environmental and social stewardship. Among the organizations we currently sponsor are <a href="https://www.5gyres.org/" target="_none">The 5 Gyres Institute</a> (a global nonprofit dedicated to keeping single-use plastics out of our oceans), <a href="http://www.bbbs.org/" target="_none">Big Brothers Big Sisters</a>, and <a href="http://www.thefoodbank.org/" target="_none">The Second Harvest Food Bank</a>.
+</p>
+<p>
+We recognize that sustainability is a journey, and that prioritizing sustainability is a choice we all make, each day. With this in mind, we do our best to make sure our daily business practices reflect our passion for health.
+</p>
+<p>
+  Have ideas on how we can do better? Let us know! Email your suggestions to <a href="mailto:blog@nordicnaturals.com">blog@nordicnaturals.com</a>.
+
+</p>
+<p>
+<i>Nordic Naturals staff contributed to writing this post.</i>
+</p>
+        `
+      },
+      {
         id: 9,
         category: 'the-nordic-way',
         categoryText: 'THE NORDIC WAY',
