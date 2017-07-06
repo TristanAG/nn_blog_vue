@@ -43,6 +43,7 @@ var webpackConfig = merge(baseWebpackConfig, {
         '/blog/the-nordic-way/inside-nordic-naturals-meet-jonna-customer-service-rep-extraordinaire',
         '/blog/the-nordic-way/inside-nordic-naturals-meet-derek-international-music-maker',
         '/blog/the-nordic-way/midnight-sun-and-white-nights-what-summer-in-arctic-norway-can-teach-us-about-sleep',
+        '/blog/the-nordic-way/seven-ways-we-put-sustainability-into-action',
         '/blog/home-life',
         '/blog/home-life/getting-little-ones-to-eat-well-8-great-tips',
         '/blog/home-life/omega-3s-why-theyre-especially-important-for-mens-health'

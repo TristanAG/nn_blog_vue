@@ -34,7 +34,7 @@ export default {
 </script>
 
 <style scoped>
-  li{
-    font-size: 14px;
+  .sidebar li{
+    padding-left: 0px;
   }
 </style>

@@ -158,7 +158,7 @@ export default {
       margin-bottom: 10px;
       list-style-type: disc;
     }
-    li{
+  .eight.columns li{
       margin-left: 20px;
 
     }
