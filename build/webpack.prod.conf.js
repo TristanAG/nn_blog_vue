@@ -46,7 +46,8 @@ var webpackConfig = merge(baseWebpackConfig, {
         '/blog/the-nordic-way/seven-ways-we-put-sustainability-into-action',
         '/blog/home-life',
         '/blog/home-life/getting-little-ones-to-eat-well-8-great-tips',
-        '/blog/home-life/omega-3s-why-theyre-especially-important-for-mens-health'
+        '/blog/home-life/omega-3s-why-theyre-especially-important-for-mens-health',
+        '/blog/home-life/how-to-marie-kondo-your-medicine-cabinet'
       ],
       {
         ignoreJSErrors: true

@@ -7,6 +7,71 @@ export const store = new Vuex.Store({
   state: {
     posts: [
       {
+        id: 11,
+        category: 'home-life',
+        categoryText: 'THE NORDIC WAY',
+        author: 'NICK NOLOBOFF',
+        postUrl: 'how-to-marie-kondo-your-medicine-cabinet',
+        title: 'How to Marie Kondo Your Medicine Cabinet',
+        imageUrl: 'http://www.nordicnaturals.com/dev/blog-assets/post-images/medicine-cabinet.jpg',
+        contentPreview: `
+        Our medicines take on lives of their own because it’s hard to imagine we might not need them again some day. But not all medicines—or supplements—are worth saving. Here’s how to decide what makes the cut, and spark some Marie Kondo joy in your cabinet.
+        `,
+        content: `
+        <p>
+If the standard for saving something is, as tidying guru <a href="http://www.konmari.com/" target="_none">Mari Kondo</a> advises, “what brings you joy,” then my medicine cabinet is an epic fail.
+</p>
+<p>
+I don’t know about you, but I’ve got an impressive collection of outdated meds. A small sampling brings back some not-so-happy memories. I once might have pawned my wedding ring for a little sleep, courtesy of that bottle of very expired grape NyQuil. Or for a chalky dribble of Calamine Plus that momentarily saved me from the agony of poison oak. Ditto for my son’s Children’s Pain & Fever, with cough suppressant. No price would’ve been too high to soothe a sick toddler.
+</p>
+<p>
+Our medicines take on lives of their own because it’s hard to imagine we might not need them again some day. But not all medicines are worth saving—trust me, four-year-old NyQuil is pretty nasty stuff! As for supplements, it’s also worth asking yourself which ones you really need. Truth is, most people can pare down to the essentials.
+</p>
+<p>
+Yes, each one of us has our own nutritional needs that change with time, and that sometimes require an atypical array of nutrients. But most of us can benefit from just a handful of daily supplements: a good multivitamin, high-quality omega-3 fish oil, probiotics. And for folks who don’t get enough sun exposure—sounds crazy, I know—vitamin D.  Now, you may recall that these are all nutrients that Nordic Naturals sells, so at the risk of seeming shamelessly biased, give me a chance to explain why they’re KonMari keepers.
+</p>
+<p>
+<img src="http://www.nordicnaturals.com/dev/blog-assets/post-images/palm-tree-min.png" />
+</p>
+<p>
+
+<b>Vitamin D</b>
+</p>
+<p>
+Until recently, I had no idea that <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4018438/" target="_none">vitamin D deficiency is a major problem throughout the world</a>. For those of us living in the Sunshine State, it’s not the first thing we think of in the morning. But many places north and south of the equator get only a fraction of the sunlight that Floridians enjoy year round. Geography, combined with poor diet, long hours working indoors, sunscreen use (still a good idea), and for many women, breastfeeding (another good idea), has meant that vitamin D deficiency has slipped under the radar in many societies. Fortunately, it’s easily solved with supplementation. For most people, <a href="https://medlineplus.gov/magazine/issues/winter11/articles/winter11pg12.html" target="_none">400–800 IU daily does the trick</a>.
+</p>
+<p>
+<b>Omega-3 fish oil</b>
+</p>
+<p>
+With omega-3s it’s hard to know where to begin. Omega-3s are known as essential fatty acids. They’re "good" fats. Fats considered essential for optimal health. Unfortunately, people can’t synthesize omega-3s the way they can vitamin D. So, we must obtain them through diet or supplementation. Fish and algae oils abound in the long-chain omega-3s EPA (eicosapentaenoic acid) and DHA (docosahexaenoic acid), which are the best ones.
+</p>
+<p>
+It’s impossible to sum up the benefits documented in 8000+ clinical studies on omega-3s, but the shortlist includes: cardiovascular health, cognition and mood, joint mobility, immune system function, vision, brain and nervous system development, healthy pregnancy, and more.* As I’ve written elsewhere, a weekly diet of cold-water fish plus a daily serving of <a href="http://www.nordicnaturals.com/en/General_Public/Omega-3_concentrates/361" target="_none">high-quality fish oil</a> is the way to go. Keep this supplement front and center in your medicine cabinet.
+</p>
+<p>
+<b>Probiotics</b>
+</p>
+<p>
+For a long time, probiotics were the dark horse of supplements. Kinda fringe. Questionably beneficial (It’s bacteria, after all).  But fermented foods have been around for millennia, and some of the healthiest people in the world have been eating them for that long—just ask Koreans (e.g. kimchi) and Japanese (e.g. miso, natto). Apart from the proactive benefits of fermented foods, the need for supplemental probiotics has tracked alongside our ballooning use of antibiotics, which tend to decimate all life in our digestive tracts while they treat the germs they’re prescribed for. <a href="http://www.nordicnaturals.com/en/General_Public/Probiotics/1318" target="_none">Probiotics</a> help repopulate colonies of digestive flora that are lost to this process, and that help support not only healthy digestion but also normal immune function.*
+</p>
+<p>
+<b>Multivitamins</b>
+</p>
+<p>
+Okay, objectivity aside, one reason you should take a multivitamin is because our <a href="http://www.nordicnaturals.com/en/Products/Product_Details/514/?ProdID=1759" target="_none">Nordic Berries</a><sup>™</sup> are so darn good. But beyond that, a good multivitamin can help fill in nutritional gaps in your diet. It’s a great nutritional catch-all for people who don’t get what they should through diet. And it’s amazing how hard it is to consistently hit the nutritional mark due to busy schedules, travel, choosiness, etc. (It’s not just kids who have food preferences, you know). Consider that guidelines recommend up to 10 servings of fresh fruits and veggies daily. A good multivitamin ensures that nothing essential falls through the cracks.
+</p>
+<p>
+So, bottom line: Even if you live by the KonMari method of ruthlessly excising anything from your life that does not bring you joy, these handful of supplements should still make the cut. After all, what’s more joyful than staying healthy?
+</p>
+<p>
+<small><i>
+*These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure, or prevent any disease.
+</i></small>
+</p>
+        `
+      },
+      {
         id: 10,
         category: 'the-nordic-way',
         categoryText: 'THE NORDIC WAY',
