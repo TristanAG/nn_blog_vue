@@ -7,9 +7,214 @@ export const store = new Vuex.Store({
   state: {
     posts: [
       {
+        id: 13,
+        category:'home-life',
+        categoryText: 'HOME LIFE',
+        author: 'NICK NOLOBOFF',
+        postUrl: 'time-to-get-a-move-on-joint-health',
+        title: 'Time to Get a Move on Joint Health',
+        imageUrl: 'http://www.nordicnaturals.com/dev/blog-assets/post-images/joint-health-main.jpg',
+        contentPreview: `
+        We all feel the effects of time in different ways. Your joints, especially, can make you feel your age. Here’s how to handle the news that you’re not as young as you used to be—and keep on moving on.
+        `,
+        content: `
+        <p>
+  It’s an unspoken secret of middle age: Nobody admits they feel differently than they used to, though everyone does. When you can’t fool yourself any longer, you must grudgingly acknowledge body parts. You notice your back because it’s now sore after a day of yard work. You discover your knees while jogging. You didn't even know your groin had muscles, until you pulled one. You get the idea.
+</p>
+<p>
+  So, what to do when this begins to happen? First, realize that even if you think you’re still 20, your body doesn’t. After that, you can pretty much get back to business, with a better mindset toward maintaining long-term health. Second, make sure you’re getting enough omega-3s.
+
+</p>
+<h2>Why Omega-3s for Healthy Joints</h2>
+<p>
+There’s a lot of evidence that omega-3 fats are great for joints, even though most people think heart health when they hear “omega-3s.”  Marine-based omega-3s (not omega-3s from flaxseed, for example) are masters at helping the body respond to inflammation, right down to the cellular level.* This is ideal for your body’s more than 300 joints, where repetitive movement introduces friction that can cause gradual wear and tear.
+</p>
+<p>
+  As you probably know, inflammation is a protective mechanism that keeps the clusters of bones, muscles, and connective tissues insulated against further movement, and potential harm. Of course, too much inflammation can be a problem. That’s why it’s so important for your body to be able to address acute inflammation after exercising.
+
+</p>
+<h2>Bodies in Motion</h2>
+<p>
+Each year around this time, Nordic Naturals sponsors the <a href="http://www.seascapesportsclub.com/challenger" target="_none">Challenger Tournament</a> in Aptos, California, where spectators are treated to some serious tennis (Andy Murray was the singles champ years ago). With tennis being the talk of the town, I contacted former pro and coach Brad Weston to get his take on training and nutrition.
+</p>
+<div class="embedded-image left">
+<img src="http://www.nordicnaturals.com/dev/blog-assets/post-images/joint-health-body.jpg">
+<p><small><i>Brad Weston, tennis coach and former pro player, working the court at Seascape Sports club, where the annual Challenger Tournament is held. </i></small></p>
+</div>
+
+<p>
+“Professional athletes simply wear out their joints from thousands of repetitive movements,” Weston told me. “When they experience too much pain and inflammation it can have a devastating effect on performance.”
+</p>
+<p>
+I asked about the rest of us. Should we really be concerned by a little tennis elbow?
+</p>
+<p>
+  “When people feel discomfort, they start to overcompensate and put their bodies in unnatural positions,” he explained. “This greatly increases the chance of injury. From one painful area, it can create another.”
+
+</p>
+<p>
+  My takeaway: Athlete or not, it’s important to keep joints working well, as even small injuries can compound into larger problems.
+
+</p>
+
+<h2>First-Hand Experience Meets First-Rate Research</h2>
+<p>
+You could say that Nordic Naturals itself is the result of one man’s passion for pain-free movement. Company’s founder and CEO Joar Opheim is a native of Norway, and a former gymnast. When he moved to the U.S. he lost access to the fresh Norwegian cod liver oil he was raised on, and quickly noticed how his daily omega-3 regimen had been benefiting his hard-working joints.* Like many of us, he only began to notice body parts when they weren’t working like they used to.
+</p>
+<p>
+Science generally confirms Joar’s experience. The benefits of increased consumption of omega-3s are documented by numerous clinical studies. It’s worth noting that many of these studies use higher amounts than what’s found in a typical serving of fish oil. For joint health, 2,000–3,000 milligrams (2–3 grams) daily is not uncommon.* For customers, this typically means looking for products with highly concentrated amounts of EPA and DHA, the most beneficial omega-3 fats.*
+</p>
+<p>
+  A whole lifetime of joint movement is impossible to quantify, but it’s safe to say that at some point you’ll start to notice your joints. Now is as good a time as ever to make the right moves to keep your body working well.
+
+</p>
+<p>
+<small>
+  <i>*These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure, or prevent any disease.</i>
+  <br><br>
+  Proudman SM, Cleland LG, James MJ. Dietary omega-3 fats for treatment of inflammatory joint disease: efficacy and utility. Rheum Dis Clin North Am. 2008;34(2):469-79.
+<br><br>
+  Goldberg RJ, Katz J. A meta-analysis of the analgesic effects of omega-3 polyunsaturated fatty acid supplementation for inflammatory joint pain. Pain 2007;129:210–223.
+<br><br>
+  Calder PC. n-3 Polyunsaturated fatty acids, inflammation, and inflammatory diseases. Am J Clin Nutr 2006;83:S1505–1519S.
+<br><br>
+  Maroon JC, Bost JW. Omega-3 Fatty acids (fish oil) as an anti- inflammatory: an alternative to nonsteroidal anti-inflammatory drugs for discogenic pain. Surgical Neurology 2006;65:326–331.
+<br><br>
+  Curtis CL, Harwood JL, Dent CM, et al. Biological basis for the benefit of nutraceutical supplementation in arthritis. Drug Discov Today. 2004;9(4):165-72.
+
+
+</small>
+</p>
+        `
+      },
+      {
+        id: 12,
+        category: 'all-about-science',
+        categoryText: 'ALL ABOUT SCIENCE',
+        author: 'JERILYN SWINDLE',
+        postUrl: 'fermented-foods-and-probiotics-your-ticket-to-a-healthy-microbiome',
+        title: 'Fermented Foods and Probiotics: Your Ticket to a Healthy Microbiome',
+        imageUrl: 'http://www.nordicnaturals.com/dev/blog-assets/post-images/probiotic-body.jpg',
+        contentPreview: `
+        People have been eating fermented foods as far back as 6,000 BC. There’s a reason for that—fermented foods naturally contain the friendly bacteria our bodies needs to thrive.* What exactly do these little bugs do for us, and why are fermented foods and probiotics so essential?
+        `,
+        content: `
+        <p>
+  Societies around the world have been preparing and eating fermented foods as far back as 6,000 BC. They knew that fermenting made food last longer, and helped them digest their meals. But what they didn’t know is that fermented foods naturally contain friendly bacteria our bodies need to thrive.* What started as a way to preserve food has turned out to be much, much more.
+</p>
+
+<p>
+I’ve been an avid home-fermenter for almost a decade. I regularly make all kinds of ferments: flavored water kefirs, goat milk kefir, fermented vegetables, and even condiments like catsup and chutney. My son loves the lightly sweet-and-tangy water kefir soda I make with black cherry juice. He calls it “good bug drink,” and I’m thrilled that this flavorful “soda” is his drink of choice.
+</p>
+
+<p>
+
+  I first became interested in probiotics twenty years ago after my own health issues started demanding my attention. I had practically grown up on antibiotics, so when my immune system began to go haywire, I thought perhaps the place to start supporting my immune system was in my gut.* I also knew that the very best way to support my gut was with the right kind of friendly bacteria. Probiotic foods and supplements became the single most transformative thing I’ve ever done for my body. Eventually, I became curious about their history and why they are so good for us.
+</p>
+<p><img src="http://www.nordicnaturals.com/dev/blog-assets/post-images/probiotic-main.jpg" /></p>
+<p>
+Nearly every civilization includes fermented food in their culinary heritage. Almost any food can be fermented, and some prominent examples include Korean kimchi, Indian chutney, European sauerkraut, and Middle Eastern yogurt and cheese. Asian cultures ferment soybeans, seafood, black beans, sauces, and side dishes. This natural fermentation process began as a means of food preservation, allowing people to store food for weeks, months, and sometimes years. It also removed natural toxins from foods like cassava, making them safe to consume.
+</p>
+
+<p><h2>Probiotic Powerhouses</h2></p>
+
+<p>
+The beneficial yeasts and bacteria, abundant in fermented foods, protected people against foodborne illness which was prevalent due to the lack of proper food hygiene. Prior to the invention of the microscope, people didn’t know why fermented foods seemed to be good for them. But they may have suspected that fermenting—in addition to keeping foods from spoiling—actually imparted some noticeable health benefits. In fact, the recognized link between fermented foods and vibrant health started back in ancient Rome and China. The benefits of fermented food remain of great interest in modern science as well, although the message around probiotics has changed quite a bit.
+</p>
+
+<p>
+  Twenty years ago, the message was simple: Yogurt is good for you. Eat it!
+</p>
+<p>
+  Later, the question arose: Why is yogurt so good for me?
+</p>
+<p>
+  Today science replies: Good microbes are essential to health.*
+</p>
+
+<p>
+Today, we know that eating fermented foods and supplementing with <a href="http://www.nordicnaturals.com/en/General_Public/Probiotics/1318" target="_none">probiotics</a> are great ways to support a healthy microbiome (the abundance of friendly bacteria that lives in your digestive tract and other parts of your body). And, we have some strong scientific evidence to back up why that’s important.*
+</p>
+
+<p>
+Ideally, we would get these friendly microbes with our food and drink. They would provide small, daily doses of probiotics along with prebiotics, natural fibers that promote gut health and survival of good bacteria. If we consumed a great variety of foods (including probiotic foods), they would provide a diversity of microbes.
+</p>
+
+<p>
+Different species of microbes exist in different locations throughout our bodies—on our skin, in our mouths, in our urinary tracts, and in our small and large intestines, for example. A healthy diversity provides a variety of needed species as well as a vibrant microbial balance.* This is the way nature intended. Unfortunately, most of us don’t eat this way. Even a healthy modern diet rarely includes an abundance of, or a variety of, fermented foods. To make matters worse, the colonies of beneficial microbes we do have are greatly affected by everyday things like:
+<ul>
+  <li>Antibiotics</li>
+  <li>Stress</li>
+  <li>Aging</li>
+  <li>Alcohol</li>
+  <li>Excess caffeine</li>
+  <li>Processed foods</li>
+</ul>
+
+<p>
+  Fortunately, there’s plenty we can do to support our beneficial microbes and build a healthy, diverse microbiome. Science helps us dig deeper and understand why a healthy microbiome is so important.
+</p>
+
+<p>
+  <b>Bacteria with Benefits</b>
+</p>
+
+<p>
+  Beneficial bacteria help us by pre-digesting food that it ferments, which transforms the nutrients we get from foods into highly bioavailable (readily useful) forms.* These little powerhouses can even manufacture nutrients like B-vitamins (helpful with stress and energy production) and <a href="http://www.nordicnaturals.com/en/Products/Product_Details/514/?ProdID=1775" target="_none">vitamin K2</a> (crucial to bone health).* They also reduce the amount of sugar in foods by consuming some of that sugar during the fermentation process. And, they help us absorb vital nutrients from the foods we eat.* But as impressive as these benefits are, the role that good bacteria play in our health is even larger. Here are just a few examples:
+</p>
+
+<p>
+  <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4367209/" target="_none">Brain Function and Mood</a>
+</p>
+
+<p>
+  Research clearly shows a connection between our gut and brain via the complex central nervous system. Not only does the brain influence the type of bacteria that thrives in our gut, but that bacteria, in turn, influences the function of the brain.* This relationship is reflected in research showing an association between dysbiosis (microbial imbalance) and mood-related behaviors.* It’s a truly mutual relationship that benefits from a strong microbial landscape in our digestive system.*
+</p>
+
+<p>
+  <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3276397/" target="_none">Immune Health</a>
+</p>
+
+<p>
+  Along with the close relationship between the brain and the gut, these bacteria also influence our immune system. Essentially, the bacteria in our gut communicate with very specialized immune cells in our gut lining.* These cells promote the production of active immune cells throughout our body.* Balance is crucial to this system because imbalance can result in an over- or under-active immune response.* Neither of these responses is ideal. We want our immune system to be well informed and functioning just right for every situation. Our microbiome plays a crucial role in that balance.*
+</p>
+
+<p>
+  <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3263193/" target="_none">Healthy Weight</a>
+</p>
+
+<p>
+  A healthy microbial balance promotes other healthy states related to our weight. It helps us feel full after eating meals, promotes the production of Conjugated Linoleic Acids (CLAs are helpful in maintaining ideal fat-to-lean ratios), supports a healthy lining in our digestive tract, and contributes to healthy abdominal fat distribution.* All of these things play an essential role in our quest to maintain a healthy weight and body.
+</p>
+
+<p>
+In the last few decades, it has become clear to me that probiotics and probiotic foods are truly essential components of a healthy diet. Whether we’re talking about the nutrients in our food or supplements, it’s not enough to just ingest them. To reap the benefits of any nutrient, we must properly digest and absorb it through the gut wall.
+</p>
+
+<p>
+Once you realize how crucial good bacteria are to that very process, and so many others, there’s no turning back. I know I couldn’t turn back, and I hope you can’t either.
+</p>
+<p>
+  <small>
+    <i>
+*These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure, or prevent any disease.
+    </i>
+  </small>
+</p>
+<p>
+<small>
+  References:<br>
+  Ann Gastroenterol. 2015 Apr-Jun; 28(2): 203–209<br>
+ Mol Med. 2012; 18(1): 95–110<br>
+ Indian J Endocrinol Metab. 2012 Jan-Feb; 16(1): 20–27
+</small>
+</p>
+        `
+      },
+      {
         id: 11,
         category: 'home-life',
-        categoryText: 'THE NORDIC WAY',
+        categoryText: 'HOME LIFE',
         author: 'NICK NOLOBOFF',
         postUrl: 'how-to-marie-kondo-your-medicine-cabinet',
         title: 'How to Marie Kondo Your Medicine Cabinet',
@@ -19,7 +224,7 @@ export const store = new Vuex.Store({
         `,
         content: `
         <p>
-If the standard for saving something is, as tidying guru <a href="http://www.konmari.com/" target="_none">Mari Kondo</a> advises, “what brings you joy,” then my medicine cabinet is an epic fail.
+If the standard for saving something is, as tidying guru <a href="http://www.konmari.com/" target="_none">Marie Kondo</a> advises, “what brings you joy,” then my medicine cabinet is an epic fail.
 </p>
 <p>
 I don’t know about you, but I’ve got an impressive collection of outdated meds. A small sampling brings back some not-so-happy memories. I once might have pawned my wedding ring for a little sleep, courtesy of that bottle of very expired grape NyQuil. Or for a chalky dribble of Calamine Plus that momentarily saved me from the agony of poison oak. Ditto for my son’s Children’s Pain & Fever, with cough suppressant. No price would’ve been too high to soothe a sick toddler.
@@ -35,13 +240,13 @@ Yes, each one of us has our own nutritional needs that change with time, and tha
 </p>
 <p>
 
-<b>Vitamin D</b>
+<h2>Vitamin D</h2>
 </p>
 <p>
 Until recently, I had no idea that <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4018438/" target="_none">vitamin D deficiency is a major problem throughout the world</a>. For those of us living in the Sunshine State, it’s not the first thing we think of in the morning. But many places north and south of the equator get only a fraction of the sunlight that Floridians enjoy year round. Geography, combined with poor diet, long hours working indoors, sunscreen use (still a good idea), and for many women, breastfeeding (another good idea), has meant that vitamin D deficiency has slipped under the radar in many societies. Fortunately, it’s easily solved with supplementation. For most people, <a href="https://medlineplus.gov/magazine/issues/winter11/articles/winter11pg12.html" target="_none">400–800 IU daily does the trick</a>.
 </p>
 <p>
-<b>Omega-3 fish oil</b>
+<h2>Omega-3 fish oil</h2>
 </p>
 <p>
 With omega-3s it’s hard to know where to begin. Omega-3s are known as essential fatty acids. They’re "good" fats. Fats considered essential for optimal health. Unfortunately, people can’t synthesize omega-3s the way they can vitamin D. So, we must obtain them through diet or supplementation. Fish and algae oils abound in the long-chain omega-3s EPA (eicosapentaenoic acid) and DHA (docosahexaenoic acid), which are the best ones.
@@ -50,13 +255,13 @@ With omega-3s it’s hard to know where to begin. Omega-3s are known as essentia
 It’s impossible to sum up the benefits documented in 8000+ clinical studies on omega-3s, but the shortlist includes: cardiovascular health, cognition and mood, joint mobility, immune system function, vision, brain and nervous system development, healthy pregnancy, and more.* As I’ve written elsewhere, a weekly diet of cold-water fish plus a daily serving of <a href="http://www.nordicnaturals.com/en/General_Public/Omega-3_concentrates/361" target="_none">high-quality fish oil</a> is the way to go. Keep this supplement front and center in your medicine cabinet.
 </p>
 <p>
-<b>Probiotics</b>
+<h2>Probiotics</h2>
 </p>
 <p>
 For a long time, probiotics were the dark horse of supplements. Kinda fringe. Questionably beneficial (It’s bacteria, after all).  But fermented foods have been around for millennia, and some of the healthiest people in the world have been eating them for that long—just ask Koreans (e.g. kimchi) and Japanese (e.g. miso, natto). Apart from the proactive benefits of fermented foods, the need for supplemental probiotics has tracked alongside our ballooning use of antibiotics, which tend to decimate all life in our digestive tracts while they treat the germs they’re prescribed for. <a href="http://www.nordicnaturals.com/en/General_Public/Probiotics/1318" target="_none">Probiotics</a> help repopulate colonies of digestive flora that are lost to this process, and that help support not only healthy digestion but also normal immune function.*
 </p>
 <p>
-<b>Multivitamins</b>
+<h2>Multivitamins</h2>
 </p>
 <p>
 Okay, objectivity aside, one reason you should take a multivitamin is because our <a href="http://www.nordicnaturals.com/en/Products/Product_Details/514/?ProdID=1759" target="_none">Nordic Berries</a><sup>™</sup> are so darn good. But beyond that, a good multivitamin can help fill in nutritional gaps in your diet. It’s a great nutritional catch-all for people who don’t get what they should through diet. And it’s amazing how hard it is to consistently hit the nutritional mark due to busy schedules, travel, choosiness, etc. (It’s not just kids who have food preferences, you know). Consider that guidelines recommend up to 10 servings of fresh fruits and veggies daily. A good multivitamin ensures that nothing essential falls through the cracks.
@@ -91,7 +296,7 @@ So, bottom line: Even if you live by the KonMari method of ruthlessly excising a
 
 </p>
 <p>
-<b>1. We use only non-endangered, wild-caught fish</b>
+<h2>1. We use only non-endangered, wild-caught fish</h2>
 </p>
 <div class="video-container" id="vid" style="margin-bottom: -26px"><iframe width="560" height="315" src="https://www.youtube.com/embed/Ujc3bLUwqbo" frameborder="0" allowfullscreen></iframe></div>
 <p>
@@ -100,7 +305,7 @@ So, bottom line: Even if you live by the KonMari method of ruthlessly excising a
 </p>
 <p>
 
-<b>2. We source exclusively from certified sustainable fisheries</b>
+<h2>2. We source exclusively from certified sustainable fisheries</h2>
 </p>
 <center><img src="http://www.nordicnaturals.com/dev/blog-assets/post-images/friend-of-the-sea.jpg" /></center>
 <p>
@@ -119,7 +324,7 @@ So, bottom line: Even if you live by the KonMari method of ruthlessly excising a
 
 <p>
 
-<b>3. We run our green manufacturing facility in Norway on biofuel</b>
+<h2>3. We run our green manufacturing facility in Norway on biofuel</h2>
 </p>
 <p>
   <img src="http://www.nordicnaturals.com/dev/blog-assets/post-images/nordic-pharma-2.jpg" />
@@ -130,7 +335,7 @@ We built our state-of-the-art manufacturing facility in Norway using recycled ma
 <p>
 
 <p>
-<b>4. We built our headquarters to be LEED<sup>®</sup> Gold-certified </b>
+<h2>4. We built our headquarters to be LEED<sup>®</sup> Gold-certified </h2>
 </p>
 <img src="http://www.nordicnaturals.com/dev/blog-assets/post-images/sustainability-main.jpg" />
 </p>
@@ -138,7 +343,7 @@ We built our state-of-the-art manufacturing facility in Norway using recycled ma
 It’s not just our manufacturing facility in Arctic Norway that’s green—our company headquarters in Watsonville, California is, too. It earned Gold certification from the U.S. Green Building Council’s LEED<sup>®</sup> (Leadership in Energy and Environmental Design) Rating System, which promotes a whole-building approach to sustainability, recognizing performance in both human and environmental health. Built in 2011, our 87,000-square-foot headquarters includes skylights, radiant heating, recycled building materials, flexible lighting controls, water purification systems, and water conservation measures that reduce our water use by nearly 50 percent.
 </p>
 <p>
-<b>5. We use only non-GMO verified ingredients</b>
+<h2>5. We use only non-GMO verified ingredients</h2>
 </p>
 <p>
 <img src="http://www.nordicnaturals.com/dev/blog-assets/post-images/product-shot.jpg" style="width: 100%"/>
@@ -148,7 +353,7 @@ It’s not just our manufacturing facility in Arctic Norway that’s green—our
 than 20 years, and adheres to strict European standards to ensure the absence of GMOs.
 </p>
 <p>
-<b>6. All of our product containers and packaging are recyclable</b>
+<h2>6. All of our product containers and packaging are recyclable</h2>
 </p>
 <p>
 <img src="http://www.nordicnaturals.com/dev/blog-assets/post-images/recycle-bin.jpg" />
@@ -160,7 +365,7 @@ than 20 years, and adheres to strict European standards to ensure the absence of
 We know that this is a big area where we can improve our sustainability, so we’re looking into ways to incorporate biodegradable plastics and post-consumer waste into our bottling and shipping. We’ve also made the switch to offering more eco-friendly promotional items, like our branded lip balms packaged in cardboard, bamboo utensils, and reusable cloth sandwich bags.
 </p>
 <p>
-<b>7. We support organizations that do good</b>
+<h2>7. We support organizations that do good</h2>
 </p>
 <p>
 <img src="http://www.nordicnaturals.com/dev/blog-assets/post-images/nordic-group-shot.jpg" />
@@ -221,32 +426,32 @@ This can be a health issue, as there are few things more essential to mind/body 
 So how do Norwegians manage to get enough sleep during the summer months near the Arctic Circle? What could we learn from them, even if we don’t live at the top of the world? We increasingly spend more time on gadgets, which means we get less sleep ourselves, and less darkness. Here are a few strategies we can all use to help establish and maintain healthy sleep habits, even if we don’t personally experience the midnight sun and white nights of summer in Arctic Norway.
 </p>
 <p>
-<b>1. Simulate night</b>
+<h2>1. Simulate night</h2>
 </p>
 <p>
 Since darkness doesn’t naturally occur during the Arctic summer, many Norwegians create it themselves—with eye masks, covered window glass, blackout curtains, and the like. They know that avoiding exposure to evening light is the most important key to being able to sleep well. That’s because the part of our brain that regulates our circadian rhythms (called the suprachiasmatic nucleus or SCN) is located at the intersection of our optic nerves, where light and darkness signal the processes that wake us up and make us sleepy. Without darkness, our brains aren’t signaled to produce the melatonin that makes us sleepy and keeps us asleep. By simulating darkness, we can prompt these natural processes and encourage better sleep.
 </p>
 
 <p>
-<b>2. Keep to a consistent sleep schedule</b>
+<h2>2. Keep to a consistent sleep schedule</h2>
 </p>
 <p>
 Many Norwegians also make an effort to stay on a consistent sleep schedule despite the constant light during the summer months—especially waking up at, or close to, the same time everyday. When we are forced into a schedule, as anyone with children knows, it's easier to ensure we are getting enough sleep. Waking up at a consistent, relatively early time each morning is especially important, as it will naturally discourage you from staying up too late. As people in Arctic Norway can attest, just because you can go hiking at 1 AM doesn’t necessarily mean you should!
 </p>
 <p>
-<b>3. Ban gadgets from the bedroom</b>
+<h2>3. Ban gadgets from the bedroom</h2>
 </p>
 <p>
 Smart phones, laptops, tablets, and TV all emit blue light, which is precisely the kind of light that is most disruptive to our circadian rhythms at night. Since avoiding exposure to evening light (and especially blue light) is the single most important thing we can do to promote better sleep, banning these devices from the bedroom, or at least shutting them off at a scheduled time a couple of hours before bed, can go a long way towards ensuring that we get the restful sleep that’s so essential to health.
 </p>
 <p>
-<b>4. Exercise and eat well</b>
+<h2>4. Exercise and eat well</h2>
 </p>
 <p>
 Getting regular exercise and eating a healthy diet can also help sleep cycles. Exercising as early in the day as possible can make it easier to unwind in the evening. Minimizing caffeine and sugar intake, especially within several hours of bedtime, can help too. Also try to avoid alcohol; while it may help you fall asleep initially, it can cause you to wake during the night and make it difficult to fall back asleep. Taking supplements (including fish oil) is a good idea, since our bodies require adequate levels of many nutrients in order to produce the melatonin, other hormones, and neurotransmitters that regulate our circadian rhythms. Taking your supplements early in the day can help make sure they don’t disrupt your sleep at night.
 </p>
 <p>
-<b>5. Relax</b>
+<h2>5. Relax</h2>
 </p>
 <p>
 When we’re having a hard time sleeping, it often causes us to worry and spend a lot of time thinking about it, which then increases our stress and makes it even harder to sleep, leading to a seemingly never-ending cycle that can be hard to break. But,  while stress may be inevitable, how we deal with it does not have to be. Work towards learning to deal with stress in more healthy ways to unwind and get a good night’s sleep.
@@ -279,7 +484,7 @@ Adapting to the circumstances of life near the Arctic circle is nothing unusual 
   As most people know, cardiovascular disease is the leading cause of death among Americans, but men face this health risk earlier in life than women do. According to <a href="http://www.health.harvard.edu/heart-health/heart-attack-and-stroke-men-vs-women" target="_none">Harvard Medical School</a>, men are, on average, seven years younger than women when they suffer their first heart attack.  Which means there’s less time for men to put off heart-healthy lifestyle changes. The time to act is now.
 </p>
 <p>
-  <b>Health Food for Your Heart</b>
+  <h2>Health Food for Your Heart</h2>
 </p>
 <p>
   Eat well and exercise, right? You’ve heard it before. We all need to be more active and cut way down on the nachos and fried foods—that’s a given. But one valuable, easy-to-follow suggestion on the diet-side is to consume more heart-healthy omega-3 fats.
@@ -295,7 +500,7 @@ Adapting to the circumstances of life near the Arctic circle is nothing unusual 
 
 </p>
 <p>
-  <b>Easy Insurance</b>
+  <h2>Easy Insurance</h2>
 </p>
 <p>
   The upshot is this: If men hope to avoid those silly hospital gowns, a good first step is to stay healthy by consuming a lot more omega-3s. We should all eat wild-caught, oily fish like salmon, sardines, cod, mackerel, and anchovies each week. But really, how many of us do this with any regularity? Omega-3s must be constantly replenished because they are always used by cell membranes. For this reason, it’s important to supplement daily with high-quality fish oil to fill in any nutritional gaps and to make sure you’re getting a steady source of omega-3 fats.
@@ -336,7 +541,7 @@ Adapting to the circumstances of life near the Arctic circle is nothing unusual 
 Our new <a href="https://www.nordicnaturals.com/en/Products/Product_Details/514/?ProdID=1775" target="_none">Vitamin D3+K2 Gummies</a> for adults combines two essential nutrients for supporting bone health in a single, tasty gummy.* But while almost everyone has heard of vitamin D3, not many people know about the bone-building and cardiovascular benefits of vitamin K2. So we thought we would break it down as best we could.
 </p>
 <p>
-<b>From doorman to foreman</b>
+<h2>From doorman to foreman</h2>
 </p>
 <p>
 Vitamin D3, among other important functions, helps your body absorb calcium and phosphorous—vital bone-building minerals—from the foods you eat. It “pulls” calcium and phosphorous from your gut and your kidneys into your bloodstream, where it can be ushered to other parts of the body (namely, your bones). Think of vitamin D3 as the doorman for your body’s calcium intake.
@@ -351,7 +556,7 @@ It’s how these two nutrients work together that’s so compelling. The doorman
 Something you might not know about your bones—they’re constantly being rebuilt over time. This process is called remodeling, and it occurs in response to mechanical and hormonal signals. During childhood, bone metabolism is at peak production; but by the time you hit your early twenties, your bones are no longer actually growing. They are, however, constantly changing. And that’s because bone itself is dynamic, living tissue.
 </p>
 <p>
-<b>About your bones</b>
+<h2>About your bones</h2>
 </p>
 <p>
 The skeletal system, made up of 206 bones, is literally the foundation of health. Made mostly of collagen and calcium phosphate, bones hold and protect your organs, and serve as attachment points for muscles. Your bones also produce red and white blood cells and act as a reservoir for important minerals.
@@ -367,7 +572,7 @@ Bone cells called osteoblasts are responsible for building bones—they secrete 
 The catch is, as we get older our bodies produce fewer osteoblasts—which means we have fewer cells to build new bone. By age 40, we’ve already started <a href="http://orthoinfo.aaos.org/topic.cfm?topic=a00127" target="_none">losing bone mass</a>. This is why fractures may take longer to heal, and why we’re more prone to fractures in the first place. It’s also why eating a healthy diet and getting regular exercise (<a href="https://www.nichd.nih.gov/health/topics/bonehealth/conditioninfo/Pages/activity.aspx" target="_none">weight-bearing exercise causes new bone to form</a>) become particularly important lifestyle choices as we age.
 </p>
 <p>
-<b>Putting calcium to good use</b>
+<h2>Putting calcium to good use</h2>
 </p>
 <p>
 Your body needs calcium to build bone, and vitamin D3 helps your body absorb calcium. So even if you’re getting enough calcium in your diet, it might be going to waste if you’re not also getting enough vitamin D. The American Academy of Orthopaedic Surgeons recommends that adults over the age of 50 get at least 1,000 mg calcium daily, and 1000 IU vitamin D daily.
@@ -414,32 +619,32 @@ And that’s where our new <a href="https://www.nordicnaturals.com/en/Products/P
         `,
         content: `
         <p><i>If you buy Nordic Naturals products from one of our overseas distributors, you might have indirectly crossed paths with our very own Derek Bodkin. Read our interview with Derek here, and <a href="#vid">watch him whistling on stage at the 2016 Redwood Ramble music festival</a>.</i></p>
-      <p><b>Name:</b> Derek Bodkin<br>
-<b>Role:</b> International Sales Account Coordinator<br>
-<b>Years with Nordic Naturals:</b> 5.5</p>
+      <p><h2>Name:</h2> Derek Bodkin<br>
+<h2>Role:</h2> International Sales Account Coordinator<br>
+<h2>Years with Nordic Naturals:</h2> 5.5</p>
 
 <p>
-<b>What do you do at Nordic Naturals, and what do you like best about your job?</b>
+<h2>What do you do at Nordic Naturals, and what do you like best about your job?</h2>
 I work with our distributors to get Nordic Naturals products overseas. This is not my first role at Nordic Naturals, and it’s really a different mindset from what I was doing before. What I like about it is seeing how things operate on a global scale, and also seeing things from a different cultural perspective. It’s a job that has strengthened my desire to see more of the world.
 </p>
 <p>
-<b>Where did you grow up, and how has that place influenced you?</b>
+<h2>Where did you grow up, and how has that place influenced you?</h2>
 I was born in Boston, but I grew up mostly in southern California. Being a musician and living in close proximity to L.A., I eventually found myself in Hollywood, doing post-production sound editing and music editing. I also did some work as a voice-over actor. But I wasn’t really playing music, which has always been my passion. It was when I moved to Santa Cruz that I started playing dive bars and then that evolved into bigger shows that grew into touring on my days off.
 </p>
 <p>
-<b>What personal accomplishment are you most proud of?</b>
+<h2>What personal accomplishment are you most proud of?</h2>
 Recording and producing an entire album. I played most of the instruments myself, wrote most of the songs, and paid my other musicians for their time and their talents. Other friends offered to help me with it here and there, but it was really important to me to do it on my own. The album is called <a href="http://www.cdbaby.com/cd/derekbodkin" target="_none">“True Story.”</a>
 </p>
 <p>
-<b>What is something about you that few people know? Do you have any hidden talents?</b>
+<h2>What is something about you that few people know? Do you have any hidden talents?</h2>
 Most people here know that I’m a musician, and that I’m in a band and I have this whole other life outside of work.  But not a lot of people know that I’m a <a href="#vid">professional whistler</a> (laughs).  And that I’m a multi-instrumentalist.  I have a degree in music composition and conducting, with my major instrument being percussion. I’ve played banjo, guitar, harmonica, and piano since I was a child.
 </p>
 <p>
-<b>What Nordic Naturals products do you take? Any observations you’d like to share?</b>
+<h2>What Nordic Naturals products do you take? Any observations you’d like to share?</h2>
 I’ve never been a supplements guy, mostly because I can never remember to take them. But I always remember to take my <a href="http://www.nordicnaturals.com/en/Products/Product_Details/514/?ProdID=1428" target="_none">Ultimate Omega</a>, everyday. I think it keeps me from feeling dried out on the inside. I also take <a href="http://www.nordicnaturals.com/en/General_Public/Vitamin_D3_formulas/365" target="_none">vitamin D</a> on my doctor’s orders.
 </p>
 <p>
-<b>What does “living healthfully” mean to you?</b>
+<h2>What does “living healthfully” mean to you?</h2>
 Finding balance. It’s hard not to take work home with you, but if you can do that, great. I also think it’s important to govern yourself with integrity. Stay away from gossip. Be honest, even when it’s uncomfortable.
 </p>
 <p>
@@ -467,7 +672,7 @@ Finding balance. It’s hard not to take work home with you, but if you can do t
           Few things can be more frustrating than getting a child to eat what we parents consider healthy foods. Years of mealtime anxiety motivated me to come up with a few creative strategies to coax my picky eater to broaden his eating choices. Here’s what worked for me:
         `,
         content: `
-          <p>Few things can be more frustrating than getting a child to eat what we parents consider healthy foods. My biggest “mommy fail” moments seem to revolve around the dinner table when I see my 3-year-old refuse to eat anything that doesn’t involve pasta, bread, or rice.</p><p>Yet as our pediatrician often reminds me, it’s actually <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3474391/" target="_none">developmentally appropriate for preschoolers to refuse foods</a> we give them. And it’s wise to look at what kids eat over the course of a week rather than a single day before worrying about their eating habits.</p><p>That said, the food struggles at our house motivated me to come up with a few good tricks for tempting my picky eater to try new foods every now and then. Here’s what has (mostly) worked for me:</p><p><b>1. Have your child help you cook.</b> Stirring, measuring, cracking eggs, sprinkling spices—kids are curious creatures, and are often happy to get involved in meal prep. I’ve found that my preschooler is a whole lot more willing to eat something if he feels he’s had a hand in making it.</p><p><b>2. Start the meal with a healthy snack.</b> As a first course, I often give my child a whole baby carrot (I buy them with the tops still on so they look more interesting). I peel it and hand it to him while he’s waiting for me to prep the rest of his meal. Nine times out of ten, he eats it. He’s also been known to nosh on green (pitted) olives and cucumber wedges pre-dinnertime.</p><p><b>3. Disguise your protein.</b> Surprisingly, my child turns his nose up at popular kid favorites like meatballs and chicken strips. But I’ve mixed canned salmon in with mac ‘n cheese with some success. And I’ve learned to love Sloppy Joes (my son loves the soft texture), because it’s a good way to get him to eat grass-fed beef, along with some hidden grated zucchini.</p><p><b>3. Offer rejects regularly.</b> Apparently, kids need to be exposed to new foods repeatedly before they will decide to like them. Some experts say it takes 10 – 15 “tastes” before a kid will accept a new food into his repertoire. The key seems to be not to react if the food you serve gets rejected. Still working on this one…</p><div class="embedded-image left" style="width: 70%;"><img src="http://www.nordicnaturals.com/dev/blog-assets/post-images/little-ones-content-image.jpg" ></div><p><b>5. Get creative with it.</b> Kids love food that’s fun to eat. Whether it’s arranging food in colorful rainbows, or dressing up veggies to look like faces, your creative efforts might just pay off. Also, many moms have had success serving proteins and vegetables with healthy dips like hummus, pesto, or marinara sauce. This hasn’t yet worked at my house (unless you count ketchup as a healthy dip), but it hasn’t deterred me from trying.</p><p><b>6. Use peer pressure.</b> It’s true, kids are more likely to eat foods they see other kids eating and enjoying. If you know a mom whose kid loves a wide range of foods, invite that family over to dinner. Chances are your child will pay close attention to what the other kids are eating.</p><p><b>7. Grow with them.</b> Even if you don’t have a yard, you can grow cherry tomatoes, lettuces, and other edibles in a pot. Seeing food grow can help kids make the connection between the food we buy in the grocery store, and where that food actually comes from. And hopefully, seeing some of Mother Nature’s magic will be captivating enough to tempt your child to try a few new veggies.</p><p><b>8. Make supplements part of your daily routine.</b> You might be rolling your eyes at this point (here comes the pitch!) at this point. But honestly, I feel much better giving my kid a <a href="http://www.nordicnaturals.com/en/Products/Product_Details/98/?ProdID=1411" target="_none">good daily multivitamin</a> and a dose of <a href="http://www.nordicnaturals.com/en/General_Public/Children's_Omegas/473" target="_none">children’s omega-3s</a> in the morning to fill in the nutritional gaps. We also on occasion add a <a href="https://www.nordicnaturals.com/en/General_Public/Children's_Gummies/475" target="_none">vitamin D or vitamin C gummy</a>, depending on the time of year and whether or not I think he may be coming down with a cold, and a <a href="https://www.nordicnaturals.com/en/Products/Product_Details/514/?ProdID=1747" target="_none">kid’s probiotic</a>. It’s easy to give him these as he’s eating breakfast, and now he actually asks for his vitamins every morning. A good lifelong habit in the making, I say.</p>
+          <p>Few things can be more frustrating than getting a child to eat what we parents consider healthy foods. My biggest “mommy fail” moments seem to revolve around the dinner table when I see my 3-year-old refuse to eat anything that doesn’t involve pasta, bread, or rice.</p><p>Yet as our pediatrician often reminds me, it’s actually <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3474391/" target="_none">developmentally appropriate for preschoolers to refuse foods</a> we give them. And it’s wise to look at what kids eat over the course of a week rather than a single day before worrying about their eating habits.</p><p>That said, the food struggles at our house motivated me to come up with a few good tricks for tempting my picky eater to try new foods every now and then. Here’s what has (mostly) worked for me:</p><p><h2>1. Have your child help you cook.</h2> Stirring, measuring, cracking eggs, sprinkling spices—kids are curious creatures, and are often happy to get involved in meal prep. I’ve found that my preschooler is a whole lot more willing to eat something if he feels he’s had a hand in making it.</p><p><h2>2. Start the meal with a healthy snack.</h2> As a first course, I often give my child a whole baby carrot (I buy them with the tops still on so they look more interesting). I peel it and hand it to him while he’s waiting for me to prep the rest of his meal. Nine times out of ten, he eats it. He’s also been known to nosh on green (pitted) olives and cucumber wedges pre-dinnertime.</p><p><h2>3. Disguise your protein.</h2> Surprisingly, my child turns his nose up at popular kid favorites like meatballs and chicken strips. But I’ve mixed canned salmon in with mac ‘n cheese with some success. And I’ve learned to love Sloppy Joes (my son loves the soft texture), because it’s a good way to get him to eat grass-fed beef, along with some hidden grated zucchini.</p><p><h2>3. Offer rejects regularly.</h2> Apparently, kids need to be exposed to new foods repeatedly before they will decide to like them. Some experts say it takes 10 – 15 “tastes” before a kid will accept a new food into his repertoire. The key seems to be not to react if the food you serve gets rejected. Still working on this one…</p><div class="embedded-image left" style="width: 70%;"><img src="http://www.nordicnaturals.com/dev/blog-assets/post-images/little-ones-content-image.jpg" ></div><p><h2>5. Get creative with it.</h2> Kids love food that’s fun to eat. Whether it’s arranging food in colorful rainbows, or dressing up veggies to look like faces, your creative efforts might just pay off. Also, many moms have had success serving proteins and vegetables with healthy dips like hummus, pesto, or marinara sauce. This hasn’t yet worked at my house (unless you count ketchup as a healthy dip), but it hasn’t deterred me from trying.</p><p><h2>6. Use peer pressure.</h2> It’s true, kids are more likely to eat foods they see other kids eating and enjoying. If you know a mom whose kid loves a wide range of foods, invite that family over to dinner. Chances are your child will pay close attention to what the other kids are eating.</p><p><h2>7. Grow with them.</h2> Even if you don’t have a yard, you can grow cherry tomatoes, lettuces, and other edibles in a pot. Seeing food grow can help kids make the connection between the food we buy in the grocery store, and where that food actually comes from. And hopefully, seeing some of Mother Nature’s magic will be captivating enough to tempt your child to try a few new veggies.</p><p><h2>8. Make supplements part of your daily routine.</h2> You might be rolling your eyes at this point (here comes the pitch!) at this point. But honestly, I feel much better giving my kid a <a href="http://www.nordicnaturals.com/en/Products/Product_Details/98/?ProdID=1411" target="_none">good daily multivitamin</a> and a dose of <a href="http://www.nordicnaturals.com/en/General_Public/Children's_Omegas/473" target="_none">children’s omega-3s</a> in the morning to fill in the nutritional gaps. We also on occasion add a <a href="https://www.nordicnaturals.com/en/General_Public/Children's_Gummies/475" target="_none">vitamin D or vitamin C gummy</a>, depending on the time of year and whether or not I think he may be coming down with a cold, and a <a href="https://www.nordicnaturals.com/en/Products/Product_Details/514/?ProdID=1747" target="_none">kid’s probiotic</a>. It’s easy to give him these as he’s eating breakfast, and now he actually asks for his vitamins every morning. A good lifelong habit in the making, I say.</p>
         `,
         ref1title: "Dear Cosmo: Why You Really Should Take Your Fish Oil",
         ref1category: "big-picture",
@@ -490,7 +695,7 @@ Finding balance. It’s hard not to take work home with you, but if you can do t
           When <i>Cosmopolitan</i> magazine published a story advising their readers to skip their omega-3 supplements, we felt we should share what we know about fish oil and its well-established safety and health benefits.
         `,
         content: `
-          <p><i>Cosmopolitan</i> magazine recently published an article advising their readers which vitamins and supplements they should keep taking, and which ones they could probably skip.</p><div class=\"embedded-image right\"><img src=\"http://www.nordicnaturals.com/dev/blog-images/cosmo-cover-terra-post2.jpg\" ></div><p>While we were thrilled to see <i>Cosmo</i> raising awareness about the importance of nutritional supplements, we were disheartened to see that omega-3s and fish oil made their “definitely stop taking” list. We of course wanted to respond, and contribute some useful information about fish oil and its well-established safety and health benefits.</p><p>Here’s our response to each of the points the <i>Cosmo</i> <a href=\"http://www.cosmopolitan.com/health-fitness/a8349732/do-you-really-need-to-take-vitamins/\" target="_none">article</a> makes:</p><p><b>1. Omega-3 fish oil supplements “act as potentially dangerous blood thinners.”</b></p><p>First, it’s important to note that omega-3 fish oil will not prevent your blood from coagulating. Omega-3 fish oil has been shown to help inhibit blood platelet clumping, blood vessel constriction, and the production of blood-clotting proteins—all of which can be understood as blood-thinning actions. On the other hand, when we consider that a diet rich in processed foods promotes exactly the opposite effects—i.e., increased blood platelet clumping, constriction of blood vessels, and blood-clotting proteins—we can see that the actions of omega-3 fish oil are more accurately understood as restoring a healthy balance between blood-thinning and blood-clotting.</p><p>So does this make fish oil supplements potentially dangerous? The answer is no. For the overwhelming majority of people, the blood-thinning actions of omega-3 fish oil should be seen as potentially beneficial rather than potentially dangerous. If you currently take blood-thinning medications or if you anticipate surgery, we recommend consulting with your healthcare provider before taking any supplement.</p><p><b>2. Most omega-3 fish oil supplements “are high in vitamins A and D that you can’t eliminate easily, so they could build up and make you sick.”</b></p><p>Are omega-3 fish oil supplements high in vitamins A and D? The answer depends on what type of omega-3 fish oil you are talking about: Fish oil is extracted from the whole body of the fish and contains only trace amounts of vitamins A and D, which are generally lost during the purification process. For this reason, some manufacturers will add vitamins A and D to their fish oil products. So it’s always important to read supplement labels. Arctic cod liver oil, which is extracted from the livers of fish, does contain small amounts of naturally occurring vitamins A and D, even after purification.</p><p>We’ve always used only 100% Arctic cod livers in our cod liver oil products. Our <a href="https://www.nordicnaturals.com/en/General_Public/Arctic_Cod_Liver_Oil/378">Arctic Cod Liver Oils</a> have low, healthy levels of fat-soluble vitamin A typically averaging 650–1,500 IU of vitamin A per serving, which falls in the low range compared to other products. (<a href="https://www.nap.edu/read/10026/chapter/1" target="_none">The recommended daily allowance of vitamin A for adults</a> as established by the US Institute of Medicine of the National Academy of Science is 3,000 IU for men and 2,300 IU for women.)</p><p>When it comes to vitamin D, neither fish oil nor cod liver oil supplements naturally contain high levels. The real concern with vitamin D is getting enough. There’s an emerging consensus among the medical and scientific community that <a href="https://www.hsph.harvard.edu/nutritionsource/vitamin-d/#vitamin-d-deficiency-a-global-concern" target="_none">vitamin D deficiency</a> is an under-recognized epidemic. (It’s why we offer many of our <a href="https://www.nordicnaturals.com/en/General_Public/Vitamin_D3_formulas/365" target="none">products</a> with the option of added vitamin D.)</p><p>The American Academy of Pediatrics recently <a href="https://www.healthychildren.org/English/healthy-living/nutrition/Pages/Vitamin-D-On-the-Double.aspx" target="_none">doubled its vitamin D recommendations</a> for infants, children, and adolescents, and a whole new generation of vitamin D research continues to show just how critical vitamin D is to every aspect of health. We use vitamin D3 (cholecalciferol) in our products because it’s the most easily absorbed form of vitamin D, and the form our bodies naturally make from sunlight.</p><p><b>3. “Eat fish and use olive oil instead” of taking omega-3 fish oil supplements.</b></p><p>While we wholeheartedly support <i>Cosmo’s</i> advice to get our nutrients from fresh foods instead of supplements whenever possible, we also recognize that often it simply isn’t possible to consume enough of the health-promoting nutrients we need from food alone. Omega-3s are a good example. To get 1,000 mg of the beneficial omega-3s EPA and DHA found in fish oil, you’d have to eat 2/3 of a can of sardines—every day! We don’t know about you, but two soft gels a day of our concentrated <a href="https://www.nordicnaturals.com/en/Products/Product_Details/514/?ProdID=1428" target="_none">Ultimate Omega</a><sup>®</sup> omega-3 fish oil sure does seem a lot easier to swallow.</p>
+          <p><i>Cosmopolitan</i> magazine recently published an article advising their readers which vitamins and supplements they should keep taking, and which ones they could probably skip.</p><div class=\"embedded-image right\"><img src=\"http://www.nordicnaturals.com/dev/blog-images/cosmo-cover-terra-post2.jpg\" ></div><p>While we were thrilled to see <i>Cosmo</i> raising awareness about the importance of nutritional supplements, we were disheartened to see that omega-3s and fish oil made their “definitely stop taking” list. We of course wanted to respond, and contribute some useful information about fish oil and its well-established safety and health benefits.</p><p>Here’s our response to each of the points the <i>Cosmo</i> <a href=\"http://www.cosmopolitan.com/health-fitness/a8349732/do-you-really-need-to-take-vitamins/\" target="_none">article</a> makes:</p><p><h2>1. Omega-3 fish oil supplements “act as potentially dangerous blood thinners.”</h2></p><p>First, it’s important to note that omega-3 fish oil will not prevent your blood from coagulating. Omega-3 fish oil has been shown to help inhibit blood platelet clumping, blood vessel constriction, and the production of blood-clotting proteins—all of which can be understood as blood-thinning actions. On the other hand, when we consider that a diet rich in processed foods promotes exactly the opposite effects—i.e., increased blood platelet clumping, constriction of blood vessels, and blood-clotting proteins—we can see that the actions of omega-3 fish oil are more accurately understood as restoring a healthy balance between blood-thinning and blood-clotting.</p><p>So does this make fish oil supplements potentially dangerous? The answer is no. For the overwhelming majority of people, the blood-thinning actions of omega-3 fish oil should be seen as potentially beneficial rather than potentially dangerous. If you currently take blood-thinning medications or if you anticipate surgery, we recommend consulting with your healthcare provider before taking any supplement.</p><p><h2>2. Most omega-3 fish oil supplements “are high in vitamins A and D that you can’t eliminate easily, so they could build up and make you sick.”</h2></p><p>Are omega-3 fish oil supplements high in vitamins A and D? The answer depends on what type of omega-3 fish oil you are talking about: Fish oil is extracted from the whole body of the fish and contains only trace amounts of vitamins A and D, which are generally lost during the purification process. For this reason, some manufacturers will add vitamins A and D to their fish oil products. So it’s always important to read supplement labels. Arctic cod liver oil, which is extracted from the livers of fish, does contain small amounts of naturally occurring vitamins A and D, even after purification.</p><p>We’ve always used only 100% Arctic cod livers in our cod liver oil products. Our <a href="https://www.nordicnaturals.com/en/General_Public/Arctic_Cod_Liver_Oil/378">Arctic Cod Liver Oils</a> have low, healthy levels of fat-soluble vitamin A typically averaging 650–1,500 IU of vitamin A per serving, which falls in the low range compared to other products. (<a href="https://www.nap.edu/read/10026/chapter/1" target="_none">The recommended daily allowance of vitamin A for adults</a> as established by the US Institute of Medicine of the National Academy of Science is 3,000 IU for men and 2,300 IU for women.)</p><p>When it comes to vitamin D, neither fish oil nor cod liver oil supplements naturally contain high levels. The real concern with vitamin D is getting enough. There’s an emerging consensus among the medical and scientific community that <a href="https://www.hsph.harvard.edu/nutritionsource/vitamin-d/#vitamin-d-deficiency-a-global-concern" target="_none">vitamin D deficiency</a> is an under-recognized epidemic. (It’s why we offer many of our <a href="https://www.nordicnaturals.com/en/General_Public/Vitamin_D3_formulas/365" target="none">products</a> with the option of added vitamin D.)</p><p>The American Academy of Pediatrics recently <a href="https://www.healthychildren.org/English/healthy-living/nutrition/Pages/Vitamin-D-On-the-Double.aspx" target="_none">doubled its vitamin D recommendations</a> for infants, children, and adolescents, and a whole new generation of vitamin D research continues to show just how critical vitamin D is to every aspect of health. We use vitamin D3 (cholecalciferol) in our products because it’s the most easily absorbed form of vitamin D, and the form our bodies naturally make from sunlight.</p><p><h2>3. “Eat fish and use olive oil instead” of taking omega-3 fish oil supplements.</h2></p><p>While we wholeheartedly support <i>Cosmo’s</i> advice to get our nutrients from fresh foods instead of supplements whenever possible, we also recognize that often it simply isn’t possible to consume enough of the health-promoting nutrients we need from food alone. Omega-3s are a good example. To get 1,000 mg of the beneficial omega-3s EPA and DHA found in fish oil, you’d have to eat 2/3 of a can of sardines—every day! We don’t know about you, but two soft gels a day of our concentrated <a href="https://www.nordicnaturals.com/en/Products/Product_Details/514/?ProdID=1428" target="_none">Ultimate Omega</a><sup>®</sup> omega-3 fish oil sure does seem a lot easier to swallow.</p>
         `,
         ref1title: "Why Natural-Form Fish Oils are Better for Your Body—and Your Wallet",
         ref1category: "all-about-science",
@@ -511,7 +716,7 @@ Finding balance. It’s hard not to take work home with you, but if you can do t
         imageUrl: "http://www.nordicnaturals.com/dev/blog-assets/post-images/refuse-reduce-reuse-compressor.jpg",
         contentPreview: "Ocean \"smog\" created from the disposable plastics we all throw away has become a huge concern. Right now, there are some 270,000 tons of trash swirling around the world's oceans in giant, tangled heaps.",
         content: `
-          <p>Ocean \"smog\" created from the disposable plastics we all throw away has become a huge concern. Right now, there are some 270,000 tons of trash swirling around the world's oceans in giant, tangled heaps. Ocean waves break these plastics down into smaller and smaller pieces, endangering the surrounding marine life as fish and birds either digest the plastic debris, mistaking it for food, or become entangled in it. Some of the plastic toxins they digest even make it up the food chain into the fish many of us eat. That’s right—we’re eating the plastic trash, too. One study found that <a href=\"http://www.ecowatch.com/25-of-fish-sold-at-markets-contain-plastic-or-man-made-debris-1882105614.html\" target=\"_none\">one-quarter of all fish sold in California markets had microplastics and fibers in their guts</a>. </p><p> Cleaning up the trash with some sort of floating, supersized garbage truck may sound like an obvious fix, but these vast islands of plastic trash—water bottles, straws, caps, food wrappers, bags, chunks of old, unrecognizable gadgets and toys—can’t just be collected and taken away. The disintegrating plastics permeate our oceans just like smog permeates our air. We can’t really filter it out. We have to stop the ocean smog at its source—us.</p><p>Here are 10 things we can all do today to help clean up our oceans—courtesy of <a href=\"http://www.5gyres.org\" target=\"_none\">The 5 Gyres Institute</a>, a non-profit dedicated to empowering all of us to take action in response to this unhealthy scenario. We at Nordic Naturals are inspired, and proud to sponsor and support <a href=\"https://www.5gyres.org/\" target=\"_none\">5 Gyres</a> in spreading the word.</p><h5>How Can We Help?</h5><p><b>1.</b> Swear off plastic bags. Stash some reusable bags in your car, or carry a backpack or tote bag with you.</p><p><b>2.</b> Carry a reusable water bottle. Don’t buy bottled water—<a href=\"http://www.treehugger.com/clean-water/save-1400-a-year-by-drinking-tap-water.html\" target=\"_none\">you can save $1400 a year by just drinking tap.</a></p><p><b>3.</b> Say no to straws, or only use paper straws. When you order a drink, say “No straw, please.”</p><p><b>4.</b> Use non-plastic utensils and bring your own mug to the coffee shop. Get in the habit of carrying these with you when you’re out and about.</p><p><b>5.</b> <a href=\"https://www.5gyres.org/styrofoam/\" target=\"_none\">Avoid all things Styrofoam.</a> The chemicals used to create Styrofoam cups and food containers are toxic and possibly carcinogenic. Bad for you, bad for the oceans.</p><p><b>6.</b> Buy items with minimal packaging, and buy in bulk whenever possible. Choose non-plastic beverage containers.</p><p><b>7.</b> Minimize your electronic footprint by repairing, upgrading, or recycling old phones, TVs, computers, and peripherals.</p><div class=\"embedded-image left\"><img src=\"http://www.nordicnaturals.com/dev/blog-images/5Gyres3.jpeg\"/><span style=\"padding-left: 28px; padding-right: 28px; display: inline-block\">Photo by Ryan Martin for 5 Gyres</span></div><p><b>8.</b> Buy clothes made from natural materials. Synthetic clothing items shed microfibers every time they’re washed, and these fibers wind up in the ocean.</p><p><b>9.</b> Don’t buy face cleansers and scrubs that contain microbeads (they’ll be phased out soon anyway, thanks to the <a href=\"https://www.fda.gov/Cosmetics/GuidanceRegulation/LawsRegulations/ucm531849.htm\" target=\"_none\">Microbead-Free Waters Act</a>).</p><p><b>10.</b> Pledge to go <a href=\"https://www.5gyres.org/newsletter-sign-up\" target=\"_none\">#plasticfree</a> for a day, a week, a year—or forever. Start by refusing the top five sources of single use plastic: plastic bags, water bottles, to-go containers, takeaway cups, and straws.</p><p>Cleaning up our oceans isn’t going to happen overnight. But we can all make a difference—one piece of plastic trash at a time.</p>
+          <p>Ocean \"smog\" created from the disposable plastics we all throw away has become a huge concern. Right now, there are some 270,000 tons of trash swirling around the world's oceans in giant, tangled heaps. Ocean waves break these plastics down into smaller and smaller pieces, endangering the surrounding marine life as fish and birds either digest the plastic debris, mistaking it for food, or become entangled in it. Some of the plastic toxins they digest even make it up the food chain into the fish many of us eat. That’s right—we’re eating the plastic trash, too. One study found that <a href=\"http://www.ecowatch.com/25-of-fish-sold-at-markets-contain-plastic-or-man-made-debris-1882105614.html\" target=\"_none\">one-quarter of all fish sold in California markets had microplastics and fibers in their guts</a>. </p><p> Cleaning up the trash with some sort of floating, supersized garbage truck may sound like an obvious fix, but these vast islands of plastic trash—water bottles, straws, caps, food wrappers, bags, chunks of old, unrecognizable gadgets and toys—can’t just be collected and taken away. The disintegrating plastics permeate our oceans just like smog permeates our air. We can’t really filter it out. We have to stop the ocean smog at its source—us.</p><p>Here are 10 things we can all do today to help clean up our oceans—courtesy of <a href=\"http://www.5gyres.org\" target=\"_none\">The 5 Gyres Institute</a>, a non-profit dedicated to empowering all of us to take action in response to this unhealthy scenario. We at Nordic Naturals are inspired, and proud to sponsor and support <a href=\"https://www.5gyres.org/\" target=\"_none\">5 Gyres</a> in spreading the word.</p><h5>How Can We Help?</h5><p><h2>1.</h2> Swear off plastic bags. Stash some reusable bags in your car, or carry a backpack or tote bag with you.</p><p><h2>2.</h2> Carry a reusable water bottle. Don’t buy bottled water—<a href=\"http://www.treehugger.com/clean-water/save-1400-a-year-by-drinking-tap-water.html\" target=\"_none\">you can save $1400 a year by just drinking tap.</a></p><p><h2>3.</h2> Say no to straws, or only use paper straws. When you order a drink, say “No straw, please.”</p><p><h2>4.</h2> Use non-plastic utensils and bring your own mug to the coffee shop. Get in the habit of carrying these with you when you’re out and about.</p><p><h2>5.</h2> <a href=\"https://www.5gyres.org/styrofoam/\" target=\"_none\">Avoid all things Styrofoam.</a> The chemicals used to create Styrofoam cups and food containers are toxic and possibly carcinogenic. Bad for you, bad for the oceans.</p><p><h2>6.</h2> Buy items with minimal packaging, and buy in bulk whenever possible. Choose non-plastic beverage containers.</p><p><h2>7.</h2> Minimize your electronic footprint by repairing, upgrading, or recycling old phones, TVs, computers, and peripherals.</p><div class=\"embedded-image left\"><img src=\"http://www.nordicnaturals.com/dev/blog-images/5Gyres3.jpeg\"/><span style=\"padding-left: 28px; padding-right: 28px; display: inline-block\">Photo by Ryan Martin for 5 Gyres</span></div><p><h2>8.</h2> Buy clothes made from natural materials. Synthetic clothing items shed microfibers every time they’re washed, and these fibers wind up in the ocean.</p><p><h2>9.</h2> Don’t buy face cleansers and scrubs that contain microbeads (they’ll be phased out soon anyway, thanks to the <a href=\"https://www.fda.gov/Cosmetics/GuidanceRegulation/LawsRegulations/ucm531849.htm\" target=\"_none\">Microbead-Free Waters Act</a>).</p><p><h2>10.</h2> Pledge to go <a href=\"https://www.5gyres.org/newsletter-sign-up\" target=\"_none\">#plasticfree</a> for a day, a week, a year—or forever. Start by refusing the top five sources of single use plastic: plastic bags, water bottles, to-go containers, takeaway cups, and straws.</p><p>Cleaning up our oceans isn’t going to happen overnight. But we can all make a difference—one piece of plastic trash at a time.</p>
         `,
         ref1title: "Why Natural-Form Fish Oils are Better for Your Body—and Your Wallet",
         ref1category: "all-about-science",
@@ -532,7 +737,7 @@ Finding balance. It’s hard not to take work home with you, but if you can do t
         imageUrl: "http://www.nordicnaturals.com/dev/blog-assets/post-images/capsules-and-fish.jpg",
         contentPreview: "“Triglycerides” may sound intimidating, but all you really need to know is that they’re the form of omega-3 fats that your body ...",
         content: `
-          <p>“Triglycerides” are something we talk about a lot at Nordic Naturals. They sound intimidating, but all you really need to know is that they’re the form of omega-3 fats that your body prefers. And, many fish oils on the market today are not triglyceride form. Let me explain.</p><p>Triglycerides are a form of molecule. You may hear that “high triglycerides” are bad for the heart, but I’m talking about a different kind that is really important for overall health. That’s because dietary fats are really important for us, and 98% of all fats we eat are triglycerides. None of this would matter beyond the lab if all companies produced fish oil the right way—as natural omega-3s. Sadly, they don’t. But if you know to look for triglyceride form omega-3s—the natural form—it’s easy to find great fish oil.</p><p>Natural-form fish oil is better for a handful of reasons. Freshness, effectiveness, and value topthe list. You’d expect this since triglyceride-form fats abound in nature. But what about the alternative?</p><p><b>Natural Form = Fresh</b></p><p>Most fish oils are made of ethyl ester molecules, which are the result of concentrating omega-3s to make a more potent product, and then skipping a final step that recreates the natural molecular form. No big surprise, skipping this step is cheaper for fish oil manufacturers, but the cost-savings don’t translate to you. Ethyl ester fish oils are fragile, so the molecules have a hard time holding together, and are more susceptible to damage by oxygen. That means a lot of spoiled, stinky fish oil—and more free radicals.</p><p><b>Natural Form = Effective</b></p><div class=\"embedded-image right\"><img src=\"http://www.nordicnaturals.com/dev/blog-images/tg-form-graph-compressor.jpg\" ></div><p>Natural-form fish oil is also more effective than ethyl ester fish oil. A number of studies have documented the body’s improved ability to absorb and use natural form omega-3s. Up to 70% better absorption than ethyl esters.<sup>1</sup> This means that the more natural form omega-3s there are in your bottle of fish oil, the greater chance they have to make it where they should—your cells.</p><p>The cell membrane is where omega-3s really have the chance to make a difference, influencing heart health, vision, brain development, and the wide-ranging functions of the immune system that benefit so many aspects of everyday health. Of course, poorly absorbed fish oil means fewer omega-3s in the bloodstream, fewer getting to cells, and limited benefits overall. You get the idea.</p><p><b>Natural Form = Value</b></p><p>All this adds up to one big advantage: value. Why spend money on fish oil that spoils quickly, and that doesn’t deliver the benefits you expect? The big picture sometimes gets lost when customers choose products solely on lowest price.</p><p>I’m happy to tell you that Nordic Naturals has always had the big picture in mind. From the very beginning we’ve produced our fish oils in their natural form. Every bottle contains at least 90% natural-form omega-3s, and they often reach up to 98%. It takes longer to make triglyceride-form products. And, it costs more. But at the end of the day, it’s the value of our products that matters most.</p><p><small><sup>1</sup><i>Dyerberg J, et al. <a href=\"https://www.ncbi.nlm.nih.gov/pubmed/20638827\" target=\"_none\">Bioavailability of marine n-3 fatty acid formulations. Prostaglandins Leukot Essent Fatty Acids</a> 2010 Sep;83(3):137–141.</i></small></p><p><small>*These statements have not been evaluated by the Food and Drug Administration.These products are not intended to diagnose, treat, cure, or prevent any disease.</small></p>
+          <p>“Triglycerides” are something we talk about a lot at Nordic Naturals. They sound intimidating, but all you really need to know is that they’re the form of omega-3 fats that your body prefers. And, many fish oils on the market today are not triglyceride form. Let me explain.</p><p>Triglycerides are a form of molecule. You may hear that “high triglycerides” are bad for the heart, but I’m talking about a different kind that is really important for overall health. That’s because dietary fats are really important for us, and 98% of all fats we eat are triglycerides. None of this would matter beyond the lab if all companies produced fish oil the right way—as natural omega-3s. Sadly, they don’t. But if you know to look for triglyceride form omega-3s—the natural form—it’s easy to find great fish oil.</p><p>Natural-form fish oil is better for a handful of reasons. Freshness, effectiveness, and value topthe list. You’d expect this since triglyceride-form fats abound in nature. But what about the alternative?</p><p><h2>Natural Form = Fresh</h2></p><p>Most fish oils are made of ethyl ester molecules, which are the result of concentrating omega-3s to make a more potent product, and then skipping a final step that recreates the natural molecular form. No big surprise, skipping this step is cheaper for fish oil manufacturers, but the cost-savings don’t translate to you. Ethyl ester fish oils are fragile, so the molecules have a hard time holding together, and are more susceptible to damage by oxygen. That means a lot of spoiled, stinky fish oil—and more free radicals.</p><p><h2>Natural Form = Effective</h2></p><div class=\"embedded-image right\"><img src=\"http://www.nordicnaturals.com/dev/blog-images/tg-form-graph-compressor.jpg\" ></div><p>Natural-form fish oil is also more effective than ethyl ester fish oil. A number of studies have documented the body’s improved ability to absorb and use natural form omega-3s. Up to 70% better absorption than ethyl esters.<sup>1</sup> This means that the more natural form omega-3s there are in your bottle of fish oil, the greater chance they have to make it where they should—your cells.</p><p>The cell membrane is where omega-3s really have the chance to make a difference, influencing heart health, vision, brain development, and the wide-ranging functions of the immune system that benefit so many aspects of everyday health. Of course, poorly absorbed fish oil means fewer omega-3s in the bloodstream, fewer getting to cells, and limited benefits overall. You get the idea.</p><p><h2>Natural Form = Value</h2></p><p>All this adds up to one big advantage: value. Why spend money on fish oil that spoils quickly, and that doesn’t deliver the benefits you expect? The big picture sometimes gets lost when customers choose products solely on lowest price.</p><p>I’m happy to tell you that Nordic Naturals has always had the big picture in mind. From the very beginning we’ve produced our fish oils in their natural form. Every bottle contains at least 90% natural-form omega-3s, and they often reach up to 98%. It takes longer to make triglyceride-form products. And, it costs more. But at the end of the day, it’s the value of our products that matters most.</p><p><small><sup>1</sup><i>Dyerberg J, et al. <a href=\"https://www.ncbi.nlm.nih.gov/pubmed/20638827\" target=\"_none\">Bioavailability of marine n-3 fatty acid formulations. Prostaglandins Leukot Essent Fatty Acids</a> 2010 Sep;83(3):137–141.</i></small></p><p><small>*These statements have not been evaluated by the Food and Drug Administration.These products are not intended to diagnose, treat, cure, or prevent any disease.</small></p>
         `,
         ref1title: "Inside Nordic Naturals: Meet Jonna, Customer Service Rep Extraordinaire",
         ref1category: "kultur",
@@ -553,7 +758,7 @@ Finding balance. It’s hard not to take work home with you, but if you can do t
         imageUrl: "http://www.nordicnaturals.com/dev/blog-assets/post-images/jonna-compressor.jpg",
         contentPreview: "If you happen to call Nordic Naturals to place an order or ask a product question, there’s a good chance you’ll find yourself chatting ...",
         content: `
-          <p><i>If you happen to call Nordic Naturals to place an order or ask a product question, there’s a good chance you’ll find yourself chatting with the unforgettable Jonna Paiss. We asked Jonna to be the subject of our first employee spotlight, and she graciously accepted. Read our interview with Jonna here, and <a href=\"#embed-container\">watch her answer our parting question on video</a>.</i></p><p><b>Name:</b> Jonna Paiss<br /><b>Role:</b> Consumer Sales and Education Representative<br /><b>Years with Nordic Naturals:</b> 5</p><p><b>What do you do at Nordic Naturals, and what do you like best about your job?</b></p><p>I work in customer service, so I answer questions about our products all day long. I’ve always been interested in nutrition and biology, and I like helping people find the right supplement for them. I used to work in the healthcare industry, and for me working in the natural products industry is much more satisfying.</p><p>One reason I like talking about our products is because I have so much confidence in them. I try everything we make so I can get a firsthand experience with each product. I keep a spice rack in my bathroom filled with all my Nordic Naturals supplements.</p><p><b>What’s the strangest customer question you’ve ever received?</b></p><p>I certainly get some very specific questions from customers, everything from whether or not our products are kosher to what kinds of glue we use on our product labels. It’s part of the fun, you know, going and hunting down the answers to the more unusual questions.</p><p>I guess the strangest question I ever got was from a woman who called to ask about the tiny illustrated trolls on our Nordic Berries multivitamin label. She wanted to know if they were associated with the occult. I told her the trolls were common in Norwegian fairy tales, nothing more than a fanciful reference to Scandinavian folklore.</p><p><b>Where did you grow up?</b></p><p>I was born and raised in a small town in Denmark, and I immigrated to the US when I was in my twenties. I practically grew up in a library... I spent most of my teenage years with my head in a book, and I’m still a voracious reader today.</p><p><b>Since you’ve been here for 5 years, I gather you’ve been taking fish oil for a while. Any observations you’d like to share?</b></p><p>Probably the biggest thing I noticed when I first started working here was the high product quality. I’ve always trusted the science behind the nutrition, so I never questioned things I experienced in the past with other products, like fishy aftertaste or unpleasant burps. I just figured those things were to be tolerated, the way you tolerate other things that might be good for you—like onions.</p><p><b>What Nordic Naturals products do you take?</b></p><p>I currently take <a href=\"http://www.nordicnaturals.com/en/Products/Product_Details/514/?ProdID=1746\" target=\"_none\">Omega Curcumin</a>, <a href=\"http://www.nordicnaturals.com/en/Products/Product_Details/514/?ProdID=1414\" target=\"_none\">EPA</a> with concentrated <a href=\"http://www.nordicnaturals.com/en/Products/Product_Details/514/?ProdID=1647\" target=\"_none\">GLA</a>, <a href=\"http://www.nordicnaturals.com/en/General_Public/Vitamin_D3_formulas/365\" target=\"_none\">vitamin D3</a>, and <a href=\"http://www.nordicnaturals.com/en/Products/Product_Details/514/?ProdID=1699\" target=\"_none\">Nordic Flora Probiotic Daily</a>. Over the years I’ve tried a lot of different formulations, but in general I try to take 2000 milligrams EPA and DHA daily. In the winter especially, I take vitamin D3 regularly. And I supplement with other products, like Omega Curcumin and <a href=\"http://www.nordicnaturals.com/en/General_Public/Eye_Health/1231\" target=\"_none\">Omega Vision</a>, depending on whatever issue I may be trying to address. When I first tried our Nordic Flora probiotics, I was like, oh my God! Because I felt an immediate difference. (laughs)</p><p><b>What is something about you that few people know? Do you have a hidden talent?</b></p><p>I have nothing BUT hidden talents. All my talents are really hard to find! One advantage of talking to new people all day is that my jokes never get old. I try to be light about things, because I enjoy making people laugh.</p><p><b>I happen to know that you’re really good at crafting.</b></p><p>Yes, I do like to sew and knit and do crafty things. I’m really into making costumes right now. And a lot of people don’t know this, but I’m actually a good cook. I developed some pretty good cooking skills in college—whisking and stirring, those are my hidden talents. And talking and enjoying good food with friends.</p><p><b>We talk a lot about health here at Nordic Naturals. What does “living healthfully” mean to you?</b></p><p>To me “living healthfully” is a state of mind. It’s about striving for harmony and balance in your life. We have a saying in Denmark: “Everything in moderation, including moderation.” I think it’s important to pick your battles in life, and focus on what gives you enjoyment. Otherwise it’s really easy to get frustrated and feel powerless. I guess you could say I try not to sweat the small stuff.<p><p><b>Video Question: You’re from Denmark. Explain “hygge” to us.</b><div id=\"embed-container\"><iframe src=\"https://player.vimeo.com/video/212996319\" frameborder=\"0\" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div></p>
+          <p><i>If you happen to call Nordic Naturals to place an order or ask a product question, there’s a good chance you’ll find yourself chatting with the unforgettable Jonna Paiss. We asked Jonna to be the subject of our first employee spotlight, and she graciously accepted. Read our interview with Jonna here, and <a href=\"#embed-container\">watch her answer our parting question on video</a>.</i></p><p><h2>Name:</h2> <p>Jonna Paiss</p><h2>Role:</h2> <p>Consumer Sales and Education Representative</p><h2>Years with Nordic Naturals:</h2> <p>5</p><p><h2>What do you do at Nordic Naturals, and what do you like best about your job?</h2></p><p>I work in customer service, so I answer questions about our products all day long. I’ve always been interested in nutrition and biology, and I like helping people find the right supplement for them. I used to work in the healthcare industry, and for me working in the natural products industry is much more satisfying.</p><p>One reason I like talking about our products is because I have so much confidence in them. I try everything we make so I can get a firsthand experience with each product. I keep a spice rack in my bathroom filled with all my Nordic Naturals supplements.</p><p><h2>What’s the strangest customer question you’ve ever received?</h2></p><p>I certainly get some very specific questions from customers, everything from whether or not our products are kosher to what kinds of glue we use on our product labels. It’s part of the fun, you know, going and hunting down the answers to the more unusual questions.</p><p>I guess the strangest question I ever got was from a woman who called to ask about the tiny illustrated trolls on our Nordic Berries multivitamin label. She wanted to know if they were associated with the occult. I told her the trolls were common in Norwegian fairy tales, nothing more than a fanciful reference to Scandinavian folklore.</p><p><h2>Where did you grow up?</h2></p><p>I was born and raised in a small town in Denmark, and I immigrated to the US when I was in my twenties. I practically grew up in a library... I spent most of my teenage years with my head in a book, and I’m still a voracious reader today.</p><p><h2>Since you’ve been here for 5 years, I gather you’ve been taking fish oil for a while. Any observations you’d like to share?</h2></p><p>Probably the biggest thing I noticed when I first started working here was the high product quality. I’ve always trusted the science behind the nutrition, so I never questioned things I experienced in the past with other products, like fishy aftertaste or unpleasant burps. I just figured those things were to be tolerated, the way you tolerate other things that might be good for you—like onions.</p><p><h2>What Nordic Naturals products do you take?</h2></p><p>I currently take <a href=\"http://www.nordicnaturals.com/en/Products/Product_Details/514/?ProdID=1746\" target=\"_none\">Omega Curcumin</a>, <a href=\"http://www.nordicnaturals.com/en/Products/Product_Details/514/?ProdID=1414\" target=\"_none\">EPA</a> with concentrated <a href=\"http://www.nordicnaturals.com/en/Products/Product_Details/514/?ProdID=1647\" target=\"_none\">GLA</a>, <a href=\"http://www.nordicnaturals.com/en/General_Public/Vitamin_D3_formulas/365\" target=\"_none\">vitamin D3</a>, and <a href=\"http://www.nordicnaturals.com/en/Products/Product_Details/514/?ProdID=1699\" target=\"_none\">Nordic Flora Probiotic Daily</a>. Over the years I’ve tried a lot of different formulations, but in general I try to take 2000 milligrams EPA and DHA daily. In the winter especially, I take vitamin D3 regularly. And I supplement with other products, like Omega Curcumin and <a href=\"http://www.nordicnaturals.com/en/General_Public/Eye_Health/1231\" target=\"_none\">Omega Vision</a>, depending on whatever issue I may be trying to address. When I first tried our Nordic Flora probiotics, I was like, oh my God! Because I felt an immediate difference. (laughs)</p><p><h2>What is something about you that few people know? Do you have a hidden talent?</h2></p><p>I have nothing BUT hidden talents. All my talents are really hard to find! One advantage of talking to new people all day is that my jokes never get old. I try to be light about things, because I enjoy making people laugh.</p><p><h2>I happen to know that you’re really good at crafting.</h2></p><p>Yes, I do like to sew and knit and do crafty things. I’m really into making costumes right now. And a lot of people don’t know this, but I’m actually a good cook. I developed some pretty good cooking skills in college—whisking and stirring, those are my hidden talents. And talking and enjoying good food with friends.</p><p><h2>We talk a lot about health here at Nordic Naturals. What does “living healthfully” mean to you?</h2></p><p>To me “living healthfully” is a state of mind. It’s about striving for harmony and balance in your life. We have a saying in Denmark: “Everything in moderation, including moderation.” I think it’s important to pick your battles in life, and focus on what gives you enjoyment. Otherwise it’s really easy to get frustrated and feel powerless. I guess you could say I try not to sweat the small stuff.<p><p><h2>Video Question: You’re from Denmark. Explain “hygge” to us.</h2><div id=\"embed-container\"><iframe src=\"https://player.vimeo.com/video/212996319\" frameborder=\"0\" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div></p>
         `,
         ref1title: "Why Natural-Form Fish Oils are Better for Your Body—and Your Wallet",
         ref1category: "all-about-science",

@@ -46,6 +46,11 @@ export default {
           bio: "Terra is a regular contributor to the Naturally Speaking blog, and a former marketing writer at Nordic Naturals. She has been writing for the natural products industry for nearly a decade, and revels in providing resources to help people make informed decisions about health, nutrition, and sustainable living. In her former life, Terra was a university instructor and academic researcher. Her daily passions include tending her native plant garden, reading, and hanging out with her dogs."
         },
         {
+          name: "Jerilyn Swindle",
+          picture: "http://www.nordicnaturals.com/dev/blog-images/jerilyn-swindle.jpg",
+          bio: "Jerilyn is an educator at Nordic Naturals and has been immersed in the natural health industry for more than 20 years.  She has a personal passion for locally sourced food and fermenting at home.  Her down time is spent with her young son, preferably out in nature."
+        },
+        {
           name: "Jackie Hansmann",
           picture: "http://www.nordicnaturals.com/dev/blog-images/jackie-sq-compressor.jpg",
           bio: "Jackie is the outreach coordinator at Nordic Naturals. Her passion for helping others and cultivating meaningful relationships is reflected in her work managing cause partnerships and advocating for corporate social responsibility. A camping and adventuring enthusiast in her off hours, Jackie is always encouragingothers to think globally and act locally."

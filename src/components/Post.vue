@@ -31,6 +31,10 @@
           <div class="social-sharing">
             <b>Share this post</b>
             <a v-bind:href="facebookShare"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+            <a v-bind:href="linkedinShare"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+
+            <!-- <a class="linkedin" href="https://www.linkedin.com/shareArticle?url=http://nordicnaturals.com/blog/all-about-science/fermented-foods-and-probiotics-your-ticket-to-a-healthy-microbiome&title=Nordic%20Naturals%20Post&summary=small%20post%20description&source=Nordic&20Naturals"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a> -->
+
             <a v-bind:href="twitterShare"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
             <a v-bind:href="mailShare"><i class="fa fa-envelope" aria-hidden="true"></i></a>
           </div>
@@ -129,6 +133,10 @@ export default {
     },
     facebookShare: function () {
       return 'https://www.facebook.com/sharer/sharer.php?u=http://nordicnaturals.com/blog/' + this.post.category + '/' + this.post.postUrl
+    },
+    linkedinShare: function () {
+      var title = this.post.title.split('-').join('%20')
+      return 'https://www.linkedin.com/shareArticle?url=http://nordicnaturals.com/blog/' + this.post.category + '/' + this.post.postUrl + '&title=' + title + '&summary=Naturally%20Speaking%20is%20a%20weekly%20blog%20on%20health%20and%20wellness%20from%20Nordic%20Naturals.'
     },
     twitterShare: function () {
       return 'https://twitter.com/intent/tweet?text=http://nordicnaturals.com/blog/' + this.post.category + '/' + this.post.postUrl

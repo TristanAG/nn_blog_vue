@@ -36,6 +36,7 @@ var webpackConfig = merge(baseWebpackConfig, {
         '/blog/all-about-science',
         '/blog/all-about-science/why-natural-form-fish-oils-are-better-for-your-body-and-your-wallet',
         '/blog/all-about-science/vitamins-d3-k2-a-dynamic-bone-building-plaque-fighting-duo',
+        '/blog/all-about-science/fermented-foods-and-probiotics-your-ticket-to-a-healthy-microbiome',
         '/blog/big-picture',
         '/blog/big-picture/refuse-reduce-reuse-10-things-to-clean-up-our-oceans',
         '/blog/big-picture/dear-cosmo-why-you-really-should-take-your-fish-oil',

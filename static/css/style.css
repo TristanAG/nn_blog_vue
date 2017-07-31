@@ -136,6 +136,12 @@ h5 i:hover{
   /*color: #064880;*/
   color: #cccccc;
 }
+.social-sharing a.fa-linkedin-square:hover{
+  color: #004680;
+}
+a.linkedin:hover{
+  color: #004680;
+}
 
 .header-column{
   width: 300px;
@@ -324,12 +330,14 @@ ul{
   color: #2f3137;
   font-size: 1.1em;
 }
-b{
+h2, b{
   font-family: 'Lora', serif;
   font-weight: 700;
   font-style: italic;
   color: #000;
   font-size: 16px;
+  margin-bottom: 0px;
+  letter-spacing: .03em;
 }
 .title{
   /*font-family: 'Montserrat', sans-serif;*/
