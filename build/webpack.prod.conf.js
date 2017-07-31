@@ -48,7 +48,8 @@ var webpackConfig = merge(baseWebpackConfig, {
         '/blog/home-life',
         '/blog/home-life/getting-little-ones-to-eat-well-8-great-tips',
         '/blog/home-life/omega-3s-why-theyre-especially-important-for-mens-health',
-        '/blog/home-life/how-to-marie-kondo-your-medicine-cabinet'
+        '/blog/home-life/how-to-marie-kondo-your-medicine-cabinet',
+        '/blog/home-life/time-to-get-a-move-on-joint-health'
       ],
       {
         ignoreJSErrors: true
