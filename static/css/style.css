@@ -339,6 +339,9 @@ h2, b{
   margin-bottom: 0px;
   letter-spacing: .03em;
 }
+h2{
+  font-size: 19px;
+}
 .title{
   /*font-family: 'Montserrat', sans-serif;*/
   font-family: 'Montserrat', sans-serif;

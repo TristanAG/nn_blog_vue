@@ -31,7 +31,7 @@
           <div class="social-sharing">
             <b>Share this post</b>
             <a v-bind:href="facebookShare"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
-            <a v-bind:href="linkedinShare"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+            <a v-bind:href="linkedinShare" class="linkedin"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
 
             <!-- <a class="linkedin" href="https://www.linkedin.com/shareArticle?url=http://nordicnaturals.com/blog/all-about-science/fermented-foods-and-probiotics-your-ticket-to-a-healthy-microbiome&title=Nordic%20Naturals%20Post&summary=small%20post%20description&source=Nordic&20Naturals"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a> -->
 

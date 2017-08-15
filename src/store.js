@@ -7,13 +7,178 @@ export const store = new Vuex.Store({
   state: {
     posts: [
       {
+        id: 15,
+        category: 'all-about-science',
+        categoryText: 'ALL ABOUT SCIENCE',
+        author: 'TERRA LYNN',
+        postUrl:'eclipse-inspired-tips-for-lifelong-healthy-vision',
+        title: 'Eclipse-Inspired Tips for Lifelong Healthy Vision',
+        imageUrl: 'http://res.cloudinary.com/nordic-naturals/image/upload/v1502491768/solar-eclipse-main.jpg',
+        contentPreview: `Get ready for a once-in-a-lifetime total eclipse of the sun. The spectacle reminds us how important healthy habits are for eye health, and how to protect eyes from other potentially damaging sources of light.
+        `,
+        content: `<p>
+          On Monday, August 21st, beginning just after 10:15 a.m. PDT, it will get dark enough that city lights will turn on, the temperature will cool slightly, and some nocturnal creatures will start to stir. It’s a total eclipse of the sun, the first anyone has seen in 99 years.
+        </p>
+
+        <p>
+          This once-in-a-lifetime event will be visible within a 70-mile-wide path across the country, stretching from the Oregon coast to the beaches of South Carolina. Even those of us who are not within the path of totality (<a href="https://eclipse.gsfc.nasa.gov/SEmono/TSE2017/TSE2017.html" target="_none">check the geographic map on NASA’s website</a>) will still get an impressive show, as over 80% of the sun will be eclipsed by the moon.
+        </p>
+
+        <p>
+          A total solar eclipse is one of nature’s most awe-inspiring sights, one that ancient civilizations regarded as a heavenly sign. It’s also an event that comes with a warning—don’t look directly at the sun as it is eclipsed, as this could damage your eyesight. These warnings have me thinking more about my eyes, and how we need to protect them for a lifetime.
+
+        </p>
+
+        <p>
+          Nowadays, one of the first things we can do to maintain healthy vision is to be aware of our exposure to blue light. Blue light has become an increasingly important topic over the last several years as our collective use of digital devices has steadily increased. It’s a fact of modern living—many of us spend a good portion of our days (and nights) looking at digital screens. And that means our eyes are more exposed than ever to blue light.
+
+
+        </p>
+
+
+
+        <img src="http://res.cloudinary.com/nordic-naturals/image/upload/v1502491768/solar-eclipse-body.jpg" />
+
+        <p>
+          <h2>When Your Eyes Get the Blues</h2>
+        </p>
+
+        <p>
+
+About 30% of sunlight is blue light—light rays spanning a spectrum of colors make up the rest. Each color along the spectrum is associated with a particular wavelength. Longer wavelengths are less energetic, while shorter wavelengths are more energetic. Blue light’s shorter wavelengths and higher energy rays scatter more easily in the atmosphere than other visible light rays, which is why the sky looks blue on clear days. It’s also why we get eyestrain when looking at computer screens that emit a lot of blue light. These shorter, more energetic wavelengths can cause a flickering effect that makes it harder to focus, which can be exhausting for the eyes.
+  </p>
+  <p>
+Some blue light exposure is actually beneficial, as blue light plays important roles in regulating our circadian rhythms that support a healthy sleep cycle. Too much exposure too late at night, however, can have the opposite effect. Blue light is often used in light therapy to support alertness and mood.
+</p>
+<p>
+The eye’s cornea and lens naturally block harmful UV light. But blue light passes right through these initial guardians and reaches the light-sensitive retina, where overexposure can be harmful. Sources of blue light are now everywhere, from energy-efficient bulbs and compact fluorescent lights (CFLs) that illuminate our homes to the light-emitting diodes (LEDs) that illuminate our smart phones, tablets, laptops, computers, e-readers, and television screens. This increased exposure to blue light has many <a href="http://2014.thevisioncouncil.org/content/blue-light-exposure-and-digital-eye-strain/adults" target="_none">researchers concerned about the short-term and long-term effects of blue light on eye health</a>.
+        </p>
+
+        <p>
+          <h2>Ways to Limit Blue Light Exposure</h2>
+        </p>
+
+        <p><b>1. Use filters for screens and devices</b></p>
+
+        <p>
+        A number of products for your phone/device can help block blue light. Physical screen protectors that attach to the screen of your phone or device screen and filter out blue light are one option. Digital apps that, once installed on your phone/device, tint your screen to neutralize blue light are another option. Many of these apps also automatically adjust the light emitted by your screen according to the time of day, your geographical location, and the seasonal position of the sun.
+      </p>
+
+      <p>
+        <b>2. Wear computer glasses and special lenses</b>
+      </p>
+
+      <p>
+        “Computer glasses” are available that have yellow-tinted lenses, which help block blue light from entering your eyes. Glasses with special anti-reflective lenses are a related option; they reduce glare, increase contrast, and limit blue light while using computers and other digital devices.
+      </p>
+
+      <p>
+        <b>3. Get plenty of lutein, zeaxanthin, and omega-3s</b>
+      </p>
+      <img src="http://res.cloudinary.com/nordic-naturals/image/upload/v1502747452/solar-eclipse-body-2.jpg">
+      <p>
+        Lutein and zeaxanthin are dietary carotenoids. When we consume them, they’re deposited in the retina of our eyes, where they help filter out blue light. While the typical diet provides 1-2 mg lutein, research suggests that we need 10 mg of lutein and 2 mg of zeaxanthin each day for optimal health.* Omega-3s are essential fatty acids. The omega-3 DHA is especially important for the eyes, and is more concentrated in eye tissue than in any other part of our bodies. Our bodies don’t make lutein, zeaxanthin, or omega-3s, so these eye-friendly nutrients must be consumed through diet or <a href="http://www.nordicnaturals.com/en/Products/Product_Details/514/?ProdID=1495" target="_none">supplementation</a>.
+      </p>
+
+      <p>
+        A lot has changed in the world since the last coast-to-coast total solar eclipse 99 years ago. Among those changes is the kind of light our eyes are exposed to now, which is quite different than it was in previous eras. Being mindful of our exposure to blue light is one simple thing we can all do to proactively support our eye health.
+      </p>
+
+
+
+        <p>
+          <small><i>*These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure, or prevent any disease.</i></small>
+        </p>
+
+        <p>
+          <small>
+          References<br>
+          <a href="https://www.ncbi.nlm.nih.gov/pubmed/26900325" target="_none">Mol Vis.</a> 2016 Jan 24;22:61-72.<br>
+          <a href="https://www.ncbi.nlm.nih.gov/pubmed/20355006" target="_none">J Sci Food Agric.</a> 2010 Jan 15;90(1):2-12. doi: 10.1002/jsfa.3785.<br>
+          <a href="https://www.ncbi.nlm.nih.gov/pubmed/15555528" target="_none">Prog Retin Eye Res.</a> 2005 Jan;24(1):87-138.
+          </small>
+        </p>
+        `
+      },
+      {
+        id: 14,
+        category: 'the-nordic-way',
+        categoryText: 'THE NORDIC WAY',
+        author: 'NORDIC NATURALS STAFF',
+        postUrl: 'inside-nordic-naturals-meet-kerry-pro-sports-line-mvp',
+        title: 'Inside Nordic Naturals: Meet Kerry, Pro Sports Line MVP',
+        imageUrl: 'http://res.cloudinary.com/nordic-naturals/image/upload/v1501868760/web/blog-assets/post-images/kerry-main.jpg',
+        contentPreview: `If you love football, then you and our Sports and Fitness Product Category Manager, Kerry Gobei, already have something in common. Read her perspective on working behind the scenes in the pro sports world, and hear how she takes time out to recharge.`,
+        content: `<p>
+          <i>
+          If you love football, then you and our Sports and Fitness Product Category Manager, Kerry Gobei, already have something in common. Read her perspective on working behind the scenes in the pro sports world, and <a href="#embed-container">hear how she takes time out</a> to recharge.
+        </i>
+        </p>
+
+        <p>
+          <b>Name:</b> Kerry Gobei<br>
+          <b>Role:</b> Sports and Fitness Product Category Manager<br>
+          <b>Years with Nordic Naturals:</b> 6
+        </p>
+
+        <p>
+          <h2>What do you do at Nordic Naturals, and what do you like best about your job?</h2>
+        </p>
+
+        <p>
+          I work with just about every department here at Nordic Naturals to make our <a href="http://www.nordicnaturals.com/en/General_Public/NSF_Sport_Products/1194" target="_none">NSF Certified Sport</a> product line available to professional athletes, collegiate teams, major league baseball, and elite military. I spend a lot of time building relationships with coaches and dieticians, helping them educate the people in their organizations on the science behind omega-3s and recognize nutrition as a component of performance.
+        </p>
+
+        <p>
+          We have a lot of championship team customers, and I take a lot of pride in helping the athletes do their jobs. Because professional sports may look glamorous and entertaining, but it’s really grueling. Just to be able to offer something to help them is pretty rewarding.
+        </p>
+
+        <p>
+          <h2>Where did you grow up, and how has that place influenced you?</h2>
+        </p>
+
+        <p>
+          A lot of college athletes get scholarships to go to school, and they come from low income areas and environments that may have been unstable. Their talent gives them opportunity that they wouldn’t have otherwise. And I can relate to that. I grew up outside of Detroit, during a time of real violence and conflict. Being an athlete helped keep me focused and disciplined, and being part of a team helped me feel safer.  I think I got my work ethic from Detroit, too, because everybody there works really hard. Detroit is also a place that teaches you resilience. You learn how to pick up, brush off, and keep going.
+        </p>
+
+        <p>
+          <h2>What personal accomplishment are you most proud of?</h2>
+        </p>
+
+        <p>
+          I would say raising my kids is my biggest accomplishment. I have three kids, and my oldest is now 28. He’s a Sargeant in the Marines, getting ready to deploy on his third tour in Afghanistan.
+        </p>
+
+        <p>
+          <h2>What is something about you that few people know? Do you have a hidden talent?</h2>
+        </p>
+
+        <p>
+          I’m a serious gardener. That’s what I do in my free time. I’ll do a hardscape and drop posts in and do shrubbery to create really big privacy screens. It’s not like I’ll just go out and plant a few flowers! I pretty much designed and built my backyard. To me it’s a living space—literally.
+        </p>
+
+        <p>
+          <h2>What Nordic Naturals products do you take? Any observations you’d like to share?</h2>
+        </p>
+
+        <p>
+          I take the <a href="http://www.nordicnaturals.com/en/Products/Product_Details/514/?ProdID=1656" target="_none">Ultimate Omega-3-D3 Sport</a>, <a href="http://www.nordicnaturals.com/en/Products/Product_Details/514/?ProdID=1734" target="_none">Nordic CoQ10 Ubiquinol Sport</a>, <a href="http://www.nordicnaturals.com/en/Products/Product_Details/514/?ProdID=1724" target="_none">Vitamin D3 5000</a>, and <a href="http://www.nordicnaturals.com/en/Products/Product_Details/514/?ProdID=1767" target="_none">Nordic Flora Probiotic Comfort</a>. And I take <a href="http://www.nordicnaturals.com/en/Products/Product_Details/514/?ProdID=1413" target="_none">DHA</a>. That’s my daily regimen. I think my supplementation is part of why I’m a very healthy person. When I get stressed I really feel it in my gut, especially when I travel. I definitely think the probiotics help with that.
+        </p>
+        <p>
+          <h2>Video Question: What does living “healthfully” mean to you?</h2>
+        </p>
+        <p>
+          <div id="embed-container"><iframe src="https://player.vimeo.com/video/228726103" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe></div>
+        </p>`
+      },
+      {
         id: 13,
         category:'home-life',
         categoryText: 'HOME LIFE',
         author: 'NICK NOLOBOFF',
         postUrl: 'time-to-get-a-move-on-joint-health',
         title: 'Time to Get a Move on Joint Health',
-        imageUrl: 'http://www.nordicnaturals.com/dev/blog-assets/post-images/joint-health-main.jpg',
+        imageUrl: 'http://res.cloudinary.com/nordic-naturals/image/upload/v1501788656/web/blog-assets/post-images/joint-health-main.jpg',
         contentPreview: `
         We all feel the effects of time in different ways. Your joints, especially, can make you feel your age. Here’s how to handle the news that you’re not as young as you used to be—and keep on moving on.
         `,
@@ -38,7 +203,7 @@ There’s a lot of evidence that omega-3 fats are great for joints, even though 
 Each year around this time, Nordic Naturals sponsors the <a href="http://www.seascapesportsclub.com/challenger" target="_none">Challenger Tournament</a> in Aptos, California, where spectators are treated to some serious tennis (Andy Murray was the singles champ years ago). With tennis being the talk of the town, I contacted former pro and coach Brad Weston to get his take on training and nutrition.
 </p>
 <div class="embedded-image left">
-<img src="http://www.nordicnaturals.com/dev/blog-assets/post-images/joint-health-body.jpg">
+<img src="http://res.cloudinary.com/nordic-naturals/image/upload/v1501788656/web/blog-assets/post-images/joint-health-body.jpg">
 <p><small><i>Brad Weston, tennis coach and former pro player, working the court at Seascape Sports club, where the annual Challenger Tournament is held. </i></small></p>
 </div>
 
@@ -94,7 +259,7 @@ Science generally confirms Joar’s experience. The benefits of increased consum
         author: 'JERILYN SWINDLE',
         postUrl: 'fermented-foods-and-probiotics-your-ticket-to-a-healthy-microbiome',
         title: 'Fermented Foods and Probiotics: Your Ticket to a Healthy Microbiome',
-        imageUrl: 'http://www.nordicnaturals.com/dev/blog-assets/post-images/probiotic-body.jpg',
+        imageUrl: 'http://res.cloudinary.com/nordic-naturals/image/upload/v1501788901/web/blog-assets/post-images/probiotic-main.jpg',
         contentPreview: `
         People have been eating fermented foods as far back as 6,000 BC. There’s a reason for that—fermented foods naturally contain the friendly bacteria our bodies needs to thrive.* What exactly do these little bugs do for us, and why are fermented foods and probiotics so essential?
         `,
@@ -111,7 +276,7 @@ I’ve been an avid home-fermenter for almost a decade. I regularly make all kin
 
   I first became interested in probiotics twenty years ago after my own health issues started demanding my attention. I had practically grown up on antibiotics, so when my immune system began to go haywire, I thought perhaps the place to start supporting my immune system was in my gut.* I also knew that the very best way to support my gut was with the right kind of friendly bacteria. Probiotic foods and supplements became the single most transformative thing I’ve ever done for my body. Eventually, I became curious about their history and why they are so good for us.
 </p>
-<p><img src="http://www.nordicnaturals.com/dev/blog-assets/post-images/probiotic-main.jpg" /></p>
+<p><img src="http://res.cloudinary.com/nordic-naturals/image/upload/v1501788897/web/blog-assets/post-images/probiotic-body.jpg" /></p>
 <p>
 Nearly every civilization includes fermented food in their culinary heritage. Almost any food can be fermented, and some prominent examples include Korean kimchi, Indian chutney, European sauerkraut, and Middle Eastern yogurt and cheese. Asian cultures ferment soybeans, seafood, black beans, sauces, and side dishes. This natural fermentation process began as a means of food preservation, allowing people to store food for weeks, months, and sometimes years. It also removed natural toxins from foods like cassava, making them safe to consume.
 </p>
@@ -218,7 +383,7 @@ Once you realize how crucial good bacteria are to that very process, and so many
         author: 'NICK NOLOBOFF',
         postUrl: 'how-to-marie-kondo-your-medicine-cabinet',
         title: 'How to Marie Kondo Your Medicine Cabinet',
-        imageUrl: 'http://www.nordicnaturals.com/dev/blog-assets/post-images/medicine-cabinet.jpg',
+        imageUrl: 'http://res.cloudinary.com/nordic-naturals/image/upload/v1501788657/web/blog-assets/post-images/medicine-cabinet.jpg',
         contentPreview: `
         Our medicines take on lives of their own because it’s hard to imagine we might not need them again some day. But not all medicines—or supplements—are worth saving. Here’s how to decide what makes the cut, and spark some Marie Kondo joy in your cabinet.
         `,
@@ -236,7 +401,7 @@ Our medicines take on lives of their own because it’s hard to imagine we might
 Yes, each one of us has our own nutritional needs that change with time, and that sometimes require an atypical array of nutrients. But most of us can benefit from just a handful of daily supplements: a good multivitamin, high-quality omega-3 fish oil, probiotics. And for folks who don’t get enough sun exposure—sounds crazy, I know—vitamin D.  Now, you may recall that these are all nutrients that Nordic Naturals sells, so at the risk of seeming shamelessly biased, give me a chance to explain why they’re KonMari keepers.
 </p>
 <p>
-<img src="http://www.nordicnaturals.com/dev/blog-assets/post-images/palm-tree-min.png" />
+<img src="http://res.cloudinary.com/nordic-naturals/image/upload/v1501788654/web/blog-assets/post-images/palm-tree-min.png" />
 </p>
 <p>
 
@@ -283,7 +448,7 @@ So, bottom line: Even if you live by the KonMari method of ruthlessly excising a
         author: 'TERRA LYNN',
         postUrl: 'seven-ways-we-put-sustainability-into-action',
         title: 'Seven Ways We Put Sustainability into Action',
-        imageUrl: 'http://www.nordicnaturals.com/dev/blog-assets/post-images/stacked-stones.jpg',
+        imageUrl: 'http://res.cloudinary.com/nordic-naturals/image/upload/v1501788655/web/blog-assets/post-images/stacked-stones.jpg',
         contentPreview: `
           Almost every company these days is talking about sustainability—and that’s a good thing. Here’s how Nordic Naturals makes sure our own business practices reflect our passion for health.
         `,
@@ -307,7 +472,7 @@ So, bottom line: Even if you live by the KonMari method of ruthlessly excising a
 
 <h2>2. We source exclusively from certified sustainable fisheries</h2>
 </p>
-<center><img src="http://www.nordicnaturals.com/dev/blog-assets/post-images/friend-of-the-sea.jpg" /></center>
+<center><img src="http://res.cloudinary.com/nordic-naturals/image/upload/v1501788654/web/blog-assets/post-images/friend-of-the-sea.jpg" /></center>
 <p>
   We only work with fisheries that are certified sustainable by <a href="http://www.friendofthesea.org/" target="_none">Friend of the Sea</a>, an internationally recognized, non-profit organization whose mission is to conserve the global marine habitat. This means that all of our fish comes from waters that are certified sustainable, and all of our products are FOS-certified sustainable. And, it means all of the fisheries we work with meet the following requirements:
 </p>
@@ -327,7 +492,7 @@ So, bottom line: Even if you live by the KonMari method of ruthlessly excising a
 <h2>3. We run our green manufacturing facility in Norway on biofuel</h2>
 </p>
 <p>
-  <img src="http://www.nordicnaturals.com/dev/blog-assets/post-images/nordic-pharma-2.jpg" />
+  <img src="http://res.cloudinary.com/nordic-naturals/image/upload/v1501788653/web/blog-assets/post-images/nordic-pharma-2.jpg" />
 </p>
 <p>
 We built our state-of-the-art manufacturing facility in Norway using recycled materials, incorporating structures from an old shrimp processing plant in our original design to conserve resources and minimize our impact on the immediate environment and community. Located right on the harbor in Tromsø, our 60,000-square-foot manufacturing facility runs completely on biofuel we make ourselves using leftover fats from our fish oil processing. This recycled biofuel not only minimizes our carbon footprint, it helps power other local businesses in Tromsø as well.
@@ -337,7 +502,7 @@ We built our state-of-the-art manufacturing facility in Norway using recycled ma
 <p>
 <h2>4. We built our headquarters to be LEED<sup>®</sup> Gold-certified </h2>
 </p>
-<img src="http://www.nordicnaturals.com/dev/blog-assets/post-images/sustainability-main.jpg" />
+<img src="http://res.cloudinary.com/nordic-naturals/image/upload/v1501788656/web/blog-assets/post-images/sustainability-main.jpg" />
 </p>
 <p>
 It’s not just our manufacturing facility in Arctic Norway that’s green—our company headquarters in Watsonville, California is, too. It earned Gold certification from the U.S. Green Building Council’s LEED<sup>®</sup> (Leadership in Energy and Environmental Design) Rating System, which promotes a whole-building approach to sustainability, recognizing performance in both human and environmental health. Built in 2011, our 87,000-square-foot headquarters includes skylights, radiant heating, recycled building materials, flexible lighting controls, water purification systems, and water conservation measures that reduce our water use by nearly 50 percent.
@@ -346,7 +511,7 @@ It’s not just our manufacturing facility in Arctic Norway that’s green—our
 <h2>5. We use only non-GMO verified ingredients</h2>
 </p>
 <p>
-<img src="http://www.nordicnaturals.com/dev/blog-assets/post-images/product-shot.jpg" style="width: 100%"/>
+<img src="http://res.cloudinary.com/nordic-naturals/image/upload/v1501788654/web/blog-assets/post-images/product-shot.jpg" style="width: 100%"/>
 </p>
 <p>
   We’ve always been committed to using only non-GMO ingredients, and to maintaining full transparency about how the ingredients in our products are made. We work with Eurofins, a globally recognized leader in GMO testing, to rigorously test <i>all</i> ingredients across our entire product line for the absence of GMOs. Eurofins has been a pioneer in the field of molecular biological analyses for more
@@ -356,7 +521,7 @@ than 20 years, and adheres to strict European standards to ensure the absence of
 <h2>6. All of our product containers and packaging are recyclable</h2>
 </p>
 <p>
-<img src="http://www.nordicnaturals.com/dev/blog-assets/post-images/recycle-bin.jpg" />
+<img src="http://res.cloudinary.com/nordic-naturals/image/upload/v1501788654/web/blog-assets/post-images/recycle-bin.jpg" />
 </p>
 <p>
   We bottle our liquid formulas in glass, and our soft gels in #2 plastic containers—both of which are commonly picked up by most curbside recycling programs. We also use recyclable packaging wherever possible in shipping our products. And, we recently added more box sizes in our warehouse so that we can ship our products in appropriately sized boxes with minimal packaging.
@@ -368,7 +533,7 @@ We know that this is a big area where we can improve our sustainability, so we�
 <h2>7. We support organizations that do good</h2>
 </p>
 <p>
-<img src="http://www.nordicnaturals.com/dev/blog-assets/post-images/nordic-group-shot.jpg" />
+<img src="http://res.cloudinary.com/nordic-naturals/image/upload/v1501788653/web/blog-assets/post-images/nordic-group-shot.jpg" />
 
 </p>
 <p>
@@ -393,7 +558,7 @@ We recognize that sustainability is a journey, and that prioritizing sustainabil
         author: 'TERRA LYNN',
         postUrl: 'midnight-sun-and-white-nights-what-summer-in-arctic-norway-can-teach-us-about-sleep',
         title: 'Midnight Sun and White Nights: What Summer in Arctic Norway Can Teach Us about Sleep',
-        imageUrl: 'http://www.nordicnaturals.com/dev/blog-assets/post-images/midnight-sun-main.jpg',
+        imageUrl: 'http://res.cloudinary.com/nordic-naturals/image/upload/v1501788653/web/blog-assets/post-images/midnight-sun-main.jpg',
         contentPreview: `
           The constant light of Arctic summer and the irresistible pull of longer, activity-filled days can make getting enough sleep challenging. Turns out, Norwegians can teach us a thing or two about avoiding sleepless nights here in our corner of the world.
         `,
@@ -409,7 +574,7 @@ In fact, this time of year the sun never sets at all for many Norwegians. In Nor
 Even below the Arctic Circle, summer nights in Norway aren’t all that dark.  At the relatively southern latitude of Oslo, twilight is as dark as it gets from May to July. For Oslo residents—and many Norwegians—summer is the season of “white nights.” Although the sun does set below the horizon there, it never gets quite low enough to turn the sky black.
 </p>
 <p>
-<img src="http://www.nordicnaturals.com/dev/blog-assets/post-images/midnight-sun-body-1.jpg" /><br>
+<img src="http://res.cloudinary.com/nordic-naturals/image/upload/v1501788658/web/blog-assets/post-images/midnight-sun-body-1.jpg" /><br>
 <i style="font-size: .8em">A glimpse of the midnight sun rising at 2:00 AM in Krystad, Lofoten. Photo credit: Joar Opheim</i>
 </p>
 <p>
@@ -419,7 +584,7 @@ The constant light of the Arctic summer certainly inspires increased activity an
 This can be a health issue, as there are few things more essential to mind/body health than restorative sleep, and few things more essential to sleep than darkness. Without darkness, our sleep-inducing bodily processes simply don’t get signaled.
 </p>
 <p>
-<img src="http://www.nordicnaturals.com/dev/blog-assets/post-images/midnight-sun-body-2.jpg" /><br>
+<img src="http://res.cloudinary.com/nordic-naturals/image/upload/v1501788657/web/blog-assets/post-images/midnight-sun-body-2.jpg" /><br>
 <i style="font-size: .8em">Night swimming in the West Norwegian fjords in Krystad, Lofoten. In the summertime, bedtime can be as late as 5:00 AM for founder Joar Opheim and his family.  Photo credit: Joar Opheim</i>
 </p>
 <p>
@@ -468,7 +633,7 @@ Adapting to the circumstances of life near the Arctic circle is nothing unusual 
         author: 'NICHOLAS NOLOBOFF',
         postUrl: 'omega-3s-why-theyre-especially-important-for-mens-health',
         title: 'Omega-3s: Why They’re Especially Important for Men’s Health',
-        imageUrl: 'http://www.nordicnaturals.com/dev/blog-assets/post-images/mens-health-main-image.jpg',
+        imageUrl: 'http://res.cloudinary.com/nordic-naturals/image/upload/v1501788657/web/blog-assets/post-images/mens-health-main-image.jpg',
         contentPreview: `
           No one likes a trip to the doctor—the sniffly, germy waiting rooms, nurses with clipboards, those emasculating gowns. Men especially hate going. Kinda like how your dog hates going to the vet. Here’s my strategy: I try really hard not to go.
         `,
@@ -492,7 +657,7 @@ Adapting to the circumstances of life near the Arctic circle is nothing unusual 
 <p>
   Here’s a little trade secret to convince you: The FDA is pretty strict about what omega-3 brands can claim about their products. Supplements are not drugs, they tell us. They’re not cures for disease. They’re nutrients—food, essentially. But the one area where the FDA gives us more room to talk about our fish oils is in relation to heart disease. That’s because there’s so much evidence that omega-3s can benefit the heart that it would be a detriment to public health to keep people in the dark.
 </p>
-<img src="http://www.nordicnaturals.com/dev/blog-assets/post-images/salmon.jpg">
+<img src="http://res.cloudinary.com/nordic-naturals/image/upload/v1501788655/web/blog-assets/post-images/salmon.jpg">
 <p>
 
 
@@ -562,7 +727,7 @@ Something you might not know about your bones—they’re constantly being rebui
 The skeletal system, made up of 206 bones, is literally the foundation of health. Made mostly of collagen and calcium phosphate, bones hold and protect your organs, and serve as attachment points for muscles. Your bones also produce red and white blood cells and act as a reservoir for important minerals.
 </p>
 <div class="embedded-image left" style="width: 68%">
-<img src="http://www.nordicnaturals.com/dev/blog-assets/post-images/bone-graphic.png">
+<img src="http://res.cloudinary.com/nordic-naturals/image/upload/v1501788654/web/blog-assets/post-images/bone-graphic.png">
 <span style="padding-left: 28px; padding-right: 28px; display: inline-block">In a healthy body, osteoclasts and osteoblasts work together to maintain the balance between bone loss and bone formation.</span>
 </div>
 <p>
@@ -582,7 +747,7 @@ Phosphorous, magnesium, and vitamins A, C, and K are also important nutrients fo
 </p>
 <p>
 
-  <img src="http://www.nordicnaturals.com/dev/blog-assets/post-images/calcium-deposits.jpg">
+  <img src="http://res.cloudinary.com/nordic-naturals/image/upload/v1501788654/web/blog-assets/post-images/calcium-deposits.jpg">
 </p>
 <p>
 
@@ -613,7 +778,7 @@ And that’s where our new <a href="https://www.nordicnaturals.com/en/Products/P
         author: "Nordic Naturals Staff",
         postUrl: "inside-nordic-naturals-meet-derek-international-music-maker",
         title: "Inside Nordic Naturals: Meet Derek, International Music Maker",
-        imageUrl: "http://www.nordicnaturals.com/dev/blog-assets/post-images/derek.png",
+        imageUrl: "http://res.cloudinary.com/nordic-naturals/image/upload/v1501788655/web/blog-assets/post-images/derek.png",
         contentPreview: `
           If you buy Nordic Naturals products from one of our overseas distributors, you might have indirectly crossed paths with our very own Derek Bodkin. Read our interview with Derek here, and watch him whistling on stage at the 2016 Redwood Ramble music festival.
         `,
@@ -667,7 +832,7 @@ Finding balance. It’s hard not to take work home with you, but if you can do t
         author: "Claudia Burgin",
         postUrl: "getting-little-ones-to-eat-well-8-great-tips",
         title: "Getting Little Ones to Eat Well: 8 Great Tips",
-        imageUrl: "http://www.nordicnaturals.com/dev/blog-assets/post-images/little-ones-main-image.jpg",
+        imageUrl: "http://res.cloudinary.com/nordic-naturals/image/upload/v1501788656/web/blog-assets/post-images/little-ones-main-image.jpg",
         contentPreview: `
           Few things can be more frustrating than getting a child to eat what we parents consider healthy foods. Years of mealtime anxiety motivated me to come up with a few creative strategies to coax my picky eater to broaden his eating choices. Here’s what worked for me:
         `,
@@ -690,12 +855,12 @@ Finding balance. It’s hard not to take work home with you, but if you can do t
         author: "TERRA LYNN",
         postUrl: "dear-cosmo-why-you-really-should-take-your-fish-oil",
         title: "Dear Cosmo: Why You Really Should Take Your Fish Oil",
-        imageUrl: "http://www.nordicnaturals.com/dev/blog-images/cosmo-post-main-image.jpg",
+        imageUrl: "http://res.cloudinary.com/nordic-naturals/image/upload/v1501789704/web/blog-assets/post-images/cosmo-post-main-image.jpg",
         contentPreview: `
           When <i>Cosmopolitan</i> magazine published a story advising their readers to skip their omega-3 supplements, we felt we should share what we know about fish oil and its well-established safety and health benefits.
         `,
         content: `
-          <p><i>Cosmopolitan</i> magazine recently published an article advising their readers which vitamins and supplements they should keep taking, and which ones they could probably skip.</p><div class=\"embedded-image right\"><img src=\"http://www.nordicnaturals.com/dev/blog-images/cosmo-cover-terra-post2.jpg\" ></div><p>While we were thrilled to see <i>Cosmo</i> raising awareness about the importance of nutritional supplements, we were disheartened to see that omega-3s and fish oil made their “definitely stop taking” list. We of course wanted to respond, and contribute some useful information about fish oil and its well-established safety and health benefits.</p><p>Here’s our response to each of the points the <i>Cosmo</i> <a href=\"http://www.cosmopolitan.com/health-fitness/a8349732/do-you-really-need-to-take-vitamins/\" target="_none">article</a> makes:</p><p><h2>1. Omega-3 fish oil supplements “act as potentially dangerous blood thinners.”</h2></p><p>First, it’s important to note that omega-3 fish oil will not prevent your blood from coagulating. Omega-3 fish oil has been shown to help inhibit blood platelet clumping, blood vessel constriction, and the production of blood-clotting proteins—all of which can be understood as blood-thinning actions. On the other hand, when we consider that a diet rich in processed foods promotes exactly the opposite effects—i.e., increased blood platelet clumping, constriction of blood vessels, and blood-clotting proteins—we can see that the actions of omega-3 fish oil are more accurately understood as restoring a healthy balance between blood-thinning and blood-clotting.</p><p>So does this make fish oil supplements potentially dangerous? The answer is no. For the overwhelming majority of people, the blood-thinning actions of omega-3 fish oil should be seen as potentially beneficial rather than potentially dangerous. If you currently take blood-thinning medications or if you anticipate surgery, we recommend consulting with your healthcare provider before taking any supplement.</p><p><h2>2. Most omega-3 fish oil supplements “are high in vitamins A and D that you can’t eliminate easily, so they could build up and make you sick.”</h2></p><p>Are omega-3 fish oil supplements high in vitamins A and D? The answer depends on what type of omega-3 fish oil you are talking about: Fish oil is extracted from the whole body of the fish and contains only trace amounts of vitamins A and D, which are generally lost during the purification process. For this reason, some manufacturers will add vitamins A and D to their fish oil products. So it’s always important to read supplement labels. Arctic cod liver oil, which is extracted from the livers of fish, does contain small amounts of naturally occurring vitamins A and D, even after purification.</p><p>We’ve always used only 100% Arctic cod livers in our cod liver oil products. Our <a href="https://www.nordicnaturals.com/en/General_Public/Arctic_Cod_Liver_Oil/378">Arctic Cod Liver Oils</a> have low, healthy levels of fat-soluble vitamin A typically averaging 650–1,500 IU of vitamin A per serving, which falls in the low range compared to other products. (<a href="https://www.nap.edu/read/10026/chapter/1" target="_none">The recommended daily allowance of vitamin A for adults</a> as established by the US Institute of Medicine of the National Academy of Science is 3,000 IU for men and 2,300 IU for women.)</p><p>When it comes to vitamin D, neither fish oil nor cod liver oil supplements naturally contain high levels. The real concern with vitamin D is getting enough. There’s an emerging consensus among the medical and scientific community that <a href="https://www.hsph.harvard.edu/nutritionsource/vitamin-d/#vitamin-d-deficiency-a-global-concern" target="_none">vitamin D deficiency</a> is an under-recognized epidemic. (It’s why we offer many of our <a href="https://www.nordicnaturals.com/en/General_Public/Vitamin_D3_formulas/365" target="none">products</a> with the option of added vitamin D.)</p><p>The American Academy of Pediatrics recently <a href="https://www.healthychildren.org/English/healthy-living/nutrition/Pages/Vitamin-D-On-the-Double.aspx" target="_none">doubled its vitamin D recommendations</a> for infants, children, and adolescents, and a whole new generation of vitamin D research continues to show just how critical vitamin D is to every aspect of health. We use vitamin D3 (cholecalciferol) in our products because it’s the most easily absorbed form of vitamin D, and the form our bodies naturally make from sunlight.</p><p><h2>3. “Eat fish and use olive oil instead” of taking omega-3 fish oil supplements.</h2></p><p>While we wholeheartedly support <i>Cosmo’s</i> advice to get our nutrients from fresh foods instead of supplements whenever possible, we also recognize that often it simply isn’t possible to consume enough of the health-promoting nutrients we need from food alone. Omega-3s are a good example. To get 1,000 mg of the beneficial omega-3s EPA and DHA found in fish oil, you’d have to eat 2/3 of a can of sardines—every day! We don’t know about you, but two soft gels a day of our concentrated <a href="https://www.nordicnaturals.com/en/Products/Product_Details/514/?ProdID=1428" target="_none">Ultimate Omega</a><sup>®</sup> omega-3 fish oil sure does seem a lot easier to swallow.</p>
+          <p><i>Cosmopolitan</i> magazine recently published an article advising their readers which vitamins and supplements they should keep taking, and which ones they could probably skip.</p><div class=\"embedded-image right\"><img src=\"http://res.cloudinary.com/nordic-naturals/image/upload/v1501789691/web/blog-assets/post-images/cosmo-cover-terra-post2.jpg\" ></div><p>While we were thrilled to see <i>Cosmo</i> raising awareness about the importance of nutritional supplements, we were disheartened to see that omega-3s and fish oil made their “definitely stop taking” list. We of course wanted to respond, and contribute some useful information about fish oil and its well-established safety and health benefits.</p><p>Here’s our response to each of the points the <i>Cosmo</i> <a href=\"http://www.cosmopolitan.com/health-fitness/a8349732/do-you-really-need-to-take-vitamins/\" target="_none">article</a> makes:</p><p><h2>1. Omega-3 fish oil supplements “act as potentially dangerous blood thinners.”</h2></p><p>First, it’s important to note that omega-3 fish oil will not prevent your blood from coagulating. Omega-3 fish oil has been shown to help inhibit blood platelet clumping, blood vessel constriction, and the production of blood-clotting proteins—all of which can be understood as blood-thinning actions. On the other hand, when we consider that a diet rich in processed foods promotes exactly the opposite effects—i.e., increased blood platelet clumping, constriction of blood vessels, and blood-clotting proteins—we can see that the actions of omega-3 fish oil are more accurately understood as restoring a healthy balance between blood-thinning and blood-clotting.</p><p>So does this make fish oil supplements potentially dangerous? The answer is no. For the overwhelming majority of people, the blood-thinning actions of omega-3 fish oil should be seen as potentially beneficial rather than potentially dangerous. If you currently take blood-thinning medications or if you anticipate surgery, we recommend consulting with your healthcare provider before taking any supplement.</p><p><h2>2. Most omega-3 fish oil supplements “are high in vitamins A and D that you can’t eliminate easily, so they could build up and make you sick.”</h2></p><p>Are omega-3 fish oil supplements high in vitamins A and D? The answer depends on what type of omega-3 fish oil you are talking about: Fish oil is extracted from the whole body of the fish and contains only trace amounts of vitamins A and D, which are generally lost during the purification process. For this reason, some manufacturers will add vitamins A and D to their fish oil products. So it’s always important to read supplement labels. Arctic cod liver oil, which is extracted from the livers of fish, does contain small amounts of naturally occurring vitamins A and D, even after purification.</p><p>We’ve always used only 100% Arctic cod livers in our cod liver oil products. Our <a href="https://www.nordicnaturals.com/en/General_Public/Arctic_Cod_Liver_Oil/378">Arctic Cod Liver Oils</a> have low, healthy levels of fat-soluble vitamin A typically averaging 650–1,500 IU of vitamin A per serving, which falls in the low range compared to other products. (<a href="https://www.nap.edu/read/10026/chapter/1" target="_none">The recommended daily allowance of vitamin A for adults</a> as established by the US Institute of Medicine of the National Academy of Science is 3,000 IU for men and 2,300 IU for women.)</p><p>When it comes to vitamin D, neither fish oil nor cod liver oil supplements naturally contain high levels. The real concern with vitamin D is getting enough. There’s an emerging consensus among the medical and scientific community that <a href="https://www.hsph.harvard.edu/nutritionsource/vitamin-d/#vitamin-d-deficiency-a-global-concern" target="_none">vitamin D deficiency</a> is an under-recognized epidemic. (It’s why we offer many of our <a href="https://www.nordicnaturals.com/en/General_Public/Vitamin_D3_formulas/365" target="none">products</a> with the option of added vitamin D.)</p><p>The American Academy of Pediatrics recently <a href="https://www.healthychildren.org/English/healthy-living/nutrition/Pages/Vitamin-D-On-the-Double.aspx" target="_none">doubled its vitamin D recommendations</a> for infants, children, and adolescents, and a whole new generation of vitamin D research continues to show just how critical vitamin D is to every aspect of health. We use vitamin D3 (cholecalciferol) in our products because it’s the most easily absorbed form of vitamin D, and the form our bodies naturally make from sunlight.</p><p><h2>3. “Eat fish and use olive oil instead” of taking omega-3 fish oil supplements.</h2></p><p>While we wholeheartedly support <i>Cosmo’s</i> advice to get our nutrients from fresh foods instead of supplements whenever possible, we also recognize that often it simply isn’t possible to consume enough of the health-promoting nutrients we need from food alone. Omega-3s are a good example. To get 1,000 mg of the beneficial omega-3s EPA and DHA found in fish oil, you’d have to eat 2/3 of a can of sardines—every day! We don’t know about you, but two soft gels a day of our concentrated <a href="https://www.nordicnaturals.com/en/Products/Product_Details/514/?ProdID=1428" target="_none">Ultimate Omega</a><sup>®</sup> omega-3 fish oil sure does seem a lot easier to swallow.</p>
         `,
         ref1title: "Why Natural-Form Fish Oils are Better for Your Body—and Your Wallet",
         ref1category: "all-about-science",
@@ -713,10 +878,10 @@ Finding balance. It’s hard not to take work home with you, but if you can do t
         author: "CLAUDIA BURGIN",
         postUrl: "refuse-reduce-reuse-10-things-to-clean-up-our-oceans",
         title: "Refuse, Reduce, Reuse: 10 Things We Can All Do to Clean Up Our Oceans",
-        imageUrl: "http://www.nordicnaturals.com/dev/blog-assets/post-images/refuse-reduce-reuse-compressor.jpg",
+        imageUrl: "http://res.cloudinary.com/nordic-naturals/image/upload/v1501788655/web/blog-assets/post-images/refuse-reduce-reuse-compressor.jpg",
         contentPreview: "Ocean \"smog\" created from the disposable plastics we all throw away has become a huge concern. Right now, there are some 270,000 tons of trash swirling around the world's oceans in giant, tangled heaps.",
         content: `
-          <p>Ocean \"smog\" created from the disposable plastics we all throw away has become a huge concern. Right now, there are some 270,000 tons of trash swirling around the world's oceans in giant, tangled heaps. Ocean waves break these plastics down into smaller and smaller pieces, endangering the surrounding marine life as fish and birds either digest the plastic debris, mistaking it for food, or become entangled in it. Some of the plastic toxins they digest even make it up the food chain into the fish many of us eat. That’s right—we’re eating the plastic trash, too. One study found that <a href=\"http://www.ecowatch.com/25-of-fish-sold-at-markets-contain-plastic-or-man-made-debris-1882105614.html\" target=\"_none\">one-quarter of all fish sold in California markets had microplastics and fibers in their guts</a>. </p><p> Cleaning up the trash with some sort of floating, supersized garbage truck may sound like an obvious fix, but these vast islands of plastic trash—water bottles, straws, caps, food wrappers, bags, chunks of old, unrecognizable gadgets and toys—can’t just be collected and taken away. The disintegrating plastics permeate our oceans just like smog permeates our air. We can’t really filter it out. We have to stop the ocean smog at its source—us.</p><p>Here are 10 things we can all do today to help clean up our oceans—courtesy of <a href=\"http://www.5gyres.org\" target=\"_none\">The 5 Gyres Institute</a>, a non-profit dedicated to empowering all of us to take action in response to this unhealthy scenario. We at Nordic Naturals are inspired, and proud to sponsor and support <a href=\"https://www.5gyres.org/\" target=\"_none\">5 Gyres</a> in spreading the word.</p><h5>How Can We Help?</h5><p><h2>1.</h2> Swear off plastic bags. Stash some reusable bags in your car, or carry a backpack or tote bag with you.</p><p><h2>2.</h2> Carry a reusable water bottle. Don’t buy bottled water—<a href=\"http://www.treehugger.com/clean-water/save-1400-a-year-by-drinking-tap-water.html\" target=\"_none\">you can save $1400 a year by just drinking tap.</a></p><p><h2>3.</h2> Say no to straws, or only use paper straws. When you order a drink, say “No straw, please.”</p><p><h2>4.</h2> Use non-plastic utensils and bring your own mug to the coffee shop. Get in the habit of carrying these with you when you’re out and about.</p><p><h2>5.</h2> <a href=\"https://www.5gyres.org/styrofoam/\" target=\"_none\">Avoid all things Styrofoam.</a> The chemicals used to create Styrofoam cups and food containers are toxic and possibly carcinogenic. Bad for you, bad for the oceans.</p><p><h2>6.</h2> Buy items with minimal packaging, and buy in bulk whenever possible. Choose non-plastic beverage containers.</p><p><h2>7.</h2> Minimize your electronic footprint by repairing, upgrading, or recycling old phones, TVs, computers, and peripherals.</p><div class=\"embedded-image left\"><img src=\"http://www.nordicnaturals.com/dev/blog-images/5Gyres3.jpeg\"/><span style=\"padding-left: 28px; padding-right: 28px; display: inline-block\">Photo by Ryan Martin for 5 Gyres</span></div><p><h2>8.</h2> Buy clothes made from natural materials. Synthetic clothing items shed microfibers every time they’re washed, and these fibers wind up in the ocean.</p><p><h2>9.</h2> Don’t buy face cleansers and scrubs that contain microbeads (they’ll be phased out soon anyway, thanks to the <a href=\"https://www.fda.gov/Cosmetics/GuidanceRegulation/LawsRegulations/ucm531849.htm\" target=\"_none\">Microbead-Free Waters Act</a>).</p><p><h2>10.</h2> Pledge to go <a href=\"https://www.5gyres.org/newsletter-sign-up\" target=\"_none\">#plasticfree</a> for a day, a week, a year—or forever. Start by refusing the top five sources of single use plastic: plastic bags, water bottles, to-go containers, takeaway cups, and straws.</p><p>Cleaning up our oceans isn’t going to happen overnight. But we can all make a difference—one piece of plastic trash at a time.</p>
+          <p>Ocean \"smog\" created from the disposable plastics we all throw away has become a huge concern. Right now, there are some 270,000 tons of trash swirling around the world's oceans in giant, tangled heaps. Ocean waves break these plastics down into smaller and smaller pieces, endangering the surrounding marine life as fish and birds either digest the plastic debris, mistaking it for food, or become entangled in it. Some of the plastic toxins they digest even make it up the food chain into the fish many of us eat. That’s right—we’re eating the plastic trash, too. One study found that <a href=\"http://www.ecowatch.com/25-of-fish-sold-at-markets-contain-plastic-or-man-made-debris-1882105614.html\" target=\"_none\">one-quarter of all fish sold in California markets had microplastics and fibers in their guts</a>. </p><p> Cleaning up the trash with some sort of floating, supersized garbage truck may sound like an obvious fix, but these vast islands of plastic trash—water bottles, straws, caps, food wrappers, bags, chunks of old, unrecognizable gadgets and toys—can’t just be collected and taken away. The disintegrating plastics permeate our oceans just like smog permeates our air. We can’t really filter it out. We have to stop the ocean smog at its source—us.</p><p>Here are 10 things we can all do today to help clean up our oceans—courtesy of <a href=\"http://www.5gyres.org\" target=\"_none\">The 5 Gyres Institute</a>, a non-profit dedicated to empowering all of us to take action in response to this unhealthy scenario. We at Nordic Naturals are inspired, and proud to sponsor and support <a href=\"https://www.5gyres.org/\" target=\"_none\">5 Gyres</a> in spreading the word.</p><h5>How Can We Help?</h5><p><h2>1.</h2> Swear off plastic bags. Stash some reusable bags in your car, or carry a backpack or tote bag with you.</p><p><h2>2.</h2> Carry a reusable water bottle. Don’t buy bottled water—<a href=\"http://www.treehugger.com/clean-water/save-1400-a-year-by-drinking-tap-water.html\" target=\"_none\">you can save $1400 a year by just drinking tap.</a></p><p><h2>3.</h2> Say no to straws, or only use paper straws. When you order a drink, say “No straw, please.”</p><p><h2>4.</h2> Use non-plastic utensils and bring your own mug to the coffee shop. Get in the habit of carrying these with you when you’re out and about.</p><p><h2>5.</h2> <a href=\"https://www.5gyres.org/styrofoam/\" target=\"_none\">Avoid all things Styrofoam.</a> The chemicals used to create Styrofoam cups and food containers are toxic and possibly carcinogenic. Bad for you, bad for the oceans.</p><p><h2>6.</h2> Buy items with minimal packaging, and buy in bulk whenever possible. Choose non-plastic beverage containers.</p><p><h2>7.</h2> Minimize your electronic footprint by repairing, upgrading, or recycling old phones, TVs, computers, and peripherals.</p><div class=\"embedded-image left\"><img src=\"http://res.cloudinary.com/nordic-naturals/image/upload/v1501788652/web/blog-assets/post-images/5Gyres3.jpg\"/><span style=\"padding-left: 28px; padding-right: 28px; display: inline-block\">Photo by Ryan Martin for 5 Gyres</span></div><p><h2>8.</h2> Buy clothes made from natural materials. Synthetic clothing items shed microfibers every time they’re washed, and these fibers wind up in the ocean.</p><p><h2>9.</h2> Don’t buy face cleansers and scrubs that contain microbeads (they’ll be phased out soon anyway, thanks to the <a href=\"https://www.fda.gov/Cosmetics/GuidanceRegulation/LawsRegulations/ucm531849.htm\" target=\"_none\">Microbead-Free Waters Act</a>).</p><p><h2>10.</h2> Pledge to go <a href=\"https://www.5gyres.org/newsletter-sign-up\" target=\"_none\">#plasticfree</a> for a day, a week, a year—or forever. Start by refusing the top five sources of single use plastic: plastic bags, water bottles, to-go containers, takeaway cups, and straws.</p><p>Cleaning up our oceans isn’t going to happen overnight. But we can all make a difference—one piece of plastic trash at a time.</p>
         `,
         ref1title: "Why Natural-Form Fish Oils are Better for Your Body—and Your Wallet",
         ref1category: "all-about-science",
@@ -734,10 +899,10 @@ Finding balance. It’s hard not to take work home with you, but if you can do t
         author: "NICHOLAS NOLOBOFF",
         postUrl: "why-natural-form-fish-oils-are-better-for-your-body-and-your-wallet",
         title: "Why Natural-Form Fish Oils are Better for Your Body—and Your Wallet",
-        imageUrl: "http://www.nordicnaturals.com/dev/blog-assets/post-images/capsules-and-fish.jpg",
+        imageUrl: "http://res.cloudinary.com/nordic-naturals/image/upload/v1501788654/web/blog-assets/post-images/capsules-and-fish.jpg",
         contentPreview: "“Triglycerides” may sound intimidating, but all you really need to know is that they’re the form of omega-3 fats that your body ...",
         content: `
-          <p>“Triglycerides” are something we talk about a lot at Nordic Naturals. They sound intimidating, but all you really need to know is that they’re the form of omega-3 fats that your body prefers. And, many fish oils on the market today are not triglyceride form. Let me explain.</p><p>Triglycerides are a form of molecule. You may hear that “high triglycerides” are bad for the heart, but I’m talking about a different kind that is really important for overall health. That’s because dietary fats are really important for us, and 98% of all fats we eat are triglycerides. None of this would matter beyond the lab if all companies produced fish oil the right way—as natural omega-3s. Sadly, they don’t. But if you know to look for triglyceride form omega-3s—the natural form—it’s easy to find great fish oil.</p><p>Natural-form fish oil is better for a handful of reasons. Freshness, effectiveness, and value topthe list. You’d expect this since triglyceride-form fats abound in nature. But what about the alternative?</p><p><h2>Natural Form = Fresh</h2></p><p>Most fish oils are made of ethyl ester molecules, which are the result of concentrating omega-3s to make a more potent product, and then skipping a final step that recreates the natural molecular form. No big surprise, skipping this step is cheaper for fish oil manufacturers, but the cost-savings don’t translate to you. Ethyl ester fish oils are fragile, so the molecules have a hard time holding together, and are more susceptible to damage by oxygen. That means a lot of spoiled, stinky fish oil—and more free radicals.</p><p><h2>Natural Form = Effective</h2></p><div class=\"embedded-image right\"><img src=\"http://www.nordicnaturals.com/dev/blog-images/tg-form-graph-compressor.jpg\" ></div><p>Natural-form fish oil is also more effective than ethyl ester fish oil. A number of studies have documented the body’s improved ability to absorb and use natural form omega-3s. Up to 70% better absorption than ethyl esters.<sup>1</sup> This means that the more natural form omega-3s there are in your bottle of fish oil, the greater chance they have to make it where they should—your cells.</p><p>The cell membrane is where omega-3s really have the chance to make a difference, influencing heart health, vision, brain development, and the wide-ranging functions of the immune system that benefit so many aspects of everyday health. Of course, poorly absorbed fish oil means fewer omega-3s in the bloodstream, fewer getting to cells, and limited benefits overall. You get the idea.</p><p><h2>Natural Form = Value</h2></p><p>All this adds up to one big advantage: value. Why spend money on fish oil that spoils quickly, and that doesn’t deliver the benefits you expect? The big picture sometimes gets lost when customers choose products solely on lowest price.</p><p>I’m happy to tell you that Nordic Naturals has always had the big picture in mind. From the very beginning we’ve produced our fish oils in their natural form. Every bottle contains at least 90% natural-form omega-3s, and they often reach up to 98%. It takes longer to make triglyceride-form products. And, it costs more. But at the end of the day, it’s the value of our products that matters most.</p><p><small><sup>1</sup><i>Dyerberg J, et al. <a href=\"https://www.ncbi.nlm.nih.gov/pubmed/20638827\" target=\"_none\">Bioavailability of marine n-3 fatty acid formulations. Prostaglandins Leukot Essent Fatty Acids</a> 2010 Sep;83(3):137–141.</i></small></p><p><small>*These statements have not been evaluated by the Food and Drug Administration.These products are not intended to diagnose, treat, cure, or prevent any disease.</small></p>
+          <p>“Triglycerides” are something we talk about a lot at Nordic Naturals. They sound intimidating, but all you really need to know is that they’re the form of omega-3 fats that your body prefers. And, many fish oils on the market today are not triglyceride form. Let me explain.</p><p>Triglycerides are a form of molecule. You may hear that “high triglycerides” are bad for the heart, but I’m talking about a different kind that is really important for overall health. That’s because dietary fats are really important for us, and 98% of all fats we eat are triglycerides. None of this would matter beyond the lab if all companies produced fish oil the right way—as natural omega-3s. Sadly, they don’t. But if you know to look for triglyceride form omega-3s—the natural form—it’s easy to find great fish oil.</p><p>Natural-form fish oil is better for a handful of reasons. Freshness, effectiveness, and value topthe list. You’d expect this since triglyceride-form fats abound in nature. But what about the alternative?</p><p><h2>Natural Form = Fresh</h2></p><p>Most fish oils are made of ethyl ester molecules, which are the result of concentrating omega-3s to make a more potent product, and then skipping a final step that recreates the natural molecular form. No big surprise, skipping this step is cheaper for fish oil manufacturers, but the cost-savings don’t translate to you. Ethyl ester fish oils are fragile, so the molecules have a hard time holding together, and are more susceptible to damage by oxygen. That means a lot of spoiled, stinky fish oil—and more free radicals.</p><p><h2>Natural Form = Effective</h2></p><div class=\"embedded-image right\"><img src=\"http://res.cloudinary.com/nordic-naturals/image/upload/v1501788657/web/blog-assets/post-images/tg-form-graph-compressor.jpg\" ></div><p>Natural-form fish oil is also more effective than ethyl ester fish oil. A number of studies have documented the body’s improved ability to absorb and use natural form omega-3s. Up to 70% better absorption than ethyl esters.<sup>1</sup> This means that the more natural form omega-3s there are in your bottle of fish oil, the greater chance they have to make it where they should—your cells.</p><p>The cell membrane is where omega-3s really have the chance to make a difference, influencing heart health, vision, brain development, and the wide-ranging functions of the immune system that benefit so many aspects of everyday health. Of course, poorly absorbed fish oil means fewer omega-3s in the bloodstream, fewer getting to cells, and limited benefits overall. You get the idea.</p><p><h2>Natural Form = Value</h2></p><p>All this adds up to one big advantage: value. Why spend money on fish oil that spoils quickly, and that doesn’t deliver the benefits you expect? The big picture sometimes gets lost when customers choose products solely on lowest price.</p><p>I’m happy to tell you that Nordic Naturals has always had the big picture in mind. From the very beginning we’ve produced our fish oils in their natural form. Every bottle contains at least 90% natural-form omega-3s, and they often reach up to 98%. It takes longer to make triglyceride-form products. And, it costs more. But at the end of the day, it’s the value of our products that matters most.</p><p><small><sup>1</sup><i>Dyerberg J, et al. <a href=\"https://www.ncbi.nlm.nih.gov/pubmed/20638827\" target=\"_none\">Bioavailability of marine n-3 fatty acid formulations. Prostaglandins Leukot Essent Fatty Acids</a> 2010 Sep;83(3):137–141.</i></small></p><p><small>*These statements have not been evaluated by the Food and Drug Administration.These products are not intended to diagnose, treat, cure, or prevent any disease.</small></p>
         `,
         ref1title: "Inside Nordic Naturals: Meet Jonna, Customer Service Rep Extraordinaire",
         ref1category: "kultur",
@@ -755,7 +920,7 @@ Finding balance. It’s hard not to take work home with you, but if you can do t
         author: "NORDIC NATURALS STAFF",
         postUrl: "inside-nordic-naturals-meet-jonna-customer-service-rep-extraordinaire",
         title: "Inside Nordic Naturals: Meet Jonna, Customer Service Rep Extraordinaire",
-        imageUrl: "http://www.nordicnaturals.com/dev/blog-assets/post-images/jonna-compressor.jpg",
+        imageUrl: "http://res.cloudinary.com/nordic-naturals/image/upload/v1501788656/web/blog-assets/post-images/jonna-compressor.jpg",
         contentPreview: "If you happen to call Nordic Naturals to place an order or ask a product question, there’s a good chance you’ll find yourself chatting ...",
         content: `
           <p><i>If you happen to call Nordic Naturals to place an order or ask a product question, there’s a good chance you’ll find yourself chatting with the unforgettable Jonna Paiss. We asked Jonna to be the subject of our first employee spotlight, and she graciously accepted. Read our interview with Jonna here, and <a href=\"#embed-container\">watch her answer our parting question on video</a>.</i></p><p><h2>Name:</h2> <p>Jonna Paiss</p><h2>Role:</h2> <p>Consumer Sales and Education Representative</p><h2>Years with Nordic Naturals:</h2> <p>5</p><p><h2>What do you do at Nordic Naturals, and what do you like best about your job?</h2></p><p>I work in customer service, so I answer questions about our products all day long. I’ve always been interested in nutrition and biology, and I like helping people find the right supplement for them. I used to work in the healthcare industry, and for me working in the natural products industry is much more satisfying.</p><p>One reason I like talking about our products is because I have so much confidence in them. I try everything we make so I can get a firsthand experience with each product. I keep a spice rack in my bathroom filled with all my Nordic Naturals supplements.</p><p><h2>What’s the strangest customer question you’ve ever received?</h2></p><p>I certainly get some very specific questions from customers, everything from whether or not our products are kosher to what kinds of glue we use on our product labels. It’s part of the fun, you know, going and hunting down the answers to the more unusual questions.</p><p>I guess the strangest question I ever got was from a woman who called to ask about the tiny illustrated trolls on our Nordic Berries multivitamin label. She wanted to know if they were associated with the occult. I told her the trolls were common in Norwegian fairy tales, nothing more than a fanciful reference to Scandinavian folklore.</p><p><h2>Where did you grow up?</h2></p><p>I was born and raised in a small town in Denmark, and I immigrated to the US when I was in my twenties. I practically grew up in a library... I spent most of my teenage years with my head in a book, and I’m still a voracious reader today.</p><p><h2>Since you’ve been here for 5 years, I gather you’ve been taking fish oil for a while. Any observations you’d like to share?</h2></p><p>Probably the biggest thing I noticed when I first started working here was the high product quality. I’ve always trusted the science behind the nutrition, so I never questioned things I experienced in the past with other products, like fishy aftertaste or unpleasant burps. I just figured those things were to be tolerated, the way you tolerate other things that might be good for you—like onions.</p><p><h2>What Nordic Naturals products do you take?</h2></p><p>I currently take <a href=\"http://www.nordicnaturals.com/en/Products/Product_Details/514/?ProdID=1746\" target=\"_none\">Omega Curcumin</a>, <a href=\"http://www.nordicnaturals.com/en/Products/Product_Details/514/?ProdID=1414\" target=\"_none\">EPA</a> with concentrated <a href=\"http://www.nordicnaturals.com/en/Products/Product_Details/514/?ProdID=1647\" target=\"_none\">GLA</a>, <a href=\"http://www.nordicnaturals.com/en/General_Public/Vitamin_D3_formulas/365\" target=\"_none\">vitamin D3</a>, and <a href=\"http://www.nordicnaturals.com/en/Products/Product_Details/514/?ProdID=1699\" target=\"_none\">Nordic Flora Probiotic Daily</a>. Over the years I’ve tried a lot of different formulations, but in general I try to take 2000 milligrams EPA and DHA daily. In the winter especially, I take vitamin D3 regularly. And I supplement with other products, like Omega Curcumin and <a href=\"http://www.nordicnaturals.com/en/General_Public/Eye_Health/1231\" target=\"_none\">Omega Vision</a>, depending on whatever issue I may be trying to address. When I first tried our Nordic Flora probiotics, I was like, oh my God! Because I felt an immediate difference. (laughs)</p><p><h2>What is something about you that few people know? Do you have a hidden talent?</h2></p><p>I have nothing BUT hidden talents. All my talents are really hard to find! One advantage of talking to new people all day is that my jokes never get old. I try to be light about things, because I enjoy making people laugh.</p><p><h2>I happen to know that you’re really good at crafting.</h2></p><p>Yes, I do like to sew and knit and do crafty things. I’m really into making costumes right now. And a lot of people don’t know this, but I’m actually a good cook. I developed some pretty good cooking skills in college—whisking and stirring, those are my hidden talents. And talking and enjoying good food with friends.</p><p><h2>We talk a lot about health here at Nordic Naturals. What does “living healthfully” mean to you?</h2></p><p>To me “living healthfully” is a state of mind. It’s about striving for harmony and balance in your life. We have a saying in Denmark: “Everything in moderation, including moderation.” I think it’s important to pick your battles in life, and focus on what gives you enjoyment. Otherwise it’s really easy to get frustrated and feel powerless. I guess you could say I try not to sweat the small stuff.<p><p><h2>Video Question: You’re from Denmark. Explain “hygge” to us.</h2><div id=\"embed-container\"><iframe src=\"https://player.vimeo.com/video/212996319\" frameborder=\"0\" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div></p>
