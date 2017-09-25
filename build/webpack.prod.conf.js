@@ -38,6 +38,7 @@ var webpackConfig = merge(baseWebpackConfig, {
         '/blog/all-about-science/vitamins-d3-k2-a-dynamic-bone-building-plaque-fighting-duo',
         '/blog/all-about-science/fermented-foods-and-probiotics-your-ticket-to-a-healthy-microbiome',
         '/blog/all-about-science/eclipse-inspired-tips-for-lifelong-healthy-vision',
+        '/blog/all-about-science/skin-health-from-the-inside-out',
         '/blog/big-picture',
         '/blog/big-picture/refuse-reduce-reuse-10-things-to-clean-up-our-oceans',
         '/blog/big-picture/dear-cosmo-why-you-really-should-take-your-fish-oil',
@@ -47,11 +48,13 @@ var webpackConfig = merge(baseWebpackConfig, {
         '/blog/the-nordic-way/midnight-sun-and-white-nights-what-summer-in-arctic-norway-can-teach-us-about-sleep',
         '/blog/the-nordic-way/seven-ways-we-put-sustainability-into-action',
         '/blog/the-nordic-way/inside-nordic-naturals-meet-kerry-pro-sports-line-mvp',
+        '/blog/the-nordic-way/giving-children-more-of-what-they-need-to-stay-healthy-introducing-five-new-products-for-kids-and-teens',
         '/blog/home-life',
         '/blog/home-life/getting-little-ones-to-eat-well-8-great-tips',
         '/blog/home-life/omega-3s-why-theyre-especially-important-for-mens-health',
         '/blog/home-life/how-to-marie-kondo-your-medicine-cabinet',
-        '/blog/home-life/time-to-get-a-move-on-joint-health'
+        '/blog/home-life/time-to-get-a-move-on-joint-health',
+        '/blog/home-life/reading-writing-and-omega-3s'
       ],
       {
         ignoreJSErrors: true

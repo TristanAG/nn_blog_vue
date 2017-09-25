@@ -11,7 +11,8 @@
         <h1>{{post.title}}</h1>
       </div>
       <img :src="post.imageUrl">
-      <p class="author-link">By <router-link to="/blog/contributors">{{post.author}}</router-link></p>
+      <p v-if="post.id !== 19" class="author-link">By <router-link to="/blog/contributors">{{post.author}}</router-link></p>
+      <p v-else class="author-link">By <a href="https://www.happilyforeverfit.com/">{{post.author}}</a></p>
     </div>
 
     <!-- [/mobile only code for full-width image] -->
@@ -24,7 +25,8 @@
             <hr />
             <h1>{{post.title}}</h1>
             <img :src="post.imageUrl">
-            <p class="author-link">By <router-link to="/blog/contributors">{{post.author}}</router-link></p>
+            <p v-if="post.id !== 19" class="author-link">By <router-link to="/blog/contributors">{{post.author}}</router-link></p>
+            <p v-else class="author-link">By <a href="https://www.happilyforeverfit.com/" target="_none">{{post.author}}</a></p>
           </div>
           <div class="post-content" v-html="post.content"></div>
 

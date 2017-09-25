@@ -7,6 +7,373 @@ export const store = new Vuex.Store({
   state: {
     posts: [
       {
+        id: 19,
+        category: 'home-life',
+        categoryText: 'HOME LIFE',
+        author: 'AMANDA WATSON (brand ambassador)',
+        postUrl: "why-your-body-doesnt-want-you-to-sit-all-day",
+        title: "Why Your Body Doesn't Want You to Sit All Day",
+        imageUrl: 'http://res.cloudinary.com/nordic-naturals/image/upload/v1506366027/web/blog-assets/post-images/dangers-of-sitting-main.jpg',
+        contentPreview: 'Why does sitting wear on us so much? And what can we do to support our backs—and our health—while we’re at work, where many of us sit for 7+ hours a day, five days a week? Turns out, there are simple changes you can make to your daily routine to minimize the negative health effects of sitting, and show your body some workplace respect.',
+        content: `
+        <p>
+        We’ve all heard that sitting is bad for you. It’s the reason why many of your co-workers are getting standing desks, and why sitting for long periods of time may actually leave you feeling more tired than when you first sat down (If you’ve ever crossed an ocean in an airplane, you know the feeling well.).
+      </p>
+
+      <p>
+        Why does sitting wear on us so much? And what can we do to support our backs—and our health—while we’re at work, where many of us sit for 7+ hours a day, five days a week? Turns out, there are simple changes you can make to your daily routine to minimize the negative health effects of sitting, and show your body some workplace respect.
+      </p>
+
+      <p>
+        According to the <a href="https://news.heart.org/sitting-too-much-may-raise-heart-disease-risk/" target="_none">American Heart Association</a>, even people who exercise regularly aren’t immune to the dangers of sitting. Sedentary time—which includes working at a computer, driving, watching TV, reading, and sitting down for meals—increases your risk for cardiovascular disease and diabetes. Yet the average American adult with a desk job spends <a href="https://www.washingtonpost.com/news/wonk/wp/2015/06/02/medical-researchers-have-figured-out-how-much-time-is-okay-to-spend-sitting-each-day/?utm_term=.4aee41d215ef" target="_none">eight to ten hours a day sitting</a>. This seemingly benign activity is not only bad for your heart and blood vessels, it’s also bad for your musculoskeletal system, and your ability to maintain a healthy weight. Why is this the case? Let’s look at what happens physically in your body when you sit for more than 30 minutes at a stretch.
+      </p>
+
+      <h2>What Happens When You Sit</h2>
+
+      <p>
+        <b>Your glutes lengthen and hamstrings shorten.</b> When you sit, two main things are happening at the hip joint: Your hamstrings are in a shortened position, and the more you sit, the tighter your hamstrings get. Tight hammies are <a href="https://www.ncbi.nlm.nih.gov/pubmed/27040059" target="_none">the number one cause of low back pain!</a> Second, when sitting, your gluteal muscles are lengthened to their full range of motion. Being in a lengthened position for long periods of time makes those butt muscles weak.
+      </p>
+
+      <p>
+        What’s the big deal about glute muscles? They aid in balance, gait, and hip stability. With weak glute muscles comes valgus knees (knees that cave in when bending), which can cause a cascade of negative effects on your gait, lower body strength, and <a href="http://nordicnaturals.com/en/General_Public/Joint_&_Bone_Health/1232" target="_none">joint health</a>. Weak glutes can also lead to a general lack of stability and balance, which increases your risk of falling. Plus, glutes (with the help of our quadriceps), are responsible for stepping up and decelerating yourself down steps. Think stairs, hiking, walking uphill, etc. A very important movement!
+      </p>
+
+      <p>
+        <b>Your body pulls forward.</b> When you sit down and reach out to something in front of you (i.e., keyboard, mouse, book, coffee mug), your shoulders protract forward, taking the whole upper body with them and rounding out your upper back.
+      </p>
+
+      <p>
+        <b>Neck muscles get overstressed.</b> The action above usually leads you to tilt your head forward, taking the weight of your head away from the supportive framework of your shoulders and spine. So your neck muscles start working overtime to keep your head from falling off your shoulders. Picture a rope attached to a tall building and you are leaning back, pulling on this rope to keep this building from falling over. Now do this for hours. That’s what your neck muscles are doing while your head is tilted forward.
+      </p>
+
+      <p>
+        <b>Shoulders and back muscles work overtime.</b> Your upper back muscles are in a constant state of lengthening as you are working, reaching and looking forward in your seated position. This makes them very weak! In addition, your muscles surrounding your shoulder blades are constantly “on,” working to stabilize your shoulders and arms as you work at your computer. Constantly stabilizing and holding your arms out in front of you fatigues those upper back muscles and can lead to aches and pains.
+      </p>
+
+      <p>
+        <b>Core muscles become weak.</b> When we sit with bad posture the spine is tiling forward and the abdominal muscles are de-activated. Sitting requires little effort from the majority of abdominal muscles; the act of sitting leaves them lax and underused.
+      </p>
+
+      <p>
+        <b>Circulation decreases.</b> When you minimize your movement, especially with a sitting position, your blood circulation decreases which causes blood to pool in the legs. This can lead to swollen ankles, varicose veins, and even blood clots in the legs. Slowing circulation also means less blood to the brain.
+      </p>
+
+      <p>
+        <b>Productivity and alertness decline.</b> When blood flow, which carries much-needed oxygen to the brain, is restricted, your thoughts can become foggy, you’ll feel sluggish, and you can be more easily distracted. If you get up, move for a few minutes and stretch, most likely you’ll return to your desk with a new perspective, new ideas, and a fresh start to your work!
+      </p>
+
+      <p>
+      <b>Likelihood of weight gain increases.</b> Lastly, sitting all day decreases the number of calories you burn and therefore is a big factor in weight gain. There are many associations with sitting and weight gain, obesity, and risk of disease. To make this idea more tangible, picture this: If you stand instead of sit, you’ll burn between 30-50 extra calories per hour depending on your size. That might not sound significant, but in an 8-hour work day that is an extra 240-400 calories burned! In a week that’s 1,200-2,000 extra calories being used for standing! It takes a 3,500 calorie deficit to lose a pound of fat. So in just a few weeks you can lose a pound of fat simply from standing. Imagine the progress you’d see after a year!
+      </p>
+
+      <img src="http://res.cloudinary.com/nordic-naturals/image/upload/v1506369406/web/blog-assets/post-images/Tips.png" target="_none">
+
+      <p>
+        All this being said, we still have to work, right? So, what can you do to help your body? The best thing you can do is use a standing desk as much as possible. Your body will thank you so much for getting out of that sitting position. But if you can’t stand while you work (and even if you can) try to incorporate these basics into your day:
+      </p>
+
+
+
+      <p>
+        <ul>
+          <li><b>1. Get up and stretch.</b> Walk from meeting to meeting, get up and get a water or snack, and get a few twists and stretches in every 20-30 mins at your desk. Remember to stretch out your hamstrings in particular. As I mentioned, tight hamstrings are the number one cause of low back pain in the workplace. Try yoga, or better yet, just spend 10 minutes a day stretching those hammies out.</li>
+          <li><b>2. Strengthen your upper back.</b> Any sort of upper body pulling motion will do wonders on your back. TRX rows, planking rows, pull ups, spri band pulls… anything where your arms are out in front of you (or overhead) and you are pulling back or down towards the armpits is perfect!</li>
+          <li><b>3. Increase your daily activity.</b> Schedule walking meetings and phone calls, take the stairs rather than the elevator, exercise at lunch, or try biking to work. Set alarms on your phone to remind yourself to get up and stretch. Get up and go ask people questions in person rather than sending an email. At the very least, start becoming more aware of how much time you actually spend sitting each day.</li>
+          <li><b>4. Avoid sitting outside work.</b> Once you’re home for the day, get some exercise! Go for a walk with your family, play with the kids, stand up and cook an awesome meal in the kitchen, or substitute hobbies for TV time. Just try and be active—your body will thank you!</li>
+        </ul>
+      </p>
+
+      <img src="http://res.cloudinary.com/nordic-naturals/image/upload/v1506366030/web/blog-assets/post-images/dangers-of-sitting-body.jpg">
+
+      <p>
+        <i>Amanda Watson, ACE CPT, Orthopedic Exercise Specialist, is the
+          founder of <a href="https://www.happilyforeverfit.com/" target="_none">Happily Forever Fit</a>, a Santa Cruz personal training and boot camp program, and a proud brand ambassador for Nordic Naturals. With 8+ years experience personally training individuals and small groups, Amanda loves helping people achieve their fitness and nutrition goals.</i>
+      </p>
+
+        `
+      },
+      {
+        id: 18,
+        category: 'the-nordic-way',
+        categoryText: 'THE NORDIC WAY',
+        author: 'CLAUDIA BURGIN',
+        postUrl: 'giving-children-more-of-what-they-need-to-stay-healthy-introducing-five-new-products-for-kids-and-teens',
+        title: 'Giving Children More of What They Need to Stay Healthy: Introducing Five New Products For Kids and Teens',
+        imageUrl: 'http://res.cloudinary.com/nordic-naturals/image/upload/v1505424800/web/new-prods-main-new.jpg',
+        contentPreview: `Childhood is when good nutrition really counts. Yet many kids don’t receive enough of the nutrients they need for healthy development. Get the 411 on our newest products, all made with kids’ healthy development—and parents’ top nutritional concerns—in mind.`,
+        content: `
+        <p>
+        Kids’ health gets a lot of media attention during back-to-school season—ads, discounts, blog posts! But for most parents, thinking about their child’s health isn’t a seasonal thing. We think about our kids pretty much every day—what they eat, whether they’re getting the nutrients they need, how we can support their ongoing physical and mental development.
+      </p>
+
+      <p>
+        All this obsessing over what our kids eat, and more importantly what they don’t eat, isn’t groundless. Research shows us time and again that <a href="https://www.nap.edu/read/11899/chapter/4#40" target="_none">childhood is when good nutrition really counts</a>, yet most kids—whether because they’re picky about the foods they eat, or because the most nutritious foods aren’t always available to them—simply don’t get the nutrition they need for healthy development through their teen years.
+      </p>
+
+      <p>
+        We know, for example, that omega-3 DHA, an essential nutrient that can only be obtained from diet, is critical for healthy brain development.* We also know that the <a href="https://www.fda.gov/Food/ResourcesForYou/Consumers/ucm536514.htm" target="_none">FDA recommends</a> that pregnant and lactating women, along with children ages 2 and up, eat between 1-3 servings of fish every week. But less than 10% of people across all age groups consume adequate amounts of fish on a regular basis, according to the <a href="https://health.gov/dietaryguidelines/2015-scientific-report/pdfs/scientific-report-of-the-2015-dietary-guidelines-advisory-committee.pdf" target="_none">USDA’s 2015 Scientific Report on Dietary Guidelines.</a>
+
+      </p>
+
+      <img src="http://res.cloudinary.com/nordic-naturals/image/upload/v1505369177/web/kids-new-second.jpg" style="width: 900px">
+
+      <p>
+        The deficit in omega-3 consumption is a big reason why Nordic Naturals is introducing <a href="http://nordicnaturals.com/children/" target="_none">five new children’s products</a>. (We're also introducing a new look with easier-to-read labels for some of our other children’s product favorites).
+      </p>
+
+      <p>
+        We want to make sure that every parent has access to high-quality, research-supported, and age-appropriate nutritional supplements to meet their child’s individual nutritional needs. And, we want to make sure that kids actually enjoy taking the supplements their parents give them. I know from my own experiments with getting my three-year-old to take fish oil daily that taste—and delivery format—really, truly matters.
+
+      </p>
+
+      <p>
+        In short, we’re on a mission to educate parents all over the world that every child needs omega-3s as part of a healthy foundation. So with that said, here’s a look at the new Nordic Naturals children’s products, available in stores and online this month:
+
+      </p>
+      <img src="http://res.cloudinary.com/nordic-naturals/image/upload/v1505424524/web/new-products-two-bottles.jpg">
+      <p>
+        <h2>1) Children’s DHA™ Xtra (<a href="https://nordicnaturals.com/en/Products/Product_Details/514/?ProdID=1783" target="_none">liquid</a> and <a href="https://nordicnaturals.com/en/Products/Product_Details/514/?ProdID=1784" target="_noen">soft gels</a>)</h2>
+      </p>
+
+      <p>
+        With so few kids getting adequate amounts of omega-3s from their food, we thought it was important to offer a formula that increases support for this critical nutrient. Found in high concentrations in our brains and eyes, omega-3 DHA is a key nutrient for healthy cognitive and nervous system development.* Both omega-3 EPA and DHA are found in virtually all our cell membranes, making them equally important for overall health.* Children’s DHA Xtra effectively doubles the amounts of DHA in our popular <a href="https://www.nordicnaturals.com/en/Products/Product_Details/514/?ProdID=1442" target="_none">Children’s DHA™</a> product, giving kids ages 1 to 6 even greater support for healthy development.*
+
+      </p>
+
+      <p>
+        Our liquid formula is recommended for ages 1-3, while our soft gels are recommended for ages 3-6. Both have a new, natural berry punch flavor.
+
+      </p>
+
+      <center>
+      <img src="http://res.cloudinary.com/nordic-naturals/image/upload/v1505369178/web/omega-focus-jr.png" style="width: 340px"/>
+      </center>
+
+      <h2>2) <a href="https://nordicnaturals.com/en/Products/Product_Details/514/?ProdID=1786" target="_none">Omega Focus Junior</a></h2>
+
+      <p>
+        Helping children focus and stay on task academically is a concern for just about every parent today. We decided it was time to lend kids (and parents) some nutritional support on this front. Our new Omega Focus Junior blends concentrated, DHA-rich fish oil with phosphatidylcholine (sourced from herring roe, not soy), L-carnosine, magnesium, and zinc. In combination, these nutrients help support attention, focus, calm, and learning in children ages 6-18.*
+
+      </p>
+
+      <p>
+        Something I learned in talking to our product development team about this one-of-a-kind product: the magnesium and zinc in this formula are chelated glycinates, meaning they are are attached to glycine, an amino acid, to help make the minerals easy to absorb.
+
+      </p>
+
+      <center>
+      <img src="http://res.cloudinary.com/nordic-naturals/image/upload/v1505369178/web/ultimate-omega-2x-teen.png" style="width: 340px"/>
+      </center>
+      <h2>3) <a href="https://nordicnaturals.com/en/Products/Product_Details/514/?ProdID=1785" target="_none">Ultimate Omega® 2X Teen</a></h2>
+      <p>
+        Just because your child reaches adolescence doesn’t mean his or her brain has stopped growing. In fact, your child’s brain will likely continue to grow well into his or her early 20s. This means that omega-3s EPA and DHA still play critical roles in your teen’s healthy cognitive development.* The problem is, teens are busy people prone to skipping meals and snacking on whatever’s at hand rather than seeking out nutritious fare. Our new Ultimate Omega 2X Teen gives teens a way to get those all-important omega-3s without too much effort (or excuses). Each strawberry-flavored, mini-sized soft gel packs a teen-sized serving of our highest concentration fish oil.
+      </p>
+      <center>
+      <img src="http://res.cloudinary.com/nordic-naturals/image/upload/v1505369179/web/probiotic-pixies.png" style="width: 340px" />
+      </center>
+      <p>
+        <h2>4) <a href="https://nordicnaturals.com/en/Products/Product_Details/514/?ProdID=1787" target="_none">Kids Nordic Flora Probiotic Pixies</a></h2>
+      </p>
+
+      <p>
+        Probiotics seem to be everywhere these days, and for good reason. Research is continually linking digestive health to immune health and overall wellness.* Given the frequency with which my child typically gets sick in the winter, this new probiotic formula definitely caught my attention. It’s a healthy twist on the pixie sticks you probably remember from your own childhood—a delicious powder that melts on your tongue. Only this powder is actually nutritious, as well as being fun to eat. Our new Kids Nordic Flora Probiotic Pixies contains 3 billion CFU of two powerful, research-backed probiotic strains shown to support kids’ immune and respiratory health.* If that means fewer seasonal bugs at our house, then I’m already a fan.
+      </p>
+
+      <p>
+        Like all our probiotic formulas, this one is shelf stable (meaning it doesn’t need refrigeration), with strains that are proven to survive passage through the harsh environment of the digestive tract. And, like every product we make at Nordic Naturals, it’s also non-GMO and third-party tested for potency and purity.
+
+      </p>
+
+      <p>
+        Our <a href="http://www.nordicnaturals.com/children" target="_none">five new products</a> (counting DHA Xtra twice, since it comes in both liquid and soft gels) will start to be available beginning this week. Go check them out!
+      </p>
+
+      <p>
+        <small>
+          <i>*These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure, or prevent any disease.</i>
+        </small>
+      </p>
+        `
+      },
+      {
+        id: 17,
+        category: 'all-about-science',
+        categoryText: 'ALL ABOUT SCIENCE',
+        author: 'TERRA LYNN',
+        postUrl: 'skin-health-from-the-inside-out',
+        title: 'Skin Health from the Inside Out',
+        imageUrl: 'http://res.cloudinary.com/nordic-naturals/image/upload/v1504210714/web/blog-assets/skin-health-main.jpg',
+        contentPreview: 'There’s a lot going on beneath the surface of our skin. Here’s what you can do—beyond applying lotions and sunscreens—to nourish and care for this critical organ.',
+        content: `
+        <p>
+          Skin is your body's largest organ, accounting for as much as <a href="https://www.livescience.com/32939-how-much-does-skin-weigh.html" target="_none">16% of your body weight</a>. Inch by inch, your skin adds up to an impressive 22 square feet. What you might not realize about this hard-working organ is that it is also constantly renewing itself—at a rate of about 30,000-40,000 cells per minute. And it does this for decades.
+        </p>
+
+        <p>
+          More than just a flexible covering for our muscles, organs, and bones, our skin shields us from harmful bacteria and alerts our immune system when bacteria breaches that shield. Our skin helps keep us warm, signals our bodies to sweat when we get overheated, and is responsible for our keen sense of touch.
+        </p>
+
+        <p>
+          What can you do to take care of your skin, beyond moisturizing and protecting it with sunscreens and lotions? As it turns out, there are some important ways to take care of your skin from the inside. Understanding how your skin works is the first step in knowing how to give it the nourishment it needs.
+
+        </p>
+        <h2>How Your Skin Works</h2>
+        <p>
+          Skin is composed of two main layers, the epidermis and the dermis. The epidermis is the outer layer of skin that you can see and feel—it serves as your body’s first barrier of protection from harmful bacteria, viruses, and pollutants. Your epidermis contains specialized immune cells that identify harmful microbes and prevent them from entering your body. The epidermis also contains melanin, the pigmentation that gives skin its color, and helps prevent the absorption of UV rays.
+        </p>
+        <img src="http://res.cloudinary.com/nordic-naturals/image/upload/v1504219143/web/blog-assets/skin-anatomy-2.jpg">
+        <p>
+          The much thicker dermis is the inner layer of skin, just beneath the epidermis. Made up of collagen, elastin, and fibrillin (a component of connective tissue), the dermis provides nutritional and structural support for the epidermis. It is where the blood vessels, hair follicles, oil glands, and sweat glands in our skin are located.
+        </p>
+
+        <p>
+          The dermis helps regulate your body temperature, and contains the sensitive nerve endings that allow you to interpret and interact with the world around you. It’s here, in the dermis, that new cells are constantly produced to replace old cells in the epidermis as they are sloughed off at the surface. The hard-to-reach dermis is where nourishment from the inside really matters.
+        </p>
+          <h2>Feeding Your Skin</h2>
+        <p>
+          Eating a balanced, nutrient-rich diet, getting a good night’s sleep, and managing your stress levels are all important lifestyle habits for taking care of your skin, and your body in general. But there are several nutrients known to play a big part in skin health—here are just a few your skin will thank you for:
+        </p>
+          <h2>Water</h2>
+        <p>
+          Your skin is made up of cells, and your cells are <a href="https://www.ncbi.nlm.nih.gov/books/NBK9879/" target="_none">made up of approximately 70% water</a>. Adequate water intake helps maintain your body’s homeostasis, and helps your body remove and excrete metabolic wastes. Without adequate water intake, your skin can’t function at its best. How much is enough?  The Food and Nutrition Board of the National Academy of Sciences sets <a href="http://www.nationalacademies.org/hmd/Reports/2004/Dietary-Reference-Intakes-Water-Potassium-Sodium-Chloride-and-Sulfate.aspx" target="_none">general recommendations</a> of 91 ounces of total water each day—from all beverages and foods—for women, and 125 ounces of total water each day for men.
+        </p>
+          <h2>Probiotics</h2>
+        <p>
+          Over the past decade, scientists and researchers have made great progress in understanding <a href="http://nordicnaturals.com/blog/all-about-science/fermented-foods-and-probiotics-your-ticket-to-a-healthy-microbiome/" target="_none">the role of probiotics</a> in human health. Many of us know that probiotics are good for our gut, but research increasingly shows that the health benefits of probiotics can extend far beyond the gut to other parts of our bodies. Recent studies suggest that <a href="https://www.ncbi.nlm.nih.gov/pubmed/24583611" target="_none">probiotics in the gut have the potential to influence the health of the skin</a>, and that probiotics have the capacity to optimize, maintain, and restore the microbiota of the skin in a variety of different ways.*
+        </p>
+          <h2>Essential Fats EPA, DHA, & GLA</h2>
+        <p>
+          Omega-3s EPA and DHA, along with omega-6 GLA, are essential fats that play such an important role in skin health that <a href="http://lpi.oregonstate.edu/mic/health-disease/skin-health/essential-fatty-acids" target="_none">deficiency in these nutrients is often first visible in the skin.</a>* That’s because our skin can synthesize some fatty acids, such as saturated fatty acids and monounsaturated fatty acids, but can’t synthesize the long-chain essential fatty acids EPA, DHA, and GLA. We must get these essential fats from foods or supplements.
+
+        </p>
+
+        <p>
+          EPA, DHA, and GLA are found in the cell membranes that surround skin cells—really, all the body’s cells—where they help carry important nutrients into our cells, and carry waste out.* These essential fats also help our skin retain its moisture, and evenly distribute melanin that protects against age-related free radical and oxidative damage. And, they assist in healthy skin cell turnover.*
+
+        </p>
+
+        <p>
+          Supplementing with <a href="http://www.nordicnaturals.com/en/General_Public/Omega-3,6,9_combinations/363" target="_none">EPA and DHA from fish oil and GLA from borage oil</a> can benefit all skin types and help support healthy skin function.* These fats are best taken together, since the benefits of GLA increase when it is taken with EPA and DHA.
+        </p>
+
+        <p>
+          Keeping your skin healthy on the inside goes a long way toward staying healthy overall. And that’s a beautiful thing.
+
+        </p>
+
+        <p>
+          <small>
+            <i>*These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure, or prevent any disease.</i>
+          </small>
+        </p>
+
+        <p>
+          <small>
+            References:<br>
+Clin Dermatol. 2010 Jul-Aug;28(4):440-51. <br>
+J Oleo Sci. 2011;60(12):597-607.<br>
+Am J Clin Nutr. 2000 Jan;71(1 Suppl):361S-6S.<br>
+Lipids. 1994 Dec;29(12):825-9.<br>
+J Nutr. 2000 Aug; 130(8): 1925-31.<br>
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/28631091" target="_none">Arch Dermatol Res.</a> 2017 Aug;309(6):411-421.<br>
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/24583611" target="_none">Benef Microbes.</a> 2014 Jun 1;5(2):99-107.
+
+          </small>
+        </p>
+        `
+      },
+      {
+        id: 16,
+        category: 'home-life',
+        categoryText: 'HOME LIFE',
+        author: 'NICK NOLOBOFF',
+        postUrl: 'reading-writing-and-omega-3s',
+        title: 'Reading, Writing, and Omega-3s',
+        imageUrl: 'http://res.cloudinary.com/nordic-naturals/image/upload/v1503443522/web/blog-assets/post-images/reading-writing-omega-main.jpg',
+        contentPreview: `One way to support your kids as they head off to school is to make sure they’re getting enough essential nutrients like omega-3 fats. Here’s how omega-3s can affect your  child’s success with both social and academic tasks.*`,
+        content: `
+        <p>
+          After a long summer, there’s nothing quite like heading back to school. The anticipation. The shopping. That secret guilt you feel because junior is <i>finally</i> off your hands again. It’s okay. We’ve all been there.
+
+        </p>
+
+        <p>
+          Kidding aside, with all that the new school year brings, it’s important not to overlook your child’s health. If there’s any time that kids are susceptible to stress, this is it.  Changes in environment, playmates, and daily routines add fresh challenges to young immune and nervous systems.
+
+        </p>
+
+        <p>
+          One way to support your kids as they head off to learn is to make sure they’re getting adequate amounts of nutrients like omega-3s. Omega-3 fatty acids are critical to help each of us keep up good health, and they can have a significant impact on children’s success with both social and academic tasks.*
+        </p>
+
+        <p>
+          A bit of background: Omega-3s are called “essential” fatty acids because they are needed for optimal health but our bodies can’t make them.* The only way to get enough is through diet. Ideally, this means routine consumption of omega-rich foods like cold-water fish, and taking a <a href="http://www.nordicnaturals.com/en/General_Public/Children's_Omegas/473" target="none">daily fish oil</a> (or algae oil) supplement.
+
+        </p>
+        <h2>Omega-3s for childhood development </h2>
+        <p>
+          Childhood is a period of rapid growth, especially brain growth. From birth to age two kids’ brains double in size. Spurts of development also occur around ages 7, 8, and 9, and then again during mid-adolescence. And when it comes to brain health, science has pointed for a while now in a pretty clear direction toward the <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3738999/" target="_none">benefits of omega-3s across childhood</a>.* These nutrients—particularly the major omega-3 fats EPA and DHA—are important to both the brain’s structure (DHA is a major component of the cerebral cortex) and its function (DHA and EPA are linked to mood and cognition).* Young eyes and developing nervous systems are also big beneficiaries of these essential fats.*
+
+        </p>
+
+        <p>
+          Recent research has focused on omega-3 status and children’s concentration, reading ability, behavior, intellectual development, and general academic performance. It’s probably safe to say that omega-3s influence kids’ ability to think and learn from conception right through adolescence.* And on top of the potential cognitive and neurological benefits, let’s not overlook the significance of academic success to a child’s self-esteem, motivation to learn, and overall social well-being. Any one of these is an excellent reason to prioritize good nutrition throughout the school year.
+
+        </p>
+
+        <p>
+          <img src="http://res.cloudinary.com/nordic-naturals/image/upload/v1503357603/web/blog-assets/post-images/reading-writing-omega-body.jpg">
+        </p>
+        <h2>Important fats in short supply</h2>
+        <p>
+          Unfortunately (but not surprisingly) most children do not eat enough oily, cold-water fish to get optimal amounts of omega-3s. This can be due to the limited availability of fresh fish in many places, or simply because of its cost. Even for families fortunate enough to make fish a common feature at mealtime, anyone with kids knows they can be pretty picky eaters.
+
+        </p>
+        <p>
+          On a societal level, the industrial food chain also puts omega-3s out of kids’ reach. The generally balanced intake of omega-3 and omega-6 fats that people got from foods of the past has been radically changed by factory farming and industrialization, which offers us processed foods and grain-fed meats that contain huge amounts of omega-6. This matters because omegas 3 and 6 compete for limited space in cells. When omega intake is imbalanced, the fat in shortest supply loses out.
+
+        </p>
+
+        <p>
+          All this adds up to a solid conclusion: <a href="http://jn.nutrition.org/content/139/3/528.full" target="_none">Schoolchildren simply don’t get adequate omega-3s on a regular basis</a>.
+
+        </p>
+        <h2>Nutritional wisdom for your scholastic superstar</h2>
+
+        <p>
+          This information should help you feel a bit more confident tackling your own child’s nutrition. But don’t be too confident—kids are still opportunists. Give them the choice between sweets and salmon and it’s no contest. Children have to learn how to make good food choices, and this starts at home. Here are a few things to try:
+
+        </p>
+
+        <p>
+          <b>1)</b>	If possible, offer cold-water fish like salmon, cod, or halibut a few times a week. Kids often have to try a food many times before it takes. Packed lunches are another opportunity to try these in fish sandwich form (e.g. salmon can stand in for tuna salad).
+
+        </p>
+
+        <p>
+          <b>2)</b> First impressions really matter, so choose a top-quality fish oil product that tastes good to kids. I can tell you from experience, it is possible. Some kids like to bite into soft gels. Others like flavored liquids. For those who like neither, great-tasting alternatives exist in gummy and emulsion forms.
+        </p>
+
+        <p>
+          <b>3)</b> Make it a routine. Kids like consistency, and you can easily make a daily supplement part of that. If children see mom or dad taking a supplement, it’ll feel less burdensome (same goes for eating fish).
+
+        </p>
+
+        <p>
+          Every bit of good nutrition adds up, so even if you skip fish one week, or forget the omega-3s on busy days, feel good about the times you do give your kids these added nutrients. These small steps will help them make this school year one to remember.
+
+        </p>
+
+        <p>
+          <small>
+            <i>
+              *These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure, or prevent any disease.
+            </i>
+          </small>
+        </p>
+        `
+      },
+      {
         id: 15,
         category: 'all-about-science',
         categoryText: 'ALL ABOUT SCIENCE',
@@ -122,7 +489,7 @@ The eye’s cornea and lens naturally block harmful UV light. But blue light pas
         </p>
 
         <p>
-          <h2>What do you do at Nordic Naturals, and what do you like best about your job?</h2>
+          <b>What do you do at Nordic Naturals, and what do you like best about your job?</b>
         </p>
 
         <p>
@@ -134,7 +501,7 @@ The eye’s cornea and lens naturally block harmful UV light. But blue light pas
         </p>
 
         <p>
-          <h2>Where did you grow up, and how has that place influenced you?</h2>
+          <b>Where did you grow up, and how has that place influenced you?</b>
         </p>
 
         <p>
@@ -142,7 +509,7 @@ The eye’s cornea and lens naturally block harmful UV light. But blue light pas
         </p>
 
         <p>
-          <h2>What personal accomplishment are you most proud of?</h2>
+          <b>What personal accomplishment are you most proud of?</b>
         </p>
 
         <p>
@@ -150,7 +517,7 @@ The eye’s cornea and lens naturally block harmful UV light. But blue light pas
         </p>
 
         <p>
-          <h2>What is something about you that few people know? Do you have a hidden talent?</h2>
+          <b>What is something about you that few people know? Do you have a hidden talent?</b>
         </p>
 
         <p>
@@ -158,14 +525,14 @@ The eye’s cornea and lens naturally block harmful UV light. But blue light pas
         </p>
 
         <p>
-          <h2>What Nordic Naturals products do you take? Any observations you’d like to share?</h2>
+          <b>What Nordic Naturals products do you take? Any observations you’d like to share?</b>
         </p>
 
         <p>
           I take the <a href="http://www.nordicnaturals.com/en/Products/Product_Details/514/?ProdID=1656" target="_none">Ultimate Omega-3-D3 Sport</a>, <a href="http://www.nordicnaturals.com/en/Products/Product_Details/514/?ProdID=1734" target="_none">Nordic CoQ10 Ubiquinol Sport</a>, <a href="http://www.nordicnaturals.com/en/Products/Product_Details/514/?ProdID=1724" target="_none">Vitamin D3 5000</a>, and <a href="http://www.nordicnaturals.com/en/Products/Product_Details/514/?ProdID=1767" target="_none">Nordic Flora Probiotic Comfort</a>. And I take <a href="http://www.nordicnaturals.com/en/Products/Product_Details/514/?ProdID=1413" target="_none">DHA</a>. That’s my daily regimen. I think my supplementation is part of why I’m a very healthy person. When I get stressed I really feel it in my gut, especially when I travel. I definitely think the probiotics help with that.
         </p>
         <p>
-          <h2>Video Question: What does living “healthfully” mean to you?</h2>
+          <b>Video Question: What does living “healthfully” mean to you?</b>
         </p>
         <p>
           <div id="embed-container"><iframe src="https://player.vimeo.com/video/228726103" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe></div>
@@ -784,32 +1151,32 @@ And that’s where our new <a href="https://www.nordicnaturals.com/en/Products/P
         `,
         content: `
         <p><i>If you buy Nordic Naturals products from one of our overseas distributors, you might have indirectly crossed paths with our very own Derek Bodkin. Read our interview with Derek here, and <a href="#vid">watch him whistling on stage at the 2016 Redwood Ramble music festival</a>.</i></p>
-      <p><h2>Name:</h2> Derek Bodkin<br>
-<h2>Role:</h2> International Sales Account Coordinator<br>
-<h2>Years with Nordic Naturals:</h2> 5.5</p>
+      <p><b>Name:</b> Derek Bodkin</p>
+<p><b>Role:</b> International Sales Account Coordinator</p>
+<p><b>Years with Nordic Naturals:</b> 5.5</p>
 
 <p>
-<h2>What do you do at Nordic Naturals, and what do you like best about your job?</h2>
+<b>What do you do at Nordic Naturals, and what do you like best about your job?</b>
 I work with our distributors to get Nordic Naturals products overseas. This is not my first role at Nordic Naturals, and it’s really a different mindset from what I was doing before. What I like about it is seeing how things operate on a global scale, and also seeing things from a different cultural perspective. It’s a job that has strengthened my desire to see more of the world.
 </p>
 <p>
-<h2>Where did you grow up, and how has that place influenced you?</h2>
+<b>Where did you grow up, and how has that place influenced you?</b>
 I was born in Boston, but I grew up mostly in southern California. Being a musician and living in close proximity to L.A., I eventually found myself in Hollywood, doing post-production sound editing and music editing. I also did some work as a voice-over actor. But I wasn’t really playing music, which has always been my passion. It was when I moved to Santa Cruz that I started playing dive bars and then that evolved into bigger shows that grew into touring on my days off.
 </p>
 <p>
-<h2>What personal accomplishment are you most proud of?</h2>
+<b>What personal accomplishment are you most proud of?</b>
 Recording and producing an entire album. I played most of the instruments myself, wrote most of the songs, and paid my other musicians for their time and their talents. Other friends offered to help me with it here and there, but it was really important to me to do it on my own. The album is called <a href="http://www.cdbaby.com/cd/derekbodkin" target="_none">“True Story.”</a>
 </p>
 <p>
-<h2>What is something about you that few people know? Do you have any hidden talents?</h2>
+<b>What is something about you that few people know? Do you have any hidden talents?</b>
 Most people here know that I’m a musician, and that I’m in a band and I have this whole other life outside of work.  But not a lot of people know that I’m a <a href="#vid">professional whistler</a> (laughs).  And that I’m a multi-instrumentalist.  I have a degree in music composition and conducting, with my major instrument being percussion. I’ve played banjo, guitar, harmonica, and piano since I was a child.
 </p>
 <p>
-<h2>What Nordic Naturals products do you take? Any observations you’d like to share?</h2>
+<b>What Nordic Naturals products do you take? Any observations you’d like to share?</b>
 I’ve never been a supplements guy, mostly because I can never remember to take them. But I always remember to take my <a href="http://www.nordicnaturals.com/en/Products/Product_Details/514/?ProdID=1428" target="_none">Ultimate Omega</a>, everyday. I think it keeps me from feeling dried out on the inside. I also take <a href="http://www.nordicnaturals.com/en/General_Public/Vitamin_D3_formulas/365" target="_none">vitamin D</a> on my doctor’s orders.
 </p>
 <p>
-<h2>What does “living healthfully” mean to you?</h2>
+<b>What does “living healthfully” mean to you?</b>
 Finding balance. It’s hard not to take work home with you, but if you can do that, great. I also think it’s important to govern yourself with integrity. Stay away from gossip. Be honest, even when it’s uncomfortable.
 </p>
 <p>
@@ -923,7 +1290,7 @@ Finding balance. It’s hard not to take work home with you, but if you can do t
         imageUrl: "http://res.cloudinary.com/nordic-naturals/image/upload/v1501788656/web/blog-assets/post-images/jonna-compressor.jpg",
         contentPreview: "If you happen to call Nordic Naturals to place an order or ask a product question, there’s a good chance you’ll find yourself chatting ...",
         content: `
-          <p><i>If you happen to call Nordic Naturals to place an order or ask a product question, there’s a good chance you’ll find yourself chatting with the unforgettable Jonna Paiss. We asked Jonna to be the subject of our first employee spotlight, and she graciously accepted. Read our interview with Jonna here, and <a href=\"#embed-container\">watch her answer our parting question on video</a>.</i></p><p><h2>Name:</h2> <p>Jonna Paiss</p><h2>Role:</h2> <p>Consumer Sales and Education Representative</p><h2>Years with Nordic Naturals:</h2> <p>5</p><p><h2>What do you do at Nordic Naturals, and what do you like best about your job?</h2></p><p>I work in customer service, so I answer questions about our products all day long. I’ve always been interested in nutrition and biology, and I like helping people find the right supplement for them. I used to work in the healthcare industry, and for me working in the natural products industry is much more satisfying.</p><p>One reason I like talking about our products is because I have so much confidence in them. I try everything we make so I can get a firsthand experience with each product. I keep a spice rack in my bathroom filled with all my Nordic Naturals supplements.</p><p><h2>What’s the strangest customer question you’ve ever received?</h2></p><p>I certainly get some very specific questions from customers, everything from whether or not our products are kosher to what kinds of glue we use on our product labels. It’s part of the fun, you know, going and hunting down the answers to the more unusual questions.</p><p>I guess the strangest question I ever got was from a woman who called to ask about the tiny illustrated trolls on our Nordic Berries multivitamin label. She wanted to know if they were associated with the occult. I told her the trolls were common in Norwegian fairy tales, nothing more than a fanciful reference to Scandinavian folklore.</p><p><h2>Where did you grow up?</h2></p><p>I was born and raised in a small town in Denmark, and I immigrated to the US when I was in my twenties. I practically grew up in a library... I spent most of my teenage years with my head in a book, and I’m still a voracious reader today.</p><p><h2>Since you’ve been here for 5 years, I gather you’ve been taking fish oil for a while. Any observations you’d like to share?</h2></p><p>Probably the biggest thing I noticed when I first started working here was the high product quality. I’ve always trusted the science behind the nutrition, so I never questioned things I experienced in the past with other products, like fishy aftertaste or unpleasant burps. I just figured those things were to be tolerated, the way you tolerate other things that might be good for you—like onions.</p><p><h2>What Nordic Naturals products do you take?</h2></p><p>I currently take <a href=\"http://www.nordicnaturals.com/en/Products/Product_Details/514/?ProdID=1746\" target=\"_none\">Omega Curcumin</a>, <a href=\"http://www.nordicnaturals.com/en/Products/Product_Details/514/?ProdID=1414\" target=\"_none\">EPA</a> with concentrated <a href=\"http://www.nordicnaturals.com/en/Products/Product_Details/514/?ProdID=1647\" target=\"_none\">GLA</a>, <a href=\"http://www.nordicnaturals.com/en/General_Public/Vitamin_D3_formulas/365\" target=\"_none\">vitamin D3</a>, and <a href=\"http://www.nordicnaturals.com/en/Products/Product_Details/514/?ProdID=1699\" target=\"_none\">Nordic Flora Probiotic Daily</a>. Over the years I’ve tried a lot of different formulations, but in general I try to take 2000 milligrams EPA and DHA daily. In the winter especially, I take vitamin D3 regularly. And I supplement with other products, like Omega Curcumin and <a href=\"http://www.nordicnaturals.com/en/General_Public/Eye_Health/1231\" target=\"_none\">Omega Vision</a>, depending on whatever issue I may be trying to address. When I first tried our Nordic Flora probiotics, I was like, oh my God! Because I felt an immediate difference. (laughs)</p><p><h2>What is something about you that few people know? Do you have a hidden talent?</h2></p><p>I have nothing BUT hidden talents. All my talents are really hard to find! One advantage of talking to new people all day is that my jokes never get old. I try to be light about things, because I enjoy making people laugh.</p><p><h2>I happen to know that you’re really good at crafting.</h2></p><p>Yes, I do like to sew and knit and do crafty things. I’m really into making costumes right now. And a lot of people don’t know this, but I’m actually a good cook. I developed some pretty good cooking skills in college—whisking and stirring, those are my hidden talents. And talking and enjoying good food with friends.</p><p><h2>We talk a lot about health here at Nordic Naturals. What does “living healthfully” mean to you?</h2></p><p>To me “living healthfully” is a state of mind. It’s about striving for harmony and balance in your life. We have a saying in Denmark: “Everything in moderation, including moderation.” I think it’s important to pick your battles in life, and focus on what gives you enjoyment. Otherwise it’s really easy to get frustrated and feel powerless. I guess you could say I try not to sweat the small stuff.<p><p><h2>Video Question: You’re from Denmark. Explain “hygge” to us.</h2><div id=\"embed-container\"><iframe src=\"https://player.vimeo.com/video/212996319\" frameborder=\"0\" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div></p>
+          <p><i>If you happen to call Nordic Naturals to place an order or ask a product question, there’s a good chance you’ll find yourself chatting with the unforgettable Jonna Paiss. We asked Jonna to be the subject of our first employee spotlight, and she graciously accepted. Read our interview with Jonna here, and <a href=\"#embed-container\">watch her answer our parting question on video</a>.</i></p><p><b>Name:</b> <p>Jonna Paiss</p><b>Role:</b> <p>Consumer Sales and Education Representative</p><b>Years with Nordic Naturals:</b> <p>5</p><p><b>What do you do at Nordic Naturals, and what do you like best about your job?</b></p><p>I work in customer service, so I answer questions about our products all day long. I’ve always been interested in nutrition and biology, and I like helping people find the right supplement for them. I used to work in the healthcare industry, and for me working in the natural products industry is much more satisfying.</p><p>One reason I like talking about our products is because I have so much confidence in them. I try everything we make so I can get a firsthand experience with each product. I keep a spice rack in my bathroom filled with all my Nordic Naturals supplements.</p><p><b>What’s the strangest customer question you’ve ever received?</b></p><p>I certainly get some very specific questions from customers, everything from whether or not our products are kosher to what kinds of glue we use on our product labels. It’s part of the fun, you know, going and hunting down the answers to the more unusual questions.</p><p>I guess the strangest question I ever got was from a woman who called to ask about the tiny illustrated trolls on our Nordic Berries multivitamin label. She wanted to know if they were associated with the occult. I told her the trolls were common in Norwegian fairy tales, nothing more than a fanciful reference to Scandinavian folklore.</p><p><b>Where did you grow up?</b></p><p>I was born and raised in a small town in Denmark, and I immigrated to the US when I was in my twenties. I practically grew up in a library... I spent most of my teenage years with my head in a book, and I’m still a voracious reader today.</p><p><b>Since you’ve been here for 5 years, I gather you’ve been taking fish oil for a while. Any observations you’d like to share?</b></p><p>Probably the biggest thing I noticed when I first started working here was the high product quality. I’ve always trusted the science behind the nutrition, so I never questioned things I experienced in the past with other products, like fishy aftertaste or unpleasant burps. I just figured those things were to be tolerated, the way you tolerate other things that might be good for you—like onions.</p><p><b>What Nordic Naturals products do you take?</b></p><p>I currently take <a href=\"http://www.nordicnaturals.com/en/Products/Product_Details/514/?ProdID=1746\" target=\"_none\">Omega Curcumin</a>, <a href=\"http://www.nordicnaturals.com/en/Products/Product_Details/514/?ProdID=1414\" target=\"_none\">EPA</a> with concentrated <a href=\"http://www.nordicnaturals.com/en/Products/Product_Details/514/?ProdID=1647\" target=\"_none\">GLA</a>, <a href=\"http://www.nordicnaturals.com/en/General_Public/Vitamin_D3_formulas/365\" target=\"_none\">vitamin D3</a>, and <a href=\"http://www.nordicnaturals.com/en/Products/Product_Details/514/?ProdID=1699\" target=\"_none\">Nordic Flora Probiotic Daily</a>. Over the years I’ve tried a lot of different formulations, but in general I try to take 2000 milligrams EPA and DHA daily. In the winter especially, I take vitamin D3 regularly. And I supplement with other products, like Omega Curcumin and <a href=\"http://www.nordicnaturals.com/en/General_Public/Eye_Health/1231\" target=\"_none\">Omega Vision</a>, depending on whatever issue I may be trying to address. When I first tried our Nordic Flora probiotics, I was like, oh my God! Because I felt an immediate difference. (laughs)</p><p><b>What is something about you that few people know? Do you have a hidden talent?</b></p><p>I have nothing BUT hidden talents. All my talents are really hard to find! One advantage of talking to new people all day is that my jokes never get old. I try to be light about things, because I enjoy making people laugh.</p><p><b>I happen to know that you’re really good at crafting.</b></p><p>Yes, I do like to sew and knit and do crafty things. I’m really into making costumes right now. And a lot of people don’t know this, but I’m actually a good cook. I developed some pretty good cooking skills in college—whisking and stirring, those are my hidden talents. And talking and enjoying good food with friends.</p><p><b>We talk a lot about health here at Nordic Naturals. What does “living healthfully” mean to you?</b></p><p>To me “living healthfully” is a state of mind. It’s about striving for harmony and balance in your life. We have a saying in Denmark: “Everything in moderation, including moderation.” I think it’s important to pick your battles in life, and focus on what gives you enjoyment. Otherwise it’s really easy to get frustrated and feel powerless. I guess you could say I try not to sweat the small stuff.<p><p><b>Video Question: You’re from Denmark. Explain “hygge” to us.</b><div id=\"embed-container\"><iframe src=\"https://player.vimeo.com/video/212996319\" frameborder=\"0\" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div></p>
         `,
         ref1title: "Why Natural-Form Fish Oils are Better for Your Body—and Your Wallet",
         ref1category: "all-about-science",
