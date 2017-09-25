@@ -74,14 +74,12 @@ export const store = new Vuex.Store({
 
 
 
-      <p>
-        <ul>
-          <li><b>1. Get up and stretch.</b> Walk from meeting to meeting, get up and get a water or snack, and get a few twists and stretches in every 20-30 mins at your desk. Remember to stretch out your hamstrings in particular. As I mentioned, tight hamstrings are the number one cause of low back pain in the workplace. Try yoga, or better yet, just spend 10 minutes a day stretching those hammies out.</li>
-          <li><b>2. Strengthen your upper back.</b> Any sort of upper body pulling motion will do wonders on your back. TRX rows, planking rows, pull ups, spri band pulls… anything where your arms are out in front of you (or overhead) and you are pulling back or down towards the armpits is perfect!</li>
-          <li><b>3. Increase your daily activity.</b> Schedule walking meetings and phone calls, take the stairs rather than the elevator, exercise at lunch, or try biking to work. Set alarms on your phone to remind yourself to get up and stretch. Get up and go ask people questions in person rather than sending an email. At the very least, start becoming more aware of how much time you actually spend sitting each day.</li>
-          <li><b>4. Avoid sitting outside work.</b> Once you’re home for the day, get some exercise! Go for a walk with your family, play with the kids, stand up and cook an awesome meal in the kitchen, or substitute hobbies for TV time. Just try and be active—your body will thank you!</li>
-        </ul>
-      </p>
+      <p><b>1. Get up and stretch.</b> Walk from meeting to meeting, get up and get a water or snack, and get a few twists and stretches in every 20-30 mins at your desk. Remember to stretch out your hamstrings in particular. As I mentioned, tight hamstrings are the number one cause of low back pain in the workplace. Try yoga, or better yet, just spend 10 minutes a day stretching those hammies out.</p>
+      <p><b>2. Strengthen your upper back.</b> Any sort of upper body pulling motion will do wonders on your back. TRX rows, planking rows, pull ups, spri band pulls… anything where your arms are out in front of you (or overhead) and you are pulling back or down towards the armpits is perfect!</p>
+      <p><b>3. Increase your daily activity.</b> Schedule walking meetings and phone calls, take the stairs rather than the elevator, exercise at lunch, or try biking to work. Set alarms on your phone to remind yourself to get up and stretch. Get up and go ask people questions in person rather than sending an email. At the very least, start becoming more aware of how much time you actually spend sitting each day.</p>
+      <p><b>4. Avoid sitting outside work.</b> Once you’re home for the day, get some exercise! Go for a walk with your family, play with the kids, stand up and cook an awesome meal in the kitchen, or substitute hobbies for TV time. Just try and be active—your body will thank you!</p>
+
+      
 
       <img src="http://res.cloudinary.com/nordic-naturals/image/upload/v1506366030/web/blog-assets/post-images/dangers-of-sitting-body.jpg">
 

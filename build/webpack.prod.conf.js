@@ -54,7 +54,8 @@ var webpackConfig = merge(baseWebpackConfig, {
         '/blog/home-life/omega-3s-why-theyre-especially-important-for-mens-health',
         '/blog/home-life/how-to-marie-kondo-your-medicine-cabinet',
         '/blog/home-life/time-to-get-a-move-on-joint-health',
-        '/blog/home-life/reading-writing-and-omega-3s'
+        '/blog/home-life/reading-writing-and-omega-3s',
+        '/blog/home-life/why-your-body-doesnt-want-you-to-sit-all-day'
       ],
       {
         ignoreJSErrors: true
