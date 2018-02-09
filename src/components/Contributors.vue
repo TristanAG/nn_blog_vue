@@ -14,7 +14,7 @@
             <div class="author-component-right-pane">
               <div class="title">{{author.name}}</div>
               <p>{{author.bio}}</p>
-              <hr v-if="index != 3" class="hr-category" style="margin-top: 26px;">
+              <hr v-if="index != 5" class="hr-category" style="margin-top: 26px;">
             </div>
           </div>
         </div>
@@ -52,12 +52,22 @@ export default {
         },
         {
           name: "Jackie Hansmann",
-          picture: "http://www.nordicnaturals.com/dev/blog-images/jackie-sq-compressor.jpg",
+          picture: "http://res.cloudinary.com/nordic-naturals/image/upload/v1511284915/web/blog-assets/jackie-bio-photo.jpg",
           bio: "Jackie is the outreach coordinator at Nordic Naturals. Her passion for helping others and cultivating meaningful relationships is reflected in her work managing cause partnerships and advocating for corporate social responsibility. A camping and adventuring enthusiast in her off hours, Jackie is always encouragingothers to think globally and act locally."
         },
         {
+          name: "Debbie Drecksel",
+          picture: "http://res.cloudinary.com/nordic-naturals/image/upload/v1510603324/web/blog-assets/debbie-photo.jpg",
+          bio: `Inspired by her childhood gardening roots, Debbie Drecksel is a passionate health and
+          wellness educator. After studying nutrition and exercise physiology at the University of
+          Utah, she worked as a physical therapist and then spent three years as a Whole Body
+          Specialist for Whole Foods. Building on her passion for wellness, Debbie has participated
+          for many years in the natural products industry, presenting seminars and trainings,
+          conducting interviews, and appearing at tradeshow events.`
+        },
+        {
           name: "Claudia Burgin",
-          picture: "http://www.nordicnaturals.com/dev/blog-images/claudia2-sq-compressor.jpg",
+          picture: "http://res.cloudinary.com/nordic-naturals/image/upload/v1511284915/web/blog-assets/Claudia-bio-photo.jpg",
           bio: "Claudia is a marketing writer at Nordic Naturals. A former journalist, she has been writing for the science and technology communities for the past 20 years. Her natural curiosity for how things work and her lifelong tendency to choose natural remedies over pharmaceuticals led her to join the natural products industry in 2016. In her spare time, Claudia can be found spending time outdoors with her family."
         }
       ]
@@ -67,6 +77,6 @@ export default {
 </script>
 <style scoped>
   .author-component-left-pane > img{
-    border-radius: 50%;
+    /*border-radius: 50%;*/
   }
 </style>

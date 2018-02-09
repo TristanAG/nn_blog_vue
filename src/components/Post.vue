@@ -105,6 +105,10 @@ export default {
     latestPost: function () {
       var latestPost = this.$store.state.posts[0]
       //extra control switch after && to ensure that both refs are unique (don't latest post == latest category post)
+      // if(this.post.title == 'Creating Healthy Habits That Stick'){
+      //   return this.$store.state.posts[2]
+      // }
+
       if (this.post.title != latestPost.title && this.latestCategoryPost.title != latestPost.title){
         return latestPost
       }else{

@@ -7,6 +7,1038 @@ export const store = new Vuex.Store({
   state: {
     posts: [
       {
+        id: 34,
+        category: 'all-about-science',
+        categoryText: 'ALL ABOUT SCIENCE',
+        author: 'CLAUDIA BURGIN',
+        postUrl: 'coq10-and-omega-3s-a-heart-health-powerhouse',
+        title: 'CoQ10 and Omega-3s: A Heart Health Powerhouse',
+        imageUrl: 'http://res.cloudinary.com/nordic-naturals/image/upload/v1517606203/heart-health-hero.jpg',
+        contentPreview: 'Your heart is one hard-working organ. Here’s one powerful combination to help you keep the beat going strong for a lifetime.',
+        content: `
+        <p>A mom I know just had a heart transplant. Yes, you read that right. Transplant. Right now, she’s the only person I know who’s not taking this hard-working organ for granted. The rest of us go about our daily routines without giving a second thought to the fist-sized muscle in our chests that’s constantly pumping life-giving blood throughout our bodies. Beating <a href="https://wonderopolis.org/wonder/how-many-times-does-your-heart-beat-in-a-lifetime" target="_none">an average of 80 times per minute</a>, 115,200 times per day, more than 42 million times a year.</p>
+      <p>Of course, we all know our bodies wouldn’t function if our hearts stopped working. But what we might not know is how critically important nutrition is to supporting healthy heart function.* There are two nutrients that  are particularly vital to heart health—Coenzyme Q10 (a.k.a. CoQ10) and omega-3 fatty acids.* You may already know a good deal about the importance of omega-3s, so let’s start with CoQ10.</p>
+      <h2>What’s CoQ10?</h2>
+      <p>CoQ10 is a vitamin-like nutrient that helps your cells generate energy—in a form known as adenosine triphosphate (ATP)—needed to carry out some of your body’s most critical functions.* If you think of your cells’ mitochondria as a tiny engine, you can think of CoQ10 as the fuel that powers them. CoQ10 is most highly concentrated in your heart, brain, kidneys, and liver—organs with high-energy requirements.<sup>1</sup> CoQ10 also acts as an <a href="https://www.umm.edu/health/medical/altmed/supplement/coenzyme-q10" target="_none">antioxidant</a>, helping to neutralize the free radicals that can damage cells.*</p>
+      <p>Our bodies make CoQ10, which is a good thing because <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3178961/" target="_none">our cells couldn’t function</a> without it. However, as we get older our bodies make <a href="https://www.mayoclinic.org/drugs-supplements-coenzyme-q10/art-20362602" target="_none">less and less</a> of it. You can also get small amounts of CoQ10 from foods such as beef, fish, organ meats, olive oil, soybeans, broccoli, and avocados. But according to the <a href="https://nccih.nih.gov/health/supplements/coq10#hed1" target="_none">National Institutes of Health</a>, these food sources are not enough to significantly boost the CoQ10 levels in your body. For this reason, many people—particularly those concerned about heart health—decide to take <a href="https://www.nordicnaturals.com/en/consumers/heart-health/1228" target="_none">CoQ10 supplements</a>.</p>
+      <p>As a supplement, CoQ10 comes in two forms: ubiquinol and ubiquinone. Both forms occur naturally in the body and are part of the same energy-making cycle inside your cells. Ubiquinone is the oxidized form of CoQ10, and when your cells use it to make energy, it is transformed into ubiquinol, the reduced form of CoQ10. Your body strives to maintain <a href="https://www.ncbi.nlm.nih.gov/pubmed/1637852" target="_none">a controlled balance</a> between the two forms, converting ubiquinone to ubiquinol as needed.<sup>2</sup> Some people—athletes and older adults, in particular—prefer supplementing with the (more expensive) ubiquinol form of CoQ10 because it needs no conversion once it is absorbed. Either form, however, will increase your body’s stores of this vital nutrient.*</p>
+      <h2>Omega-3s and Your Heart</h2>
+      <p>We could all probably do a better job of keeping our hearts healthy over the long term. One way to do that is to make sure we’re getting the right amount of healthy fats in our diet.</p>
+      <p>Healthy fats are so important to heart health, the American Heart Association recommends eating at least two servings of fatty fish (rich in omega-3 fats EPA and DHA) each week. For people with a documented history of heart disease, the <a href="http://atvb.ahajournals.org/content/23/2/151" target="_none">American Heart Association recommends</a> consuming 1000 mg omega-3s EPA and DHA daily, and 2,000–4,000 mg omega-3s EPA and DHA for those with other known risk factors such as high triglyceride levels.*</p>
+      <p>Why are omega-3s so important for heart health? To start with, structurally, the omega-3 fats EPA and DHA make up part of our cell membranes, playing a key role in helping each and every one of our cells remain flexible and fluid enough to effectively absorb nutrients and expel wastes.*<sup>4</sup></p>
+      <p>The omega-3 fatty acids EPA and DHA have also been <a href="https://www.ncbi.nlm.nih.gov/pubmed/24610882" target="_none">clinically shown</a> to help modulate both systolic and diastolic (upper and lower numbers) blood pressure.*<sup>5</sup> Numerous other studies have found that omega-3s EPA and DHA help to lower triglyceride levels, and support healthy cell signaling (omega-3 fats make up 40% of fats in the central nervous system) and heart rhythms.*<sup>6</sup> The bottom line? Omega-3s EPA and DHA are essential for helping maintain optimal heart function. So make sure your diet contains enough of these healthy fats.</p>
+      <h2>Feed Your Heart Well</h2>
+      <p>Do your heart a favor and don’t take it for granted. Show it the care it deserves by eating a healthy, balanced diet, exercising regularly, maintaining a healthy weight, and supplementing with CoQ10 and omega-3s to fill in any nutritional gaps. Your heart will love you back for a lifetime.</p>
+      <a href="https://www.nordicnaturals.com/en/consumers/heart-health/1228" target="_none"><img src="http://res.cloudinary.com/nordic-naturals/image/upload/v1517606204/hearth-health-body.jpg"></a>
+      <p><small>
+        References <br>
+        <i>
+
+
+1 <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3178961/" target="_none">J Pharm Bioallied Sci.</a> 2011 Jul-Sep; 3(3): 466–467.<br>
+
+2 <a href="https://www.ncbi.nlm.nih.gov/pubmed/1637852" target="_none">Biochim Biophys Acta.</a> 1992 Jun 26;1126(3):247-54.<br>
+
+3 <a href="http://www.who.int/beat-ncds/take-action/policy-brief-drug-theraphy.pdf?ua=1" target="_none">“Global NCD Target: Prevent Heart Attacks and Strokes through Drug Therapy and Counseling,”</a> WHO Brief, Sept 2016.<br>
+
+4 <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4153275/" target="_none">Tanaffos.</a> 2014; 13(1): 6–14.<br>
+
+5 <a href="https://www.ncbi.nlm.nih.gov/pubmed/24610882" target="_none">Am J Hypertens.</a> 2014 Jul;27(7):885-96. doi: 10.1093/ajh/hpu024. Epub 2014 Mar 6.<br>
+
+6 <a href="https://www.ncbi.nlm.nih.gov/pubmed/22264569" target="_none">J Clin Lipidol.</a> 2012 Jan-Feb;6(1):5-18. doi: 10.1016/j.jacl.2011.10.018. Epub 2011 Nov 3.<br><br>
+*These statements have not been evaluated by the Food and Drug Administration. These products are not intended to diagnose, treat, cure, or prevent any disease.
+<br><br>
+
+The American Heart Association does not endorse Nordic Naturals products or brand.
+</i></small>
+        `
+      },
+      {
+        id: 33,
+        category: 'big-picture',
+        categoryText: 'BIG PICTURE',
+        author: 'JACKIE HANSMANN',
+        postUrl: 'mentor-a-young-person-and-change-someones-life-for-the-better',
+        title: 'Mentor a Young Person and Change Someone’s Life for the Better',
+        imageUrl: 'http://res.cloudinary.com/nordic-naturals/image/upload/v1516999801/be-the-change-hero.jpg',
+        contentPreview: 'January is National Mentoring Month, and a good time to reassess how we all spend our most valuable resource—time. Spending time with a young person—also known as mentoring—can positively influence a person’s future, and even change the course of a life.',
+        content: `
+        <p>It’s been said that we’re all the sum of our experiences. From that perspective, it’s easy to see how important it is to surround ourselves with caring, positive adults while we’re growing up.</p>
+      <p>My family moved multiple times during my childhood, and the transition to a new home, neighborhood, and school was never easy. The move during my teen years from California to Oregon was particularly tough. High school can be challenging enough without having to be the new kid, navigating a whole new set of peer groups to find where you fit in. My parents encouraged me to join a sports team as a way to meet friends and ease some of the angst I felt. And that’s how I met Joella, a volleyball coach who not only made me feel welcome in a strange town, but who also helped me build my self-confidence and form a new circle of friends. Joella was (and still is) physically strong, self-confident, and intelligent. I recognized and admired those qualities in her even then, and spending time with her helped me adopt a more positive outlook on my own life. Even now, when I think of Joella I silently thank her for unofficially mentoring me.</p>
+      <p>My experience is one that science actually affirms. <a href="http://www.bbbs.org/impact-on-education/" target="_none">Studies show</a> that young people who have a mentor are more likely to attend school and become more engaged learners, and are more likely to finish high school and go on to college. They’re also more likely to develop positive social attitudes and relationships, which can be a <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3150158/" target="_none">key factor in determining overall health</a>.</p>
+      <p>Adolescent and teenage years are a particularly important time to have a mentor. In fact, teens who spend time with a caring adult are <a href="http://www.bbbs.org/research/" target="_none">much less likely to begin using</a> drugs and alcohol. Having a person to confide in and look up to positively impacts those who might otherwise turn to destructive behaviors. Spending time with a mentor can even <a href="http://ppv.issuelab.org/resource/making-a-difference-an-impact-study-of-big-brothers-big-sisters-re-issue-of-1995-study.html" target="_none">improve a young person’s relationships</a> with his or her own family. </p>
+      <p>What’s really great is that mentorship is a two-way street, since mentors themselves benefit from these relationships, too. Adults who volunteer with <a href="http://www.bbbs.org/" target="_none">Big Brothers Big Sisters</a>, a national organization dedicated to matching young people with caring mentors, frequently find that being a mentor positively impacts their own sense of well-being, according to the organization.</p>
+
+      <img src="http://res.cloudinary.com/nordic-naturals/image/upload/v1516999801/be-the-change-body.jpg">
+
+      <p>Big Brothers Big Sisters makes it easy to get involved. They carefully and thoughtfully match adult volunteers with youth enrolled in their program based on personal interests to ensure the relationship is rewarding and mutually beneficial. The requirement to become a “Big?” Commit to spending 8-12 hours a month with your “Little.” <a href="http://www.bbbs.org/research/" target="_none">The matches that researchers have observed</a> shared everyday activities: eating out, playing sports or attending sporting events, going to movies, sightseeing, and just hanging out together. What mattered most to the children were not the activities, but the fact that they had a caring adult in their lives.</p>
+
+      <p>BBBS is one of the organizations Nordic Naturals supports as a corporate sponsor, and it’s through this relationship that I first learned about BBBS and the work they do. What is particularly exciting for me is how BBBS has been able to quantify the difference mentors actually make in children’s lives: </p>
+      <p>
+      <b>Self Confidence</b><br>
+      90% agreed their “Big” made them feel better about themselves.
+      <br>
+      <br>
+      <b>Social Behavior</b><br>
+      86% said their relationship with their “Big” has helped them make better choices throughout their lives.
+      <br>
+      <br>
+      <b>Education</b><br>
+      65% agreed their “Big” helped them reach a higher level of education than they thought possible.
+      </p>
+      <p>If you’re looking for a new way to add meaning to your own life in 2018, consider becoming a mentor. A small investment of time can lead to big change for the youth of our communities.
+Need a little inspiration? <a href="http://www.santacruzmentor.org/about-us/match-of-the-year-2017/" target="_none">Check out this story</a> about the “Match of the Year” from the local BBBS chapter near me in Santa Cruz County. Then go out and <a href="http://www.bbbs.org/" target="_none">be the difference</a> in someone else’s life. </p>
+        `
+      },
+      {
+        id: 32,
+        category: 'the-nordic-way',
+        categoryText: 'THE NORDIC WAY',
+        author: 'NORDIC NATURALS STAFF',
+        postUrl: 'do-you-really-need-omega-3s',
+        title: 'Do You Really Need Omega-3s?',
+        imageUrl: 'http://res.cloudinary.com/nordic-naturals/image/upload/v1516407297/web/blog-assets/kate.jpg',
+        contentPreview: 'A Q&A with registered dietitian and Nordic Naturals’ nutrition specialist, Kate Turner, M.A., R.D.',
+        content: `
+
+      <p><i>We’re pretty sure you’ve heard us say it a thousand times: Omega-3s are essential to health. But why do you really need them? It’s a fair question, and one our in-house, registered dietitian and nutrition expert (not to mention personal trainer) Kate Turner is happy to answer. With a smile.</i><p>
+
+      <p><b>Q. As an educator, I’m sure you’ve been asked before: Do we really need omega-3s?</b></p>
+      <p>A. The answer is 100% YES! Many people are aware that omega-3s are important for their health, but because they’re not sure exactly what omega-3s do for them physiologically, they question whether they really need them as part of their diet. </p>
+      <p><b>Q. Can you break it down for us in simple terms here?</b></p>
+      <p>A. Our health starts in our cells. Healthy cells are the basis for everything we do, from eating and sleeping, to walking and thinking. Omega-3 fatty acids play a major role in keeping our cells healthy and functioning at their best in that they help make up our cell membranes, giving them the fluidity and flexibility needed to let vital nutrients in and push cellular waste out.* Just think of all the important nutrients we absorb through food each day that may or may not actually make it into our cells if our cells are not able to function properly. </p>
+      <p><b>Q. Where can we get these omegas? Do our bodies make them?</b></p>
+      <p>A. Our bodies typically make most of the fats we need for optimal health. But <a href="https://ods.od.nih.gov/factsheets/Omega3FattyAcids-HealthProfessional/" target="_none">our bodies are only able to produce very small amounts of omega-3 fats</a>, which is why it’s essential that we get these fats from our diet. In contrast, most of us get far too many omega-6 fatty acids, another essential fat our cells need (in moderation) from processed foods and oils. And that can make it hard to achieve a healthy balance of essential fats, which is another key component to healthy cellular function.</p>
+      <p><b>Q. Why is it that most people aren’t getting enough omega-3s?</b></p>
+      <p>A. The hard truth is that about <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3992162/" target="_none">90% of Americans are deficient</a> in omega-3s, making it one of the top nutrient deficiencies in the U.S. At the same time, the omega-6 to omega-3 fatty acid ratio has increased to up to <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4808858/" target="_none">20:1 or even higher</a> in the past three decades. It should be a much more balanced ratio. The reason we find ourselves facing these drastic numbers is that our current diets are overloaded with omega-6 rich foods, and we aren’t consuming enough of the foods that contain essential omega-3 fats.</p>
+      <p><b>Q. Can you explain a little bit more about this omega-6 overload?</b></p>
+      <p>A. The current Western diet is flooded with foods high in omega-6 fats, including our processed foods like fast foods, a lot of our sweets, cheeses, and most of our cooking oils. Keep in mind, this also includes foods we may not think of as processed like our “healthy” granola bars or breakfast cereals. (A good tip to remember: If a food is not in its form found in nature, then it’s considered processed.) </p>
+      <p>Now you may be saying, “I don’t eat any of these foods, so I don’t need to worry about an omega-6 overload.” But it’s not only our processed foods we have to think about when it comes to consuming excess omega-6 fats. Foods like avocados, eggs, chickpeas (e.g. hummus), brown rice, chicken, and walnuts are all high in omega-6 fatty acids. Yes, walnuts! Now this doesn’t mean we have to give up these foods, it just means that we have to increase our omega-3 intake to achieve a better omega balance and provide our cells with the fats they need. </p>
+      <p><b>Q. So how do we know we’re consuming the right fats?</b></p>
+      <p>A. To achieve a healthy balance of omega-3 and omega-6 fats, you have to get enough of the right omega-3s, EPA and DHA. EPA and DHA support our cell membranes and because of this they positively affect many processes and functions in our body. I like to think of DHA as the “neck up” omega-3, supporting our brain and eyes.* DHA is the most concentrated in our brain and eye tissue. It plays an integral part in keeping our brain and eyes functioning at their best, supporting a positive mood, learning, and memory in both children and adults.*
+      </p>
+      <p>
+        EPA is our “neck down” omega-3, supporting heart health, joint health, immune function, mood health, and a healthy inflammatory response.* There are two main sources for these essential fats: marine sources, like cold-water, fatty fish and algae; and plant-based sources, like chia and flaxseeds. </p>
+      <p>It’s important to note here that plant-based omega-3 sources offer far less omega-3 EPA and DHA per serving than marine sources. Plant-based sources of omega-3s contain the ALA form, which our bodies must convert to the EPA and DHA our cells need. Unfortunately, this conversion rate can be as low as 1–5%! To put this in perspective, you would have to consume a 10-ounce bag of flax or chia seeds just to get 1000 mg of EPA and DHA each day. Marine sources, however, do not need to go through this conversion process because they naturally contain EPA and DHA.</p>
+      <p><b>Q. How much fish should you eat to get the omega-3s your body needs?</b></p>
+      <p>A. Even if you planned to get all your omega-3s from EPA- and DHA-rich marine sources, you would have to consume 3–6 ounces of cold-water, fatty fish (e.g. mackerel, lake trout, herring, tuna, salmon, sardines, and anchovies) every day! Now, who can realistically-and safely-consume this amount every day with the rising cost of seafood and presence of heavy metals like mercury? As a nutritionist, I’m always one to push food first, but omega-3s are one of those essential nutrients our bodies need that are extremely unrealistic to get through diet alone, and the research is there to back it up. </p>
+      <p>Adding a <a href="https://www.nordicnaturals.com/en/consumers/omega-3-concentrates/361" target="_none">fish oil supplement</a> to your daily routine can be a safe and easy way to meet your body’s daily need for omega-3 EPA and DHA. I’m a big believer in giving your cells the essential fats they need, whether it’s taking a high-quality fish oil or <a href="https://nordicnaturals.com/en/consumers/algae-omega/514/?ProdID=1654" target="_none">algae oil supplement</a>, or eating fresh, wild-caught fatty fish at least twice a week, or a combination of both. </p>
+
+      <img src="http://res.cloudinary.com/nordic-naturals/image/upload/v1516407300/web/blog-assets/omega-3s-to-try.jpg">
+
+      <p><small><i>*These statements have not been evaluated by the Food and Drug Administration. These products are not intended to diagnose, treat, cure, or prevent any disease.</i></small></p>
+        `
+      },
+      {
+        id: 31,
+        category: 'home-life',
+        categoryText: 'HOME LIFE',
+        author: 'CLAUDIA BURGIN',
+        postUrl: 'creating-healthy-habits-that-stick',
+        title: 'Creating Healthy Habits That Stick',
+        imageUrl: 'http://res.cloudinary.com/nordic-naturals/image/upload/v1515783700/web/blog-assets/healthy-habits.jpg',
+        contentPreview: `Don’t abandon those freshly made new year’s resolutions just yet. Learn a few simple tricks for turning your wellness goals into lifelong, healthy habits.`,
+        content: `
+        <p>With every new year comes <a href="https://patch.com/us/across-america/here-are-most-popular-new-years-resolutions-2018" target="_none">a new batch of resolutions</a>—many of them having to do with our health. Whether we want to exercise more, eat more greens, cut down on sugar or caffeine, or get to bed earlier, we often find ourselves making annual promises to ourselves that we don’t end up keeping past February.</p>
+
+      <p>The path to health is a journey, and it’s different for each of us. Creating healthy habits that support our own individual needs is a process that can be started anytime, not just at the beginning of the year. All you need is a clear goal (let’s just ditch the word “resolution” altogether), and a plan for integrating healthy changes and new behaviors into your daily life. The hard part is continuing to choose those new behaviors even when they seem uncomfortable. (We’re all creatures of habit, after all). So with that said, here are a few suggestions for developing healthy habits that actually stick:</p>
+
+      <h2>1) Focus on one goal at a time</h2>
+
+      <p>New year resolutions often fail because we simply take on too much change all at once, according to productivity experts like <a href="http://charlesduhigg.com/" target="_none">Charles Duhigg</a> and <a href="https://jamesclear.com/master-one-thing" target="_none">James Clear</a>. Resist the urge to create a laundry list of health goals. Instead, focus on adopting one new healthy habit at a time. If your goal is to quit caffeine, for example, focus on just that goal for <a href="https://jamesclear.com/new-habit" target="_none">a minimum of two months</a>. Researchers in the UK found that <a href="http://onlinelibrary.wiley.com/doi/10.1002/ejsp.674/abstract" target="_none">it takes, on average, 66 days</a> for a new behavior to become a habit. Interestingly, the same study found that occasional slips in your new routine had no real effect on the long-term outcome. Which means that it’s okay to backslide now and then, as long as you keep returning to your desired behavior.</p>
+
+      <h2>Top Resolutions for 2018</h2>
+
+      <p>
+        <ul style="list-style-type: disc; padding-left: 18px;">
+          <li>Eat healthier
+            <li>Exercise more</li>
+            <li>Save money</li>
+            <li>Improve self-care (e.g. get more sleep)</li>
+            <li>Read more</li>
+            <li>Learn a new skill</li>
+            <li>Make new friends</li>
+            <li>Find a new job</li>
+            <li>Focus more on relationship</li>
+            <li>Cut down on cigarettes/alcohol</li>
+        </ul>
+        <small>(Source: YouGov Dec 2017 online survey <a href="http://d25d2506sfb94s.cloudfront.net/cumulus_uploads/document/366cvmcg44/New%20Year%20Survey,%20December%208%2011,%202017.pdf" target="_none">report</a>)</small>
+      </p>
+
+      <h2>2) Make your goal specific—and write it down</h2>
+
+      <p>Once you’ve chosen your goal, try making it more specific. Instead of setting the goal to “drink more water,” for example, decide <a href="https://www.healthline.com/nutrition/how-much-water-should-you-drink-per-day#section1" target="_none">how much water you want to drink</a> each day and set the goal to drink that specific amount daily. Want to get more sleep? Decide <a href="http://www.sleephealthjournal.org/article/S2352-7218%2815%2900015-7/fulltext" target="_none">how many hours a night you need</a> and make that your goal. Need to cut down on caffeine? Decide on your daily limit (i.e., one cup of coffee or tea in the morning) and make that your goal.</p>
+
+      <p>Then, grab a pen. According to Dr. Gail Matthews, who led a <a href="https://www.dominican.edu/dominicannews/study-demonstrates-that-writing-goals-enhances-goal-achievement" target="_none">research study on goal setting</a> at Dominican University, just the act of writing down your goal can be a powerful indicator of whether or not you’re likely to reach your goal. In the study, those who sent weekly updates to friends on their goal progress accomplished significantly more than those who kept their goals to themselves.</p>
+
+      <p>Tape your written goal to your bathroom mirror, your refrigerator door, or your computer monitor. Tell your spouse or best friend about it. Your written goal will serve as a daily reminder of what you really want, and will help you say “yes” to the behaviors that help you reach your goal, and “no” to those that don’t.</p>
+
+      <h2>3) Develop a plan</h2>
+
+      <p>Set yourself up for success. Make a list of simple steps you can take to help you make your health goal a habit. These should be actions you can integrate easily into your daily routine, right now. Is your goal to improve your diet? Going through your kitchen cupboards and eliminating tempting, sugary sweets from your kitchen might be one action to take. Researching new recipes and meal plans and revising your shopping list is another approach. Trying—and finding—new, healthier foods you enjoy might be one, too. Want to exercise more? Look at what you do now that counts as exercise, and see if you can expand your list. Find a workout partner, a class you enjoy, or schedule a daily walk with a friend. Take the stairs instead of the elevator. Walk or ride your bike to run errands. Use an app or a fitness tool that tracks your steps or miles. The idea is to look at your health goal as a lifestyle change, and not an isolated activity.</p>
+
+      <h2>4) Cue and reward yourself</h2>
+
+      <p>When it comes to habit formation, your brain is hard-wired to seek reward, <a href="http://news.mit.edu/2015/neurons-drive-habit-0819" target="_none">MIT research</a> shows. Many of the things we do daily and automatically—what we eat for breakfast, the route we take to work, the way we brush our teeth—become part of our neural circuitry because of an immediate (as opposed to long-term) perceived benefit. Our brains create a “habit loop” that associates a particular activity with reward, even after that reward is no longer present. What happens right before that activity is the cue that sets the habit loop in motion. So it makes sense to consciously set up your own habit loop for your goal by associating it with a cue, and a reward.</p>
+
+      <p>An obvious cue is timing—associating a new activity with a particular time of day. A reward might be scheduling that activity with a friend, or in a particular place. Last year I decided I needed to start doing more weight-bearing exercise. I had always gravitated more toward cardio fitness activities, so the idea of lifting weights seemed foreign and unappealing to me at first. Then I found a fitness class that took place first thing in the morning (cue), on the beach and in the company of other women (reward). The workouts were challenging, but adding one a week to my schedule gradually became routine. And even though waking up early was never my favorite part, seeing the sunrise never got old.</p>
+        `
+      },
+      {
+        id: 30,
+        category: 'home-life',
+        categoryText: 'HOME LIFE',
+        author: 'TERRA LYNN',
+        postUrl: 'five-ways-to-keep-your-spirits-bright-after-the-holidays-end',
+        title: 'Five Ways to Keep Your Spirits Bright after the Holidays End',
+        imageUrl: 'http://res.cloudinary.com/nordic-naturals/image/upload/v1515432501/web/blog-assets/mood-main-image.jpg',
+        contentPreview: `The transition from holiday season to a brand new year can sometimes feel a little… abrupt. Here are some simple ways to support a healthy mood and stay upbeat after the lights and decorations come down, from checking your shadow to making time for human connection.`,
+        content: `
+        <p>The holiday season often comes with long to-do lists, packed social calendars, vacation travel, and annual gatherings with family and friends. Then comes January, when the holiday lights come down, the decorations get packed away, the parties, family time, and vacations end, and the winter weather starts to really set in. It’s a scenario that can make it hard to stay cheery and bright. Fortunately, there are some simple things you can do to keep your mood up and avoid the post-holiday slump. Here are five we think are beneficial:</p>
+
+      <h2>1) Get Plenty of Omega-3 EPA</h2>
+
+      <p>Omega-3s are some of the most researched nutrients ever, with more than 16,000 studies published to date. Omega-3 fish oil is also one of the first supplements you should reach for to support a healthy mood.* Why? Because scientific evidence shows that the omega-3 essential fats in fish oil—EPA and DHA—support healthy brain and cognitive function throughout every stage of life.*  Your brain depends on these fats to build healthy cell membranes.* In fact, they are the most common fatty acids in the brain. Research suggests that <a href="https://www.ncbi.nlm.nih.gov/pubmed/18072818" target="_none">EPA</a>, in particular, can support healthy nervous system function.* <a href="https://nordicnaturals.com/en/Products/Product_Details/514/?ProdID=1414" target="_none">A concentrated EPA fish oil</a> supplement can be an easy way to get a healthy serving of this important nutrient for brain health.* </p>
+
+      <h2>2) Get Outside and Get More Vitamin D</h2>
+
+      <p>Spending time outdoors—and in nature or green space, specifically—is one of the best things you can do to beat the winter blues. Spending time outdoors has been linked to mood and mental health benefits, <a href="https://www.ncbi.nlm.nih.gov/pubmed/27320702" target="_none">research shows</a>. In fact, spending time outdoors in nature has been <a href="https://www.ncbi.nlm.nih.gov/pubmed/24852391" target="_none">found to be beneficial to all body systems</a>. In Japan, it’s an established health care routine which roughly translates to <a href="https://www.npr.org/sections/health-shots/2017/07/17/536676954/forest-bathing-a-retreat-to-nature-can-boost-immunity-and-mood">“forest bathing,”</a> and it’s catching on here in the U.S. You don’t need to spend hours outside, either. Researchers have found that as little as <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4917833/" target="_none">30 minutes</a> in nature over the course of a week can significantly help maintain a healthy mood.</p>
+
+      <p>Spending time outdoors is also a good opportunity to absorb some vitamin D, an essential nutrient virtually every cell in your body needs.* But this time of year, when the days are shorter and we see less of the sun, it makes sense to supplement your vitamin D supply.</p>
+
+      <p>During the winter months, the UVB portion of the sun’s rays is low to nonexistent in northern latitudes—not enough to produce vitamin D. The farther north you live from the equator, the less UVB there is available. North of Atlanta, there isn’t enough UVB to produce vitamin D from about November to February; north of New York City, the same is true from  about October through March.</p>
+
+      <p>How can you know if there’s enough UVB available from sunlight in your area to make vitamin D? The <a href="https://www.vitamindcouncil.org/about-vitamin-d/how-do-i-get-the-vitamin-d-my-body-needs/" target="_none">Vitamin D Council recommends</a> a quick and easy way: Check the length of your shadow. If your shadow is longer than you are tall, then you aren’t able to make enough vitamin D (due to the oblique angle of the sun), and you should consider taking a high-quality <a href="https://nordicnaturals.com/en/consumers/vitamin-d3-formulas/365" target="_none">daily D3 supplement</a> instead.</p>
+
+      <p style="padding-top: 30px; padding-bottom: 30px; padding-left: 25px; padding-right: 25px; font-size: 20px; color: #00467f"><strong>Being physically active during the day is key to getting a good night’s sleep and maintaining a healthy mood.</strong></p>
+
+      <h2>3) Make Time for Sleep and Exercise</h2>
+
+      <p>Getting adequate sleep on a consistent basis is <a href="https://www.ncbi.nlm.nih.gov/pubmed/24721040" target="_none">critical</a> for mental health and mood support. Sleep difficulties can often contribute to mood challenges, and feeling blue can often disrupt our sleep—which can lead to a vicious cycle that’s hard to break. So this time of year, be extra mindful of your sleep habits. Keep to a consistent bedtime, minimize caffeine and sugar intake late in the day, and avoid exposure to blue light, especially in the evening.</p>
+
+      <p>The part of our brain that regulates our circadian rhythms (called the suprachiasmatic nucleus, or SCN) is located at the intersection of our optic nerves, where light and darkness signal the processes that wake us up and make us sleepy. Without darkness, our brains aren’t signaled to produce the melatonin that helps us fall asleep. That’s why avoiding evening light is often the most important thing we can do to sleep well. Be extra careful with digital devices—smartphones, tablets, and TVs all emit blue light, which is precisely the kind of light that is most disruptive to our circadian rhythms.</p>
+
+      <p>Being physically active during the day is also key to getting a good night’s sleep and maintaining a healthy mood. In addition to its many other health benefits for your entire body, regular exercise has been shown to support a range of biological processes involved in maintaining a healthy mood, including releasing “feel-good” endorphins in the brain.</p>
+
+      <h2>4) Spend Quality Time with Friends</h2>
+
+      <p>Even though the holidays ending may mean fewer social gatherings, it’s important to continue to make time for your relationships with loved ones. Positive, supportive relationships with family, friends, romantic partners—even furry friends—have been established to benefit our general health, and help maintain our mental health. <a href="https://www.forbes.com/sites/alicegwalton/2017/06/30/a-run-down-of-social-medias-effects-on-our-mental-health/#5374951e2e5a" target="_none">Social media doesn’t count</a>—it can make you feel more isolated, according to <a href="http://www.ajpmonline.org/article/S0749-3797(17)30016-8/fulltext" target="_none">one research study</a>. So make some time to connect offline with those to whom you are closest. Better yet, treat yourselves to a walk outside together on a regular basis, and combine quality time with exercise and outdoor time.</p>
+
+      <h2>5) Help Others</h2>
+
+      <p>It turns out that one of the best ways to make yourself feel good is actually to help others or the world around you. Simple acts of kindness like picking up litter, buying a friend a cup of coffee, or helping a family member cook dinner <a href="https://www.ncbi.nlm.nih.gov/pubmed/27100366" target="_none">have been shown</a> to do more to help support mood, mental health, and well-being than doing things for yourself. Research also <a href="https://www.ncbi.nlm.nih.gov/pubmed/15901215" target="_none">shows</a> that helping others is associated with greater longevity.</p>
+
+      <p>Why does this work? Biologically, helping others or the world around you activates regions in the brain associated with pleasure, and triggers the release of natural chemicals like dopamine and serotonin, which generate a feel-good effect often termed “<a href="https://health.clevelandclinic.org/2016/11/why-giving-is-good-for-your-health/" target="_none">helper’s high.</a>” That’s why even the simplest acts of volunteering your time, money, or kindness doesn’t just help make the world a better place—it also helps you feel good and maintain a healthy mood, and your overall well-being. </p>
+
+      <p>The holiday season may be over, but there’s plenty to feel happy about with a new year just beginning. Getting enough of what your body needs—omega-3s, vitamin D, outdoor time, sleep, exercise, and human connection—can help you keep your spirits bright no matter what the winter brings your way.</p>
+
+      <p><small><i>*These statements have not been evaluated by the Food and Drug Administration. These products are not intended to diagnose, treat, cure, or prevent any disease.</i></small></p>
+
+      <p>
+        <small>
+          References<br>
+            <i>Altern Med Rev.</i> 2007 Sep;12(3):207-27.<br>
+            <i>J Nutr Health Aging.</i> 2004;8(3):163-74.<br>
+            <i>Curr Pharm Des.</i> 2009;15(36):4165-72.<br>
+            <i>J Clin Psychopharmacol.</i> 2012 Feb;32(1):61-4.<br>
+            <i>Am J Prev Med.</i> 2016 Sep;51(3):281-90.<br>
+            <i>Int J Environ Res Public Health.</i> 2014 May 19;11(5):5445-61.<br>
+            <i>Sci Rep.</i> 2016; 6: 28551.<br>
+            <i>BMC Psychiatry.</i> 2014 Apr 10;14:107.<br>
+            <i>Emotion.</i> 2016 Sep;16(6):850-61.<br>
+            <i>Int J Behav Med.</i> 2005;12(2):66-77.
+        </small>
+      </p>
+        `
+      },
+      {
+        id: 29,
+        category: 'big-picture',
+        categoryText: 'BIG PICTURE',
+        author: 'JACKIE HANSMANN',
+        postUrl: 'fighting-hunger-in-america-a-year-round-battle',
+        title: 'Fighting Hunger in America: A Year-Round Battle',
+        imageUrl: 'http://res.cloudinary.com/nordic-naturals/image/upload/v1513720418/hunger-in-america-main.jpg',
+        contentPreview: `
+          Food is a basic human necessity, and one that many of us take for granted. But the sad reality is that far too many people in America (and globally) go hungry, and putting enough food on the table to feed their kids is a daily struggle for many families. The holidays are a great time to get in the habit of helping others—and for remembering that help is needed year-round to feed those among us who just don’t have enough.
+        `,
+        content: `
+
+      <p>
+        Imagine not knowing where your next meal is coming from. Or running out of money for groceries just a few days short of your next paycheck. Or having to choose between paying rent and buying healthy food because you don’t have enough money for both. Unfortunately, that’s the daily reality for millions of people across the U.S., the majority of whom are living at, or below, the poverty level.
+      </p>
+
+      <p>
+        An astonishing 1 in 8 Americans struggles with hunger, according to <a href="http://www.feedingamerica.org/" target="_none">Feeding America</a>, the nation’s largest domestic hunger-relief organization, and more than 46 million—including 12 million children and 7 million seniors—turn to food banks for support during the year.
+
+      </p>
+
+      <p>
+        Food insecurity touches nearly every community in our country, including, undoubtedly, your own. And while the holidays are an ideal time for nonprofits like Feeding America to raise money to meet the needs of those who depend on food banks, the reality is that <a href="http://www.feedingamerica.org/take-action/" target="_none">donations to feed the hungry</a> are needed year-round.
+      </p>
+
+      <div class="video-container" id="vid"><iframe width="560" height="315" src="https://www.youtube.com/embed/JT8WSVezFiA" frameborder="0" allowfullscreen=""></iframe></div>
+
+      <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/JT8WSVezFiA" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe> -->
+
+
+        <p style="margin-top: -12px; margin-bottom: 18px;"><small><i><a href="https://www.youtube.com/watch?v=JT8WSVezFiA" target="_none">Watch this short video</a> to learn how the Feeding America network operates, stretching donations to feed 46 million people every year.</i></small></p>
+
+
+      <h2>How Food Insecurity Affects Kids</h2>
+
+      <p>
+        For families utilizing food bank services, food insecurity is just one of the many problems they may face. Financial insecurity is another. Based on annual income, 72% of the families served by the Feeding America network live at or below the federal poverty level. Children who experience hunger are at a higher risk for behavioral and social difficulties. You know those unpleasant hunger pangs you feel when you skip breakfast, or wait too long to go on your lunch break? Imagine trying to study, or build positive social skills, under such circumstances.
+
+      </p>
+
+      <p>
+        Over time, kids dealing with chronic hunger and food insecurity experience <a href="http://www.feedingamerica.org/assets/pdfs/fact-sheets/child-hunger-fact-sheet.pdf" target="_none">behavioral problems</a> like fighting, hyperactivity, aggression, anxiety, mood swings, and bullying. Hungry children simply can’t thrive, and hungry children struggle even to get the minimum level of essential nutrients we’d want our own kids to have to become healthy, happy, self-confident adults.
+
+      </p>
+
+      <p>
+        So, how can we help kids and families in our own communities facing hunger? That’s where Feeding America (an organization Nordic Naturals supports yearly) and their network of food banks across the country can help. Feeding America administers multiple programs throughout the year to ensure that nutritious food gets into the hands of those who need it most. And, they have the unique ability—through partnerships with food suppliers and economies of scale—to turn $1 into as many as 10 meals. Just think about what an impact it would make if each person in your community donated even a few dollars—the cost of a latte—every month. That would take a healthy slice out of these hunger statistics!
+      </p>
+
+      <h2>Hunger beyond the Holidays</h2>
+
+      <p>
+        The holidays are a particularly tough time for kids and families without enough to eat. Fortunately, most people are inspired to give a little back during this time of year. Companies frequently match donations from their employees. Neighbors volunteer at local food banks. The media spreads awareness around the issue of hunger in America. People step up to help, and lots of wonderful things happen. But often, the giving stops after December 31st.
+
+      </p>
+
+      <p>
+        Let’s shift how we collectively think and act about hunger, and recognize that it’s a year-long battle we all need to be aware of and face. Here’s how you can support food banks all year long, and provide lasting help to those in need:
+      </p>
+
+      <ul style="list-style-type: disc; padding-left: 18px;">
+        <li><a href="https://secure.feedingamerica.org/site/Donation2?idb=191619297&DONATION_LEVEL_ID_SELECTED=1&df_id=25431&mfc_pref=T&25431.donation=form1&idb=%5B%5BS76:idb%5D%5D" target="_none">Give today.</a> Search for and donate directly to your local food bank.</li>
+        <li><a href="https://secure.feedingamerica.org/site/Donation2?df_id=25374&25374.donation=form1&s_src=WXXX1MTMG&s_subsrc=http%3A%2F%2Fwww.feedingamerica.org%2F&_ga=2.172378016.2088907586.1513185261-900393748.1510101703" target="_none">Give monthly.</a> Sign up to make giving a monthly habit, and help provide meals to families facing hunger year-round.</li>
+        <li><a href="http://www.feedingamerica.org/take-action/campaigns/volunteer/" target="_none">Volunteer with your local food bank.</a> Donate your time to help the soup kitchens, food pantries, and meal programs that rely almost entirely on volunteers.</li>
+      </ul>
+
+      <p>
+        Once you realize how truly close to home hunger hits, the thought of giving a little all year long makes sense. You can even get creative with how you help. Challenge neighbors, friends, or coworkers to come up with <a href="http://www.feedingamerica.org/ways-to-give/set-the-table/" target="_none">fundraising ideas</a>, or to plan fun, volunteer days to spend meaningful time together.
+      </p>
+
+      <p>
+        You’ve got the power to make a real difference in the lives of people facing hunger in your own community. Spreading the word about the widespread problem of food insecurity; donating throughout the year to <a href="http://www.feedingamerica.org/find-your-local-foodbank/" target="_none">support your local food banks</a>; and volunteering your time are great ways to make that difference now and throughout the new year. We can’t think of a healthier habit to cultivate.
+
+      </p>
+        `
+      },
+      {
+        id: 28,
+        category: 'all-about-science',
+        categoryText: 'ALL ABOUT SCIENCE',
+        author: 'TERRA LYNN',
+        postUrl: 'why-fish-oil-is-a-better-source-of-omega-3s-than-krill-oil',
+        title: 'Why Fish Oil is a Better Source of Omega-3s than Krill Oil',
+        imageUrl: 'http://res.cloudinary.com/nordic-naturals/image/upload/v1513029355/image1.jpg',
+        contentPreview: `Known as a primary food source for blue whales and other marine life, krill are tiny crustaceans that contain two essential omega-3 fats, EPA and DHA. But when it comes to buying omega-3 supplements, there are good reasons to choose fish oil made from Arctic cod, sardines, and anchovies, over krill oil. Here’s what you need to know.`,
+        content: `
+
+      <p>
+        There’s a long-standing debate over which is a better for you, fish oil or krill oil. Like any good debate, there are points to be made on both sides. But if you’re looking to get the most omega-3 EPA and DHA per serving, in the form that’s easiest for your body to absorb, fish oil supplements made from Arctic cod, sardines, and anchovies are your best bet. There are some good reasons why this is true, which we’d like to explain here.
+      </p>
+
+      <h2>The Deep Dive on Krill</h2>
+
+      <p>
+        First, the key differences: Fish oil is extracted from fatty fish such as Arctic cod, sardines, and anchovies, whereas krill oil is extracted from krill, shrimp-like marine invertebrates that live in large schools called swarms throughout the world’s oceans. Although tiny—measuring only about two inches in length and weighing about a gram when fully grown—krill play a big role in the health of marine ecosystems. Penguins, seals, fish, and even the largest animal on earth, the blue whale, depend on krill as their primary food source (Check out this <a href="https://www.youtube.com/watch?v=YARe1etnNZE" target="_none">rare video footage</a> of a blue whale feeding on krill.). Without krill, the food webs that sustain all oceanic life would collapse.
+      </p>
+
+      <p>
+        Krill oil naturally contains astaxanthin, a carotenoid antioxidant that gives salmon and shrimp their reddish color. Astaxanthin has also been shown to have a <a href="https://www.ncbi.nlm.nih.gov/pubmed/22214255" target="_none">diverse range of potential health benefits</a>, including potent antioxidant activity.* It’s important to realize, however, that the studies on which those potential benefits are based use much higher doses of astaxanthin than those typically provided by krill oil supplements. The dosages of astaxanthin used in the majority of clinical trials have been in the <a href="http://www.altmedrev.com/publications/16/4/355.pdf" target="_none">6-12 mg a day</a> range, whereas leading krill oil supplements provide a fraction of that, with some delivering just micrograms of astaxanthin per serving. We recommend reading the “Supplement Facts” on the product labels to find out exactly how much astaxanthin a krill oil supplement contains. If you’re looking for the benefits of astaxanthin, you’re likely better off taking a separate astaxanthin supplement that provides a research-backed amount.
+      </p>
+
+      <p>
+        Krill oil also contains phosphatidylcholine, a phospholipid found abundantly in human cells. Phosphatidylcholine is an essential structural component of cell membranes, and <a href="https://www.ncbi.nlm.nih.gov/pubmed/26306852" target="_none">recent research</a> has investigated its other possible roles in human health. Phosphatidylcholine can be found in eggs, cow’s milk, seeds, soybeans, fish, and meats. The human body also naturally produces phospholipids.
+      </p>
+
+      <h2>Absorption Compared</h2>
+
+      <p>
+        Krill oil makers contend that krill oil is better absorbed than fish oil because the EPA and DHA in krill oil are in phospholipid form (versus the triglyceride form in fish oil). But only 8% of fatty acid molecules in krill are bound to phospholipids. In fact,  98.5% of all fatty acids found in nature are in the triglyceride-bound form, while hardly any natural fats are found as phospholipids. This is one reason why <a href="https://www.nordicnaturals.com/blog/all-about-science/why-natural-form-fish-oils-are-better-for-your-body-and-your-wallet/" target="_none">triglyceride form fish oils</a> have been shown to be so well absorbed—the body is used to getting them.
+      </p>
+
+      <p>
+        <a href="https://www.ncbi.nlm.nih.gov/pubmed/24952576" target="_none">One recent clinical trial</a> of healthy volunteers compared omega-3 supplements from different sources (fish oil, salmon oil, and krill oil) by looking at the blood level increases in the omega-3 fats EPA and DHA after consuming the different supplements; the results found that fish oil was 227% more effective than salmon oil and 382% more effective than krill oil at increasing blood levels of EPA and DHA.
+      </p>
+
+      <p>
+        Even if phospholipid-form EPA and DHA are what you’re looking for, there are better, more potent alternatives than krill oil. <a href="https://www.nordicnaturals.com/en/Products/Product_Details/514/?ProdID=1723" target="_none">Herring roe oil</a>, for example, has a higher amount of phospholipid-bound DHA than krill oil, gram for gram. It also offers a broader spectrum of phospholipids than krill oil.
+      </p>
+
+      <p style="padding-top: 30px; padding-bottom: 10px; padding-left: 25px; padding-right: 25px; font-size: 20px; color: #00467f">
+        <strong>
+          "If we had seen just one independent study where krill outperformed fish oil, we would have added krill oil to our product line years ago.”
+        </strong>
+      </p>
+
+      <p style=" padding-bottom: 30px; padding-left: 25px; padding-right: 25px; font-size: 25px; font-size: 15px; font-weight: italic;">
+        <i style="color: #00467f">–Joar Opheim, Nordic Naturals Founder and CEO</i>
+      </p>
+
+
+      <h2>Less Potent and More Costly</h2>
+
+      <p>
+        Aside from purity, the single most important consideration for any omega-3 supplement is the amount of omega-3 EPA and DHA it gives you per serving. After all, getting enough EPA and DHA is why most of us take omega-3 supplements in the first place. Experts and organizations worldwide recommend a minimum of 500 mg/day of EPA and DHA.<sup>1-3</sup> Virtually all krill oil supplements provide significantly less than that per serving.
+
+      </p>
+
+      <p>
+        Research shows that the benefits of EPA and DHA can increase with higher intakes.<sup>4</sup> And for those of us with existing health challenges, scientific evidence supports the need for high intakes of EPA and DHA.<sup>5-8</sup> Krill oil isn’t potent enough to deliver these higher doses in a reasonable serving size, because it can’t be concentrated the way fish oil can. Krill oil is too molecularly unstable to undergo the processing required to concentrate more EPA and DHA per serving. For this reason, krill oil manufacturers often add fish oil to their formulas to increase their EPA and DHA content.
+      </p>
+
+      <img src="http://res.cloudinary.com/nordic-naturals/image/upload/v1513106761/EFAsourcesRetail0216.jpg" />
+      <small><i>You would need 14 soft gels from a leading krill oil manufacturer to get the same amount of omega-3 EPA and DHA found in one <a href="https://www.nordicnaturals.com/en/Products/Product_Details/514/?ProdID=1739" target="_none">Ultimate Omega® 2X</a> soft gel.</i></small>
+      <p>
+        Adding fish oil to krill oil can increase a krill supplier’s manufacturing costs, and those costs are inevitably passed along to consumers. As a raw material, krill is much  more expensive than sardines, cod, or anchovies. That’s because krill, which decompose quickly, must be kept alive in water tanks or frozen immediately after harvesting. This increases the cost of getting fresh raw material to shore for processing into omega-3 supplements—another cost which is generally passed along to consumers. <a href="https://www.consumerlab.com/answers/is-krill-oil-better-than-fish-oil/fish_oil_vs_krill_oil/" target="_none">Cost comparisons</a> have shown krill oil to be three to four times higher than the cost of high-quality fish oil, based on 500 mg EPA and DHA per serving.
+      </p>
+
+      <h2>More Science Backs Fish Oil</h2>
+
+      <p>
+        Fish oil remains among the most researched supplements ever, with more than 16,000 studies published to date. There are only a small number of published scientific studies investigating krill oil’s health benefits, many of them sponsored by the manufacturers themselves.
+      </p>
+
+      <p>
+        “If we had seen just one independent study where krill outperformed fish oil we would have added krill oil [to our product line] years ago,” says Joar Opheim, Nordic Naturals’ Founder and CEO. “The research is not there,”  Joar said. Krill has a long way to go to catch up with the thousands of scientific studies published on fish oil.
+      </p>
+
+      <p>
+        The bottom line: while both krill oil and fish oil are sources of the omega-3s EPA and DHA that we all need for optimal health, a high-quality fish oil product offers many times more EPA and DHA per serving, at a significantly lower cost, with the scientific backing of decades of clinical research. Fish oil is just a better choice for getting your omega-3s, doing more for your health and your wallet.
+      </p>
+
+      <p>
+        <small><i>
+        *These statements have not been evaluated by the Food and Drug Administration. These products are not intended to diagnose, treat, cure, or prevent any disease.
+        </i></small>
+      </p>
+
+      <p>
+        References<br>
+        <small>
+          1. AHA Scientific Statement: Fish Consumption, Fish Oil, Omega-3 Fatty Acids and Cardiovascular Disease, #71-0241. Circulation 2002;106: 2747–2757.<br>
+2. American Dietetic Association and Dietitians of Canada. Position of the American Dietetic Association and Dietitians of Canada: Dietary Fatty Acids. Journal of the American Dietetic Association 2007;1599–1611.
+<br>
+3. World Health Organization. Diet, Nutrition and the Prevention of Chronic Diseases. Technical report series 916.
+<br>
+4. Winwood RJ, Cope MB, Rice HB. Reduction in Chronic Disease biomarkers and very high intake of EPA and DHA omega-3 fatty acids. Advances in EPA & DHA Research vol 03;(02), 2010.
+<br>
+5. Sublette ME, Ellis SP, Geant AL, Mann JJ. The Journal of clinical psychiatry 2011, 72:1577-1584.
+<br>
+6. Ballantyne CM, Braeckman RA, Soni PN. Expert opinion on pharmacotherapy 2013, 14:1409-1416.
+<br>
+7. Bloch MH, Qawasmi A. Journal of the American Academy of Child and Adolescent Psychiatry 2011, 50:991-1000.
+<br>
+8. Martins JG. Journal of the American College of Nutrition 2009, 28:525-542.
+        </small>
+      </p>
+        `
+      },
+      {
+        id: 27,
+        category: "the-nordic-way",
+        categoryText: 'THE NORDIC WAY',
+        author: 'NORDIC NATURALS STAFF',
+        postUrl: 'inside-nordic-naturals-meet-jamie-retail-trade-show-ringleader',
+        title: 'Inside Nordic Naturals: Meet Jamie, Retail Trade Show Ringleader',
+        imageUrl: 'http://res.cloudinary.com/nordic-naturals/image/upload/v1512158634/jamie.jpg',
+        contentPreview: `If you ever find yourself at Natural Products Expo or another one of the big events for the health and wellness industry, you might run into our very own Jamie Johnson at the Nordic Naturals booth. She’s the gal with the easygoing smile and a whole lot of gummies for you to sample. But take note, her superpowers are trade show logistics and Harry Potter trivia.`,
+        content: `
+        <p>
+        <b>Name:</b> Jamie Johnson <br>
+        <b>Role:</b> Retail Trade Show Coordinator <br>
+        <b>Years with Nordic Naturals:</b> 10<br>
+      </p>
+
+      <h2>What do you do at Nordic Naturals, and what do you like best about your job?</h2>
+
+      <p>
+        I’m in charge of coordinating our presence at industry events—shows where people come by to sample our products and talk to us about what we do. I basically take care of all the logistics involved—travel, booth setup and break down, shipping the necessary products and supplies, that kind of thing. The title I put on my event badge sometimes is Trade Show Ringleader, because these large events can definitely feel like a circus.
+      </p>
+
+      <p>
+        What I like best about my job is hearing directly from the people who take our products every day. I can’t tell you how many times people have told me personally how much they appreciate our supplements. To me, that is very rewarding.
+      </p>
+
+      <h2>Where did you grow up, and how has that place influenced you?</h2>
+
+      <p>
+        I was born and raised right here in Watsonville. Because I’ve always lived here, I’m not sure how it has influenced me. But I do see that Watsonville, which is really a multicultural environment, has allowed me to experience other cultures without stepping out of my comfort zone. I have a lot of family here, and that’s ultimately what keeps me around. I travel a lot for work, so that’s a nice balance.
+      </p>
+
+      <h2>What personal accomplishment are you most proud of? </h2>
+
+      <p>
+        I don’t really think about raising kids as an accomplishment, but I guess it is. I have four, and as long as they grow up to be good, strong, independent thinkers, then my mission is complete. If they’re capable of taking care of themselves and don’t have to rely on anyone else, then I’ve done what I needed to do. I take things one day at a time. As long as I’m where I’m supposed to be, then I’m doing alright.
+      </p>
+
+      <h2>What is something about you that few people know? </h2>
+
+      <p>
+        I’m a huge Harry Potter nerd. Not the movies, just the books. And I’m a huge audio books fan. If you see me with my headphones on, more than likely I’m listening to a book. I’m really into futuristic stories with strong warrior characters. And anything with magic. I’m such a nerd!
+      </p>
+
+      <h2>What Nordic Naturals products do you take? Any favorites you’d like to share?</h2>
+
+      <p>
+        I take quite a few—our <a href="https://nordicnaturals.com/en/Products/Product_Details/514/?ProdID=1699" target="_none">Nordic Flora Probiotic Daily</a>, <a href="https://nordicnaturals.com/en/Products/Product_Details/514/?ProdID=1739" target="_none">Ultimate Omega 2X</a>, <a href="https://nordicnaturals.com/en/Products/Product_Details/514/?ProdID=1746" target="_none">Omega Curcumin</a>, and a product from our professional line that combines fish oil with with <a href="https://nordicnaturals.com/en/Products/Product_Details/514/?ProdID=1647" target="_none">GLA</a>. When I was pregnant, I took our <a href="https://nordicnaturals.com/en/Products/Product_Details/514/?ProdID=1743" target="_none">Prenatal DHA</a>, and I thought that made a huge difference.
+      </p>
+
+      <h2>What does living “healthfully” mean to you? </h2>
+
+      <p>
+        To me, it means enjoying what you do each day, and the people you work with. Because you spend so much of your time at work! If I’m having a bad day, I try to not take it home with me. I leave it where it needs to be. If I have a book I’m listening to, I take the long way home and try to get lost in the story. That helps me get out of my own head. If I’m at work, I try to step away from my desk and go do something physical to help relieve the tension—go for a walk, go to the gym… whatever I need to do to get that physical relief.
+      </p>
+
+      <img src="http://res.cloudinary.com/nordic-naturals/image/upload/v1512509542/Fam_Bam.jpg">
+      <p><small>Posing with the family: (bottom left to right) Kea, Helena, Gabriel, and Kyra; (top) Jamie and Brian.</small></p>
+        `
+      },
+      {
+        id: 26,
+        category: "big-picture",
+        categoryText: "BIG PICTURE",
+        author: "JACKIE HANSMANN",
+        postUrl: "why-business-transparency-should-be-the-first-item-on-your-shopping-list",
+        title: "Why business transparency should be the first item on your shopping list",
+        imageUrl: "http://res.cloudinary.com/nordic-naturals/image/upload/v1510860012/web/blog-assets/business-transparency-main.png",
+        contentPreview: "Most of us care deeply about what goes into the supplements we buy. But how much do we know about the companies that make and sell these products? Here’s how to support your values and your well-being by becoming a more conscious consumer.",
+        content: `
+        <p>
+        How did this food get to my table? Where did the ingredients in this product I’m buying come from? Is the company I’m supporting with my purchase socially responsible? The answers to these questions affect my own purchasing decisions every day. And I suspect they affect many of yours, as well.
+      </p>
+
+      <p>
+        The days when milk was commonly delivered to your door, most vegetables were grown and sold in your community, and the letters GMO didn’t stand for modifying our food, are mostly gone. But that doesn’t mean we no longer have any control over where our food comes from or how it’s made.
+      </p>
+
+      <p>
+        The Internet has made it possible to learn more than ever before about the companies who provide food for you and your family. And as it turns out, that kind of transparency has become something people like me (not just millennials) are <a href="https://www.labelinsight.com/Transparency-ROI-Study" target="_none">willing to pay more for</a>.
+      </p>
+
+      <h2>Shopping for Transparency</h2>
+      <br>
+      <img src="http://res.cloudinary.com/nordic-naturals/image/upload/v1510860012/web/blog-assets/business-transparency-body-1.jpg">
+
+
+      <p>
+        <small><i>Shopping at my local farmer’s market in Santa Cruz allows me to meet and support the people and businesses that sell food in my community. Photo credit: Jackie Hansmann</i></small>
+      </p>
+
+      <p>
+        Farm-to-table, family-owned and operated, organically grown, sustainably-sourced, fair trade certified, non-GMO—these and other hallmarks of business transparency and social responsibility are becoming valuable differentiators for premium brands. Because in the end, who really wants to buy from companies that mistreat the environment or make products using questionable chemicals or processes?
+      </p>
+
+      <p>
+        I’ve discovered many companies and e-commerce sites dedicated to providing socially responsible and transparent shopping experiences. One of my personal favorites is <a href="https://thrivemarket.com/?page=hp&ccode=FIRST3" target="_none">Thrive Market</a>, a subscription-based online store full of healthy foods and natural products at wholesale prices. By subscribing, I’m also sponsoring a free membership for a low-income family—a shopping “perk” that has value to me.
+      </p>
+
+      <p>
+        A favorite non-food company of mine that practices social responsibility and business transparency is <a href="http://www.rainbowsandals.com/" target="_none">Rainbow Sandals</a>. The company designs their products to last, and when the sandals have reached their “end” I can send them back to be repaired and subsequently donated to people who are homeless, orphaned, or victims of natural disasters. Now that’s a corporate philosophy I can get behind.
+      </p>
+
+      <p>
+        I’m also a true fan (and an employee) of Nordic Naturals—not the least of which is because the company continually strives to be both transparent and socially responsible. Case in point: Nordic Naturals offers a free <a href="https://www.nordicnaturals.com/cofa/" target="_none">certificate of analysis</a> for every product sold. This certificate of analysis details the results of the third-party testing we use to verify the potency and purity of every supplement we make.
+      </p>
+
+      <p>
+        For me this is important, because I want to know that what I’m buying is exactly what the label describes. To me it’s not just about transparency, but also about trust.
+      </p>
+
+      <a href="http://www.nordicnaturals.com/cofa" target="_none"><img src="http://res.cloudinary.com/nordic-naturals/image/upload/v1510860012/web/blog-assets/business-transparency-body-2.jpg"></a>
+      <p>
+        <small><i>Nordic Naturals offers a free certificate of analysis for every product, giving customers transparent access to the results of our third-party testing to verify product purity and potency.</i></small>
+      </p>
+
+      <p>
+        With all of the countless options out there, how do I decide which companies to buy from? I know it sounds simple, but browsing a company’s website will reveal a lot of great insights about how a company operates. I guarantee that the most transparent companies will have pages detailing their sustainable and/or regenerative practices, social responsibility, mission, and values statements.
+      </p>
+      <p>
+        Reading the packaging and labels of the products you intend to purchase is another great way to be a more conscious consumer. The more often you do this, the more you’ll begin to understand what you’re looking for in a product (and what you don’t want to find). I was always intimidated by the amount of detail on most packaging and labels, but once I determined my own standards for buying, I felt empowered. This knowledge allows me to use my purchasing power to support the companies that are doing things right, whatever the cost may be.
+      </p>
+      `
+      },
+      {
+        id: 25,
+        category: "all-about-science",
+        categoryText: "ALL ABOUT SCIENCE",
+        author: "DEBBIE DRECKSEL",
+        postUrl: "why-your-best-friend-needs-omega-3s-too",
+        title: "Why Your Best Friend Needs Omega-3s, Too",
+        imageUrl: "http://res.cloudinary.com/nordic-naturals/image/upload/v1510275516/web/pet-health-main.jpg",
+        contentPreview: "Our pets add joy to our lives, lift our spirits, and even contribute to our own physical well-being. What we feed our pets matters just as much as what we feed ourselves… and just like humans, dogs and cats need omega-3 essential fats, too.",
+        content: `
+        <p>
+        I’m a big dog lover. In fact, my friends may wonder if I ever talk about anything other than my three-year-old golden retriever, Birmingham. I’m hardly the only person I know who loves their pet obsessively. Roughly 80 million U.S. households have cats and dogs (most have two or more pets), and more than 63% of pet owners <a href="http://www.humanesociety.org/issues/pet_overpopulation/facts/pet_ownership_statistics.html" target="_none">view their pets as family members.</a>
+
+      </p>
+
+      <p>
+        What makes us so crazy about our pets? They add joy to our lives, lift our spirits, and even contribute to our own physical well-being. Pet ownership is associated with a reduced risk of heart disease, according to <a href="http://www.heart.org/HEARTORG/HealthyLiving/Owning-a-Pet-May-Protect-You-from-Heart-Disease_UCM_453586_Article.jsp#.WgT8MBNSxds" target="_none">The American Heart Association</a>. And pets can be legally recognized as service or support animals for people with certain health issues.
+      </p>
+
+      <p>
+        Of course, we all want our pets to live long, happy lives. And that’s why what we feed our pets is so important. Unless you live on a farm and your dog or cat is “living off the land,” so to speak, your pet is dependent on you for 100% of its nutritional needs. Many of us (myself included) spend the extra money to buy premium pet food brands that say they use the highest quality ingredients. But the reality is that cooked or processed pet foods don’t always contain the full spectrum of nutrients your pet needs. Omega-3 fatty acids, for example, are essential nutrients that play an important role in maintaining overall cellular health.* But these essential fats are easily compromised when exposed to high heat (used commonly in cooked dog food) and oxygen, which can diminish their nutritional value.*
+      </p>
+
+      <h2>Your Pet is What He Eats</h2>
+
+      <p>
+        If you know any one thing about me, you know I’m concerned about my diet. In fact, I often get accused of having too many “rules” about what I eat, and that tends to hold true for what I feed my dog as well. Birmingham is a happy, loyal dog with a loving disposition. But I’m convinced his disposition has more to do with his healthy diet than with his particular breed—especially when I compare him to other dogs whose diets may not be as complete as his.
+      </p>
+
+      <center><img src="http://res.cloudinary.com/nordic-naturals/image/upload/v1510275519/web/pet-health-body.png"></center>
+      <p><small><i>Birmingham showing off his sunny disposition. Photo credit: Debbie Drecksel</i></small></p>
+
+      <p>
+        Cats and dogs each require different levels and sources of the nutrients they need to maintain optimal health. So it’s important that your pet is eating food designed to meet its specific nutritional needs.
+      </p>
+
+      <p>
+         Just like humans, dogs and cats both have a fundamental dietary need for omega-3 fatty acids. Dogs have a limited ability to convert plant-based omega-3s, known as alpha-linolenic acids (ALA), to the much-needed, long-chain omega-3s EPA and DHA found abundantly in fatty fish. And cats have even less ability to convert ALA to omega-3 EPA and DHA.*
+      </p>
+
+      <p>
+        Dietary fats provide a concentrated source of energy for pets, although the need for fatty acids varies. For example, arachidonic acid (AA) is an omega-6 fat that helps support the body’s inflammatory response and is necessary for proper blood-clotting, skin health, and reproductive and gastrointestinal function.* But while dogs can make AA, cats cannot. So it’s much more important for cats to get this nutrient from their food.
+
+      </p>
+
+      <p>
+        Most pet owners probably think their pets are consuming enough essential fats in their diet, but the truth is they’re probably consuming way too many omega-6 fats and not enough omega-3s. Both of these fats are necessary, but because they each help regulate immune system functions, they need to be in healthy balance.*
+      </p>
+
+      <p>
+        Commercial pet foods are often overloaded with grains, vegetable oils, and meat products, and as a result, contain an overabundance of omega-6 fats. Those commercial pet foods that do contain fish (usually a good source of omega-3 fats) often contain farmed fish. And unfortunately, farmed fish—because of the grains, antibiotics, and animal byproducts these fish are typically fed—do not have the same nutritional value as wild-caught fish.
+      </p>
+
+      <h2>Give a Dog a Fish</h2>
+
+      <p>
+        <a href="http://www.dog-swim.com/files/en/user/cms/JAVMA_fish_oil_2011.pdf" target="_none">Research consistently shows</a> omega-3 EPA and DHA positively affect our pets’ overall health at the cellular level, supporting*:
+        <ul style="list-style-type: disc; padding-left: 18px;">
+          <li>Immune system health</li>
+          <li>Skin and coat</li>
+          <li>Joints</li>
+          <li>Heart and kidneys</li>
+          <li>Gastrointestinal health</li>
+          <li>Brain and eye function</li>
+        </ul>
+      </p>
+
+      <p>
+        When selecting an omega-3 fish oil for your pet, look for a reputable company that maintains the highest quality standards, including using human-grade ingredients and manufacturing processes; one that uses third-party testing to guarantee purity, potency, and freshness for all its products. As a pet lover, you’ll probably also want to look for a company that values sustainability and uses sourcing methods that protect the environment. And, you’ll want to avoid products that include added ingredients that could be harmful to your pet. For this reason, it’s best to look for omega-3 fish oil that is <a href="https://www.nordicnaturals.com/en/General_Public/Products_for_Dogs_&_Cats/469" target="_none">made specifically for cats or dogs</a>.
+      </p>
+
+      <p>
+        Birmingham’s nutritional needs would not be fully met if I didn’t provide him with the essential omega-3 fatty acids that help give him complete, balanced nutrition. I’m thankful his superior golden retriever’s nose is adept at detecting high quality, fresh fish oil that meets his daily dietary needs. “Bone” appetit to you and your pet!
+      </p>
+
+      <p>
+        <small>
+          References:<br>
+American Pet Products Association, 2015-2016 report.<br>
+Pet Ownership & Cardiovascular Risk, A Scientific Statement from the American Heart Association, June 2013.<br>
+Dunbar BL, Bauer JE., Conversion of essential fatty acids by Delta-6 desaturase in dog liver microsomes. J. Nutr 2002 Jun; 132(6 Suppl 2):1701s-3S;<br>
+Bauer JE. Fatty acid metabolism in domestic cats (Felis catus) and cheetahs (Acinonyx jubatas).  Proc Nutr Soc 1997 Nov; 56(3):1013-24.)<br>
+Vaughn D, Reinhart G, Swain S, et al., Evaluation of dietary n-6 to n-3 fatty acid ratios on leukotriene B Synthesis in dog skin and neutrophils, Vet Dermatol 1994, 5 (4): 163-173.<br>
+Bauer JE. Responses of dogs to dietary omega-3 fatty acids; J. Amer. Vet Med Association 2007; 11: 1657-1661.<br>
+Stephen J. Mehler, et al., A prospective, randomized, double blind, placebo-controlled evaluation of the effects of eicosapentaenoic acid and docosahexaenoic acid on the clinical signs and erythrocyte membrane polyunsaturated fatty acid concentrations in dogs with osteoarthritis; Elsevier ltd., Journ Prostaglandins, Leukotrienes and Essential Fatty Acids.<br>
+Rivers JP, Sinclair AJ, CCrawford MA; Inability of the Cat to desaturate essential fatty acids. Nature 1975; 258: 171-173.<br>
+Corbee RJ, et al., The effect of dietary long-chain omega-3 fatty acid supplementation on owner’s perception of behavior and locomotion in cats with naturally occurring osteoarthritis, J Anim Physio Anim Nutr (Berl), 2013 Oct.<br>
+
+        </small>
+      </p>
+
+      <p>
+        <small><i>*These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure, or prevent any disease.</i></small>
+      </p>
+        `
+      },
+      {
+        id: 24,
+        category: "home-life",
+        categoryText: "HOME LIFE",
+        author: "TERRA LYNN",
+        postUrl: "five-healthy-essentials-to-pack-for-your-holiday-travels",
+        title: "Five Healthy Essentials to Pack for Your Holiday Travels",
+        imageUrl: "http://res.cloudinary.com/nordic-naturals/image/upload/v1509988471/web/holiday-travel-main.jpg",
+        contentPreview: "The fall and winter holidays are almost here, and that means crowded trains, planes, and automobiles for many of us. Packing these five healthy travel essentials can help keep you and your family feeling ready for anything when you’re away from home and on the go this holiday season.",
+        content: `
+        <p>
+          Traveling to see family and friends over the holidays can bring us closer to the people and places we love, and create wonderful lasting memories. But traveling can also leave us feeling rundown and out of sorts, and nothing derails a trip faster than someone not feeling well—especially if you’re traveling with kids.
+        </p>
+
+        <p>
+          Eating a nutrient-rich diet, getting plenty of sleep, and managing stress levels—whether through exercise, meditation, or some other way—are all important lifestyle habits for maintaining a healthy equilibrium, especially when we’re out of our normal daily routine. There are also several nutrients known to play a big part in helping us stay well when our immune systems are stressed. Here are a few that many of us here never leave home without.
+        </p>
+
+        <h2>1. Probiotics</h2>
+
+        <p>
+          When we travel, we’re often exposed to new foods and lots of new bacteria, which can compromise both our digestion and immunity. Probiotics are our #1 healthy travel essential because they can support both of these key aspects of wellness. (Check out our <a href="https://www.youtube.com/watch?v=lodkKQI1YEg" target="_none">educational video on probiotics</a> to learn exactly how probiotics work.)
+        </p>
+
+        <p>
+          Probiotics are beneficial microorganisms that live in our digestive tracts. A healthy balance of probiotics promotes a <a href="http://nordicnaturals.com/blog/all-about-science/fermented-foods-and-probiotics-your-ticket-to-a-healthy-microbiome/" target="_none">thriving microbiome</a> that benefits our entire body, helping us digest our food, absorb essential nutrients, and keep our immune systems functioning properly.*
+        </p>
+
+        <p>
+          Probiotics are especially helpful while traveling because they can help alleviate digestive issues and food sensitivities that can be common when we’re away from home and eating foods we didn’t prepare ourselves. At the same time, probiotics also support our natural immune defenses.* In fact, research shows that <a href="https://www.sciencedaily.com/releases/2013/09/130916122214.htm" target="_none">our intestines contain more immune cells</a> than what are present in the rest of our body.
+        </p>
+
+        <p>
+          Supplemental probiotics offer a range of different probiotic strains, many of which have unique benefits. That’s why the type of probiotic you choose is important. <a href="http://www.nordicnaturals.com/en/Products/Product_Details/514/?ProdID=1767" target="_none">Broad-spectrum probiotics</a>, containing many different strains, offer the most support for digestion and immunity while traveling, while other strains offer more targeted health benefits, such as supporting urinary tract health, for example.*
+        </p>
+
+        <p>
+          When you’re shopping for probiotics, be sure to look for a product that is shelf-stable and requires no refrigeration. This is essential if you think you might encounter unpredictable schedules when you travel, and because it’s not always realistic to travel with an icepack to keep your probiotics cool.
+        </p>
+
+        <h2>2. Vitamin C</h2>
+
+        <p>
+          Travel, especially over long distances, can be taxing and stressful on the body. That’s why we always pack vitamin C—our healthy travel essential #2.
+        </p>
+
+        <p>
+          Vitamin C is an important antioxidant that our bodies can’t make, and that we must get from food or supplements. In fact, vitamin C is the <a href="http://lpi.oregonstate.edu/mic/vitamins/vitamin-C" target="_none">primary water-soluble antioxidant in our plasma and tissues</a>, protecting our bodies against internal damage.* Our bodies can’t store this essential nutrient because it’s water-soluble, and quickly excreted. So we need to consume vitamin C regularly for optimal health—especially while traveling, when the stresses and exposures that come with it increase our need for antioxidant protection and immune support.*
+        </p>
+
+        <p>
+          When we’re traveling, we often don’t have consistent access to the fresh fruits and vegetables that are the richest sources of vitamin C. For this reason, it’s a good idea to bring a few pieces of fruit along with you if you can. <a href="https://www.nordicnaturals.com/en/General_Public/Children's_Gummies/475" target="_none">Gummies</a> are another favorite travel-friendly way to get vitamin C while on the road.
+        </p>
+
+        <h2>3. Omega-3s</h2>
+
+        <p>
+          The omega-3 essential fatty acids EPA and DHA, found in cold-water fish and fish oil, are considered essential because we need them for proper health but we can’t make them on our own (much like vitamin C). The only way to get these important fats is through diet or supplementation.*
+        </p>
+
+        <p>
+          When we consume enough omega-3 essential fats, they make their way into virtually every cell in our bodies. These essential fats become critical components of our cell membranes, helping our cells absorb nutrients and expel waste.* The prevalence of omega-3s in our cell membranes directly impacts the health of our immune response.* A significant amount of research shows that consuming omega-3 fish oil helps us naturally regulate the immune response and support the internal systems that operate in response to stress.* That’s why omega-3s are our healthy travel essential #3.
+        </p>
+
+        <p>
+          When traveling, space for packing is often limited, so consider efficiency when choosing an omega-3 fish oil. <a href="https://www.nordicnaturals.com/en/Products/Product_Details/514/?ProdID=1739" target="_none">High amounts of EPA+DHA</a> per serving can mean just one soft gel per day (rather than two) to get the necessary omega-3s you need while travelling.
+        </p>
+
+        <h2>4. Vitamin D </h2>
+
+        <p>
+          Vitamin D3 is best known for its role in building strong bones, but it’s also linked to many other key functions for optimal health, including regulating our immune systems.* Vitamin D3 deficiency is increasingly recognized as a <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3068797/" target="_none">worldwide epidemic</a>. It’s a nutrient that’s difficult to get enough of naturally during the colder months when we tend to spend more time indoors, and for that reason vitamin D3 (the form of vitamin D your body makes naturally) is our healthy travel essential #4. Nowadays, it’s common to find D3 added to other nutritional supplements; we especially like these <a href="http://www.nordicnaturals.com/en/General_Public/Vitamin_D3_formulas/365" target="_none">fish oil + D3 supplements</a> for their two-in-one convenience.
+        </p>
+
+        <h2>5. Don’t Forget Water</h2>
+
+        <p>
+          One of the easiest things we can do to stay healthy and comfortable while traveling is to always remember to drink more water. Staying hydrated is crucially important, since our cells are made up of approximately 70% water. If you don’t drink enough water, your cells can’t function optimally to keep you healthy.
+        </p>
+
+        <p>
+          When traveling, drink more water than you do at home to make sure your body has the hydration it needs so you can enjoy new activities and stay well in different environments. The Food and Nutrition Board of the U.S. National Academy of Sciences sets <a href="http://www.nationalacademies.org/hmd/Reports/2004/Dietary-Reference-Intakes-Water-Potassium-Sodium-Chloride-and-Sulfate.aspx" target="_none">general recommendations</a> of 91 ounces of total water each day (from all beverages and foods) for women, and 125 ounces of total water each day for men. Needless to say, H2O is our healthy travel essential #5.
+        </p>
+
+        <p>
+          Whether you’re visiting family over the holidays, or getting in some holiday vacation time, keeping these five healthy travel essentials close at hand can help you be well wherever your journey takes you.
+        </p>
+
+        <img src="http://res.cloudinary.com/nordic-naturals/image/upload/v1509988069/web/holiday-bottles.jpg">
+
+        <p>
+          <small><i>*These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure, or prevent any disease.</i></small>
+        </p>
+        `
+      },
+      {
+        id: 23,
+        category: "the-nordic-way",
+        categoryText: "THE NORDIC WAY",
+        author: "CAROLINE OLSEN",
+        postUrl: "surviving-life-s-setbacks-and-coming-back-strong",
+        title: "Surviving Life’s Setbacks and Coming Back Strong",
+        imageUrl: "http://res.cloudinary.com/nordic-naturals/image/upload/v1509125790/web/blog-assets/caroline-first-image.jpg",
+        contentPreview: "Norwegian road racer and Nordic Naturals Brand Ambassador Caroline Olsen shares her personal story of strength and resilience.",
+        content: `
+        <p><small><i>Photo credit:  William Hauser Photography</i></small></p>
+
+        <p>
+          <i>We all "fall" in life. Sometimes, we fall spectacularly, and it takes more than a weekend of self-care to recover our physical and emotional wellbeing. But how we frame life's setbacks—the way we think about what has happened—can have a big impact on how quickly we rebound. Take Caroline Olsen, professional motorcycle racer and Nordic Naturals brand ambassador. Caroline recently landed in the hospital following a particularly brutal racing crash. Her outlook on both the accident and the way forward is inspiring to any of us who've ever suffered serious setbacks of our own.</i>
+        </p>
+
+        <br>
+
+        <p>
+          I’m a professional motorcycle racer competing in America’s national road racing series against some of the fastest guys and girls in the country. <a href="http://www.motoamerica.com/" target="_none">MotoAmerica</a> is a mix of up-and-coming young racers, world-class athletes, and foreign dreamers like myself. I had raced motorcycles for 5 years and just turned 23 when I packed my belongings and left my home in Norway to compete in the U.S.  I was adventurous, hungry, eager to learn, and ready to chase my American dream.
+
+        </p>
+
+        <p>
+          I’m extremely fortunate to race motorcycles and do what I love for a living, but it doesn’t come without a price. I’ve been involved in two big accidents since coming to America. In 2013, I got hit from behind during a mass crash off the line at the AMA race at Road America and crushed my right shoulder. It cost me two major surgeries and more than two years of recovery, but by 2016 I was back racing.
+        </p>
+
+        <p>
+          Then, in September 2017, I crashed again during the 9th round of the MotoAmerica championship at the New Jersey Motorsport Park. This time, it was a situation where I suddenly found myself with no brakes. I was coming down the front straightaway, flat out in 6th gear, when I reached for the brakes and nothing happened. My lever went to the bar, and my bike kept going. I don’t remember anything after that.
+
+        </p>
+        <img src="http://res.cloudinary.com/nordic-naturals/image/upload/v1509125791/web/blog-assets/caroline-third-image.jpg">
+        <p><small><i>Photo credit: Brian J. Nelson</i></small></p>
+        <h2>Falling with Style</h2>
+
+        <p>
+          I’ve seen riders lose their brakes, and the thought had crossed my mind—how would I react if that ever happened to me? Would I even have time to react? I realized after my accident that I had done everything right. In that critical moment, I knew I had to crash the bike to scrub off speed. So I hooked a left onto the grass so my bike would crash before we both hit the tire wall.
+
+        </p>
+
+        <p>
+          I woke up late Monday morning in Atlantic City Regional Medical Center. I had tubes down my throat and I quickly realized a machine was helping me breathe. Tears began rolling down my face; I was so scared yet so happy to see my coach, Jason Pridmore, and two of my good friends sitting next to my bed watching over me.
+
+        </p>
+
+        <p>
+          My lungs were bruised, and I had broken my collarbone, two vertebrae, and my fibula just below the knee. But I felt fortunate that I had escaped without any serious long-term injuries. It was crucial to have good people on scene, and I feel very grateful for the fire and ambulance first responders, the workers and medical staff at New Jersey Motorsport Park, and the medical center’s trauma staff, who took such great care of me.
+
+        </p>
+
+        <p>
+          Even with my family being on the other side of the globe I never felt alone. I have some amazing people in my life, and I couldn’t ask for a better support network. My coach Jason, who is as solid as they come; my friends Liz and Nick, who put their lives on hold to support me in every way they could; Benny Solis, Senior, and the whole H35 team, who visited me at the hospital every day. The support and well-wishes from family, friends, sponsors, and fans has been a tremendous help getting through this experience. I’m no longer recovering only for myself, but for everyone who has stood by and cheered me on.
+
+        </p>
+
+        <img src="http://res.cloudinary.com/nordic-naturals/image/upload/v1509125791/web/blog-assets/caroline-second-image.jpg">
+        <h2>Recovering Boldly</h2>
+        <p>
+          Crashing is almost inevitable when you race. We always want to improve, and we always want to go faster. We are so close to our physical limits that at some point we’re likely to go over that limit. But that’s ok; you learn from it and get better.
+
+        </p>
+
+        <p>
+          Facing and overcoming adversity has not only shaped me as a rider, but as a person. The inner drive to not give up, the stubbornness to not let injuries decide when I should quit racing, and the love for the sport has kept me going. What would happen if everyone gave up as soon as things got rough?
+
+        </p>
+
+        <p>
+          After four years, I’m still chasing the same dream. It’s not in my blood to give up, and I’ve been through too much to stop now. I still have goals I want to accomplish. While my body is healing, my mind is already focused on the 2018 season. I have no doubt I’m going to race motorcycles again. For me, it’s not down and out, but onwards and upwards.
+
+        </p>
+        `
+      },
+      {
+        id: 22,
+        category: "all-about-science",
+        categoryText: "ALL ABOUT SCIENCE",
+        author: "NORDIC NATURALS STAFF",
+        postUrl: "omega-3s-and-curcumin-contributors-to-a-healthy-immune-response",
+        title: "Omega-3s & Curcumin: Contributors to a Healthy Immune Response",
+        imageUrl: "http://res.cloudinary.com/nordic-naturals/image/upload/v1508453656/web/blog-assets/curcumin-main-image.jpg",
+        contentPreview: `
+        As the first step in our body’s immune response, inflammation is literally a lifesaver. But keeping our inflammatory response in a state of balance—enough to do the job when needed, but not too much—can be a real challenge. Here’s how omega-3s and curcumin can help.*
+        `,
+        content: `
+        <p>
+          Think of the last time you scraped your knee. It’s sometimes surprising that such a tiny injury can cause so much pain. But that inflammatory pain is actually a good thing—it’s the first step to healing.
+        </p>
+
+        <p>Inflammation signals your body to quickly stop any bleeding, and send white blood cells to the injured area to protect against infection. Inflammation is an essential first-step in the immune system’s healing response. It’s literally a lifesaver, the first line of defense against harmful bacteria, pollutants, and viruses.
+</p>
+
+        <p>So why does inflammation so often get a bad rap? Inflammation becomes a problem when it can’t be resolved once its job is done. This has become all too common, unfortunately. For too many of us, our inflammatory response has become hyper-reactive, and chronically triggered. We find ourselves living with pain and shrugging it off as just the way it is. But does it have to be?
+</p>
+
+        <p>Inside our bodies, the signals that help trigger and resolve the body’s inflammatory response are called eicosanoids, and they are metabolized from a surprising source—dietary fats. That means that the type of dietary fats we consume can influence the function of our inflammatory response.
+</p>
+
+        <h2>Dietary Fats and the Healing Process</h2>
+        <p>The human body is capable of producing an astonishing spectrum of fats from dietary sources, with the exception of two groups: omega-3s and omega-6s. These essential fats must be obtained from either diet or supplementation. Omega-6s are the source of the eicosanoid signals that largely initiate our inflammatory response, while omega-3s help resolve it.*
+</p>
+
+        <p>Between these two, the predominant fat in our diets is unquestionably omega-6. Omega-6s come from many sources, but mostly from “vegetable” oils like soybean, sunflower, and safflower oil. Once omega-6s accumulate in the body, they have the unfortunate consequence of ramping up the inflammatory immune response to unnecessary levels.*
+</p>
+
+        <p>The key to ensuring an appropriate inflammatory response is maintaining an adequate intake of omega-3s, which are found mostly in wild-caught, fatty fish. But many of us don’t get enough of these dietary fats—specifically, EPA and DHA. For that reason, <a href="https://ods.od.nih.gov/factsheets/Omega3FattyAcids-HealthProfessional/#h2" target="_none">the National Institutes of Health (NIH) recommends</a> daily servings of omega-3s EPA and DHA, whether through food sources or supplementation. This serves the dual purpose of both correcting pervasive omega-3 deficits and combating abnormally large intakes of omega-6s.* </p>
+
+        <p>In addition to omega-3s, other nutrients also offer benefits for managing the body’s inflammatory response. And since our environment is loaded with more triggers than ever (e.g. pollutants), nutritional backup is welcome. Curcumin has long been recognized as a homeopathic solution to help manage inflammation, and it’s increasingly recognized by science as beneficial.*
+</p>
+
+      <h2>What is Curcumin?</h2>
+
+        <p>Curcumin is the most active component of turmeric, a tropical plant and spice in the ginger family. Curcumin is what gives turmeric its bright yellow-orange color. It has a wide range of <a href="https://www.ncbi.nlm.nih.gov/pubmed/17569205" target="_none">beneficial properties</a>, including anti-inflammatory and antioxidant functions.* </p>
+
+        <p>In Southern Asia, where turmeric grows natively, curcumin has been used both as a spice and a medicine for thousands of years, especially for inflammation.* It is also used extensively in India’s Ayurveda system of herbal medicine. Western science first isolated curcumin in 1815, and curcumin is currently the subject of human clinical trials for a wide range of health issues linked to unchecked inflammation.
+</p>
+
+        <p>What makes curcumin such a powerful nutrient is that it works by influencing not just a single inflammatory pathway, but multiple pathways to promote a healthy, balanced inflammatory response.* <a href="https://www.ncbi.nlm.nih.gov/pubmed/20955148" target="_none">In technical terms</a>, curcumin regulates various transcription factors (such as NF-kB), inflammatory cytokines (such as interleukin 1 and interleukin 6), protein kinases (such as Akt), and other enzymes (such as COX-2 and 5-LOX).* Curcumin also has potent antioxidant activity, neutralizing the chain reaction of free radical formation, offering further support for a healthy immune and inflammatory response.*
+</p>
+
+<img src="http://res.cloudinary.com/nordic-naturals/image/upload/v1508442887/web/blog-assets/curcumin-body-image.png">
+
+<h2>Bioavailability is Key</h2>
+
+        <p>Unfortunately, getting curcumin in your body isn't as easy as just eating more delicious South Asian delicacies. Curcumin is known to be poorly absorbed by the human body, and this has always been seen as limiting its nutritional potential. </p>
+
+        <p>Newer innovations in supplemental curcumin formulation, however, have made it possible to produce curcumin in a form that is readily absorbable and utilized by the body. In clinical studies, “optimized curcumin” has been shown to be <a href="http://www.vshealthcare.com/uploads/6/6/9/7/66973013/longvidabioavailability-cmaxauc-refgota-ver2.pdf?utm_source=Pro&utm_campaign=9e32986cfc-Pro+-+May+Nordic+News_2017_05_16&utm_medium=email&utm_term=0_42a910a15a-9e32986cfc-151931773" target="_none">65 times more bioavailable</a> than standard curcumin extract.*</p>
+
+        <p>Optimized curcumin, especially when <a href="https://www.nordicnaturals.com/en/Products/Product_Details/514/?ProdID=1746" target="_none">combined with omega-3s EPA and DHA</a>, delivers a potent one-two nutritional punch that supports an ideal inflammatory response*
+</p>
+
+        <p><small><i>*These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure, or prevent any disease.</i></small></p>
+        `
+      },
+      {
+        id: 21,
+        category: "big-picture",
+        categoryText: "BIG PICTURE",
+        author: "CLAUDIA BURGIN",
+        postUrl: "ocean-health-lessons-in-personal-impact",
+        title: "Ocean Health: Lessons in Personal Impact",
+        imageUrl: "http://res.cloudinary.com/nordic-naturals/image/upload/v1507834854/web/blog-assets/5-gyres-main.jpg",
+        contentPreview: "It’s true—plastics pollution in our oceans is a huge concern, affecting the health of our entire marine ecosystem as well as our collective health as humans. That fact alone can seem pretty overwhelming, until you consider the simple fix: Stop using disposable plastics.",
+        content: `
+        <p>
+      It’s true—plastics pollution in our oceans is a huge concern, affecting the health of our entire marine ecosystem as well as our collective health as humans. That fact alone can seem pretty overwhelming, until you consider the simple fix: Stop using disposable plastics.
+    </p>
+
+    <p>
+      This is the lesson in personal impact that I had the pleasure of learning while out on the bay in Newport Beach with <a href="https://www.5gyres.org/" target="_none">The 5 Gyres Institute</a>. It’s the whole idea behind taking groups of school kids out on the water to show them firsthand how plastic trash—bags, balloons, water bottles, toys, straws, and cups—winds up in the ocean, and how easy it is for animals to nibble on the plastic or become entangled in it.
+    </p>
+
+    <img src="http://res.cloudinary.com/nordic-naturals/image/upload/v1507834854/web/blog-assets/5-gyres-body-3.jpg">
+    <p>
+      <small><i>Dolphins sightings while out on the bay with The 5 Gyres Institute. Photo credit: Georgia Schofield/Starboard</i></small>
+    </p>
+    <p>
+      In just under half an hour we were all treated to life-affirming sightings of dolphins playing and seals lounging, while we dragged a net behind the boat to capture floating plastic debris. As we trawled for trash, Marcus Eriksen, Co-Founder and Research Director of The 5 Gyres Institute, explained how plastic really doesn’t ever disintegrate; it just breaks down into finer and finer particles known as microplastic. Birds, fish, and sea life ingest the plastic, and that microplastic makes its way up the food chain to us.
+    </p>
+
+    <img src="http://res.cloudinary.com/nordic-naturals/image/upload/v1507834854/web/blog-assets/5-gyres-body-1.jpg">
+
+    <p>
+      <small><i>High school students from Sunburst Youth Academy, along with pro surfer and 5 Gyres ambassador Zane Schweitzer, take a look at plastic trash pulled from the ocean. Photo credit: Georgia Schofield/Starboard</i></small>
+    </p>
+
+    <p>
+      The sad part is, so many fish and mammals die as a result of plastic pollution—more than 1,200 species are affected. Marcus even shared with us a frizzled, unappetizing tangle of plastic rope and bottle caps plucked from the decomposing remains of a camel in the desert to illustrate how widespread the problem is.
+    </p>
+
+    <img src="http://res.cloudinary.com/nordic-naturals/image/upload/v1507834853/web/blog-assets/5-gyres-body-2.jpg">
+
+    <p>
+      <small><i>5 Gyres Research Director Marcus Eriksen explains how this tangle of plastic rope and netting found its way into the belly of a camel. Photo credit: Jeff Davis</i></small>
+    </p>
+
+    <p>
+      Seemingly simple, everyday choices—what to grab as you’re leaving the house, or keep stashed in your car or backpack—can make a big difference when it comes to keeping plastics out of our landfills, where they can easily make their way to our waterways and oceans.
+    </p>
+
+    <p>
+      Plastic bags, straws, lids, utensils, bottles, cups, and other single-use items are the most common plastic pollutants, and are relatively easy to eliminate from your daily life. <a href="http://nordicnaturals.com/blog/big-picture/refuse-reduce-reuse-10-things-to-clean-up-our-oceans/" target="none">Saying “no thanks” to disposable plastic items</a> is an easy way to be the sea change we all need.
+    </p>
+
+    <h2>Refuse, Reduce, Reuse </h2>
+    <!-- <p>
+      <ul style="list-style-type: disc; margin-left: 22px;">
+      <li>Bring your own water bottle, mug, utensils, and reusable bag with you.</li>
+      <li>Say no to straws, styrofoam, and plastic lids when dining out.</li>
+      <li>Use glass containers instead of plastic wrap or ziplock bags to store food.</li>
+      <li>Pick up five pieces of plastic trash if you see litter when you’re out.</li>
+      <li>Help your family, friends, and co-workers understand that little changes to our daily routines can make a big difference in ocean health.</li>
+      <ul>
+    </p> -->
+    <img src="http://res.cloudinary.com/nordic-naturals/image/upload/v1507925399/web/blog-assets/5-gyres-body-infograph.png">
+
+
+        `
+      },
+      {
+        id: 20,
+        category: "all-about-science",
+        categoryText: "ALL ABOUT SCIENCE",
+        author: "JERILYN SWINDLE",
+        postUrl: 'omega-3-dha-and-vitamin-d-why-theyre-so-important-during-pregnancy',
+        title: 'Omega-3 DHA and Vitamin D: Why They’re So Important During Pregnancy',
+        imageUrl: 'http://res.cloudinary.com/nordic-naturals/image/upload/v1507139163/web/pregnancy-post-1.jpg',
+        contentPreview: `
+        Childhood nutrition can be a constant challenge, but there’s one time during a child’s life when we have complete control: pregnancy. It’s a critical time for development that impacts your child’s life well into adulthood. Here are two nutrition essentials you’ll want to make sure you’re getting enough of during your child’s earliest months.
+        `,
+        content: `
+        <p>
+        Being a parent is one of life’s most rewarding roles, as well as one of its toughest.  Often, we have to think 10 minutes and 10 years ahead, at the same time.  We find ourselves poring over names for a child, researching local schools, and agonizing over what our children eat.  We often start with so many perfect plans about how we’ll raise our children, and then we learn what every new parent ultimately learns: choose your battles wisely.  As parents, we only have so much energy, and we need to spend it on the things that will actually make a difference in our kids’ lives. Nutrition is one battle truly worth fighting.
+      </p>
+
+      <p>
+        As a professional in the natural health industry, I sometimes know more than I’d like to about the health challenges facing children today. I’ve read the research and know how much early nutrition impacts lifelong health. Until children are adults, their nutrition is our job—and it’s a big job, considering that most children wouldn’t mind eating cereal, pizza, chicken tenders, and macaroni and cheese at every meal!
+
+      </p>
+
+      <h2>Healthy Nutrition Starts In the Womb</h2>
+
+      <p>
+        Even though childhood nutrition can be a constant challenge, there’s one time during a child’s life that we have complete control: pregnancy. When we are carrying our child, our nutrition is their nutrition. For better or worse, we have total control over their nutrient intake. And while pregnancy’s early developmental window is brief, it’s a crucial time for development that carries on into your child’s life as an adult. <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3890560/" target="_none">Research shows</a> that under-nutrition during pregnancy results in physiological changes that can permanently shape a developing child’s anatomy, physiology, and metabolism in ways that can manifest decades later in adulthood. Early in the game of life is the best time to create a strong and stable foundation.
+
+      </p>
+
+      <p>
+        Many nutrients are important for proper prenatal development. That’s why pregnant women are reminded to eat a healthy, balanced diet and take a daily prenatal multivitamin. But some specific nutrients are difficult to find in adequate amounts, even in a healthy diet. One of those nutrients is <a href="https://www.nordicnaturals.com/en/General_Public/Prenatal_Health/1234" target="_none">omega-3 DHA</a>. This essential fatty acid is a long-chain omega-3 fat that's abundant in many species of fish, especially cold-water fish. This tiny fatty acid packs <a href="https://www.youtube.com/watch?v=-nkWnO9TbTI" target="_none">powerful support for proper development</a> of a child’s brain, eyes, and nervous system.*
+      </p>
+
+      <p>
+        The <a href="https://www.karger.com/Article/FullText/448262" target="_none">human brain</a> is almost 60% fat, and 20% of the essential fat in the brain’s cerebral cortex is DHA alone. Our eyes have even higher concentrations of this essential fat. The brain, eyes, and nervous system are central to a child’s cognitive, social, and behavioral development. These systems are the command centers for speech, vision, and hearing. And all are part of healthy neurodevelopment, which is foundational to a child’s future. Proper neurodevelopment contributes to success in school, family, workplace, and society at large, throughout a person’s life.
+
+      </p>
+
+      <p>
+        DHA is also crucial for a pregnant mother. During the third trimester, when rapid fetal brain development begins, the mother’s DHA stores can drop if she isn’t consuming enough.* In fact, DHA is so essential to a healthy mom and baby that the <a href="http://americanpregnancy.org/first-year-of-life/omega-3-supplements-baby/" target="_none">American Pregnancy Association</a> recommends it for pregnant women.* But they also caution pregnant women from eating too much fish due to contaminants like heavy metals. This is why fresh, pure fish oil can be a safe alternative source of DHA.
+
+      </p>
+
+      <img src="http://res.cloudinary.com/nordic-naturals/image/upload/v1507237098/web/blog-assets/pregnancy-post-3.jpg">
+
+      <h2>Vitamin D for Mom and Baby</h2>
+
+      <p>
+        Another nutrient important to a healthy pregnancy is vitamin D. Many pregnant women in the United States don’t get enough vitamin D, and several factors can contribute to deficiency, including:
+        <ul style="list-style-type: disc; padding-left: 22px;">
+          <li>Excess weight</li>
+          <li>Extended time indoors</li>
+          <li>Reduced exposure to the sun</li>
+          <li>Darker skin</li>
+        </ul>
+      </p>
+
+      <p>
+        <a href="https://www.vitamindcouncil.org/vitamin-d-during-pregnancy-and-breastfeeding/" target="_none">Research</a> quoted by the Vitamin D Council found that women who consumed adequate amounts of vitamin D every day during pregnancy were more likely to give birth without complications.* A mom’s daily intake of vitamin D also ensures that her baby is born with a good supply of this essential nutrient. Vitamin D has been <a href="https://www.rcog.org.uk/globalassets/documents/guidelines/scientific-impact-papers/vitamin_d_sip43_june14.pdf" target="_none">recognized</a> as supporting crucial actions such as:
+        <ul style="list-style-type: disc; padding-left: 22px;">
+          <li>Healthy insulin levels*</li>
+          <li>Healthy immune function*</li>
+          <li>Healthy lung development*</li>
+        </ul>
+      </p>
+
+      <p>
+        These functions not only support the body systems directly listed here, but they support multiple other facets of fetal development as well. When metabolism, immunity and lung development are optimal, they create support for a variety of other developing systems. It’s easy to see why <a href="https://www.nordicnaturals.com/en/General_Public/Vitamin_D3_formulas/365" target="_none">vitamin D</a> is also essential to a strong foundation and a healthy future.*
+      </p>
+
+      <p>
+        But vitamin D isn’t just for babies. <a href="https://cds.psych.ucla.edu/documents/2015Accorttetal-LowerprenatalvitaminDstatus....pdf" target="_noen">Research</a> has shown that it supports a healthy mood in new moms.*  Intake of vitamin D during pregnancy helps a new mom avoid a deficiency during the crucial months after birth, when mood can play a major role in her own well-being.*  Vitamin D also supports a healthy inflammatory response.* When a woman has given birth, her body has a lot of repair work to do and it can use all the help it can get.
+      </p>
+
+      <p>
+        Being a pregnant woman or a new mom is challenging and we often feel pressure to do everything just right.  Luckily, perfection is not required. But understanding the crucial role that nutrition plays in childhood—and beyond—is so important. We’ve all heard the saying, “you are what you eat.” During pregnancy, you are, in fact, what your mother eats.
+      </p>
+
+      <p>
+        A fetus has the monumental task of transforming from a single cell to a fully formed infant in just a matter of months. It’s our job to support our developing babies with the very best nutrients available. And while we’re at it, let’s support ourselves with those nutrients, too. Our babies need us to be ready to choose those childhood battles wisely!
+      </p>
+
+      <p><small><i>*These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure, or prevent any disease.</i></small></p>
+        `
+      },
+      {
         id: 19,
         category: 'home-life',
         categoryText: 'HOME LIFE',
@@ -79,7 +1111,7 @@ export const store = new Vuex.Store({
       <p><b>3. Increase your daily activity.</b> Schedule walking meetings and phone calls, take the stairs rather than the elevator, exercise at lunch, or try biking to work. Set alarms on your phone to remind yourself to get up and stretch. Get up and go ask people questions in person rather than sending an email. At the very least, start becoming more aware of how much time you actually spend sitting each day.</p>
       <p><b>4. Avoid sitting outside work.</b> Once you’re home for the day, get some exercise! Go for a walk with your family, play with the kids, stand up and cook an awesome meal in the kitchen, or substitute hobbies for TV time. Just try and be active—your body will thank you!</p>
 
-      
+
 
       <img src="http://res.cloudinary.com/nordic-naturals/image/upload/v1506366030/web/blog-assets/post-images/dangers-of-sitting-body.jpg">
 
