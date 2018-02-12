@@ -14,7 +14,7 @@
             <div class="author-component-right-pane">
               <div class="title">{{author.name}}</div>
               <p>{{author.bio}}</p>
-              <hr v-if="index != 5" class="hr-category" style="margin-top: 26px;">
+              <hr v-if="index != 6" class="hr-category" style="margin-top: 26px;">
             </div>
           </div>
         </div>
@@ -64,6 +64,11 @@ export default {
           Specialist for Whole Foods. Building on her passion for wellness, Debbie has participated
           for many years in the natural products industry, presenting seminars and trainings,
           conducting interviews, and appearing at tradeshow events.`
+        },
+        {
+          name: "Lee DeGraw",
+          picture: "http://res.cloudinary.com/nordic-naturals/image/upload/v1518471824/web/blog-assets/lee-degraw-1.jpg",
+          bio: "Lee is a ​​lifestyle writer with a passion for all things health and wellness. As ​the​ former ​S​ocial ​M​edia ​S​​pecialist ​for​ Nordic Naturals, ​her love for omega-3s and ​the natural products industry ​has only grown. When she’s not typing away at her computer, she is hiking in the mountains near her home, camping or traveling the globe on a tight budget."
         },
         {
           name: "Claudia Burgin",
