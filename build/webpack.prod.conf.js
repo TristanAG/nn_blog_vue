@@ -70,7 +70,8 @@ var webpackConfig = merge(baseWebpackConfig, {
         '/blog/home-life/why-your-body-doesnt-want-you-to-sit-all-day',
         '/blog/home-life/five-healthy-essentials-to-pack-for-your-holiday-travels',
         '/blog/home-life/five-ways-to-keep-your-spirits-bright-after-the-holidays-end',
-        '/blog/home-life/creating-healthy-habits-that-stick'
+        '/blog/home-life/creating-healthy-habits-that-stick',
+        '/blog/home-life/how-relationships-affect-your-health'
       ],
       {
         ignoreJSErrors: true

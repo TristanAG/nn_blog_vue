@@ -7,6 +7,34 @@ export const store = new Vuex.Store({
   state: {
     posts: [
       {
+        id: 35,
+        category: "home-life",
+        categoryText: "HOME LIFE",
+        author: "LEE DEGRAW",
+        postUrl: "how-relationships-affect-your-health",
+        title: "How Relationships Affect Your Health",
+        imageUrl: "http://res.cloudinary.com/nordic-naturals/image/upload/v1518204245/web/blog-assets/valentines-day-post.jpg",
+        contentPreview: "Relationships—whether romantic or social—can have a profound, positive impact on our physical health and emotional well being. Learn how those closest to you can actually help you live longer.",
+        content: `
+        <p>Relationships—whether romantic or social—play a key role in all our lives. How we relate to others, and the quality of our interactions, have a direct impact on our physical and mental wellbeing. Many research studies have shown that meaningful relationships can lead to better sleep, healthier eating choices, greater happiness, and even increased life expectancy. With Valentine’s Day just around the corner, there’s no better time to explore and celebrate the many ways relationships can positively affect our overall health.</p>
+      <h2>1) Heart health</h2>
+      <p>While meaningful relationships are good for the figurative heart, studies increasingly show that they’re also quite helpful in protecting this vital organ from real risk. Research conducted by the <a href="https://www.escardio.org/The-ESC/Press-Office/Press-releases/Marriage-reduces-the-risk-of-heart-attack-in-both-men-and-women-and-at-all-ages" target="_none">European Society of Cardiology</a> found that married individuals are less at risk for cardiovascular complications than their single peers. The study concluded that men and women in relationships are more likely to monitor their own health and the health of their significant other, reducing the potential of coronary-related conditions.
+</p>
+      <p>Simply being in a committed partnership, however, is not a surefire way to protect your heart. According to the <a href="https://www.psychologicalscience.org/news/releases/heart-disease-risk-linked-with-spouses-social-support.html" target="_none">Association for Psychological Science</a>, the quality of spousal support makes all the difference when it comes to overall cardiovascular health. The study found that when spouses viewed the support they received from one another as lacking in meaning, or even hurtful, each partner’s levels of coronary artery calcification were notably higher. By contrast, a (mostly) fulfilling relationship can help you adopt beneficial habits like a balanced diet and regular exercise, both of which are known to assist in reducing the potential for cardiovascular problems.</p>
+      <h2>2) Less stress</h2>
+      <p>Leading a stress-free life is more or less impossible in today’s world. <a href="https://www.youtube.com/watch?v=mun5nXXy6II" target="_none">Research shows</a> that <a href="https://www.mayoclinic.org/healthy-lifestyle/stress-management/in-depth/stress-symptoms/art-20050987?pg=1" target="_none">chronic stress</a> over time can lead to headaches, insomnia, depression, high blood pressure, unhealthy weight gain, and much more. Interestingly, studies show that being involved in a positive relationship and maintaining strong social connections contribute to relieving stress and its symptoms. One analysis conducted by the <a href="https://news.uchicago.edu/article/2010/08/18/marriage-and-committed-relationships-reduce-production-stress-hormones" target="_none">University of Chicago</a> found that being in a long-term relationship can help reduce the body’s production of cortisol, known as the stress hormone.</p>
+      <p>A particularly fun way to combat stress is puckering up to the one you love. Yes, research shows that kissing releases chemicals in the body that ease stress hormones. The longer you remain in a lip-lock, the more significantly the body’s levels of oxytocin and cortisol change.
+</p>
+<h2>3) Better sleep</h2>
+      <p>Researchers have begun to delve into the sleep patterns of both married and single adults to determine whether being in a relationship can impact the quality of our rest. <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2894440/pdf/aasm.33.7.973.pdf" target="_none">One study</a> from the University of Pittsburgh showed that women who were involved in stable, meaningful relationships, or who are just beginning a new one, slept more soundly and experienced less insomnia. Often, a relationship brings certain assurances to one’s life like a greater sense of safety, financial security, and emotional support, all of which help with sleep. The quality of our social relationships also has a profound connection to the quality of sleep we get. Engaging in activities with friends and regularly interacting with family improves our mood and leaves us feeling fulfilled.</p>
+      <h2>4) Longer life</h2>
+      <p>Perhaps one of the biggest health perks of meaningful relationships is a longer life. The connection between being in a relationship and longevity was critically explored in a <a href="http://www.health.com/health/article/0,,20466753,00.html" target="_none">2007 study</a> conducted among European adults over the age of 40. The research found that the death rate of unmarried men was double that of those who were married. It was also determined that being in a relationship can help prevent fatal accidents and even ward off violence.
+</p>
+<p>In a relationship, most of us tend to pick up on the habits (good or bad) of our partners. If one person is an avid exerciser, a healthy eater, visits the doctor regularly, or avoids harmful habits like smoking or excessive drinking, chances are the other will do the same. A loving relationship also encourages us to treat ourselves with more kindness and improves our mental outlook on life in general. </p>
+<p>The more we participate in meaningful relationships, the less we experience the negative effects associated with stress, anger, and depression. Maybe John Lennon was right all along when he wrote, “All you need is love.” </p>
+        `
+      },
+      {
         id: 34,
         category: 'all-about-science',
         categoryText: 'ALL ABOUT SCIENCE',
