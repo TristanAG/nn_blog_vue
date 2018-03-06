@@ -7,6 +7,131 @@ export const store = new Vuex.Store({
   state: {
     posts: [
       {
+        id: 38,
+        category: "home-life",
+        categoryText: "HOME LIFE",
+        author: "CLAUDIA BURGIN",
+        postUrl: "how-to-read-a-supplement-label",
+        title: "How to Read a Supplement Label",
+        imageUrl: "http://res.cloudinary.com/nordic-naturals/image/upload/v1520013372/web/blog-assets/sup-label.jpg",
+        contentPreview: "Reading the fine print on the back of a supplement label—and understanding it—can feel like a task that you’d rather skip. Don’t. Know what to look for instead.",
+        content: `
+        <p>You’re in the supplements aisle of your local natural foods store, and you’re shopping for a specific nutrient. When you find it, chances are you’ll encounter more than a few choices. So which supplement should you buy? Knowing what to look for on the label can help you make a quick, confusion-free decision.</p>
+      <h2>Check the Facts</h2>
+      <p>The Supplement Facts panel on the back of every supplement bottle or box looks a lot like the Nutrition Facts panel you see on the back of packaged food items. That’s because the FDA, which regulates the food industry, technically considers supplements to be food. </p>
+      <p>Reading the Supplement Facts panel—and understanding it—can feel like a task that you’d rather skip. Don’t. The Supplement Facts panel contains valuable information about what you’re actually buying, and how much. Here’s a quick overview of the facts you’ll want to check before you buy.</p>
+      <ul style="list-style-type: none">
+        <li>
+          <p><b>1. Serving size</b>—This is the number of soft gels, gummies, tablets, or teaspoons the manufacturer recommends you take to reach the nutrients levels stated on the label. Unless otherwise noted, the serving size is for adults and children ages 4 and up.</p>
+          <p>Back when I was shopping for prenatal vitamins, I made the mistake of buying a supplement that had a serving size of four capsules—more than I wanted to take daily. The lesson? Check this first to make sure you’re okay with the serving size.</p>
+        </li>
+        <li>
+          <p><b>2. Servings per container</b>—This is how much of a daily supply you’re actually buying. If you’re comparing prices, make sure you’re comparing supplements with the same number of servings per container to get an accurate read on how much each supplement costs. Sounds obvious, but I can’t tell you how many times I’ve reached for a less expensive brand only to find out that it contains fewer servings per container than another brand with a higher price. (Note: The FDA does not require manufacturers to include Servings per Container on the supplement facts panel, so you won't always find this information on every supplement you buy.)</p>
+        </li>
+        <li>
+          <p><b>3. Amount per serving</b>—Here is where you’ll want to check the actual nutrient levels a particular supplement contains. If you’re shopping for a children’s multivitamin, for example, you’ll want to compare nutrient levels for each brand you’re considering to get the most value for your purchase.</p>
+          <p>Nutrient levels are most commonly measured in units of weight: grams (g), milligrams (mg), and micrograms (mcg). Fat-soluble vitamins such as A, D, and E have traditionally been measured in international units (IU), which is a measurement of <a href="https://dietarysupplementdatabase.usda.nih.gov/ingredient_calculator/help.php#q9" target="_none">biologically active substances</a> that produce a particular effect. However, the FDA recently mandated that supplement manufacturers phase out the IU measurements and use milligrams (mg) and micrograms (mcg) instead. This <a href="https://www.fda.gov/downloads/Food/LabelingNutrition/UCM511646.pdf" target="_none">change</a>, which goes into effect beginning this year, should cut down on some of the confusion around these nutrient levels, and make label reading a little easier for us consumers.</p>
+        </li>
+        <li>
+          <p><b>4. % Daily value</b>—These percentages reflect how much a particular nutrient contributes to your daily nutritional needs, based on a 2,000 calorie-per-day diet. The percentages, established by the Institute of Medicine of the National Academy of Sciences, are called <a href="https://ods.od.nih.gov/Health_Information/Dietary_Reference_Intakes.aspx" target="_none">Dietary Reference Intakes (DRIs)</a>. These DRIs are updated periodically based on scientific studies, and were most recently updated in 2015. An asterisk or dagger in place of a percentage means that no daily value has been assigned for that particular nutrient.</p>
+          <p>If you’re already taking other supplements daily, you’ll want to read these values carefully to make sure you’re not getting too much of a good thing for some nutrients, or not enough of others. In other words, some math here might be required. When you go shopping for supplements to add to your daily routine, bring along a list of what you already take so you have this information at the ready.</p>
+        </li>
+
+        <li>
+          <p><b>5. Ingredients</b>—Ingredients beyond those nutrients profiled in the supplement facts panel are listed at the bottom, in descending order by weight. Here you’ll find ingredients used to make the capsules that contain the nutrients, as well as the ingredients used to preserve your supplement’s contents. It’s an important list to read, especially if you know you have allergies or food intolerances.</p>
+        </li>
+        <li>
+          <p><b>6. Expiration date & lot number</b>—While not required by FDA, reputable manufacturers will include this information on the label so that you know exactly when your supplement was made, down to the specific manufacturing lot or batch. This information is particularly useful if you’re concerned about the quality and freshness of the ingredients used to create your supplement.</p>
+        </li>
+      </ul>
+      <img src="http://res.cloudinary.com/nordic-naturals/image/upload/v1520028448/web/blog-assets/SF-view_blog-image_v2.png">
+      <h2>Compare Notes</h2>
+      <p>So, back to the supplement aisle at your natural foods store: How do you choose the supplement that’s right for you? </p>
+      <p>Start with what you DO want. Look for the nutrient levels in the amount per serving. If you’re buying fish oil, for example, you’ll want to look closely at the levels of omega-3s EPA and DHA in each serving. Amounts can vary greatly, depending on whether you’re buying a <a a href="https://www.nordicnaturals.com/en/consumers/omega-3-concentrates/361" target="_none">concentrated</a> or <a href="https://www.nordicnaturals.com/en/consumers/omega-3-non-concentrates/362" target="_none">non-concentrated</a> fish oil, or the size of the soft gel. Think about your health goals and what level of nutrient support is best for you.</p>
+      <p>Next, look for what you DON’T want. Read the ingredients list at the bottom of the supplement facts panel, paying close attention to common allergens such as milk, soy, eggs, or gluten. You may also want to look for mentions of any sweeteners, artificial colors, flavors, or preservatives. </p>
+      <p>Then, take a look at serving size (usually 1–2), and also the size of the actual soft gel or capsule if swallowing larger-size capsules is an issue for you. Make a note of taste and anything else that might affect how easy it is for you to take your supplements regularly.</p>
+      <p>Don’t forget to check the expiration date to be sure what you’re buying has plenty of shelf life. And finally, make sure you’re buying from a reputable brand. One that makes information readily available to you online about where the ingredients in its supplements come from, and how fresh and free of contaminants those ingredients are. (Nordic Naturals offers a free <a href="https://www.nordicnaturals.com/cofa/" target="_none">certificate of analysis</a>, which details the results of third-party testing for every product sold.) </p>
+      <p>After all, you’re buying supplements to support your health. Why wouldn’t you want to know exactly what you’re putting in your body?</p>
+        `
+      },
+      {
+        id: 37,
+        category: "the-nordic-way",
+        categoryText: "THE NORDIC WAY",
+        author: "NORDIC NATURALS STAFF",
+        postUrl: "inside-nordic-naturals-meet-oscar-virtual-bouncer-and-all-around-fix-it-guy",
+        title: "Inside Nordic Naturals: Meet Oscar, Virtual Bouncer and All-Around Fix-IT Guy",
+        imageUrl: 'http://res.cloudinary.com/nordic-naturals/image/upload/v1519664358/web/blog-assets/oscar-new.jpg',
+        contentPreview: `One of the first people you meet as a new employee at Nordic Naturals is Oscar. He’ll school you on safe computing, set you up with your new gear, and entertain you with stories from the company’s early days.`,
+        content: `
+        <p>
+        <b>Name:</b> Oscar Alaniz<br/>
+        <b>Role:</b> IT Coordinator<br/>
+        <b>Years with Nordic Naturals:</b> 18
+      </p>
+      <h2>What do you do at Nordic Naturals, and what do you like best about your job?</h2>
+      <p>I’m one of three IT technicians at Nordic Naturals. My role is technical support for the 200 or so employees we have here. I’m a problem solver. What I like best about my job is figuring out the quickest, easiest way to solve a technical problem someone is experiencing. I also spend a lot of time making sure our network doesn’t get compromised. I’m like the bouncer at our virtual front door, always thinking about security.</p>
+      <h2>Where did you grow up, and how has that place influenced you?</h2>
+      <p>I grew up right here in Watsonville. Born and raised. When I was younger I wanted to live in San Francisco for a while, but I quickly realized how expensive that would be. Watsonville just seemed like an all-around, laid-back, good place to live. Plus, all my family is here. And you can’t beat the weather.</p>
+      <h2>What personal accomplishment are you most proud of?</h2>
+      <p>I started out here in customer service. I ran our early warehouse. And then I pretty much taught myself IT support. I had always been interested in computers, I bought my first computer with my own money when I was 17. When the need came up here, I was fortunate enough to train with a couple of really great IT people, and the rest I learned myself. I’m getting my IT certification now, years after I’ve been doing the job. So I guess I see teaching myself without any formal job training as an accomplishment.</p>
+      <h2>What is something about you that few people know? Do you have any hidden talents? </h2>
+      <p>Two things. First, not many people know I volunteer with my daughter’s elementary school. I help them with a lot of their online communications needed for fundraising. Before doing this, which started out as a dare from my wife, I just assumed that being a public school they would have enough money. But the reality is that they are severely underfunded. They have to do fundraising just to keep up with basic school maintenance. Second, I collect comic book memorabilia. Superheros, die cast metal transformers from the 1980s, mini dioramas, and constructor sets. I was a kid in the ’80s, and comics and cartoons were my life. To me it’s a hobby that connects me back to my childhood.</p>
+      <img src='http://res.cloudinary.com/nordic-naturals/image/upload/v1519664358/web/blog-assets/oscar-toys.jpg'/>
+      <h2>What Nordic Naturals products do you take? Any observations you’d like to share?</h2>
+      <p>I take <a href="https://www.nordicnaturals.com/en/consumers/ultimate-omega/514/?ProdID=1428" target="_none">Ultimate Omega</a> and <a href="https://www.nordicnaturals.com/en/consumers/epa/514/?ProdID=1414" target="_none">EPA</a> for overall health benefits. My wife also takes Ultimate Omega, and my daughter takes the <a href="https://www.nordicnaturals.com/en/consumers/nordic-berries/514/?ProdID=1759" target="_none">Nordic Berries</a> multivitamins and the <a href="https://www.nordicnaturals.com/en/consumers/nordic-omega-3-gummy-fish/514/?ProdID=1520" target="_none">Nordic Omega-3 Gummy Fish</a>. I think it keeps us all healthier in general.</p>
+      <h2>What does living “healthfully” mean to you?</h2>
+      <p>Having hobbies outside of work. I see my hobbies as a healthy distraction. Thinking about comics and action figures mellows me out. It’s a good stress reliever. Too many people don’t know how to turn off their work lives, and that causes problems. Also, not sweating the small stuff. Keeping things in perspective is an important life skill.</p>
+        `
+      },
+      {
+        id: 36,
+        category: "big-picture",
+        categoryText: "BIG PICTURE",
+        author: "TERRA LYNN",
+        postUrl: "why-shop-friend-of-the-sea-fos-certified",
+        title: "Why Shop Friend of the Sea (FOS) Certified",
+        imageUrl: "http://res.cloudinary.com/nordic-naturals/image/upload/v1519059600/web/blog-assets/FOS-cert_hero-img_1500x530.jpg",
+        contentPreview: 'The ocean’s health is directly tied to human health. Learn what “certified sustainable” means to you as a customer, and why you should look for the FOS logo when shopping for products sourced from the sea.',
+        content: `
+        <p>When I buy fish at the grocery store, I pay close attention to how the fish was caught. I’m looking for the freshest, wild-caught fish sourced from the cleanest waters. But I’m also looking for fish that is caught in an ethical, sustainable way. So I rely on <a href="http://www.seafoodwatch.org/" target="_none">Seafood Watch</a> to help me choose the fish and seafood that’s the best choice for the health of our oceanic ecosystems.</p>
+      <p>Buying omega-3 fish oil supplements should be no different. One way you can be sure you’re buying the most sustainable fish oil possible is to look for products with the Friend of the Sea (FOS) certification logo. Last November, FOS added new certification requirements to specifically address dolphin safety. It’s now the only global certification organization to evaluate products and fisheries for both sustainability and adherence to dolphin-safe standards—an important consideration for those of us who shop for products that support our values.</p>
+
+      <center><img src="http://res.cloudinary.com/nordic-naturals/image/upload/v1518827461/web/blog-assets/fos-body.jpg"></center>
+
+      <h2>What is FOS?</h2>
+
+      <p>FOS is a non-profit, non-governmental organization (NGO) whose mission is to conserve the global marine habitat. They’re concerned with protecting the environment as a whole, and preserving the livelihoods and economies that depend on healthy oceans. FOS was founded by Dr. Paulo Bray, the European director of the <a href="http://savedolphins.eii.org/campaigns/dsf/" target="_none">Earth Island Institute Dolphin-Safe Project</a>, an organization credited with saving millions of dolphins from tuna nets after the “Dolphin Safe” tuna program was established in 1990.
+</p>
+      <p>Since its founding in 2006, FOS has grown to become a leading international certification project for sustainable seafood and products sourced from sustainable fisheries and aquaculture. More than 500 companies, including <a href="https://www.nordicnaturals.com/en/retailers/friend-of-the-sea/1188" target="_none">Nordic Naturals</a>, from 60 countries rely on FOS to assess the sustainability of their products.
+</p>
+<center><b><i>FOS is the only certification program in the world that certifies both wild-caught and farmed seafood.</b></i></center>
+</h2>
+      <p>FOS works around the world with fisheries, companies, scientists, conservation groups, and the public to promote the best environmental choices and guarantee traceability back to a well-managed and sustainable source. It’s the only certification program in the world that certifies both wild-caught and farmed seafood, making it easy to identify all sustainable seafood products with the same FOS seal of approval.
+</p>
+<h2>Requirements for Certification</h2>
+      <p>The FOS certification requirements follow the <a href="http://www.fao.org/docrep/012/i1119t/i1119t.pdf" target="_none">FAO Guidelines for the Eco-Labeling of Fish and Fishery Products</a>. In particular, this means that products can only be certified sustainable if they (or their ingredients) are sourced from fish stocks that are not overfished, and that are maintained at levels that ensure “availability for present and future generations.”</p>
+      <p>Products and their sourcing are evaluated onsite by independent international certification bodies, and must meet FOS’s strict criteria for sustainability:</p>
+      <p>
+      <ul style="list-style-type: disc; padding-left: 18px;">
+        <li>The target stock must not be overfished</li>
+        <li>Discard of bycatch must not exceed 8%</li>
+        <li>Zero bycatch of endangered species</li>
+        <li>No impact on seabed</li>
+        <li>A high level of social accountability, including health and safety standards for
+    employees, and a ban on child labor or forced labor
+</li>
+        <li>Yearly carbon footprint reduction</li>
+      </ul>
+    </p>
+      <h2>FOS and Fish Oil</h2>
+      <p>Certification of fish oil, in particular, is crucially important to protecting the health of our oceans. As the demand for omega-3 fish oil has grown in recent decades, so has increased fishing of species like sardines and anchovies, which are rich sources of the omega-3s EPA and DHA we need for optimal health. The good news is that the majority of the fisheries certified by FOS focus on these smaller species, using selective gear with no harm to the seabed, helping to protect these species and their ecosystems. According to FOS’s <a href="http://www.friendofthesea.org/public/page/fos-foe_annual_report_2016_web.pdf" target="_none">most recent annual report</a>, 22% of all FOS-certified companies are in the fish oil industry.
+</p>
+      <p>Oceans cover over 70% of the earth’s surface, absorbing about 30% of the carbon dioxide produced by humans on earth. They serve as the main food source for over 2.5 billion people, and over three billion people depend on marine and coastal biodiversity for their livelihoods. Choosing sustainable fish oil supplements and other products sourced sustainably from the sea is essential to help protect this precious resource for future generations. Fortunately, looking for the FOS certification logo is a relatively easy and simple way for customers like us to help make a difference.
+</p>
+        `
+      },
+      {
         id: 35,
         category: "home-life",
         categoryText: "HOME LIFE",
