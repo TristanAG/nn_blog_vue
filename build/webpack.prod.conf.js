@@ -44,6 +44,7 @@ var webpackConfig = merge(baseWebpackConfig, {
         '/blog/all-about-science/why-your-best-friend-needs-omega-3s-too',
         '/blog/all-about-science/why-fish-oil-is-a-better-source-of-omega-3s-than-krill-oil',
         '/blog/all-about-science/coq10-and-omega-3s-a-heart-health-powerhouse',
+        '/blog/all-about-science/five-myths-and-facts-about-vitamin-d',
         '/blog/big-picture',
         '/blog/big-picture/refuse-reduce-reuse-10-things-to-clean-up-our-oceans',
         '/blog/big-picture/dear-cosmo-why-you-really-should-take-your-fish-oil',
